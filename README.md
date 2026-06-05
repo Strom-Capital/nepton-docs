@@ -1,13 +1,16 @@
 # nepton-docs
 
-Markdown mirror of the public [Nepton Help Center](https://support.nepton.com/hc/fi),
-maintained by a single Python script that hits the public Zendesk Help Center API.
+> Unofficial Markdown mirror of the public [Nepton Help Center](https://support.nepton.com/hc/fi).
+> Not affiliated with Nepton Oy. All article content is © Nepton; see
+> [Content & licensing](#content--licensing) below.
 
-The mirror exists so the docs can be:
+Maintained by a single Python script that hits the public Zendesk Help Center API and
+writes one Markdown file per article. The mirror exists so the docs can be:
 
 - Browsed/searched locally in Cursor (Cmd-P, `rg`, semantic search).
 - Ingested into [Context7](https://context7.com/) — Context7's hosted Zendesk crawl
-  didn't work for this site, so this repo is a stable substitute.
+  didn't work for this site, so this repo is a stable substitute. With the repo public,
+  Context7 ingestion is free.
 
 Current snapshot: **606 articles** in `fi/`, **481 articles** in `en-gb/`, organised
 into 5 categories and 83 sections (some nested two levels deep).
@@ -96,12 +99,53 @@ Run `make sync` on a schedule. Two ready-made options:
             commit-message: "chore: refresh help-center mirror"
   ```
 
+## llms.txt / llms-full.txt
+
+Every sync also regenerates two files at the repo root that follow the
+[llms.txt convention](https://llmstxt.org):
+
+- [`llms.txt`](llms.txt) (~200 KB) — index. Each line is
+  `- [Title](path/to/article.md): <Section>`, grouped by `## <locale> — <category>`.
+- [`llms-full.txt`](llms-full.txt) (~6 MB) — every article concatenated, separated by
+  `<!-- locale: ... | category: ... | section: ... | path: ... | source: ... -->`
+  HTML comments. Front matter is stripped so each entry is just the title + body.
+
+Point any LLM tool that consumes llms.txt at
+`https://raw.githubusercontent.com/Strom-Capital/nepton-docs/main/llms.txt`.
+
+Links inside `llms.txt` are baked as absolute `raw.githubusercontent.com` URLs by
+default — the script auto-detects the GitHub owner/repo/branch from
+`git remote get-url origin` + the current branch on every sync. To override:
+
+```sh
+LLMS_BASE_URL=https://example.com/some/prefix make sync   # custom prefix
+.venv/bin/python scripts/sync_help_center.py --llms-base-url ''   # force relative paths
+```
+
+`make sync` regenerates both files. To regenerate only the index:
+
+```sh
+.venv/bin/python scripts/sync_help_center.py --no-llms-txt   # skip both
+.venv/bin/python scripts/sync_help_center.py                 # write llms.txt only
+.venv/bin/python scripts/sync_help_center.py --llms-full     # write llms.txt + llms-full.txt
+```
+
 ## Context7 ingestion
 
-Context7 supports public GitHub repos as a source. Push this repo to GitHub and add it
-through the Context7 dashboard. The per-article front matter (`title`, `url`, `category`,
-`section`) gives Context7 stable anchors that link back to the live help-center URL,
-so citations stay accurate even when titles change.
+Context7 supports public GitHub repos as a source for free; private repos are billed at
+$25 per 1M parsed tokens. Push this repo to GitHub (public) and add it through the
+Context7 dashboard. The per-article front matter (`title`, `url`, `category`, `section`)
+gives Context7 stable anchors that link back to the live help-center URL, so citations
+stay accurate even when titles change.
+
+[`context7.json`](context7.json) at the repo root scopes parsing to `fi/` and `en-gb/`,
+skips the auto-generated `_index.md` TOCs, the `assets/` and `scripts/` folders, and
+project metadata files (`README.md`, `LICENSE`, `Makefile`, `requirements.txt`). It also
+**excludes `llms.txt` and `llms-full.txt`** so Context7 doesn't double-tokenize the same
+content (those files exist for other LLM tools that expect the llms.txt convention).
+
+If you'd rather hand Context7 the llms.txt URL directly (Context7's "LLMs.txt" source
+type) instead of the GitHub repo, point it at the raw URL — same content, same cost.
 
 ## Internals (script)
 
@@ -126,3 +170,18 @@ half-written article.
 - Cross-locale translation links (each locale is pulled independently).
 - The auth-only `/help_center/incremental/articles.json` endpoint — overkill for ~1000
   articles; the public list + per-file `updated_at` diff is enough.
+
+## Content & licensing
+
+- **Article content** under [`fi/`](fi) and [`en-gb/`](en-gb) is © Nepton Oy and its
+  authors. It is published publicly at <https://support.nepton.com/hc/> and is mirrored
+  here in unmodified form (only the wrapper format changes: HTML → Markdown). Each file
+  links back to its canonical source URL via the `url` field in the front matter.
+- This project is **not affiliated with, endorsed by, or sponsored by Nepton Oy**. If
+  you are Nepton and want this repository removed or changed, open an issue and we'll
+  comply.
+- The **scripts and tooling** (everything outside the locale folders, e.g.
+  [`scripts/sync_help_center.py`](scripts/sync_help_center.py), the `Makefile`, this
+  README) are released under the MIT License. See [`LICENSE`](LICENSE).
+- Always treat <https://support.nepton.com/hc/> as the source of truth. This mirror
+  refreshes on whatever schedule its operator runs `make sync`; it can lag behind.

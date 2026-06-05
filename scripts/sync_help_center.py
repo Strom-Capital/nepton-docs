@@ -21,6 +21,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 import time
 import unicodedata
@@ -410,6 +411,23 @@ def download_assets(
 # ---------------------------------------------------------------------------
 
 
+@dataclass
+class Plan:
+    article: dict[str, Any]
+    category: Category
+    sections: list[Section]
+    target_path: Path
+    target_dir: Path
+    existing_path: Path | None
+
+
+@dataclass
+class LocaleResult:
+    locale: str
+    taxonomy: Taxonomy
+    plans: list[Plan]
+
+
 def sync_locale(
     locale: str,
     *,
@@ -417,24 +435,13 @@ def sync_locale(
     force: bool,
     rewrite_internal_links: bool,
     download_assets_flag: bool,
-) -> None:
+) -> LocaleResult:
     tax = fetch_taxonomy(locale)
     articles = fetch_articles(locale)
 
     locale_root = repo_root / locale
     locale_root.mkdir(parents=True, exist_ok=True)
     existing = index_existing(locale_root)
-
-    # First pass: figure out the target path for every article (needed before we render
-    # so that --rewrite-internal-links can produce relative links between articles).
-    @dataclass
-    class Plan:
-        article: dict[str, Any]
-        category: Category
-        sections: list[Section]
-        target_path: Path
-        target_dir: Path
-        existing_path: Path | None
 
     plans: list[Plan] = []
     seen_ids: set[int] = set()
@@ -556,6 +563,7 @@ def sync_locale(
     print(
         f"[{locale}] done: wrote={written} skipped={skipped} moved={moved} pruned={pruned}"
     )
+    return LocaleResult(locale=locale, taxonomy=tax, plans=plans)
 
 
 def prune_deleted(locale_root: Path, seen_ids: set[int]) -> int:
@@ -699,6 +707,168 @@ def _section_for_slug(tax: Taxonomy, slug: str, category_id: int | None = None) 
 
 
 # ---------------------------------------------------------------------------
+# llms.txt / llms-full.txt
+# ---------------------------------------------------------------------------
+
+
+def write_llms_files(
+    repo_root: Path,
+    results: list[LocaleResult],
+    *,
+    write_full: bool,
+    base_url: str | None,
+) -> None:
+    """Write llms.txt (index) and optionally llms-full.txt (concatenated bodies).
+
+    Follows https://llmstxt.org: one H1 title, an optional ``> blockquote`` summary,
+    free-form intro paragraphs, then ``## Section`` headings each containing a list of
+    ``- [name](url): description`` lines.
+
+    ``base_url`` (e.g. ``https://raw.githubusercontent.com/<user>/<repo>/main``) is
+    prepended to every link target. Without it, links are repo-relative.
+    """
+    prefix = (base_url.rstrip("/") + "/") if base_url else ""
+
+    def link_for(rel_path: str) -> str:
+        # Use plain URL-encoded path so Finnish letters survive in raw URLs.
+        encoded = urllib.parse.quote(rel_path, safe="/")
+        return f"{prefix}{encoded}"
+
+    lines: list[str] = []
+    lines.append("# Nepton Help Center (mirror)")
+    lines.append("")
+    lines.append(
+        "> Unofficial Markdown mirror of the public Nepton Zendesk Help Center "
+        "(https://support.nepton.com/hc/). Article content is © Nepton Oy; this repo "
+        "preserves the canonical source URL in each article's front matter."
+    )
+    lines.append("")
+    lines.append(
+        "Each entry below links to a Markdown file in this repo. The file starts with "
+        "YAML front matter (id, title, url, category, section, updated_at) followed by "
+        "the article body converted from the Zendesk HTML."
+    )
+    lines.append("")
+    locale_labels = {"fi": "Finnish (fi)", "en-gb": "English (en-gb)"}
+
+    for res in results:
+        # Group plans by category, keeping only categories that actually have articles.
+        cats_in_order: list[Category] = sorted(
+            {p.category.id: p.category for p in res.plans}.values(),
+            key=lambda c: c.name.lower(),
+        )
+        for cat in cats_in_order:
+            cat_plans = sorted(
+                (p for p in res.plans if p.category.id == cat.id),
+                key=lambda p: (
+                    [s.name.lower() for s in p.sections],
+                    p.article["title"].lower(),
+                ),
+            )
+            if not cat_plans:
+                continue
+            label = locale_labels.get(res.locale, res.locale)
+            lines.append(f"## {label} — {cat.name}")
+            lines.append("")
+            for p in cat_plans:
+                rel = str(p.target_path.relative_to(repo_root)).replace(os.sep, "/")
+                section_chain = " / ".join(s.name for s in p.sections)
+                title = p.article["title"]
+                lines.append(f"- [{title}]({link_for(rel)}): {section_chain}")
+            lines.append("")
+
+    atomic_write(repo_root / "llms.txt", "\n".join(lines).rstrip() + "\n")
+
+    if write_full:
+        write_llms_full(repo_root, results, base_url=base_url)
+
+
+def write_llms_full(
+    repo_root: Path, results: list[LocaleResult], *, base_url: str | None
+) -> None:
+    """Concatenate every article's body into one llms-full.txt with delimiters."""
+    parts: list[str] = []
+    parts.append("# Nepton Help Center — full mirror\n")
+    parts.append(
+        "Concatenation of every article in this repository. Generated by "
+        "scripts/sync_help_center.py; do not edit by hand. Article content © Nepton Oy. "
+        "Source: https://support.nepton.com/hc/\n"
+    )
+
+    for res in results:
+        for p in sorted(
+            res.plans,
+            key=lambda x: (x.category.name.lower(), x.article["title"].lower()),
+        ):
+            rel = str(p.target_path.relative_to(repo_root)).replace(os.sep, "/")
+            try:
+                body = p.target_path.read_text(encoding="utf-8")
+            except OSError:
+                continue
+            # Drop the YAML front-matter header from the body (keeps everything from the
+            # first '# Title' onwards), since llms-full readers don't need YAML.
+            stripped = _FRONT_MATTER_RE.sub("", body, count=1).lstrip()
+            section_chain = " / ".join(s.name for s in p.sections)
+            header = (
+                "\n---\n\n"
+                f"<!-- locale: {res.locale} | category: {p.category.name} | "
+                f"section: {section_chain} | path: {rel} | "
+                f"source: {p.article.get('html_url') or ''} -->\n\n"
+            )
+            parts.append(header + stripped.rstrip() + "\n")
+
+    atomic_write(repo_root / "llms-full.txt", "".join(parts).rstrip() + "\n")
+
+
+def detect_llms_base_url(repo_root: Path) -> str | None:
+    """Derive a raw.githubusercontent.com base URL from the repo's git remote.
+
+    Returns e.g. ``https://raw.githubusercontent.com/<owner>/<repo>/<branch>`` or None
+    if the repo isn't a git checkout, has no ``origin``, or origin isn't on GitHub.
+    """
+    try:
+        remote = subprocess.check_output(
+            ["git", "-C", str(repo_root), "remote", "get-url", "origin"],
+            stderr=subprocess.DEVNULL,
+            text=True,
+        ).strip()
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        return None
+
+    m = re.match(
+        r"^(?:git@github\.com:|https?://github\.com/|ssh://git@github\.com/)"
+        r"(?P<owner>[^/]+)/(?P<repo>[^/]+?)(?:\.git)?/?$",
+        remote,
+    )
+    if not m:
+        return None
+    owner, repo = m.group("owner"), m.group("repo")
+
+    branch = "main"
+    try:
+        branch = subprocess.check_output(
+            ["git", "-C", str(repo_root), "rev-parse", "--abbrev-ref", "HEAD"],
+            stderr=subprocess.DEVNULL,
+            text=True,
+        ).strip() or "main"
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        pass
+    if branch == "HEAD":
+        # Detached; fall back to origin/HEAD if known, else main.
+        try:
+            head_ref = subprocess.check_output(
+                ["git", "-C", str(repo_root), "symbolic-ref", "refs/remotes/origin/HEAD"],
+                stderr=subprocess.DEVNULL,
+                text=True,
+            ).strip()
+            branch = head_ref.rsplit("/", 1)[-1] or "main"
+        except (FileNotFoundError, subprocess.CalledProcessError):
+            branch = "main"
+
+    return f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}"
+
+
+# ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
 
@@ -733,18 +903,55 @@ def main(argv: list[str] | None = None) -> int:
         default=REPO_ROOT,
         help="Repo root (default: parent of this script).",
     )
+    parser.add_argument(
+        "--no-llms-txt",
+        action="store_true",
+        help="Skip regenerating llms.txt / llms-full.txt at the repo root.",
+    )
+    parser.add_argument(
+        "--llms-full",
+        action="store_true",
+        help="Also write llms-full.txt (concatenation of every article).",
+    )
+    parser.add_argument(
+        "--llms-base-url",
+        default=os.environ.get("LLMS_BASE_URL"),
+        help="Absolute URL prefix for llms.txt links "
+        "(e.g. https://raw.githubusercontent.com/<user>/<repo>/main). Defaults to env "
+        "var LLMS_BASE_URL, else auto-detected from `git remote get-url origin` + "
+        "current branch when origin is on GitHub. Pass --llms-base-url '' to force "
+        "repo-relative links.",
+    )
     args = parser.parse_args(argv)
+
+    if args.llms_base_url is None:
+        args.llms_base_url = detect_llms_base_url(args.repo_root)
+        if args.llms_base_url:
+            print(f"llms.txt base URL (auto-detected): {args.llms_base_url}")
 
     locales = args.locale or ["fi", "en-gb"]
 
+    results: list[LocaleResult] = []
     for locale in locales:
-        sync_locale(
-            locale,
-            repo_root=args.repo_root,
-            force=args.force,
-            rewrite_internal_links=args.rewrite_internal_links,
-            download_assets_flag=args.download_assets,
+        results.append(
+            sync_locale(
+                locale,
+                repo_root=args.repo_root,
+                force=args.force,
+                rewrite_internal_links=args.rewrite_internal_links,
+                download_assets_flag=args.download_assets,
+            )
         )
+
+    if not args.no_llms_txt and results:
+        write_llms_files(
+            args.repo_root,
+            results,
+            write_full=args.llms_full,
+            base_url=args.llms_base_url,
+        )
+        suffix = " + llms-full.txt" if args.llms_full else ""
+        print(f"wrote llms.txt{suffix} (locales: {', '.join(r.locale for r in results)})")
 
     return 0
 

@@ -23,13 +23,13 @@ install: $(VENV)/bin/activate
 venv: $(VENV)/bin/activate
 
 sync: install
-	$(PY) scripts/sync_help_center.py --locale fi --locale en-gb
+	$(PY) scripts/sync_help_center.py --locale fi --locale en-gb --llms-full
 
 sync-fi: install
-	$(PY) scripts/sync_help_center.py --locale fi
+	$(PY) scripts/sync_help_center.py --locale fi --llms-full
 
 sync-en: install
-	$(PY) scripts/sync_help_center.py --locale en-gb
+	$(PY) scripts/sync_help_center.py --locale en-gb --llms-full
 
 clean:
 	rm -rf $(VENV)

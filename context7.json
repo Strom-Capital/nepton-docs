@@ -1,0 +1,16 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Nepton Help Center",
+  "description": "Markdown mirror of the public Nepton Zendesk Help Center (support.nepton.com/hc), in Finnish and English.",
+  "folders": ["fi", "en-gb"],
+  "excludeFolders": ["assets", "scripts", ".venv", ".github"],
+  "excludeFiles": [
+    "_index.md",
+    "README.md",
+    "LICENSE",
+    "Makefile",
+    "requirements.txt",
+    "llms.txt",
+    "llms-full.txt"
+  ]
+}
