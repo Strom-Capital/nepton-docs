@@ -1,0 +1,21 @@
+# Henkilötietojen käsittely
+
+## Articles
+- [Alaisen määrittäminen](360005113898-Alaisen-määrittäminen.md)
+- [Esimiehen määrittäminen](360002430618-Esimiehen-määrittäminen.md)
+- [Henkilön lisääminen](360002427618-Henkilön-lisääminen.md)
+- [Henkilön palauttaminen](360002424957-Henkilön-palauttaminen.md)
+- [Henkilön poistaminen](360002424617-Henkilön-poistaminen.md)
+- [Henkilön tietokentän arvon voimassaolo](360004856937-Henkilön-tietokentän-arvon-voimassaolo.md)
+- [Henkilön tietokentät](360004769718-Henkilön-tietokentät.md)
+- [Henkilönumeron muuttaminen](360002425057-Henkilönumeron-muuttaminen.md)
+- [Henkilöt-näkymä](4697186796189-Henkilöt-näkymä.md)
+- [Henkilötunnusten välimerkit uudistuivat vuonna 2024](9001809419037-Henkilötunnusten-välimerkit-uudistuivat-vuonna-2024.md)
+- [Käyttäjätunnuksen muuttaminen](360002430838-Käyttäjätunnuksen-muuttaminen.md)
+- [Maksuryhmät](4406602996625-Maksuryhmät.md)
+- [Pakolliset kentät henkilötietolomakkeella](4408898681233-Pakolliset-kentät-henkilötietolomakkeella.md)
+- [PIN-koodien hallinta](360002430798-PIN-koodien-hallinta.md)
+- [RFID-tunnisteen lisääminen henkilölle](360002425517-RFID-tunnisteen-lisääminen-henkilölle.md)
+- [Salasana](7025290536989-Salasana.md)
+- [Sijaisuus ja sen määrittäminen](360002430678-Sijaisuus-ja-sen-määrittäminen.md)
+- [Uuden salasanan asettaminen pääkäyttäjän toimesta](360002430418-Uuden-salasanan-asettaminen-pääkäyttäjän-toimesta.md)

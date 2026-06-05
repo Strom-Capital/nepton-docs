@@ -1,0 +1,39 @@
+---
+id: 4407922910993
+title: Nepton already has 100,000 users
+url: https://support.nepton.com/hc/en-gb/articles/4407922910993-Nepton-already-has-100-000-users
+locale: en-gb
+category: News and events
+category_id: 4407530962705
+section: News
+section_id: 4407542715409
+section_path:
+- News
+labels: []
+promoted: false
+updated_at: '2022-01-25T11:16:14Z'
+edited_at: '2021-09-24T11:57:26Z'
+---
+
+# Nepton already has 100,000 users
+
+This content has not been translated
+_**Nepton on tutkitusti Suomen suosituin työajanseuranta. Olemme onnistuneet tuottamaan niin paljon lisäarvoa suomalaisille yrityksille, että suuri osa uusista asiakkuuksistamme tulee suosittelujen kautta. Asiakkaita meillä on yli 650 ja heinäkuun lopulla ylitimme maagisen 100 000 käyttäjän rajan.**_
+* * *
+![](https://nepton.fi/wp-content/uploads/2021/08/Kasvajat-Sinetti-2021-FI-50mm-RGB-300x300.png) Todistuksena vahvasta kasvusta Neptonille myönnettiin Kauppalehden Kasvaja-sertifikaatti 2021. Sertifikaatin saaja on viimeisen kolmen vuoden aikana kasvanut merkittävästi – keskimäärin vuositasolla yli 10 prosenttiyksikköä päätoimialaluokkansa keskitasoa nopeammin. Tämä sertifikaatti myönnetään vain 2 % yrityksistä.
+Kasvu näkyy myös henkilöstömme määrässä. Olemme vahvistaneet kaikkia tiimejämme ja Neptonissa työskentelee yhteensä 34 ammattilaista tuotekehityksessä, projektitiimissä, asiakaspalvelussa, hallinnossa sekä myynnissä ja markkinoinnissa. Kumppanuuksienkin määrä on lisääntynyt, ja olemme muutenkin syventäneet yhteistyötä nykyisten kumppanien kanssa niin markkinoinnissa kuin tuotekehityksessä.
+![](https://nepton.fi/wp-content/uploads/2021/08/Nepton-ka%CC%88ytta%CC%88ja%CC%88ma%CC%88a%CC%88ra%CC%88-heina%CC%88kuu21.png)
+Nepton on aina ollut suosittu palveluntuottaja julkisella sektorilla ja meillä on lukuisia kuntia ja kuntayhtymiä asiakkaana. Tänä keväänä Hansel valitsi meidät valtionhallinnon puitesopimustoimittajaksi.
+Osana [Likeit Nepton Groupia](<https://nepton.fi/2021/01/nepton-ja-likeit-yhdistavat-voimansa/>) tulemme jatkossa panostamaan kasvuun myös laajentamalla tarjontaamme, erityisesti palkka- ja henkilöstöhallinnon ratkaisuja kehittämällä.
+* * *
+**Nepton pähkinänkuoressa**
+  * Yli 100 000 loppukäyttäjää
+  * 650 asiakasyritystä kymmenillä toimialoilla
+  * 34 työntekijää
+  * Työajanseuranta, HR-ratkaisu ja työvuorosuunnittelu
+  * Kehitteillä mm. palkkahallinnon ratkaisu
+  * Osa Likeit Nepton Groupia
+
+
+* * *
+[Tutustu Suomen suosituimpaan työajanseurantaan →](<https://nepton.fi/tyoajanseuranta/>)

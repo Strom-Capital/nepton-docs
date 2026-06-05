@@ -1,0 +1,22 @@
+# Sääntöjoukot
+
+## Articles
+- [Parhaat käytännöt sääntöjoukkojen muokkaamiseen](25397332335773-Parhaat-käytännöt-sääntöjoukkojen-muokkaamiseen.md)
+- [Sääntöjoukkojen kuvaus](360002492278-Sääntöjoukkojen-kuvaus.md)
+- [Sääntöjoukon ajastettu vienti](360002492458-Sääntöjoukon-ajastettu-vienti.md)
+- [Sääntöjoukon apufunktiot](360009018778-Sääntöjoukon-apufunktiot.md)
+- [Sääntöjoukon esimerkit - Henkilön tunniste](6447944970909-Sääntöjoukon-esimerkit-Henkilön-tunniste.md)
+- [Sääntöjoukon esimerkit - henkilötiedot](360015612638-Sääntöjoukon-esimerkit-henkilötiedot.md)
+- [Sääntöjoukon esimerkit - palkkaliittymä](360008045337-Sääntöjoukon-esimerkit-palkkaliittymä.md)
+- [Sääntöjoukon esimerkit - poissaolot](360013979998-Sääntöjoukon-esimerkit-poissaolot.md)
+- [Sääntöjoukon esimerkit - poissaolot Sympaan](360015612978-Sääntöjoukon-esimerkit-poissaolot-Sympaan.md)
+- [Sääntöjoukon esimerkit - projektin lisätiedot, rakenne ja projektien tyypit](360013894637-Sääntöjoukon-esimerkit-projektin-lisätiedot-rakenne-ja-projektien-tyypit.md)
+- [Sääntöjoukon esimerkit - tapahtumahistoria](360016216278-Sääntöjoukon-esimerkit-tapahtumahistoria.md)
+- [Sääntöjoukon esimerkit - tapahtuman ulkoinen tunniste](360020748037-Sääntöjoukon-esimerkit-tapahtuman-ulkoinen-tunniste.md)
+- [Sääntöjoukon esimerkit - Vuosityöajan poiminta](32043866990109-Sääntöjoukon-esimerkit-Vuosityöajan-poiminta.md)
+- [Sääntöjoukon esimerkit - yleisluonteiset](23677421993501-Sääntöjoukon-esimerkit-yleisluonteiset.md)
+- [Sääntöjoukon poiminnan periaatteet](21077132021149-Sääntöjoukon-poiminnan-periaatteet.md)
+- [Sääntöjoukon tuloksen jakaminen useaan tiedostoon](360006255458-Sääntöjoukon-tuloksen-jakaminen-useaan-tiedostoon.md)
+- [Tietokantataulujen sisältö](360002489257-Tietokantataulujen-sisältö.md)
+- [Tuetut tiedostomuodot ReturnFormat - kentälle](15468480461085-Tuetut-tiedostomuodot-ReturnFormat-kentälle.md)
+- [Vanhentuneet sääntöjoukon mallit](8405862536349-Vanhentuneet-sääntöjoukon-mallit.md)

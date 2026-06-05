@@ -1,0 +1,21 @@
+# Support
+
+## Sections
+- [FAQ](FAQ/_index.md)
+- [HR management](HR-management/_index.md)
+- [Integration](Integration/_index.md)
+- [Log data](Log-data/_index.md)
+- [Login](Login/_index.md)
+- [My information](My-information/_index.md)
+- [Nepton Payroll](Nepton-Payroll/_index.md)
+- [Notifications](Notifications/_index.md)
+- [Permissions](Permissions/_index.md)
+- [Person groups](Person-groups/_index.md)
+- [Project management](Project-management/_index.md)
+- [Reporting](Reporting/_index.md)
+- [Servers and data protection](Servers-and-data-protection/_index.md)
+- [Terminals](Terminals/_index.md)
+- [Trusted services](Trusted-services/_index.md)
+- [Work events](Work-events/_index.md)
+- [Workshift planning and Work schedules](Workshift-planning-and-Work-schedules/_index.md)
+- [Worktime calculations and management](Worktime-calculations-and-management/_index.md)
