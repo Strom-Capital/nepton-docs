@@ -13,8 +13,8 @@ labels:
 - Kiva
 - Kiwa
 promoted: false
-updated_at: '2024-10-30T11:06:23Z'
-edited_at: '2024-10-30T11:06:23Z'
+updated_at: '2026-10-30T11:36:11Z'
+edited_at: '2026-10-30T11:36:11Z'
 ---
 
 # Saarni EXP employee survey and analytics platform in Nepton
@@ -57,15 +57,14 @@ Saarni EXP is part of the service package offered by Saarni Nepton to all our cu
 
 
 ### Data shared with Saarni EXP
-When the Saarni EXP service is enabled for a customer then personal data is shared from Nepton to Saarni EXP. The sharing is configured by a person with Nepton Administrator role by visiting, Nepton > Employees > Administration > Scheduled tasks, and editing the task called '**Synchronization with Nepton trusted service Kiva Work'**. The amount of information shared with Kiva work is adjusted by changing the format between **Kiva work** or **Kiva work with person groups**. The details of each format are provided below.
-  1. The '**Kiva work'** format, shares only the basic customer and personal information that allows use of Kivawork within the Nepton platform. It includes all basic necessary information to keep peoples' information up to date with edits in Nepton, and to utilise Kiva work.  
+When the Saarni EXP service is enabled for a customer then personal data is shared from Nepton to Saarni EXP. The sharing is configured by a person with Nepton Administrator role by visiting, Nepton > Employees > Administration > Scheduled tasks, and editing the task called '**Synchronization with Nepton trusted service Saarni EXP (previously Kiva Work)'**. The details of each format are provided below.
+  1. The '**Saarni EXP'** format, shares customer and personal information that allows use of Saarni EXP within the Nepton platform. It includes all basic necessary information to keep peoples' information up to date with edits in Nepton, and to utilise Saarni EXP.  
   
-Using this format, the following information is shared from Nepton to Kiva work:  
-
-     * Deployment 
+Using this format, the following information is shared from Nepton to Saarni EXP:
+     * Deployment
        * Name
        * Id
-     * Person 
+     * Person
        * Nepton Id
        * Last name
        * First name
@@ -73,28 +72,15 @@ Using this format, the following information is shared from Nepton to Kiva work:
        * Email
        * Phone number
        * Role
-       * Primary supervisor
-       * Service usage language  
-  
-
-  2. The '**Kiva work with person groups'** format, builds upon the same data shared in the 'Kiva work' format, but adds information that facilitates out-of-the-box reporting, based on organisational structure via Nepton person groups. 
-This format is not yet supported by Kiva work, but will be rolled out in a future update. Please contact Kiva work support if you would like to utilise this capability.
-  
-Using this format, the following information is shared from Nepton to Kiva work:  
-
-     * Deployment 
-       * Name
-       * Id
-     * Person 
-       * Nepton Id
-       * Last name
-       * First name
-       * Username
-       * Email
-       * Phone number
-       * Role
-       * Primary supervisor
-       * Service usage language
        * Person group
        * Person group code path in hierarchy
        * Person group name path in hierarchy
+       * Supervisors
+       * Service usage language
+       * Units
+       * Job title
+       * City
+       * Classification of occupations
+       * Trial period end date
+       * Employer
+       * Additional information for reports

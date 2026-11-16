@@ -14,14 +14,14 @@ labels:
 - IsNewUser
 - kustannusryhmä
 promoted: false
-updated_at: '2025-12-08T10:04:12Z'
-edited_at: '2025-12-08T10:02:34Z'
+updated_at: '2026-11-06T10:36:08Z'
+edited_at: '2026-10-14T10:53:22Z'
 ---
 
 # Henkilön tietokentät
 
-Palvelussa voidaan hallinnoida henkilöitä ja heidän tietojaan. Organisaatiossa voidaan valita mitä kenttiä otetaan käyttöön ja mitkä jätetään tyhjäksi. Päästäksesi henkilötietosivulle valitse **Työsuhde - > Henkilöt -> Henkilöt**. Etsi henkilö listalta ja valitse **Näytä tiedot** -ikonia henkilöriviltä.
-Henkilön tiedot -osio on jaettu kategorioihin, joiden määrä riippuu käytettävistä palvelun osista. Kategorioita voivat olla:
+Palvelussa voidaan hallinnoida henkilöitä ja heidän tietojaan. Organisaatiossa voidaan valita mitä kenttiä otetaan käyttöön ja mitkä jätetään tyhjäksi. Päästäksesi henkilötietosivulle valitse **Työsuhde > Henkilöt > Henkilöt**. Etsi henkilö listalta ja valitse **Näytä tiedot** -ikonia henkilöriviltä.
+Henkilön tiedot -osio on jaettu kategorioihin, joiden määrä riippuu käytettävistä palvelun osista. 
 Vuorosuunnittelu näkyy niiden organisaatioiden henkilöille, joilla on kyseinen toiminnallisuus käytössä.
 Vakiokenttien lisäksi palveluun on mahdollista lisätä lisätietokenttiä. Lisätietokentät esitetään otsikon **Lisätiedot** alla. Lisätietokenttien hallinnoinnista löydät lisätietoja [täältä.](<https://support.nepton.com/hc/fi/articles/360002430918>)
 Osa kentistä toimii [voimassaolotoiminnolla](<https://support.nepton.com/hc/fi/articles/360002559358>). Voimassaoloaika on määriteltävissä kaikille kentille, pois lukien seuraavat kentät:
@@ -47,7 +47,7 @@ _ (alaviiva)
 
 
 Sähköposti
-  * Jos tämä kenttä jätetään tyhjäksi, ei henkilö voi tilata itselleen uutta salasanaa eikä henkilölle voida lähettää sähköpostitiedotteita Työsuhde-osion Viestintä-toiminnon eikä Vuorosuunnittelu-osion Tiedota-toiminnon kautta. Henkilö ei voi myöskään vastaanottaa sähköposti-ilmoituksia alaistensa uusista tapahtumapyynnöistä.
+  * Jos tämä kenttä jätetään tyhjäksi, ei henkilö voi tilata itselleen uutta salasanaa eikä henkilölle voida lähettää sähköpostitiedotteita Työsuhde-osion Viestintä-toiminnon eikä Vuorosuunnittelu-osion Tiedota-toiminnon kautta. Henkilö ei voi myöskään vastaanottaa sähköposti-ilmoituksia alaistensa uusista tapahtumapyynnöistä tai esihenkilön hyväksymistä tapahtumapyynnöistä.
 
 
 Puhelinnumero
@@ -60,7 +60,7 @@ Katuosoite, postinumero, postitoimipaikka
 
 
 Salasana
-  * Salasanakenttä näytetään vain uutta henkilöä lisättäessä ja se on asetettava uudelle henkilölle. Palveluun tallennetun henkilön salasanan muokkaus on mahdollista Lisätoiminteet-välilehdellä tai uuden salasanan voi tilata sisäänkirjautumissivulta.
+  * Salasanakenttä näytetään vain uutta henkilöä lisättäessä ja se on asetettava uudelle henkilölle. Palveluun tallennetun henkilön salasanan muokkaus on mahdollista Lisätoiminteet-välilehdellä, tai uuden salasanan voi tilata sisäänkirjautumissivulta.
   * Salasana on [pakollinen kenttä](<https://support.nepton.com/hc/fi/articles/4408898681233>).
   * Lisätietoja uuden salasanan asettamisesta pääkäyttäjän toimesta löydät [tästä artikkelista](<https://support.nepton.com/hc/fi/articles/360002430418>) ja oman salasanan asettamisesta [tästä artikkelista.](<https://support.nepton.com/hc/fi/articles/360002596657>)
 
@@ -75,17 +75,16 @@ Henkilötunnus
   * Henkilötunnus on täytettävä, jos [Nepton Palkat](<https://support.nepton.com/hc/fi/articles/4406269604113>) -toiminto on käytössä.
 
 
-Vuonna 2024 henkilötunnuksessa otetaan käyttöön uusia välimerkkejä. Uudistuksesta vastaa Digi- ja väestötietovirasto, jonka sivuilta löydät [lisätietoa uudistuksesta](<https://dvv.fi/hetu-uudistus>). Tuki uusille henkilötunnuksille lisätään Neptoniin ennen uudistuksen voimaantuloa.
 Veronumero
   * Henkilön veronumero on [Suomen verohallinnon antama 12-numeroinen tunnus](<https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48791/veronumero-ja-rakennusalan-julkinen-veronumerorekisteri/>), joka on käytössä rakennusalan työntekijöillä.
-  * Jos henkilö työskentelee rakennustyömaalla, veronumero on annettava [Nepton Palkat](<https://support.nepton.com/hc/fi/articles/4406269604113>) -toimintoa varten.
+  * Jos henkilö työskentelee rakennustyömaalla, veronumero on annettava Nepton Palkat (LikeIt) -toimintoa varten.
 
 
-Muut tämän kategorian kentät ovat informatiivisia ja niillä ei ole vaikutusta työajan laskentaan tai palvelun toiminnallisuuksiin.
+Muut tämän kategorian kentät ovat informatiivisia, eikä niillä ole vaikutusta työajan laskentaan tai palvelun toiminnallisuuksiin.
 ## Työsuhde
 Työsuhde-kategoriassa voidaan ylläpitää henkilön työsuhteeseen liittyviä tietoja.
 Ammattinimike
-  * Tähän voidaan täyttää henkilön ammatti vapaamuotoisesti yrityksen omien käytäntöjen mukaisesti.
+  * Tähän voidaan täyttää henkilön titteli vapaamuotoisesti yrityksen omien käytäntöjen mukaisesti.
 
 
 Ammattiluokitus
@@ -95,31 +94,31 @@ Ammattiluokitus
 
 
 Sopimuksen tyyppi
-  * Sopimuksen tyypillä määritellään onko henkilö kuukausipalkkainen vai tuntipalkkainen työntekijä.
-**Huom!** Käytetään vain automaattiseen palkanlaskennan (Nepton palkat) yhteydessä.
+  * Sopimuksen tyypillä määritellään, onko henkilö kuukausipalkkainen vai tuntipalkkainen työntekijä.
+**Huom!** Käytetään vain automaattisen palkanlaskennan (Nepton palkat) yhteydessä.
 
 
 Työsuhteen alkupäivä
-  * Kertoo palvelussa mistä päivästä lähtien henkilö on nähtävissä raporteilla ja Työaika-osion kalenterinäkymässä.
+  * Määrittää, mistä päivästä lähtien henkilö on nähtävissä raporteilla ja Työaika-osion kalenterinäkymässä.
   * Ennen tähän asetettua päivää henkilö ei näy henkilölistauksissa raportteja haettaessa.
   * Jos tämä kenttä jätetään tyhjäksi, näkyy henkilö listauksissa rajattomasti menneisyyteen.
   * Työsuhteen alkupäivä on täytettävä, jos [Nepton Palkat](<https://support.nepton.com/hc/fi/articles/4406269604113>) -toiminto on käytössä.
 
 
 Työsuhteen päättymispäivä
-  * Kertoo palvelussa mihin päivään saakka henkilö on nähtävissä raporteilla ja Työaika-osion kalenterinäkymässä
+  * Määrittää, mihin päivään saakka henkilö on nähtävissä raporteilla ja Työaika-osion kalenterinäkymässä.
   * Tähän asetetun päivän jälkeen henkilö ei näy henkilölistauksissa raportteja haettaessa.
   * Jos tämä kenttä jätetään tyhjäksi, näkyy henkilö listauksissa rajattomasti tulevaisuuteen.
   * Työsuhteen päättymispäivä on täytettävä [Nepton Palkat](<https://support.nepton.com/hc/fi/articles/4406269604113>) -toimintoa varten, jos henkilön työsuhde on päättynyt tai päättymässä.
 
 
 Työajan asetusryhmä
-  * Kentässä valitaan henkilölle se [työajan asetusryhmä](<https://support.nepton.com/hc/fi/articles/360002558498>), jonka määritysten mukaan työaikakirjaukset tulkitaan. Jos kenttä jätetään tyhjäksi, henkilölle käytetään laskennassa työyhteisön oletussääntöjä.
+  * Kenttään valitaan henkilölle se [työajan asetusryhmä](<https://support.nepton.com/hc/fi/articles/360002558498>), jonka määritysten mukaan työaikakirjaukset tulkitaan. Jos kenttä jätetään tyhjäksi, henkilölle käytetään laskennassa työyhteisön oletussääntöjä.
 
 
 Työaika prosentteina
   * Kertoo henkilön työaikaprosentin. Tämä kenttä vaikuttaa henkilön työajan laskentaan Työaika-osiossa.
-  * Palvelu laskee työviikon ja työpäivän pituuksista osa-aikaprosentin mukaiset pituudet ja käsittelee henkilön työaikaa sen mukaisesti. Lisää työaikaprosentista [täällä](<https://support.nepton.com/hc/fi/articles/360003961118>).
+  * Palvelu laskee työviikon ja työpäivän pituuksista osa-aikaprosentin mukaiset pituudet ja käsittelee henkilön työaikaa sen mukaisesti. Tyhjä kenttä tulkitaan täytenä työaikana. Lisää työaikaprosentista [täällä](<https://support.nepton.com/hc/fi/articles/360003961118>).
 
 
 Kuukausipalkka, tuntipalkka
@@ -127,44 +126,44 @@ Kuukausipalkka, tuntipalkka
   * Joko kuukausipalkka tai tuntipalkka on täytettävä euromääräisenä arvona, jos [Nepton Palkat](<https://support.nepton.com/hc/fi/articles/4406269604113>) -toiminto on käytössä.
 
 
-Huom! Jos työsuhteen asetuksia muutetaan jälkikäteen koskemaan mennyttä aikaa, työajan laskentaa ei automaattisesti päivitetä ellei myös kyseisen ajankohdan tapahtumia muuteta asetusten muutosten jälkeen. Ohjeet kalenterin uudelleenlaskettamiseen [täällä](<https://support.nepton.com/hc/fi/articles/4411220910865>).
+Huom! Jos työsuhteen asetuksia muutetaan jälkikäteen koskemaan mennyttä aikaa, työajan laskentaa ei automaattisesti päivitetä, ellei myös kyseisen ajankohdan tapahtumia muuteta asetusten muutosten jälkeen. Ohjeet kalenterin uudelleenlaskettamiseen [täällä](<https://support.nepton.com/hc/fi/articles/4411220910865>).
 Muut tämän kategorian kentät ovat informatiivisia ja niillä ei ole vaikutusta työajan laskentaan tai palvelun toiminnallisuuksiin.
 ## Oikeudet
-Oikeudet-kategoriassa määritellään mihin palvelun osiin ja toimintoihin henkilöllä on käyttöoikeus.
+Oikeudet-kategoriassa määritellään, mihin palvelun osiin ja toimintoihin henkilöllä on käyttöoikeus.
 Rooli
-  * Määrittelee henkilön oikeudet Työsuhde-osiossa. Henkilö voi olla vain yhdessä Työsuhde-osion roolissa.
+  * Määrittelee henkilön oikeudet Työsuhde-osiossa. Henkilöllä voi olla vain yksi rooli.
   * Rooli on [pakollinen kenttä](<https://support.nepton.com/hc/fi/articles/4408898681233>).
-  * Lisätietoja ja tarkemmat kuvaukset Työsuhde-osion roolista löydät [täältä.](<https://support.nepton.com/hc/fi/articles/360002425637>)
+  * Lisätietoja ja tarkemmat kuvaukset roolista löydät [täältä.](<https://support.nepton.com/hc/fi/articles/360002425637>)
 
 
 Työajan roolit
-  * Määrittelee henkilön oikeudet Työaika-osiossa. Tässä kentässä voidaan määritellä mihin työajan rooliin henkilö kuuluu, mutta roolien sisällöt määritellään Työaika-osiossa.
-  * Henkilö voi olla useammassa Työaika-osion roolissa yhtäaikaisesti.
-  * Lisätietoja ja tarkemman kuvauksen Työaika-osion rooleista löydät [täältä.](<https://support.nepton.com/hc/fi/articles/360002554338>)
+  * Määrittelee henkilön oikeudet Työaika-osiossa. Tässä kentässä määritetään, mikä työajan rooli henkilöllä on, mutta roolien sisällöt määritellään Työaika-osiossa.
+  * Henkilöllä voi olla useampi Työajan rooli yhtäaikaisesti.
+  * Lisätietoja ja tarkemman kuvauksen Työajan rooleista löydät [täältä.](<https://support.nepton.com/hc/fi/articles/360002554338>)
 
 
 Pääsy henkilöryhmiin
-  * Kentän avulla voidaan antaa henkilölle oikeuksia valittujen henkilöryhmien henkilöitä kohtaan. Nämä oikeudet määritellään valitsemalla henkilöryhmään sovellettavat oikeudet. Nämä oikeudet määritellään [käyttöoikeusryhmien](<https://support.nepton.com/hc/fi/articles/17842757043613>) muodossa. Kenttää pääsevät muokkaamaan "Ylläpitäjä", "Henkilöstöhallinto" ja "Palkkahallinto"-rooleissa olevat.
+  * Kentän avulla voidaan antaa henkilölle oikeuksia valittujen henkilöryhmien henkilöitä kohtaan. Nämä oikeudet määritellään [käyttöoikeusryhmien](<https://support.nepton.com/hc/fi/articles/17842757043613>) muodossa. Kenttää pääsevät muokkaamaan "Ylläpitäjä", "Henkilöstöhallinto" ja "Palkkahallinto"-rooleissa olevat.
 
 
 Lyhytaikainen laina sallittu
-  * Tämä kenttä on informatiivinen ja sillä ei ole vaikutusta palvelun oikeuksiin tai käyttöön
-  * Tätä kenttää voidaan käyttää esimerkiksi kertomaan, onko henkilöllä oikeus palkkaennakon nostoon
+  * Tämä kenttä on informatiivinen eikä sillä ole vaikutusta palvelun oikeuksiin tai käyttöön.
+  * Tätä kenttää voidaan käyttää esimerkiksi kertomaan, onko henkilöllä oikeus palkkaennakon nostoon.
 
 
 ## Organisaatio
 Organisaatio-kategoriassa määritellään organisaatioon liittyviä tietoja.
 Henkilöryhmä
-  * Määrittää mihin henkilöryhmään henkilö kuuluu. Henkilöryhmä kertoo missä henkilö näkyy erilaisissa henkilölistauksissa esimerkiksi raportteja otettaessa.
+  * Määrittää mihin henkilöryhmään henkilö kuuluu. Henkilöryhmä kertoo, missä henkilö näkyy erilaisissa henkilölistauksissa esimerkiksi raportteja otettaessa.
   * Henkilö voi olla vain yhdessä henkilöryhmässä kerrallaan.
-  * Henkilöryhmät ovat luonteeltaan puhtaasti informatiivisia eivätkä vaikuta työajanlaskentaan millään tavoin
+  * Henkilöryhmät ovat luonteeltaan puhtaasti informatiivisia eivätkä vaikuta työajanlaskentaan millään tavoin.
   * Lisätietoja henkilöryhmistä löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002553457>)
 
 
 Alaiset
-  * Tässä kentässä voidaan määritellä henkilön alaiset. Henkilö saa esimies-roolin oikeudet työaikapuolelle siihen henkilöön, joka lisätään tähän kenttään.
-  * Henkilöllä voi olla rajaton määrä alaisia.
-  * Tähän kenttään päivitetty tieto päivittyy myös kenttään merkitylle henkilölle Esimiehet-kenttään.
+  * Tähän kenttään määritetään henkilön alaiset. Työajan roolin oikeuksista riippuen henkilö saa näkyvyyden ja mahdollisesti muokkausoikeuden alaisiinsa työaikapuolelle tämän kentän mukaisesti.
+  * Henkilöllä voi olla rajaton määrä alaisia. 
+  * Tähän kenttään päivitetty tieto päivittyy myös alaisen tietoihin Esimiehet-kenttään.
 
 
 Esimiehet
@@ -172,6 +171,7 @@ Esimiehet
   * Henkilöllä voi olla rajaton määrä esimiehiä, mutta vain yksi ensisijainen esimies.
   * Ensisijaisen esimiehen tieto on näkyvissä palvelussa esimiehen nimen vieressä.
   * Ilmoitukset arkaluonteisista toimista, kuten sairausloma-, saldo- ja vuosilomapyynnöistä, lähetetään ainoastaan ensisijaisille esimiehille.
+  * Tähän kenttään päivitetty tieto päivittyy myös esimiehen tietoihin Alaiset-kenttään.
 
 
 Yksiköt
@@ -181,8 +181,8 @@ Yksiköt
 
 
 Oletusprojekti
-  * Kertoo mikä on henkilön oletusprojekti uutta tapahtumaa luodessa.
-  * Kaikki tapahtumat kohdennetaan oletuksena tälle projektille riippumatta tapahtuman tapahtuma- tai poissaolotyypistä tai tapahtuman korvattavuudesta (palkallinen/palkaton/vähennetty palkka).
+  * Kertoo, mikä on henkilön oletusprojekti uutta tapahtumaa luodessa.
+  * Kaikki tapahtumat kohdennetaan oletuksena tälle projektille riippumatta tapahtuman tai poissaolon tyypistä tai sen korvattavuudesta (palkallinen/palkaton/vähennetty palkka).
   * Oletusprojektiksi voidaan valita sellainen alaprojekti, joka on näkyvissä henkilölle hänen tehdessä kirjauksia. Projekti on joko liitetty henkilöön tai henkilön henkilöryhmään, tai henkilöllä on näkyvyys kaikkiin projekteihin.
 
 
@@ -208,9 +208,9 @@ Viikoittaiset tunnit MIN ja Viikoittaiset tunnit MAX
 
 
 Henkilölistat
-  * Kertoo mihin vuorosuunnittelun henkilölistalle henkilö kuuluu. Henkilölistoja voidaan käyttää Vuorosuunnittelu-osion suunnittelunäkymässä henkilöiden lajittelemiseen (Vuorosuunnittelu -> Suunnittelunäkymä -> Näkymän rajaukset -> Henkilölista).
+  * Kertoo mihin vuorosuunnittelun henkilölistalle henkilö kuuluu. Henkilölistoja voidaan käyttää Vuorosuunnittelu-osion suunnittelunäkymässä henkilöiden lajittelemiseen (Vuorosuunnittelu > Suunnittelunäkymä > Näkymän rajaukset > Henkilölista).
   * Henkilö voi kuulua useampaan henkilölistaan yhtäaikaisesti.
-  * Henkilölistoja voi lisätä kohdassa Työsuhde -> Henkilöt -> Henkilölistat.
+  * Henkilölistoja voi lisätä kohdassa Työsuhde > Henkilöt > Henkilölistat.
 
 
 Ensisijainen tehtävä
@@ -239,7 +239,7 @@ Hallinnon lisätieto
 
 
 Raporteilla näkyvä lisätieto
-  * Kenttään syötetty tieto näkyy osassa työajan raportteja omana sarakkeenaan.
+  * Kenttään syötetty tieto näkyy osassa työajan raporteissa omalla sarakkeellaan.
 
 
 Palvelun käyttökieli
@@ -270,7 +270,7 @@ Käyttäjätunnus
   * Määrittelee tunnuksen, jota henkilö käyttää kirjautuessaan sisään Nepton-palveluun.
   * Käyttäjätunnus on [pakollinen kenttä](<https://support.nepton.com/hc/fi/articles/4408898681233>)[.](<https://support.nepton.com/hc/articles/4408898681233>)
   * Käyttäjätunnuksen määrittämisessä tulee ottaa huomioon seuraavat ehdot:
-    * Käyttäjtunnuksen merkkijonon pituus tulee olla >= 1 ja <= 100 merkkiä.
+    * Käyttäjätunnuksen merkkijonon pituus tulee olla vähintään 1 ja enintään 100 merkkiä.
     * Käyttäjätunnuksen alussa tai lopussa ei saa ole välilyöntiä.
     * Käyttäjätunnus ei saa sisältää useampaa kuin yhtä peräkkäistä välilyöntiä.
     * Sallitut erikoismerkit:
@@ -284,12 +284,12 @@ Käyttäjätunnus
 
 
 PIN-koodi
-  * Tämä kenttä määritellään silloin, kun halutaan mahdollistaa henkilölle leimaaminen työaikapäätteellä käyttäen PIN-koodia.
+  * Tätä kenttää käytetään, kun halutaan mahdollistaa henkilön leimaaminen työaikapäätteellä käyttäen PIN-koodia.
 
 
 RFID-tunniste
   * RFID-tunniste on fyysinen kulkukorttitunniste.
-  * Käytetään silloin, kun halutaan mahdollistaa henkilölle leimaaminen työaikapäätteellä erillisellä RFID-tunnisteella.
+  * Käytetään silloin, kun halutaan mahdollistaa henkilön leimaaminen työaikapäätteellä erillisellä RFID-tunnisteella.
   * RFID-tunnisteita voi olla yhdellä henkilöllä useita. Tällöin ne erotellaan piippumerkillä. Esimerkiksi, jos henkilöllä on 3 eri RFID-tunnistetta käytössään, merkattaisiin ne kenttään näin: 5831023962|34591203239|593100795
 
 

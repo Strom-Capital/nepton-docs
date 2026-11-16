@@ -12,7 +12,7 @@ section_path:
 - Event recording
 labels: []
 promoted: false
-updated_at: '2026-03-26T10:19:16Z'
+updated_at: '2026-08-27T08:01:05Z'
 edited_at: '2026-03-26T10:19:16Z'
 ---
 

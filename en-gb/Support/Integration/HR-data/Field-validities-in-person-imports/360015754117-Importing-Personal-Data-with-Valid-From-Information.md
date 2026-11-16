@@ -13,8 +13,8 @@ section_path:
 - Field validities in person imports
 labels: []
 promoted: false
-updated_at: '2026-03-03T07:58:18Z'
-edited_at: '2026-03-03T07:58:18Z'
+updated_at: '2026-06-26T09:56:55Z'
+edited_at: '2026-06-26T09:56:54Z'
 ---
 
 # Importing Personal Data with 'Valid From' Information
@@ -71,6 +71,7 @@ Saving validity differs between fields that support validity and those that do n
 
 
 ### Fields Not Supporting Validity
+Saving validity differs between fields that support validity and those that do not. The following fields do not support validity: "Primary Supervisor", "Secondary Supervisors", "Worktime Roles", "Units", "Person Group", "Default Project", "Balance", as well as alternative fields that import this information. Other fields support validity.
   * Regardless of the "Valid From" date, the values take effect on the import date
   * If the import data contains multiple rows/nodes for the same person, the value from the row/node with the latest "Valid From" date will remain in effect
 

@@ -12,8 +12,8 @@ section_path:
 - Palkkajärjestelmät
 labels: []
 promoted: false
-updated_at: '2026-01-15T08:25:53Z'
-edited_at: '2026-01-15T08:25:53Z'
+updated_at: '2026-07-01T07:07:02Z'
+edited_at: '2026-07-01T07:04:40Z'
 ---
 
 # Populus poissaolotapahtumien vienti reaaliajassa
@@ -59,7 +59,11 @@ Tiedostonimet yllä olevalla esimerkillä olisivat seuraavan muotoiset:
   * Lisäysmerkinnöille: nep-poissaolot-1741348913396-U.csv
 
 
-**4\. Viennin ajastus kohdepalvelimelle**
+**4\. Vientitiedoston jakaminen**
+Vientitiedoston osiin jakaminen -kohdan alla olevia asetuksia voidaan käyttää tämän liittymän kanssa, mutta reaaliaikaisissa siirroissa tähän liittyy eräs huomio. Jokainen yksittäinen reaaliaikainen siirto poimii hyvin pienen määrän dataa. Useimmilla ryhmittelyperusteilla tämä pieni datamäärä ei enää jakaudu pienempiin osiin, vaan siirrosta muodostuu edelleenkin vain yksi tiedosto. Tiedoston nimeen liitettään kuitenkin määritetty ryhmittelyperuste (esim. maksuryhmä). Tätä määritystä noudettaisiin myös manuaalisesti käynnistetyissä siirroissa, joissa todennäköisesti muodostuisi useampi tiedosto suuremman datamäärän vuoksi.
+Kun nämä asetukset ovat käytössä, järjestelmä pilkkoo tiedot ensin tämän määrityksen mukaan ja sen jälkeen jakaa vielä lisäys- ja poistomerkinnät omiin tiedostoihinsa. 
+Tarkemmat tiedot näistä asetuksista löydät [täältä](<https://support.nepton.com/hc/fi/articles/360006255458>). 
+**5\. Viennin ajastus kohdepalvelimelle**
 Viimeisenä kohdepalvelimen puskurille tarvitsee määrittää viennin ajastus. Tästä voit lukea lisää artikkelista [Työajan vientiliittymien kohdepalvelimet](<https://support.nepton.com/hc/fi/articles/26861716054045#h_01JSK5VK4NMRKM5R7TP1B6ATE1>).
 ## Tiedostomuoto
 Siirtotiedosto on UTF-8 muotoista puolipisteellä (`;`) eroteltua tekstimuotoista dataa. Rivinvaihto on `LF`. Siirtotiedoston lopussa on yksi tyhjä rivi.

@@ -12,13 +12,14 @@ section_path:
 - SFTP siirrot
 labels: []
 promoted: false
-updated_at: '2024-09-05T07:40:27Z'
-edited_at: '2024-09-05T07:40:26Z'
+updated_at: '2026-07-01T05:22:04Z'
+edited_at: '2026-07-01T05:22:04Z'
 ---
 
 # Siirtotiedoston nimeäminen
 
-Siirtotiedostoja käytetään SFTP-liittymätoteutuksissa siirtämään tietoa joko Nepton järjestelmään tai Neptonista ulkopuoliseen järjestelmään. Suosittelemme että siirtotiedoston nimeen sisällytetään aineiston tyyppi, tiedonsiirron suunta, sekä päivämäärä ja aika, jolloin aineisto on muodostettu. Tällä tavalla tiedostoa ei voi sekoittaa muihin siirtotiedostoihin ja mahdollisten ongelmien selvittelytilanteissa eri päivien aineistot on helppo tunnistaa. Tiedostonimessä tulee olla oikea tiedostotyyppi aineiston muodosta riippuen, esimerkiksi csv, xls tai txt.  
+Siirtotiedostoja käytetään SFTP-liittymätoteutuksissa siirtämään tietoa joko Nepton järjestelmään tai Neptonista ulkopuoliseen järjestelmään. Suosittelemme että siirtotiedoston nimeen sisällytetään aineiston tyyppi, tiedonsiirron suunta, sekä päivämäärä ja aika, jolloin aineisto on muodostettu. Tällä tavalla tiedostoa ei voi sekoittaa muihin siirtotiedostoihin ja mahdollisten ongelmien selvittelytilanteissa eri päivien aineistot on helppo tunnistaa. Tiedostonimessä tulee olla oikea tiedostotyyppi aineiston muodosta riippuen, esimerkiksi csv, xls tai txt.
+Henkilötietoliittymässä korvauskuviot eivät toimi.  
   
 Suosittelemamme nimen muoto on:
 AineistonTyyppi_TiedonsiirronSuunta_YYYYMMDD_HHmm.tiedostotyyppi

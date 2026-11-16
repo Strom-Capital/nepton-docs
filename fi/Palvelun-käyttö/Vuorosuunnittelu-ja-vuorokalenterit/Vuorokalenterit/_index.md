@@ -3,6 +3,7 @@
 Vuorokalenterien käyttö
 
 ## Articles
+- [Henkilön vuororyhmän hallinta](13554423857181-Henkilön-vuororyhmän-hallinta.md)
 - [Lomakalenterin luominen](18114697920157-Lomakalenterin-luominen.md)
 - [Mitä ovat Vuorokalenterit?](12038486266909-Mitä-ovat-Vuorokalenterit.md)
 - [Uuden vuorokalenterijakson luominen](18117636311069-Uuden-vuorokalenterijakson-luominen.md)

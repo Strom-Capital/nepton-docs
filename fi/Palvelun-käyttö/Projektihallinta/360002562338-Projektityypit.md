@@ -12,8 +12,8 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2026-05-22T07:34:17Z'
-edited_at: '2022-04-25T05:12:13Z'
+updated_at: '2026-06-08T07:14:10Z'
+edited_at: '2026-06-08T07:14:10Z'
 ---
 
 # Projektityypit
@@ -25,23 +25,22 @@ Projekteilla olevia erilaisia projektityyppejä voidaan hyödyntää palvelusta 
 ## Uuden projektityypin lisääminen
 Projektityyppien hallinta löytyy **Työaika** -osiossa **Projektit - > Projektityyppien hallinta **-otsikon alta.  
   
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/360004641737/mceclip0.png)  
+![](https://support.nepton.com/hc/article_attachments/36670485828765)  
   
 Uuden projektityypin lisääminen tapahtuu valitsemalla **Toiminto** -valikosta **Lisää projektityyppi.**   
   
+![](https://support.nepton.com/hc/article_attachments/36670485830045)  
   
-![mceclip1.png](https://support.nepton.com/hc/article_attachments/360004705918/mceclip1.png)  
-  
-Seuraavassa vaiheessa uudelle projektityypille annetaan nimi, esim. Huoltotyöt.   
+Seuraavassa vaiheessa uudelle projektityypille annetaan nimi, esim. "Kustannuspaikka".   
   
   
-![mceclip2.png](https://support.nepton.com/hc/article_attachments/360004705938/mceclip2.png)  
+![](https://support.nepton.com/hc/article_attachments/36670474141981)  
   
 Uusi projektityyppi tallennetaan Tallenna-painikkeesta, jonka jälkeen se on lisättävissä projektille.   
 
 ## Projektityypin lisääminen projektiin
 Uuden projektin luomiseen löytyy tarkemmat ohjeet toisaalta käyttöohjeistamme [Projektin lisääminen.](<https://support.nepton.com/hc/fi/articles/360002560877>)  
   
-Uudelle projektille voidaan määrittää projektityyppi projektin lisäyksen yhteydessä. Alla olevassa esimerkissä on käytetty aiemmin tässä ohjeessa luotua projektityyppiä Huoltotyöt. Uusi lisättävä projekti on nimeltään Nuohous. Projektityypillä voidaan siis määrittää tarkemmin minkä luonteisesta työkohdenteesta on kyse.   
+Uudelle projektille voidaan määrittää projektityyppi projektin lisäyksen yhteydessä. Alla olevassa esimerkissä on käytetty aiemmin tässä ohjeessa luotua projektityyppiä "Kustannuspaikka". Uusi lisättävä projekti on nimeltään "Kustannuspaikka Perkkaa". Projektityypillä voidaan siis määrittää tarkemmin minkä luonteisesta työkohdenteesta on kyse.   
   
-![mceclip3.png](https://support.nepton.com/hc/article_attachments/360004705958/mceclip3.png)
+![](https://support.nepton.com/hc/article_attachments/36670485832605)

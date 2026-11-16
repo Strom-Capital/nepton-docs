@@ -24,15 +24,15 @@ labels:
 - tuuraaja
 - varahenkilö
 promoted: false
-updated_at: '2026-01-15T13:10:48Z'
-edited_at: '2026-01-15T11:20:34Z'
+updated_at: '2026-11-06T10:36:08Z'
+edited_at: '2026-10-26T10:25:34Z'
 ---
 
 # Sijaisuus ja sen määrittäminen
 
 Henkilölle voidaan määrittää sijainen, esimerkiksi jos esihenkilö jää lomalle. Määrittelyn voi tehdä kuka tahansa henkilö joko itselleen tai henkilöille, joiden tietoja hänellä on oikeus hallinnoida. Sijaiseksi määritelty ei saa sijaisuudesta automaattisesti ilmoitusta, eli häntä on erikseen asiasta informoitava.
 ## Mitä tietoja sijainen näkee
-Sijaisuus ei ketjutu, eli jos henkilön A sijainen on B, ja henkilön B sijainen on C, ei C näe henkilön A:n tietoja. Jokaisen henkilön tulee olla suoraan henkilön sijainen saadakseen kyseisen henkilön sijaisoikeudet.
+Sijaisuus ei ketjutu, eli jos henkilön A sijainen on B, ja henkilön B sijainen on C, ei henkilö C näe henkilön A:n tietoja. Jokaisen henkilön tulee olla suoraan henkilön sijainen saadakseen kyseisen henkilön sijaisoikeudet.
 Sijainen saa ilmoituksen sijaistettavan esihenkilön alaisten hyväksyttävistä tunneista ja tapahtumapyynnöistä samalla tavalla kuin ensisijainen esihenkilö. Kalenterinäkymän ilmoitusten lisäksi tapahtumapyynnöistä lähtee erillinen viesti sijaiselle ja ensisijaiselle esihenkilölle sähköpostiin.
 ![](https://support.nepton.com/hc/article_attachments/33243069418653)
 ### Työaika-osio

@@ -24,8 +24,8 @@ labels:
 - tuuraaja
 - varahenkilö
 promoted: false
-updated_at: '2026-01-15T13:10:48Z'
-edited_at: '2026-01-15T13:10:47Z'
+updated_at: '2026-11-06T10:36:08Z'
+edited_at: '2026-10-26T10:26:28Z'
 ---
 
 # Assigning deputy
@@ -47,7 +47,7 @@ The deputies can be added inn **Employees** section. Open the person information
 ![](https://support.nepton.com/hc/article_attachments/33246984221341)
 To choose the deputy, start typing the beginning of the wanted deputy's last name to **Deputy** -field. You will get a list of persons who match that name and you can choose the right person from the list. The deputy can be anyone who has an active working contract in Nepton.
 ![](https://support.nepton.com/hc/article_attachments/33246946866077)
-You can set start and end times either by typing the dates to Start time and End time fields or by choosing the dates from calendar icons. Both these fields must have a valid date in order to save the deputy. 
+You can set start and end times either by typing the dates to Start time and End time fields or by choosing the dates from calendar icons. Both of these fields must have a valid date in order to save the deputy. 
 After saving the settings, the creation date of deputy will be shown in **Created** -field.
 There can be several deputies to one person and valid times can be overlapping.
 You can edit settings by clicking the 'Pencil' icon or delete the deputy by clicking the 'X' icon.

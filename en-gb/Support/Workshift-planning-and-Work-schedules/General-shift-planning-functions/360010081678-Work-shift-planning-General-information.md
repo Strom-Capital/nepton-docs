@@ -13,7 +13,7 @@ section_path:
 labels:
 - työtuntimäärä
 promoted: false
-updated_at: '2025-09-19T15:26:29Z'
+updated_at: '2026-06-15T13:16:30Z'
 edited_at: '2023-03-10T13:13:08Z'
 ---
 

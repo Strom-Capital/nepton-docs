@@ -19,7 +19,7 @@ labels:
 - collective agreement
 - daily and weekly working hours
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
+updated_at: '2026-08-20T06:07:51Z'
 edited_at: '2025-11-28T09:02:52Z'
 ---
 

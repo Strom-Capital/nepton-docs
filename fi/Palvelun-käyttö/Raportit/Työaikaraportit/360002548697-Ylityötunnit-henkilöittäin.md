@@ -13,8 +13,8 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2026-03-04T11:37:39Z'
-edited_at: '2026-03-04T11:37:38Z'
+updated_at: '2026-07-28T05:43:47Z'
+edited_at: '2026-07-28T05:43:46Z'
 ---
 
 # Ylityötunnit henkilöittäin
@@ -24,7 +24,7 @@ Tehtyjä ylitöitä voidaan seurata ylityöraportilla. Raportti löytyy Työaika
 ### Raportin valinnat
 Raporttia ottaessa valitaan ajanjakso, jota halutaan tarkastella. Klikkaamalla päivämäärää aukeaa kalenteri, josta voidaan valita raportointijakson alku- ja loppupäivät.
 Lisäksi voidaan valita, luodaanko raportti kaikkine mahdollisine sarakkeineen, vaikka osa näistä olisi tyhjiä, vai näytetäänkö tuloksissa vain sellaiset sarakkeet, joihin on generoitunut tietoa.
-Lopuksi valitaan henkilöt, joiden tiedot halutaan mukaan raportille. "Luo raportti" -painikkeesta tulokset lauautuvat näytölle, ja ne voidaan myös tulostaa tai viedä Exceliin.
+Lopuksi valitaan henkilöt, joiden tiedot halutaan mukaan raportille. "Luo raportti" -painikkeesta tulokset latautuvat näytölle, ja ne voidaan myös tulostaa tai viedä Exceliin.
 ![](https://support.nepton.com/hc/article_attachments/27331159662109)
 Ylityötunnit henkilöittäin -raportilla näytetään raportointijakson aikana tehty ylityö jaoteltuna ylityötyypeittäin:
 \- Lisätyö  

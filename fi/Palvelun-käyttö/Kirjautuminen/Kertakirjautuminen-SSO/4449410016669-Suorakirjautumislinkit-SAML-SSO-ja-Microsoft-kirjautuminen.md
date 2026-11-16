@@ -12,7 +12,7 @@ section_path:
 - Kertakirjautuminen (SSO)
 labels: []
 promoted: false
-updated_at: '2025-12-16T10:40:59Z'
+updated_at: '2026-10-01T11:30:17Z'
 edited_at: '2022-04-08T14:57:05Z'
 ---
 

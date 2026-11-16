@@ -14,13 +14,13 @@ labels:
 - poimintasääntöjen muodostaminen
 - sääntöjoukkojen määrittely
 promoted: false
-updated_at: '2026-05-15T06:12:08Z'
-edited_at: '2026-05-15T06:10:13Z'
+updated_at: '2026-09-16T06:22:03Z'
+edited_at: '2026-09-16T06:20:11Z'
 ---
 
 # Sääntöjoukon poiminnan periaatteet
 
-Huomoithan, että poimintasääntöjen luominen ja muokkaaminen edellyttää perustason ymmärrystä SQL:stä.  
+Huomoithan, että poimintasääntöjen luominen ja muokkaaminen edellyttää perustason ymmärrystä SQL:stä.
 Sääntöjoukolla määritetään siirrettävään aineistoon poimittava sisältö. Tässä artikkelissa käydään läpi poiminnan perusperiaatteet ja sääntöjoukkoihin useimmiten tarvittavat lisäsäännöt. Muita poimintasääntöjen luomiseen liittyviä, oleellisia ohjeita löydät seuraavien linkkien takaa:
     * [Yleiskuvaus sääntöjoukoista](<https://support.nepton.com/hc/fi/articles/360002492278>)  
 Yleistä tietoa siitä, missä muodoissa ja millä tavoin palvelusta voidaan ladata aineistoa sääntöjoukkojen avulla, sekä mistä asetukset löytyvät palvelusta
@@ -116,8 +116,8 @@ Esimerkiksi useassa liittymässä siirretään tunti- tai kappalemääriä. Tulk
 Vastaavalla tavalla esimerkiksi kommenttikenttään voi liittää muutakin tietoa muodostamalla kyselyssä sarakkeen 'OverrideComment'. Siirtoaineiston sisältämä kenttä voidaan korvata käyttämällä tätä override-sarakenimeä. Tarkemmat tiedot sarakkeiden nimistä on esitetty liittymäkohtaisissa kuvauksissa [täällä](<https://support.nepton.com/hc/fi/articles/360002494538>).
 ## Käsiteltävän ajanjakson määrittely
 Sääntöjoukon poimintasäännöt poimivat sisältöä aina joltakin ajanjaksolta. Käsiteltävä ajanjakso määritellään joko [sääntöjoukon siirron automatisointi - artikkelissa](<https://support.nepton.com/hc/fi/articles/360002492458>) tai käyttöliittymässä sääntöjoukon tuloksia noudettaessa. Poimintasäännöt kohdistuvat käsiteltävään ajanjaksoon ja palauttavat tulokset siltä ajanjaksolta.
-Tapahtumia voidaan poimintasäännössä rajata :exportPeriodStart ja :exportPeriodEnd -muuttujilla. :exportPeriodStart korvataan kyselyä suoritettaessa käsiteltävän jakson alkupäivällä YYYY-MM-DD HH:MM:SS -muotoisena. Vastaavasti :exportPeriodEnd korvataan vietävän jakson loppupäivällä.
-Alla esimerkki, jossa poimintaa rajataan kyseisillä muuttujilla.
+Tapahtumia voidaan poimintasäännössä rajata :exportPeriodStart ja :exportPeriodEnd ja :exportPeriodStartDate ja :exportPeriodEndDate -muuttujilla. :exportPeriodStart korvataan kyselyä suoritettaessa käsiteltävän jakson alkupäivällä YYYY-MM-DD HH:MM:SS -muotoisena. Vastaavasti :exportPeriodEnd korvataan vietävän jakson loppupäivällä. :exportPeriodStartDate ja :exportPeriodEndDate sisällyttävät vain päivämäärän.
+Alla esimerkki, jossa poimintaa rajataan :exportPeriodStart ja :exportPeriodEnd -muuttujilla.
 [code]
     WHERE
       DATE(EventStartDateTime) BETWEEN :ExportPeriodStart AND :ExportPeriodEnd

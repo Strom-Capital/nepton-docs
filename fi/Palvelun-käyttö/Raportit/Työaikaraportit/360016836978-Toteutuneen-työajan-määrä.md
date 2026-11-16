@@ -15,8 +15,8 @@ labels:
 - säännöllinen
 - enimmäistyö
 promoted: false
-updated_at: '2025-05-13T07:50:10Z'
-edited_at: '2025-05-13T07:15:23Z'
+updated_at: '2026-10-23T10:18:59Z'
+edited_at: '2026-10-23T09:43:05Z'
 ---
 
 # Toteutuneen työajan määrä
@@ -36,9 +36,7 @@ V = Poissaolo
 TLV = Työajan lyhennysvapaa
 Huom! Säännöllisen työajan ulkopuolella olevaa matka-aikaa ei sisällytetä raportilla näytettyihin tunteihin.
 ![](https://support.nepton.com/hc/article_attachments/27328637438237)
-**Tehty työaika yhteensä** -sarake näyttää raportin ajanjaksolta kaiken korvattavan työajan.  
-Mikä tahansa korvattava tapahtumatyyppi, joka on palkallinen,
-mukaan lukien
+**Tehty työaika yhteensä** -sarake näyttää raportin ajanjaksolta kaiken korvattavan työajan. Mukaan tulee mikä tahansa korvattava tapahtumatyyppi, joka on palkallinen, mukaan lukien:
   * poissaolotunnit vähennetyllä palkalla,
   * lisätyö,
   * ylityö (mukaan lukien aika, joka korvataan saldoon tai muuhun kertymään),
@@ -50,6 +48,7 @@ Seuraavat eivät ole mukana:
   * palkattomat poissaolotunnit,
   * yleiset vapaapäivät (palkallinen vapaapäivä ma-pe eli arkipyhät) tai vuosilomat,
   * saldosta tai muusta kertymästä lainattu aika sekä vastaavat kertymäpoissaolot, esim. Saldovapaa.
+  * Ylöspäin pyöristyksestä syntyneet työtunnit.
 
 
 **Säännöllinen työaika ilman poissaoloja** -sarake näyttää raportin ajanjaksolta kaiken säännöllisen työajan ilman poissaoloja. Tässä on mukana palkallinen aika tavallisena työsopimuksen mukaisena päivittäisenä tai viikoittaisena työaikana. Tässä on mukana myös tunnista tuntiin -työaika, jos se maksetaan palkkaan. Tässä ei ole mukana mitään palkallista aikaa, joka on kirjattu poissaolotyyppien alaisilla tapahtumatyypeillä.
@@ -57,10 +56,11 @@ Esimerkiksi seuraavat _eivät ole mukana:_
   * palkallinen aika vähennetyllä palkalla,
   * aika, joka on automaattisesti lainattu jostakin kertymästä kuten saldosta sen perusteella, ettei henkilö kirjannut tarpeeksi tunteja päivälle,
   * yleiset vapaapäivät (palkallinen vapaapäivä ma-pe eli arkipyhät)
-  * vuosiloma.
+  * vuosiloma
+  * Ylöspäin pyöristyksestä syntyneet työtunnit.
 
 
-**Ylityöt yhteensä** -sarake näyttää raportin ajanjaksolta ylityöt yhteenlaskettuna. Mukana on vain ylityö ja lisätyö, jossa korotusosa maksetaan palkkaan. Tunti tunnista korvattavaa aikaa ei tässä tulkita ylityöksi.
+**Ylityöt yhteensä** -sarake näyttää raportin ajanjaksolta ylityöt yhteenlaskettuna. Mukana on vain ylityö ja lisätyö, jossa korotusosa maksetaan palkkaan. Tunti tunnista korvattavaa aikaa ei tässä tulkita ylityöksi. Ylöspäin pyöristyksestä syntyneet työtunnit eivät ole mukana.
 **Työajan veroinen loma yhteensä** -sarake näyttää raportin ajanjakson vuosiloman, joka lasketaan työajan veroiseksi. Raportille muodostuu lomapäivälle asetettu työpäivän pituus. Jos päivän työpäivän pituus on yli 8 tuntia, vain 8 tuntia lasketaan mukaan.
 **Työajan veroinen aika yhteensä** -sarakkeeseen lasketaan raportin ajanjakson Tehty työaika yhteensä ja Työajan veroinen loma yhteensä. Saraketta Työajan veroinen aika yhteensä voidaan hyödyntää siihen, että varmistetaan että työaikalain mukainen työn enimmäismäärä ei ylity.
 **Aloitus- ja lopetustyö** Ajanjaksolla tehty aloitus- ja lopetustyön määrä yhteensä.

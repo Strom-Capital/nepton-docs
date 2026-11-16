@@ -19,8 +19,8 @@ labels:
 - pääsiäissunnuntai
 - poikkeusase
 promoted: false
-updated_at: '2026-04-20T07:39:51Z'
-edited_at: '2026-04-20T07:36:39Z'
+updated_at: '2026-07-14T07:16:46Z'
+edited_at: '2026-07-14T07:16:46Z'
 ---
 
 # Poikkeusasetusten määrittely
@@ -447,13 +447,13 @@ Esimerkki, jossa poikkeus on voimassa itsenäisyyspäivän viikolla, kun itsenä
       day is on monday-friday */
       
 [/code]
-Esimerkki, jossa poikkeus on voimassa jos henkilön työsuhteen alkupäivästä on kulunut alle 3 kuukautta siitä päivästä jolloin sääntöä käsitellään. Vertailuarvossa strftime('%s', :SalaryRenderingDate, '**-3 months** '). Viimeinen **korostettu** osa voidaan korvata halutulla arvolla.
+Esimerkki, jossa poikkeus on voimassa jos henkilön työsuhteen alkupäivästä on kulunut alle 3 kuukautta siitä päivästä jolloin sääntöä käsitellään. Vertailuarvossa date(:SalaryRenderingDate, '**-3 months** '). Viimeinen **korostettu** osa voidaan korvata halutulla arvolla.
 [code]
     FROM 
       UserInfoData 
     WHERE 
       InfoTypeName = 'LastWorkingContractBeginDate' 
-      AND strftime('%s', Value) > strftime('%s', :SalaryRenderingDate, '-3 months')
+      AND Value > date(:SalaryRenderingDate, '-3 months')
 [/code]
 Esimerkki, jossa valitaan mikä tahansa henkilötiedoissa oleva kenttä. Tehdään sääntö, jossa poikkeus on voimassa jos kenttään syötetty päivämäärän arvo on pienempi kuin tarkasteltava päivä +3 kuukautta. Tälläista esimerkkiä voi käyttää tilanteessa, jossa henkilön tietokenttään perustetaan viimeisimmän työsuhteen alkupäivä. Tätä tietoa voidaan käyttää poikkeussäännössä, jos ei haluta työkorotuksen (esim arkipyhäkorvauksen) olevan voimassa silloin kun viimeisimmän työsuhteen alkupäivästä on alle 3kk. UserInfoTypeName tulee esimerkissä korvata sillä tietokentällä, johon tieto on syötetty. Jos kenttänä käytetään jotain muuta kuin päivämääräkenttää, tulee arvo syöttää amerikkalaisessa päivämäärämuodossa '2022-06-01'.
 [code]
@@ -463,7 +463,7 @@ Esimerkki, jossa valitaan mikä tahansa henkilötiedoissa oleva kenttä. Tehdä�
       UserInfoData.InfoTypeName = '236_ViimeisinTyosuhdeAlkoi' 
       AND  :salaryrenderingdate >= UserInfoData.ValidFrom
       AND :salaryrenderingdate <= UserInfoData.ValidTo 
-      AND strftime('%s', :SalaryRenderingDate) < strftime('%s', value, '+3 months')
+      AND Value > date(:SalaryRenderingDate, '-3 months')
     
 [/code]
 Esimerkki, jossa poikkeus on voimassa, kun henkilö on leimannut päivälle tapahtumatyypillä Vuosiloma ja viikonpäivä on lauantai. Weekday-funktio palauttaa arvon 0-6, jossa 0 on maanantai ja 6 on sunnuntai.

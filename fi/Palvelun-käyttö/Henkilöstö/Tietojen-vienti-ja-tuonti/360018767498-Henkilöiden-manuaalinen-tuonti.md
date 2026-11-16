@@ -13,19 +13,19 @@ section_path:
 labels:
 - sisäänluku
 promoted: false
-updated_at: '2026-05-28T06:00:19Z'
-edited_at: '2026-05-26T07:42:34Z'
+updated_at: '2026-11-04T13:46:56Z'
+edited_at: '2026-11-04T13:39:56Z'
 ---
 
 # Henkilöiden manuaalinen tuonti
 
-Tämä artikkeli käsittelee yksittäisen henkilötietoja sisältävän tiedoston tuontia Nepton-palveluun. Lisätietoja eri tavoista tuoda henkilötietoja sekä teknisiä yksityiskohtia löytyy [täältä](<https://support.nepton.com/hc/fi/articles/360003762577>).
+Tämä artikkeli käsittelee yksittäisen henkilötietoja sisältävän tiedoston tuontia Nepton-palveluun. Lisätietoja eri tavoista tuoda henkilötietoja sekä teknisiä yksityiskohtia löytyy [täältä](<https://support.nepton.com/hc/fi/articles/360003762577>).  
 Teknisistä rajoituksista johtuen henkilön viennin ja tuonnin tukemien tietokenttien välillä on eroja. Tarkista aina ohjeista huolellisesti uusimmat tiedot.
 ### Pääsy toimintoon
 Henkilötietoja voidaan manuaalisesti tuoda Neptoniin työsuhdeosion kautta. Henkilötuonti on käytössä vain Ylläpitäjä-roolissa oleville. Jos sinulla henkilötietoja sisältävä tiedosto tuetussa muodossa, voit tuoda henkilötiedot kohdassa **Työsuhde** > **Henkilöt** > **Tuo henkilöitä**.
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/360018590517)
+![](https://support.nepton.com/hc/article_attachments/40414350498333)
 Ensimmäisellä näytöllä valitaan tuotava tiedosto:
-![mceclip5.png](https://support.nepton.com/hc/article_attachments/360018590637)
+![](https://support.nepton.com/hc/article_attachments/40414338946717)
 Voit pudottaa tiedoston laitteesi resurssienhallinnan avulla (näkymä riippuu laitteesi käyttöjärjestelmästä):
 ![mceclip0.png](https://support.nepton.com/hc/article_attachments/360018590837)
 Voit vaihtoehtoisesti napsauttaa Valitse tiedosto -painiketta ja avata tiedoston laitteeltasi (näkymä riippuu laitteesi käyttöjärjestelmästä):

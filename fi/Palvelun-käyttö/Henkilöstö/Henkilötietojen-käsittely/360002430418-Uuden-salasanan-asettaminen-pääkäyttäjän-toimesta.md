@@ -18,15 +18,13 @@ labels:
 - salasana
 - setting new password
 promoted: false
-updated_at: '2026-01-15T06:34:15Z'
-edited_at: '2026-01-15T06:13:17Z'
+updated_at: '2026-11-06T10:36:08Z'
+edited_at: '2026-10-27T08:13:46Z'
 ---
 
 # Uuden salasanan asettaminen pääkäyttäjän toimesta
 
 Pääkäyttäjä voi asettaa henkilölle uuden salasanan:
-Avaa **Työsuhde** -osiossa haun jälkeen halutun henkilön profiili auki suurennuslasin kuvasta.
-Valitse **Lisätoiminteet** -välilehti ja sieltä toiminto**Vaihda salasana**.
-Kirjoita uusi salasana **Uusi salasana** -kenttään. Huomaa, että HTML-koodi (esim. **<** tekstin edellä) ei ole sallittua salasanakentässä. 
+Avaa **Työsuhde** -osiossa haun jälkeen halutun henkilön profiili auki suurennuslasin kuvasta. Valitse **Lisätoiminteet** -välilehti ja sieltä toiminto**Vaihda salasana**. Kirjoita uusi salasana **Uusi salasana** -kenttään. Huomaa, että HTML-koodi (esim. **<** tekstin edellä) ei ole sallittua salasanakentässä. 
 Paina **Vaihda salasanaa**.
-![](https://support.nepton.com/hc/article_attachments/33234655088925)
+![](https://support.nepton.com/hc/article_attachments/40203570319645)

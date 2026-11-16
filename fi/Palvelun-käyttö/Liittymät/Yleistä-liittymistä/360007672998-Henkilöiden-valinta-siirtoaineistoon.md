@@ -14,7 +14,7 @@ labels:
 - liittymä
 - liittymät
 promoted: false
-updated_at: '2024-08-23T10:49:29Z'
+updated_at: '2026-08-14T10:05:38Z'
 edited_at: '2024-08-23T10:49:29Z'
 ---
 

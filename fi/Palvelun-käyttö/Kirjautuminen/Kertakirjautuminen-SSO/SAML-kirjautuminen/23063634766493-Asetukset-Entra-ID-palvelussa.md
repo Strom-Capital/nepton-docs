@@ -13,8 +13,8 @@ section_path:
 - SAML-kirjautuminen
 labels: []
 promoted: false
-updated_at: '2025-04-22T06:56:01Z'
-edited_at: '2025-04-22T06:55:34Z'
+updated_at: '2026-11-03T13:46:04Z'
+edited_at: '2026-11-03T13:46:03Z'
 ---
 
 # Asetukset Entra ID palvelussa
@@ -24,7 +24,7 @@ Alla on yksityiskohtaiset tekniset ohjeet asiakkaan Entra ID palvelun määritt�
 Katsothan myös [Configuring SSO](<https://support.nepton.com/hc/fi/articles/360002590097>) -osiossa olevat muut artikkelit.
 ## Entra ID asetukset
 1) Nepton SP (Service Provider) metatiedot löytyvät alla olevasta linkistä. Lataa tämä XML tiedosto ja tallenna se tietokoneellesi.
-<https://go.nepton.com/externallogin/metadata/EntityDescriptor_SP_go.nepton.com_V7_27_Apr_2025_26_Apr_2026.xml>
+[https://go.nepton.com/externallogin/metadata/EntityDescriptor_SP_go.nepton.com_V8_21_Apr_2026_To_20_Apr_2028.xml](<https://go.nepton.com/externallogin/metadata/EntityDescriptor_SP_go.nepton.com_V8_21_Apr_2026_To_20_Apr_2028.xml> "https://go.nepton.com/externallogin/metadata/entitydescriptor_sp_go.nepton.com_v8_21_apr_2026_to_20_apr_2028.xml")
 2) Kirjaudu Microsoft Entra admin centeriin ylläpitotunnuksillasi.
 3) Navigoi Identity, Applications, Enterprise Applications, New application, Create your own application
 4) Lisää uusi sovellus "SSO Nepton SAML 2". Valitse "Integrate any other application you don't find in the gallery (Non-gallery)". Paina Create.

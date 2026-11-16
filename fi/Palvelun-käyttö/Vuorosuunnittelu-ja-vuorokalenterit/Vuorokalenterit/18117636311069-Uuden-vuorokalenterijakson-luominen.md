@@ -14,7 +14,7 @@ labels:
 - vuorokalenteri
 - vuorokalenterijakso
 promoted: false
-updated_at: '2026-02-26T08:49:16Z'
+updated_at: '2026-07-09T08:09:24Z'
 edited_at: '2024-11-11T08:57:36Z'
 ---
 

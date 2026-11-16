@@ -15,8 +15,8 @@ labels:
 - vuorokalenteri
 - sheema
 promoted: false
-updated_at: '2026-04-01T05:41:27Z'
-edited_at: '2026-02-26T08:51:42Z'
+updated_at: '2026-10-09T08:02:19Z'
+edited_at: '2026-10-09T08:02:19Z'
 ---
 
 # Vuorokalenterin luominen ja julkaisu
@@ -42,8 +42,8 @@ Määritä jaksolle nimi, kuvaus (ei pakollinen) sekä alku- ja loppupäivä. Ku
 ### Vuorotyypit
 Lisää vuorokalenterijaksoa koskevat vuorotyypit **Lisää** -painikkeesta.
 ![Screenshot](https://support.nepton.com/hc/article_attachments/21078996828573)
-Lisää vuorotyypille vähintään lyhenne (maksimissaan 16 merkkiä), lyhennettä kuvaava nimi, tapahtumatyyppi, aloitusaika ja lopetusaika sekä oletetun ruokatauon vähennys. Tarkemmat ohjeet oletetun ruokatauon vähennyksen toiminnasta löydät [täältä](<https://support.nepton.com/hc/fi/articles/34102283785885/live_preview/01KJCJ80207HH9ZWBDZGRDZ9H2>). Tapahtumatyyppivalikossa olevat tapahtumatyypit ovat palvelussa käyttöönotettuja tapahtumatyyppejä. Ohjeet tapahtumatyyppien lisäämisestä, käyttöönotosta ja muokkaamisesta löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002519157-Tapahtumatyyppien-lis%C3%A4%C3%A4minen-k%C3%A4ytt%C3%B6%C3%B6notto-ja-muokkaaminen>).
-![Screenshot 2026-02-20 110536.png](https://support.nepton.com/hc/article_attachments/34239643383069)
+Lisää vuorotyypille vähintään lyhenne (maksimissaan 16 merkkiä), lyhennettä kuvaava nimi, tapahtumatyyppi, aloitusaika ja lopetusaika sekä oletetun ruokatauon vähennys sekä tarvittaessa sallittu työajan aloitusajan/lopetusajan poikkeama. Tarkemmat ohjeet oletetun ruokatauon vähennyksen toiminnasta löydät [täältä](<https://support.nepton.com/hc/fi/articles/34102283785885-Vuorotyypin-oletetun-ruokatauon-v%C3%A4hennys>) ja ohjeistuksen aloitusajan ja lopetusajan poikkeamien käyttöön [täältä](<https://support.nepton.com/hc/fi/articles/360002558597-Sallitut-ty%C3%B6ajat#h_01M4FK9QYEQ3DAMD0BYYH5RT1R>). Tapahtumatyyppivalikossa olevat tapahtumatyypit ovat palvelussa käyttöönotettuja tapahtumatyyppejä. Ohjeet tapahtumatyyppien lisäämisestä, käyttöönotosta ja muokkaamisesta löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002519157-Tapahtumatyyppien-lis%C3%A4%C3%A4minen-k%C3%A4ytt%C3%B6%C3%B6notto-ja-muokkaaminen>).
+![](https://support.nepton.com/hc/article_attachments/39778790376861)
 ### Vuorokierrot
 Lisää vuorokalenteria koskeva vuorokierto **Lisää** -painikkeesta.
 ![Screenshot](https://support.nepton.com/hc/article_attachments/21078996832797)

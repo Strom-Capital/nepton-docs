@@ -14,7 +14,7 @@ labels:
 - palomuuriportit
 - verkkomääritykset
 promoted: false
-updated_at: '2026-05-15T06:53:39Z'
+updated_at: '2026-10-16T09:58:43Z'
 edited_at: '2026-05-15T06:53:39Z'
 ---
 

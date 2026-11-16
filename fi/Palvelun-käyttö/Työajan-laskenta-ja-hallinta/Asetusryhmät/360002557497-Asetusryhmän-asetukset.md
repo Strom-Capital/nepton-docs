@@ -16,8 +16,8 @@ labels:
 - setting group
 - settings
 promoted: false
-updated_at: '2024-11-13T11:48:05Z'
-edited_at: '2024-11-13T11:48:05Z'
+updated_at: '2026-08-11T06:05:20Z'
+edited_at: '2026-08-11T06:05:20Z'
 ---
 
 # Asetusryhmän asetukset
@@ -29,17 +29,17 @@ Neptonin toimintaperiaatteen mukaan asetuksia voidaan määrittää periytyvän 
 **Ylin taso:** Työyhteisön asetukset. Tälle tasolle tehdään yleisesti vain sellaisia asetuksia, jotka ovat käytössä koko organisaation laajuudella. 
 **Toiseksi ylin taso** : yliasetusryhmät (asetusryhmät, joiden yläpuolella ei ole yhtään asetusryhmää, josta asetuksia voisi periytyä, ainoastaan Työyhteisötaso)
 **Kolmas taso:** aliasetusryhmät (asetusryhmät, jotka ovat joko suoraan yliasetusryhmän tai muiden aliasetusryhmien alla.) Aliasetusryhmiä voi olla samassa ketjussa useampia peräkkäin. 
-**Viimeinen taso:** henkilön asetukset. Tälle tasolle tehdyt määritykset ovat kaikista vahvimpia. Jos henkilötasolle on tehty poikkeava määritys asetusryhmä- tai työyhteisötason määrityksiin nähden, on henkilötasolle tehty asetus voimassa. Henkilötasolle tehtyjen määritysten hallinnointi on hankalaa, joten suosittelemme välttämään tälle tasolle tehtyjä määrityksiä. Lisää tietoa henkilöasetuksista löydät [täältä](<https://support.nepton.com/hc/fi/articles/22964866012701-Henkil%C3%B6n-asetukset>). 
+**Viimeinen taso:** henkilön asetukset. Tälle tasolle tehdyt määritykset ovat kaikista vahvimpia. Jos henkilötasolle on tehty poikkeava määritys asetusryhmä- tai työyhteisötason määrityksiin nähden, on henkilötasolle tehty asetus voimassa. Henkilötasolle tehtyjen määritysten hallinnointi on hankalaa, joten suosittelemme välttämään tälle tasolle tehtyjä määrityksiä. Lisää tietoa henkilöasetuksista löydät [täältä](<https://support.nepton.com/hc/fi/articles/22964866012701-Henkil%C3%B6n-asetukset>).
 ## Asetusryhmän asetukset - eri valikot ja vaihtoehdot
 Alla olevasta kuvakaappauksesta näet eri vaihtoehdot, jotka on mahdollista tarkastella ja muuttaa asetusryhmän asetukset-valikossa. Osa valikoista liittyy kattavampiin palvelutasoihin (Nepton Työajanseuranta Pro tai Complete). 
-![](https://support.nepton.com/hc/article_attachments/20211193760925)
+![](https://support.nepton.com/hc/article_attachments/38279199543837)
 ### Aika, kieli ja alue
 Tämän otsikon alta pääset määrittämään palvelun käyttökielen sekä aikavyöhykkeen. Tutustu aiheeseen tarkemmin erillisessä artikkelissa [täällä](<https://support.nepton.com/hc/fi/articles/360003994357-Aika-kieli-ja-alue>). 
-### Työaikapääte & nykytilanne 
-Työaikapääte & Nykytilanne -otsikon alta löydät erilaisia työaikapäätteeseen ja nykytila-näkymään liittyviä määrityksiä. Tarkemman kuvauksen niistä löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002560518>).
+### Nykytila
+Nykytila -otsikon alta löydät erilaisia työaikapäätteeseen ja nykytila-näkymään liittyviä määrityksiä. Tarkemman kuvauksen niistä löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002560518>).
 ### Työtunnit
 **Työtunnit** -kohdasta määritellään työajan tulkinnan asetukset.
-![](https://support.nepton.com/hc/article_attachments/20211193762845)
+![](https://support.nepton.com/hc/article_attachments/38279154827421)
 **Näytön asetukset** -asetuksista voidaan määrittää millä päivällä tehdyt työtapahtumat näytetään, jos tapahtuma kestää vuorokauden yli. Täällä voidaan määritellän myös oletustyöntekoajat, joita palvelu ehdottaa, kun tehdään uutta työtapahtumaa kuukausinäkymästä. Lisätietoja Näytön asetuksista [täältä](<https://support.nepton.com/hc/fi/articles/360008777997>).
 **Tapahtumatyypit** -kohdasta voidaan valita, mitkä tapahtumatyypit ovat näkyvissä tapahtumaa kirjatessa kalenterin tapahtumanäkymässä, työaikapäätteellä sekä mobiilikirjausta tehdessä. Täällä voidaan myös luoda uusia kustomoituja tapahtumatyyppejä (Huom! Uusien tapahtumatyyppien luominen mahdollista vain Työyhteisötasolla) sekä määritellä eri käyttäytymistapoja eri tapahtumatyypeille.  
   
@@ -62,30 +62,34 @@ Kommentti pakollinen -asetuksella voidaan määrittää, että tapahtumatyyppiä
   * **Oletuskertymästä lainatut tunnit lasketaan viikkovelvoitteiseen työaikaan**. Asetus ohjaa laskentaa siinä, huomioidaanko oletuskertymästä (eli esimerkiksi saldosta) lainatut tunnit täydentämään henkilön viikkotyöaikaa vai ei. Liukuvassa työajassa asetuksen tulee olla päällä, jotta osa-aikaisten saldolaskenta muodostaa oikean lopputuloksen.
 
 
-**Tasoittumisjakso** -otsikon alta voidaan määrittää tasoittumisjakson määritykset, onko tasoittusmisjakso käytössä ja miten sen aikana tehdyt ylityöt ja kertymät käsitellään. Lisätietoja tasoittumisjakson laskennan käyttöönottamiseksi on artikkelissa [Tasoittumisjakson käyttöönotto ja määritykset](<https://support.nepton.com/hc/fi/articles/360002559537>)
-**Kertymät ja ylityötunnit** -kohdasta määritellään laskentasäännöt esimerkiksi saldo-, pankki-, ja ylityötuntien laskentaan. **Kertymä käytössä** -kohdassa voidaan valita, otetaanko jokin seuraavista kertymistä käyttöön:
+**Ylityö**
+  * **Ylityön perusosa oletuksena uutta web-kirjausta tehtäessä ja Ylityön korotusosa oletuksena uutta web-kirjausta tehtäessä -** asetuksilla voidaan määritellä web-kirjauksen oletusasetus ylityön osien korvaamisesta ja niiden ohjaamisesta joko saldoon, pankkiin tai palkkaan.
+  * **Ylityön perusosa oletuksena uutta työaikapäätekirjausta tehtäessä ja Ylityön korotusosa oletuksena uutta työaikapäätekirjausta tehtäessä -** asetuksilla voidaan määritellä työaikapäätteellä tehdyn kirjauksen oletusasetus ylityön osien korvaamisesta ja niiden ohjaamisesta joko saldoon tai palkkaan.
+  * **Voi määrittää ylityökohdenteen päätelaitteilla**
+  * **Salli tunti tunnista ylityön ansaita sairauspoissaolosta** -kohdassa voidaan määritellä, että sairausloma-tapahtumatyypistä voidaan ansaita tunti tunnista ylityön kertymää. Oletuksena sairausloma-tapahtumatyypistä ei ansaita ylitöitä.
+  * **Ylitöiden pyöristystapa** kohdasta voidaan halutessa asettaa ylitöille pyöristykset. Valittavia pyöristystapoja ovat Alas, Normaali ja Ylös.
+  * **Ylitöiden pyöristysväli** \- kohdasta voidaan valita, mihin lähimpään minuuttiarvoon ylityöt pyöristetään riippuen siitä, mikä on valittu ylitöiden pyöristystavaksi.
+  * **Ylitöiden pyöristyskynnys -** Ylös pyöristystavalla pyöristetään vain kun jakojäännös ylittää kynnysarvon. Normaalilla pyöristystavalla pyöristetään alaspäin, kun jakojäännös alittaa kynnysarvon, muussa tapauksessa pyöristetään ylöspäin. 
+  * **Siirrä alas pyöristystavan jakojäännös kertymään** -kohdassa voidaan valita, siirretäänkö jakojäännös johonkin kertymään. Jakojäännös siirretään vain, jos ylityötunnit pyöristetään alaspäin.
+  * **Näkyvissä olevat ylityöasetukset tapahtuman luonnissa** Asetuksilla määritetään, mitä työvuoron ylittävän työn korvausvaihtoehtoja voidaan määrittää työtapahtumakohtaisesti. Eri vaihtoehdot ovat valittavissa tapahtuman luonnissa ja muokkauksessa (Ylityö-otsikon alla).
+
+
+**Kertymät** -kohdasta määritellään laskentasäännöt esimerkiksi saldo-, pankki-, ja ylityötuntien laskentaan. **Kertymä käytössä** -kohdassa voidaan valita, otetaanko jokin seuraavista kertymistä käyttöön:
   * **Saldo**
   * **Pankki**
   * **Vuosivapaa**
   * **Jousto**
+  * **Joustotyötunnit**
+  * **Lomarahavapaa**
+  * **Tasoittumisjaksotunnit**
   * **Ylityö**
-  * **Työajan lyhennysvapaa**
+  * **Säästövapaa**
+  * **Viikkolepo**
+  * **Työajanlyhennysvapaa**
   * **Myös kustomoituna lisätyt kertymät näkyvät tässä listauksessa.** Tutustu uusien kertymien käyttöönottoon [täällä](<https://support.nepton.com/hc/fi/articles/360005073918-Kertymien-k%C3%A4ytt%C3%B6%C3%B6notto>). 
 
 
-**Ylitöiden ja saldon tuntien syöttöväli käyttöliittymässä** -kohdassa voidaan määritellä haluttu syöttöväli. Esimerkiksi, että ylitöitä ja saldoa voi syöttää vain 15 minuutin välein.  
-**Salli tunti tunnista ylityön ansainta sairauslomasta** -kohdassa voidaan määritellä, että sairausloma-tapahtumatyypistä voidaan ansaita tunti tunnista ylityön kertymää. Oletuksena sairausloma-tapahtumatyypistä ei ansaita ylitöitä.
 **Laskennan asetukset** -kohdassa voidaan määritellä laskentasäännöstöt kullekin kertymälle.
-**Ylityö**
-  * **Ylityön perusosa oletuksena uutta web-kirjausta tehtäessä ja Ylityön korotusosa oletuksena uutta web-kirjausta tehtäessä -** asetuksilla voidaan määritellä web-kirjauksen oletusasetus ylityön osien korvaamisesta ja niiden ohjaamisesta joko saldoon, pankkiin tai palkkaan.
-  * **Ylityön perusosa oletuksena uutta työaikapäätekirjausta tehtäessä ja Ylityön korotusosa oletuksena uutta työaikapäätekirjausta tehtäessä -** asetuksilla voidaan määritellä työaikapäätteellä tehdyn kirjauksen oletusasetus ylityön osien korvaamisesta ja niiden ohjaamisesta joko saldoon tai palkkaan.
-  * **Ylitöiden pyöristystapa** kohdasta voidaan halutessa asettaa ylitöille pyöristykset. Valittavia pyöristystapoja ovat Alas, Normaali ja Ylös.
-  * **Ylitöiden pyöristys** \- kohdasta voidaan valita, mihin lähimpään minuuttiarvoon ylityöt pyöristetään riippuen siitä, mikä on valittu ylitöiden pyöristystavaksi.
-  * **Pyöristä ainoastaan, jos jakojäännös yli** antaa raja-arvon ylitöiden pyöristämiselle.
-  * **Siirrä jakojäännös saldoon** -kohdassa voidaan valita, siirretäänkö jakojäännös saldoon. Jakojäännös siirretään vain, jos ylityötunnit pyöristetään alaspäin.
-  * **Näkyvissä olevat ylityöasetukset tapahtuman luonnissa** Asetuksilla määritetään, mitä työvuoron ylittävän työn korvausvaihtoehtoja voidaan määrittää työtapahtumakohtaisesti. Eri vaihtoehdot ovat valittavissa tapahtuman luonnissa ja muokkauksessa (Ylityö-otsikon alla).
-
-
 **Saldo**
   * **Älä lainaa saldosta, jos työvelvoite on käsinasetettu** määrittää, että saldokertymästä ei lainata, jos työpäivän pituus on määritelty poikkeusasetuksella. Jos asetetaan Kyllä, ei saldosta lainatan mitään, mikäli päivällä on työpäivän pituuden poikkeusasetus.
   * **Poikkeavan saldokertymän voi asettaa** määrittää missä näkymässä poikkeavan saldokertymän voi asettaa. Esimerkiksi kuukausinäkymässä tai Nykytila-sivulla.
@@ -95,6 +99,7 @@ Kommentti pakollinen -asetuksella voidaan määrittää, että tapahtumatyyppiä
   * **Saldojen pyöristystapa** -kohdasta voidaan halutessa asettaa saldoille pyöristykset. Valittavia pyöristystapoja ovat Alas, Normaali ja Ylös.
   * **Saldojen pyöristys** -kohdasta voidaan valita, mihin lähimpään minuuttiarvoon saldo pyöristetään riippuen siitä, mikä on valittu saldojen pyöristystavaksi.
   * **Pyöristä ainoastaan, jos jakojäännös yli** antaa raja-arvon saldojen pyöristämiselle.
+
 
 **Työajan lyhennysvapaan** asetusten määrittely löytyy [täältä](<https://support.nepton.com/hc/fi/articles/360002559837>).
 **Työlisät** -otsikon alta voidaan määrittää erilaisia lisiä, joita ei ansaita työpäivän pituuden perusteella. Nämä voivat olla vaikkapa olosuhdelisiä tai muita palkan päälle maksettavia korvauksia, jotka voivat vaihtua työtehtävän mukaan. Lisiin voidaan asettaa seuranta muun muassa kappaleina tai tunteina. Lue lisää työlisistä [täältä](<https://support.nepton.com/hc/fi/articles/360002559637-Ty%C3%B6lis%C3%A4t>). 
@@ -111,4 +116,4 @@ Tämä osio on näkyvissä, jos yhteisönne käyttää Neptonin Vuorosuunnittelu
 **Projektit** -otsikon alta voidaan määrittää projekteihin liittyviä asetuksia. Määriteltävissä olevat määritykset on kuvattu [tässä artikkelissa](<https://support.nepton.com/hc/fi/articles/360002562658>). Huomioithan, että projektikohdennus on mahdollista ainoastaan Neptonin Pro- ja Complete-palvelutasolla. Lisää projekteista omana artikkelikokonaisuutenaan [täällä](<https://support.nepton.com/hc/fi/sections/360000707398-Projektihallinta>).
 ### Liittymät
 **Liittymät** -otsikon alta määritellään asetukset liittymissä siirrettävälle datalle, esimerkiksi palkkalajikoodit eri työlajeille. Huomioithan, että liittymän asetukset tehdään **Työyhteisötasolla**. Alla oleva listaus kattaa palvelusta vakiomuotoisena löytyvät liittymät. Myös erilaisia mukautettuja vientejä muihin järjestelmiin on mahdollista tehdä. Liittymistä kertova artikkelikokonaisuus löytyy [täältä](<https://support.nepton.com/hc/fi/sections/360000914337-Liittym%C3%A4t>). 
-![](https://support.nepton.com/hc/article_attachments/20211497094173)
+![](https://support.nepton.com/hc/article_attachments/38279199545117)

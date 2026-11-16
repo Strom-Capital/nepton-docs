@@ -12,8 +12,8 @@ section_path:
 - Vuorosuunnittelun määrittely
 labels: []
 promoted: false
-updated_at: '2025-07-31T04:23:57Z'
-edited_at: '2025-07-31T04:23:57Z'
+updated_at: '2026-06-12T11:55:48Z'
+edited_at: '2026-06-12T11:53:55Z'
 ---
 
 # Toimipisteiden hallinta
@@ -21,7 +21,7 @@ edited_at: '2025-07-31T04:23:57Z'
 Kaikki palvelussa suunniteltavat vuorot suunnitellaan toimipisteille. Toimipisteitä voidaan hallita 'Toimipisteet' - otsikon alta.
 Toimipisteet perustetaan niille palveluun perustetuille [yksiköille](<https://support.nepton.com/hc/fi/articles/360002590317>), joille suunnittelua tehdään. Toimipisteet luodaan ja hallitaan jokaisella yksiköllä erikseen. Henkilöitä voidaan [liittää](<https://support.nepton.com/hc/fi/articles/360015675918>) omien yksiköidensä toimipisteisiin, jolloin heille voidaan suunnitella vuoroja näille toimipisteille. Suunnittelijoilla on näkyvyys oman yksikkönsä suunnitteluun.
 Jos Työajan projektiseuranta on käytössä, varmista että [yksiköillä](<https://support.nepton.com/hc/fi/articles/360002590317>) ei ole käytössä koodia joka on käytössä [projektilla](<https://support.nepton.com/hc/fi/articles/360002561017>).
-Toimipistettä muodostaessa pakollisena tietona on toimipisteen nimi sekä laskentayksiköt. Laskentayksiköt on toimipisteen tunniste ja se syötetään merkkijonona.
+Toimipistettä muodostaessa pakollisena tietona on toimipisteen nimi sekä laskentayksiköt. Laskentayksiköt on toimipisteen yksilöllinen tunniste ja se syötetään merkkijonona.
 Toimipisteet ovat hierarkkinen rakenne. Toimipisteelle voi valinnaisena antaa kategorian, jolloin perustettava toimipiste muodostuu kategoriana annetun toimipisteen alle.
 Voimassa alkaen ja voimassa päättyen -kentät estävät vuorojen suunnittelun toimipisteelle näiden päivämäärien ulkopuolella. Suunnittelua ei voi tehdä toimipisteelle niille päivämäärille, jotka ovat ennen voimassa alkaen - päivämäärää tai voimassa asti - päivämäärän jälkeen. Mikäli kenttä on tyhjä, rajausta ei tehdä.
 ![Screenshot 2025-07-10 132053.png](https://support.nepton.com/hc/article_attachments/28750785561757)

@@ -12,8 +12,8 @@ section_path:
 labels:
 - projektitoiminnallisuus
 promoted: false
-updated_at: '2026-05-22T07:34:17Z'
-edited_at: '2022-11-17T07:47:08Z'
+updated_at: '2026-06-08T05:55:37Z'
+edited_at: '2026-06-08T05:55:37Z'
 ---
 
 # Projektikohdistuksen käyttöönotto
@@ -43,7 +43,7 @@ Kun projektikohdistus halutaan ottaa käyttöön, tulee tehdä seuraavat määri
 Huomaathan, että vaikka tämän voi tehdä palvelun käyttöliitymässä, tulee käytössä olla Työajanseuranta Pro tai Työajanseuranta Complete -palvelutaso.
 ### 1\. Palvelun ottaminen käyttöön
 Projektien kohdistuksen käyttöönotto aloitetaan laittamalla toiminnallisuus päälle valikossa **Työaika - > Hallinta -> Työyhteisön asetukset -> Projektit -> Palvelu käytössä. **
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/4409397544849/mceclip0.png)
+![](https://support.nepton.com/hc/article_attachments/36668706962333)
 Kun palvelu otetaan käyttöön, Projektit-valikko tulee näkyviin Työaika-osioon.
 ### 2\. Projektien kohdistamisen asetukset
 Samassa Työyhteisö-tason valikossa tehdään myös muut projektien asetukset. Kaikkiin kenttiin ei ole välttämätöntä määrittää asetuksia. Määritykset voi tehdä myös asetusryhmien tasolle, mutta on huomioitava, että asetusryhmissä määrityksiä on mahdollista tehdä rajatummin.

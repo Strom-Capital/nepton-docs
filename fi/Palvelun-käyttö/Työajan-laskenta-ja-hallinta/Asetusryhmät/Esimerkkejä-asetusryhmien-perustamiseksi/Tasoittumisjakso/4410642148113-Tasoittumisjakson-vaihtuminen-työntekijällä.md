@@ -14,13 +14,13 @@ section_path:
 - Tasoittumisjakso
 labels: []
 promoted: false
-updated_at: '2023-11-16T07:03:15Z'
-edited_at: '2021-11-11T09:26:38Z'
+updated_at: '2026-10-21T07:54:58Z'
+edited_at: '2026-10-21T07:54:58Z'
 ---
 
 # Tasoittumisjakson vaihtuminen työntekijällä
 
-Tässä ohjeesa käydään läpi tarvittavat toimenpiteet, mikäli työntekijän työaikamuoto vaihtuu tasoittumisjaksosta toiseen (esim. 3 viikon jaksosta 5 viikon jaksoon).
+Tässä ohjeessa käydään läpi tarvittavat toimenpiteet, mikäli työntekijän työaikamuoto vaihtuu tasoittumisjaksosta toiseen (esim. 3 viikon jaksosta 5 viikon jaksoon).
 Jos työntekijän työsopimus muuttuu kesken tasoittumisjakson, ja uuden sopimuksen mukaiset tasoittumisjakson asetukset halutaan voimaan kesken käynnissä olevan tasoittumisjakson, se onnistuu yhdellä seuraavista tavoista:
   1. Henkilö siirretään uuteen asetusryhmään tasoittumisjakson alusta lähtien. Jos uuden asetusryhmän muita asetuksia ei haluta käyttöön tasoittumisjakson alusta ja uudesta tasoittumisjaksosta tarvitaan vain tasoittumisjakson korvauksien asetukset, henkilön voi siirtää uuteen asetusryhmään kesken tasoittumisjakson. Henkilön asetusryhmän muutoksesta on kerrottu ohjeessa t[äällä. ](<https://support.nepton.com/hc/fi/articles/360002557357>)
   2. Uuden asetusryhmän perustaminen, joka toimii siirtymäryhmänä tasoittumisjakson alusta siihen hetkeen, kun henkilön uusi sopimus astuu voimaan ja henkilö siirtyy tämän sopimuksen mukaiseen asetusryhmään. Uuden tasoittumisjaksoa noudattavan asetusryhmän lisäämiestä on kerrottu ohjeessa [täällä](<https://support.nepton.com/hc/fi/articles/360002559537>). 

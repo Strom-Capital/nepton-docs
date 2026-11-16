@@ -12,8 +12,8 @@ section_path:
 - Laskenta-asetukset
 labels: []
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2021-10-25T07:39:48Z'
+updated_at: '2026-08-27T08:02:38Z'
+edited_at: '2026-08-27T08:02:38Z'
 ---
 
 # Ylityön tulkinta yli vuorokauden kestävissä työtapahtumissa
@@ -32,6 +32,8 @@ Sallittujen työaikojen ulkopuolella tehtyä työtä ei lasketa työajaksi. Sall
 ## Tapahtumatyypin käyttäytyminen
 Tapahtumatyypin käyttäytymisellä voidaan määrittää, miten kyseisen tapahtuman käytetty aika tulkitaan, esimerkiksi työnä, 100%:na ylityönä tai hälytystyönä. Tarvittaessa käyttöönne voidaan perustaa oma tapahtumatyyppi, jossa tulkinta on halutunlainen (esim. suoraan 100% ylityötä). Uuden tapahtumatyypin perustamisesta palveluun on kerrottu tarkemmin artikkelissa [täällä](<https://support.nepton.com/hc/fi/articles/360002519157>). 
 ## Vähintään minuutin tauko kahden tapahtuman välillä
-Jos työtapahtumien kirjauksen välissä on yksikin minuutti, käsittelee palvelu niiden olevan eri työvuoroja. Mikäli työtapahtumat on kirjattu putkeen, joka yhtenäisenä tapahtuman tai kahtena tapahtuman ilman välissä olevaa taukoa, käsittelee palvelu nämä yhtenäisenä katkeamattomana tapahtumana. 
+Jos työtapahtumien kirjauksen välissä on yksikin minuutti, käsittelee palvelu niiden olevan eri työvuoroja. Mikäli työtapahtumat on kirjattu putkeen, joka yhtenäisenä tapahtuman tai kahtena tapahtumana ilman välissä olevaa taukoa, käsittelee palvelu nämä yhtenäisenä katkeamattomana tapahtumana.  
+  
+Poikkeuksena edelliseen ovat reaaliaikaiset kirjaukset: Viimeisimmän tapahtuman ja uuden reaaliaikaisen tapahtumakirjauksen välissä tulee olla yli kolmen minuutin tauko, jotta palvelu käsittelee tapahtumat eri työvuoroina.
 ## Tapahtumatyypin vaihtuminen pitkän työtapahtuman aikana
 Myös tapahtuman tyypin vaihto kertoo palvelulle kyseessä olevan uusi erillinen kirjaus. Jos päivän ensimmäinen tapahtuma on esim. Työ-tapahtuma ja sen jälkeen on kirjattu poissaoloa, käsittää palvelu näiden olevan erillisiä tapahtumia.

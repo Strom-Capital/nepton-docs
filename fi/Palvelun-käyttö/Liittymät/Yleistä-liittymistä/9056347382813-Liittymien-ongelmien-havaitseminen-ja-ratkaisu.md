@@ -12,7 +12,7 @@ section_path:
 - Yleistä liittymistä
 labels: []
 promoted: false
-updated_at: '2023-08-09T05:57:39Z'
+updated_at: '2026-08-14T10:05:38Z'
 edited_at: '2023-05-13T02:33:12Z'
 ---
 

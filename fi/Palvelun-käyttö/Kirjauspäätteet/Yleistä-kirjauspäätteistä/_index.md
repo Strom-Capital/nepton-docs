@@ -2,6 +2,7 @@
 
 ## Articles
 - [Kirjauspäätemallit](360003685277-Kirjauspäätemallit.md)
+- [Kirjauspäätteen työpöytäsovellus](39875536650013-Kirjauspäätteen-työpöytäsovellus.md)
 - [Kirjauspäätteiden automaattiset päivitykset](7611101419037-Kirjauspäätteiden-automaattiset-päivitykset.md)
 - [PoE-injektori](23068139437853-PoE-injektori.md)
 - [PoE-splitter](14827606661405-PoE-splitter.md)

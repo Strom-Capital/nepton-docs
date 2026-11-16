@@ -10,3 +10,4 @@ Tästä osiosta löydät ohjeita työajan laskenta-asetusten määrittelemiseen 
 
 ## Articles
 - [Henkilön asetukset](22964866012701-Henkilön-asetukset.md)
+- [Kellojen siirron vaikutus työajan tulkintaan](40206334615581-Kellojen-siirron-vaikutus-työajan-tulkintaan.md)

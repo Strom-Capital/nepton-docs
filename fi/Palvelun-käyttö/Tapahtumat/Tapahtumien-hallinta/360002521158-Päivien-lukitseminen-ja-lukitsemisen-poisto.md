@@ -26,14 +26,14 @@ labels:
 - lukitsemisen avaaminen
 - lukituksen purkaminen
 promoted: false
-updated_at: '2026-04-07T08:16:35Z'
-edited_at: '2026-04-07T08:04:44Z'
+updated_at: '2026-06-22T10:57:18Z'
+edited_at: '2026-06-22T10:56:45Z'
 ---
 
 # Päivien lukitseminen ja lukitsemisen poisto
 
 Työajan kalenterin päivien lukitseminen tai lukituksen poistaminen on mahdollista oletuksena ainoastaan palvelun pääkäyttäjälle. Ohje oikeuksien muokkaamiseen löytyy [täältä](<https://support.nepton.com/hc/fi/articles/360002554338>).
-Palvelussa voidaan lukita päiviä, jonka jälkeen niillä olevia tapahtumia ei voida enää työntekijän toimesta muokata. Tätä voidaan hyödyntää esimerkiksi silloin, kun tunnit on jo siirretty palkanmaksuun. HUOM: Kun päivä on lukittu, ei koko päivälle voi enää lisätä uusia tapahtumia muutoin kuin pääkäyttäjän toimesta. 
+Palvelussa voidaan lukita päiviä, jonka jälkeen niillä olevia tapahtumia ei voida enää työntekijän toimesta muokata. Tätä voidaan hyödyntää esimerkiksi silloin, kun tunnit on jo siirretty palkanmaksuun. HUOM: Kun päivä on lukittu, ei koko päivälle voi enää lisätä uusia tapahtumia muutoin kuin pääkäyttäjän toimesta. Lukitulle päivälle ei myöskään voi tehdä poikkeusasetusta, ellei henkilöllä ole oikeutta poistaa lukitusta.
 Mikäli käytössä on poikkeava Työviikon aloitusaika (muu kuin klo 00:00), lukitus seuraa asetettua työviikon aloitusaikaa eikä kalenterivuorokautta.
 ## Lukitsemisoikeus
 Päivien lukituksen voivat tehdä kaikki henkilöt, joilla on oikeus tapahtumien lukitsemiseen myönnetyn työajan roolin perusteella. Päivien lukitsemisoikeus ja lukituksen poisto löytyy ylemmän tason työajan roolin oikeuksista:  

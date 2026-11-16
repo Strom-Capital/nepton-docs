@@ -15,8 +15,8 @@ labels:
 - häiriötiedote
 - häiriöilmoitukset
 promoted: false
-updated_at: '2026-05-25T06:01:42Z'
-edited_at: '2026-05-25T06:01:42Z'
+updated_at: '2026-10-29T08:52:11Z'
+edited_at: '2026-10-29T08:52:11Z'
 ---
 
 # Platform status
@@ -39,11 +39,11 @@ __
 Trusted services
 __
 **Active events & planned service breaks**
-## Wed 27.05.2026
-###  __ Customer service
-**Date range** Wed 27.05.2026 08:00 - 12:00  
+## Thu 29.10.2026
+###  __ Nepton Customer Service will be closed on 29 October 2026 from 11:00 to 16:00
+**Date range** Thu 29.10.2026 11:00 - 16:00  
 **Affected services**
-  * Customer service is closed on Wed 27th of May, 2026, from 8 AM until 12 PM.
+  * Nepton Customer Service will be closed on 29 October 2026 from 11:00 to 16:00
 
 
 * * *

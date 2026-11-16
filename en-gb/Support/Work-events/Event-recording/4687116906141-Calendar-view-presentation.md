@@ -14,8 +14,8 @@ labels:
 - tapahtumakalenteri
 - työaikakalenteri
 promoted: false
-updated_at: '2026-02-02T13:29:36Z'
-edited_at: '2026-01-23T12:56:33Z'
+updated_at: '2026-11-10T12:15:46Z'
+edited_at: '2026-11-10T12:15:46Z'
 ---
 
 # Calendar view presentation
@@ -29,7 +29,7 @@ In the example below, only one day, January 5, 2026, has been selected as the vi
 ![](https://support.nepton.com/hc/article_attachments/33208374261149)
 **The Week** row shows the week number, year and date. By clicking on the date you can[ add a new event](<https://support.nepton.com/hc/en-gb/articles/360002596797>) to the day. The Total column shows the total data per week for the period searched in the calendar view.
 **The Events** row shows all[ event types](<https://support.nepton.com/hc/en-gb/articles/360002520778>) recorded for the day. In the example, the added event "Work" is marked for the time period 08:00-17:30. This event is assigned to the project "Varasto (warehouse)". The event includes an automatically generated[ lunch break](<https://support.nepton.com/hc/en-gb/articles/360002558757>) from 11:30-12:00. In addition, there is another work event during the day from 19:00-20:00.
-**Worked time incl. absences** indicates the recorded working time after deducting unpaid events. In this example, the lunch break of 30 mins has been subtracted from worked time including absences value. If roundings are in use, any time created due to rounding up is not shown on this row. NOTE: Accrual leaves are not shown on this line, even though they are paid absences.
+**Worked time incl. absences** indicates the recorded working time after deducting unpaid time. In this example, the lunch break of 30 mins has been subtracted from worked time including absences value. If roundings are in use, any time created due to rounding up is not shown on this row. NOTE: Accrual leaves are not shown on this line, even though they are paid absences.
 In the example, **regular time is** filled by the Work event. Regular working hours are filled when work has been done for the [length of the working day](<https://support.nepton.com/hc/en-gb/articles/360002558417>), i.e. in this case 07:30 hours. Regular working hours could also be filled from an [accrual](<https://support.nepton.com/hc/en-gb/articles/360005073918>), if the work obligation isn't fulfilled. Any hours targeted "hour to hour to salary" are also shown on this line.
 **The Overtime** row appears in the calendar if overtime has been earned during the week. The [overtime portion of an event](<https://support.nepton.com/hc/en-gb/articles/360002481617>) can be handled in many different ways, depending on what is defined in the [settings](<https://support.nepton.com/hc/en-gb/articles/4417295059985>). In this example, the time exceeding regular working hours of the event is allocated with Overtime - Salary target. The portion exceeding regular working hours, 02:30, is overtime. Under the Overtime heading, you can see that it has been allocated to salary. By clicking on the triangle next to it, you can open an even more detailed breakdown of overtime:
 ![](https://support.nepton.com/hc/article_attachments/33208358067997)

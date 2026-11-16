@@ -16,8 +16,8 @@ labels:
 - work time percentage
 - part time
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2024-12-03T06:19:37Z'
+updated_at: '2026-09-23T09:37:04Z'
+edited_at: '2026-09-23T09:25:07Z'
 ---
 
 # Työaikaprosentti
@@ -43,11 +43,13 @@ Työaikaprosentti ei vaikuta
 
 ## Työaikaprosentin muuttuminen kesken työviikon
 Jos henkilön työvelvoite ja siten myös työaikaprosentti muuttuu kesken työviikon, palvelu ei tiedä kummalla prosentilla työviikon pituus tulisi laskea. Tällöin viikon lopussa saldokertymä saattaa olla liikaa plussalla tai miinuksella, jolloin saldo kannattaa korjata seuraavalle päivälle käsin käyttämällä [saldon asetusta tai muutosta. ](<https://support.nepton.com/hc/fi/articles/360002481797>)
-Voit myös vaihtoehtoisesti asettaa työviikon pituudelle poikkeuksen henkilön työajan kalenterissa. Laske tällöin yhteen eri työvelvoitteiden tuntimäärät yhteen koko viikon työvelvoitteen kirjaamiseksi.   
+Voit myös vaihtoehtoisesti asettaa työviikon pituudelle poikkeuksen henkilön työajan kalenterissa. Laske tällöin yhteen eri työvelvoitteiden tuntimäärät yhteen koko viikon työvelvoitteen kirjaamiseksi. 
 Esimerkiksi: henkilö tekee 80% työaikaa maanantaista keskiviikkoon, työpäivän pituus on 6h/päivä. Torstaista alkaen henkilö alkaa tehdä 100% työaikaa, työpäivän pituus on 7,5h/päivä. 
-Tällaisessa tapauksessa Nepton ei tiedä, kumpaako työaikaprosenttia sen tulisi käyttää, joten on asetettava poikkeus työviikon pituudelle. Laske siis yhteen työpäivien tuntivelvoite saadaksesi koko työviikolle työvelvoite, edeltävän esimerkin mukaisesti näin:
-Maanantai - Keskiviikko: 3 x 6h = 18h
-Torstai - Perjantai: 2 x 7,5h = 15h 
-Työviikon kokonaisvelvoite siis 33h. 
-Työviikon kokonaisvelvoitteen poikkeuksen voit asettaa työviikolle painamalla päivämääräkuvaketta (kohta 1 alla) ja valitsemalla Työviikon pituus (2). Uuteen ikkunaan aukeaa **Muokkaa työviikon pituutta** -näkymä, johon voi asettaa työviikon pituudelle poikkeusasetuksen (3). Tallenna lopuksi muutokset painamalla **Kirjaa poikkeus**(4). Tehdyt poikkeukset voi poistaa samassa näkymässä **Poista poikkeus** -painikkeesta. Tällä tavalla asetettu poikkeus pätee ainoastaan kyseisenä työviikkona. 
-![](https://support.nepton.com/hc/article_attachments/20196395686685)
+Tällaisessa tapauksessa Nepton ei tiedä, kumpaa työaikaprosenttia sen tulisi käyttää, joten on asetettava poikkeus työviikon pituudelle. Laske siis yhteen työpäivien tuntivelvoite saadaksesi koko työviikolle oikea työvelvoite, edeltävän esimerkin mukaisesti näin:
+Maanantai - Keskiviikko: 3 x 6h = 18h  
+Torstai - Perjantai: 2 x 7,5h = 15h   
+Työviikon kokonaisvelvoite on 33h. 
+Työviikon kokonaisvelvoitteen poikkeuksen voit asettaa työviikolle painamalla jotain päivämäärää kyseisellä viikolla) ja valitsemalla Työviikon pituus.
+![](https://support.nepton.com/hc/article_attachments/39355486549149)
+Uuteen ikkunaan aukeaa **Muokkaa työviikon pituutta** -näkymä, johon voi asettaa työviikon pituudelle poikkeusasetuksen. Tallenna lopuksi muutokset painamalla **Tallenna**. Tehdyt poikkeukset voi poistaa samassa näkymässä **ruksi** -painikkeesta. Tällä tavalla asetettu poikkeus pätee ainoastaan kyseisenä työviikkona. 
+![](https://support.nepton.com/hc/article_attachments/39355486551325)

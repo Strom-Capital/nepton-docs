@@ -13,13 +13,13 @@ section_path:
 labels:
 - Work schedules
 promoted: false
-updated_at: '2026-02-26T08:49:16Z'
+updated_at: '2026-07-09T08:09:24Z'
 edited_at: '2023-07-07T19:34:59Z'
 ---
 
 # Work schedules daily use and follow up
 
-Below is a collection of useful tips and guidance for the daily use of work schedules by employees, supervisors, planners, and administrators.  
+Below is a collection of useful tips and guidance for the daily use of work schedules by employees, supervisors, planners, and administrators.
 # Using work schedules
 ## Employees
 After becoming a member of a published work schedule group, and possibly also a holiday schedule group, employees will immediately see the related planned events and rest times in their Worktime calendar and mobile.

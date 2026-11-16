@@ -1,6 +1,6 @@
 ---
 id: 360004577757
-title: 'Kalenterin synkronointi '
+title: Kalenterin synkronointi
 url: https://support.nepton.com/hc/fi/articles/360004577757-Kalenterin-synkronointi
 locale: fi
 category: Palvelun käyttö
@@ -11,25 +11,28 @@ section_path:
 - Henkilöstö
 labels: []
 promoted: false
-updated_at: '2024-11-18T12:39:30Z'
-edited_at: '2023-04-12T04:34:10Z'
+updated_at: '2026-10-29T13:10:02Z'
+edited_at: '2026-10-29T13:10:02Z'
 ---
 
-# Kalenterin synkronointi 
+# Kalenterin synkronointi
 
-Pidä henkilökohtainen- tai työkalenterisi ajan tasalla kokoustesi, työvuorojesi ja lomiesi osalta Nepton-palvelun kanssa. Neptoniin merkityt tapahtumat (valittujen mukaisesti) siirtyvät kalenteriisi automaattisesti. Toiminto on käytettävissä vain, jos Neptonin ulkopuolinen kalenterisi tukee tapahtumien synkronointia ulkoisesta palvelusta.
+Neptonin kalenteri voidaan synkrodoia ulkoisen kalenterin kanssa. Tällöin Neptoniin merkityt tapahtumat (valintojen mukaisesti) siirtyvät toiseen kalenteriin automaattisesti. Toiminto on käytettävissä vain, jos Neptonin ulkopuolinen kalenteri tukee tapahtumien synkronointia ulkoisesta palvelusta.
 Huomioithan, että vain tapahtumat edeltävältä 7 päivältä ja seuraavalta 3 vuodelta synkronoidaan.
 ## Kalenterin synkronoinnin käyttöönotto
-1\. Mene **Työaika** -osioon ja valitse Tapahtumat kalenterissa. Valitse sivun oikeasta yläkulmasta painike **Kalenterin synkronoint** i. Valitse kalenteri:
-![mceclip1.png](https://support.nepton.com/hc/article_attachments/360005614198/mceclip1.png)
-2\. Valitse, mitkä tapahtumatyypit haluat siirtyvän Neptonista.
-![mceclip2.png](https://support.nepton.com/hc/article_attachments/360005614218/mceclip2.png)
-3\. Kopioi automaattisesti muodostuva linkki.
-![mceclip3.png](https://support.nepton.com/hc/article_attachments/360005532117/mceclip3.png)
+Mene **Työaika > Tapahtumat kalenterissa**. Valitse sivun oikeasta yläkulmasta **Työkalut** ja avautuvasta valikosta **Kalenterin synkronoint** i. 
+![](https://support.nepton.com/hc/article_attachments/40260753872157)
+Klikkaa +Lisää-painiketta jatkaaksesi.
+![](https://support.nepton.com/hc/article_attachments/40260753875357)
+Valitse, mihin kalenteriin haluat viedä Neptoniin merkittyjä tapahtumia. Tämän jälkeen paina Seuraava.
+![](https://support.nepton.com/hc/article_attachments/40260743793437)
+Tikkaa aktiiviseksi ne tapahtumatyypit, joiden haluat siirtyvän Neptonista.
+![](https://support.nepton.com/hc/article_attachments/40260753879453)
+Luo synkronointiin tarvittava linkki ja kopioi se.
 ## Linkin asetus ulkoiseen kalenteriin 
-Jos kalenterisi tukee tapahtumien synkronointia ulkoisesta kalenterista, pitäisi sinun voida luoda kalenteristasi uusi kalenteri, jonka valinnoista pitäisi löytyä toiminto, joka muistuttaa seuraavia: "Tuo URL-osoitteella" tai "Tuo iCal (ics)" muodossa. Kopioimasi linkki voidaan asettaa tämän toiminnon yhteydessä. 
-**Outlook**
+Jos kalenterisi tukee tapahtumien synkronointia ulkoisesta kalenterista, pitäisi sinun voida luoda kalenteristasi uusi kalenteri, jonka valinnoista pitäisi löytyä toiminto, joka muistuttaa seuraavia: "Tuo URL-osoitteella" tai "Tuo iCal (ics)" muodossa. Kopioimasi linkki voidaan asettaa tämän toiminnon yhteydessä.
+**Esimerkkinä Outlook**
 ![mceclip0.png](https://support.nepton.com/hc/article_attachments/21079132960285)
-Lisätyn kalenterin ja valittujen tapahtumien pitäisi nyt näkyä ulkoisessa kalenterissasi. Tapahtumat päivitetään kalenteriisi noin tunnin välein. Mikäli päivitystä ei tapahdu pitää linkin asetus toistaa tapahtumien päivittämiseksi.
-**VINKKI:** Outlookissa on mahdollista käyttää Aseta päälle -toiminto saadakseen Nepton ja Outlook kalenterien näkymät yhteen.
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/360005537737/mceclip0.png)
+Lisätyn kalenterin ja valittujen tapahtumien pitäisi nyt näkyä ulkoisessa kalenterissasi. Tapahtumat päivitetään kalenteriisi noin tunnin välein. Mikäli päivitystä ei tapahdu, pitää linkin asetus toistaa tapahtumien päivittämiseksi.
+**VINKKI** : Outlookissa on mahdollista käyttää Aseta päälle -toiminto saadakseen Nepton ja Outlook kalenterien näkymät yhteen sen sijaan, että ne ovat vierekkäin omina kalentereinaan.
+![mceclip0.png](https://support.nepton.com/hc/article_attachments/360005537737)

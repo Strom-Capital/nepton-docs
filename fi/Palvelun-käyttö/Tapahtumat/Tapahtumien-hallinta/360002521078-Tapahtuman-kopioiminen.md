@@ -20,14 +20,15 @@ labels:
 - copying event
 - frequency
 promoted: false
-updated_at: '2026-04-01T12:36:42Z'
-edited_at: '2026-02-16T13:08:32Z'
+updated_at: '2026-09-17T05:39:25Z'
+edited_at: '2026-09-17T05:31:27Z'
 ---
 
 # Tapahtuman kopioiminen
 
 Tapahtumia on mahdollista kopioida **Kopioi** –toiminnon kautta kalenterinäkymässä **(Työaika > Työtunnit > Tapahtumat kalenterissa)**. 
 Kopioiminen voi olla hyödyllistä esimerkiksi tilanteessa, jossa henkilön täysin samanlainen työkirjaus toistuu joka viikko samana päivänä, tai jos vaikka koko henkilöstöllä on yhteinen koulutus-päivä, ja se halutaan kirjata kaikille yhtenäisesti.
+Yli vuorokauden mittaisen yhtäjaksoisen tapahtuman kopioinnissa tulee huomioida, että tapahtuma tulee kopioida vain sille päivämäärälle, josta merkinnän halutaan alkavan. Muuten tapahtuma kirjautuu jokaiselta kopioinnissa määritellyn ajanjakson päivältä uudelleen kestonsa verran eteenpäin.
 ## Tapahtuman kopioiminen yhdelle tai usealle henkilölle
 Kopioiminen tehdään klikkaamalla tapahtumaa, joka halutaan kopioida. Avautuvasta valikosta valitaan "kopioi".  
   

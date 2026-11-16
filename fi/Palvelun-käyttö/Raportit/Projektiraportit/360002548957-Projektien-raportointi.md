@@ -13,15 +13,16 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2026-05-20T06:39:43Z'
-edited_at: '2026-05-20T06:39:04Z'
+updated_at: '2026-09-24T06:26:01Z'
+edited_at: '2026-09-24T06:23:09Z'
 ---
 
 # Projektien raportointi
 
-Projekteille tehtyjä kirjauksia voidaan tarkastella valikossa **Työaika > Työtunnit > Projektit > Raportit**. Projekteille kirjattuja tunteja voi raportoida aina siltä ajalta, kun projekti on ollut aktiivinen. Jos raportille valitun aikavälin aloituspäivä on ennen projektille merkittyä päättymispäivää, on projekti valittavissa raportille. Lisätietoja projektin päättämisestä löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002562418>).  
+Projekteille tehtyjä kirjauksia voidaan tarkastella valikossa **Työaika > Työtunnit > Projektit > Raportit**. Projekteille kirjattuja tunteja voi raportoida aina siltä ajalta, kun projekti on ollut aktiivinen. Jos raportille valitun aikavälin aloituspäivä on ennen projektille merkittyä päättymispäivää, on projekti valittavissa raportille. Lisätietoja projektin päättämisestä löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002562418>).
 ## Raporteilla näytettävä tieto
-Projektiraportit näyttävät aina kullekin tapahtumalle työajaksi tulkitun ajan. Jos tapahtumaa ei lasketa työajaksi ei sille kohdennettua projektityötä näytetä raportilla. Esimerkiksi palkattomalle ruokatauolle kohdennettua projektityötä ei näytetä raportilla, mutta palkattomalle poissaololle kohdennettu työ näytetään. Myös esimerkiksi, jos sallittujen työaikojen rajauksella on rajattu työaikaa pois ei rajattua aikaa näytetä projektiraporteilla.
+Projektiraportit näyttävät aina kullekin tapahtumalle työajaksi tulkitun ajan. Jos tapahtumaa ei lasketa työajaksi ei sille kohdennettua projektityötä näytetä raportilla. Esimerkiksi palkattomalle ruokatauolle tai palkattomalle poissaololle kohdennettua projektityötä ei näytetä raportilla. Myös esimerkiksi, jos sallittujen työaikojen rajauksella on rajattu työaikaa pois ei rajattua aikaa näytetä projektiraporteilla.
+Projektille kohdistetut sairauspoissaolot tarkkoine tietoineen näkyvät vain sellaiselle henkilölle, jolle on työajan roolilla myönnetty oikeus tarkastella henkilön sairauspoissaolon palkallisuutta.
 ## Raporttien näkyvyys henkilöille
 Projektipäällikkö voi tarkastella kaikkia omalle projektilleen tehtyjä tunteja riippumatta esimies-alainen suhteesta. Esihenkilöt voivat tarkastella kaikkien alaistensa projektikirjauksia. Ylläpitäjät voivat tarkastella kaikkien henkilöiden projektikirjauksia.
 Ottaessaan projektiraportteja projektipäällikön on valittava hakuehdoista "Hallinnoiduille projekteille" -valinta saadakseen projektitunnit raportoitua kaikilta henkilöiltä, jotka ovat tämän hallinnoimille projekteille tunteja kohdentaneet.

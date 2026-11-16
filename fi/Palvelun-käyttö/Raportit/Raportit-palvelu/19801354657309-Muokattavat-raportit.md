@@ -12,8 +12,8 @@ section_path:
 - Raportit-palvelu
 labels: []
 promoted: false
-updated_at: '2025-04-22T05:42:59Z'
-edited_at: '2025-04-22T05:37:31Z'
+updated_at: '2026-09-16T10:38:46Z'
+edited_at: '2026-09-16T10:38:46Z'
 ---
 
 # Muokattavat raportit
@@ -26,25 +26,6 @@ Palvelussa voidaan poimia [Raportit-palvelun](<https://support.nepton.com/hc/fi/
   * [Poissaolot, sisältäen sairauspoissaolot](<https://support.nepton.com/hc/fi/articles/26673631415069-Poissaolot-sis%C3%A4lt%C3%A4en-sairauspoissaolot-raportoinnissa>)
   * [Vuorosuunnittelu](<https://support.nepton.com/hc/fi/articles/26673690781341-Vuorosuunnittelun-tiedot-raportoinnissa>)
   * [Matkalaskut](<https://support.nepton.com/hc/fi/articles/26673780046237-Matkalaskujen-tietojen-raportointi>)
-
-
-Ennen kun voidaan ymmärtää millaista raportointia on tarpeen tehdä tulee pohtia asiaa seuraavista näkökulmista. Tämä pohdinta on olennaista palvelun onnistuneen käyttöönoton kannalta. 
-  * **Mikä on tämänhetkinen tilanne raportoinnissa**
-    * Miten nyt toteutettu/onko ollenkaan
-    * Millaisia tarpeita on tunnistettu
-  * **Miksi halutaan raportoida**  
-
-    * Mikä on organisaation/liiketoiminnan tarve
-    * Mitä hyötyä yritetään saavuttaa
-    * Mitkä ovat oikeat tahot, jotka osaavat kuvata mikä on olennaista raportoinnillisesti
-  * **Mitä halutaan raportoida**
-    * Mikä on oleellista tietoa
-    * Kuka tulee käyttämään tätä tietoa
-  * **Missä muodossa raportilla oleva tieto halutaan**
-    * Esimerkkiraportin kautta (sisältäen halutut sarakkeet)
-    * Huom. Jos halutaan tehdä vertailuraportointia (esim suunniteltu vs. toteutunut työaika), tulee huomioida asian erityinen kompleksisuus. Näissä tapauksissa ei luvata asiakkaalle mitään ennen kuin on pystytty todentamaan että raportti todella voidaan toteuttaa.
-  * **Milloin tiedon pitää olla käytettävissä**
-    * Kerran päivässä, kerran kuukaudessa, tms.
 
 
 Muokattavat raportit -toiminnallisuudella voidaan luoda taulukkomuotoisia raportteja käyttäen samoja sääntöjoukkoja kuin työajan liittymissä. Raporttia varten luodaan sääntö, jossa määritellään mitä tietoja raporttitaulukkoon poimitaan.
@@ -79,34 +60,34 @@ Historialinkistä pääsee katsomaan aiempia raporttiajoja. Sivu näyttää aino
 Muokattavaa raporttia on mahdollista katsella suoraan selaimessa tai sen voi ladata excel-tiedostona. Excel tiedoston voi tässä näkymässä lähettää myös sähköpostilla. Raportteja säilytetään järjestelmän sisällä yhtä pitkään kuin palvelulokimerkintöjäkin. Palvelulokista ja sen säilytysajasta voit lukea lisää [täältä](<https://support.nepton.com/hc/fi/articles/360002575478>).
 ## Esimerkki muokatusta raportista
 Esimerkkiraportti; halutaan raportti, jossa näkyy tieto siitä, kuinka paljon yhteensä aikaa on leimattu eri tapahtumatyypeillä. Raportin säännöksi asetetaan:
-[code] 
-    SELECT   
-    concat(ud.firstname, ' ', ud.lastname) as 'käyttäjän nimi',   
-    usd.activitytypename as 'Tapahtumatyyppi',   
-    concat(  
-    printf(  
-    '%02d',   
-    cast(  
-    SUM(amount) / 3600 as int  
-    )  
-    ),   
-    ':',   
-    printf(  
-    '%02d',   
-    cast(  
-    (  
-    SUM(amount) % 3600  
-    ) / 60 as int  
-    )  
-    )  
-    ) AS 'Aika'   
-    FROM   
-    usersalarydata as usd   
-    INNER JOIN userdata as ud ON usd.userid = ud.userid   
-    WHERE   
-    compensationType = 'markedTime'   
-    GROUP BY   
-    ud.userId,   
+[code]
+    SELECT 
+    concat(ud.firstname, ' ', ud.lastname) as 'käyttäjän nimi', 
+    usd.activitytypename as 'Tapahtumatyyppi', 
+    concat(
+    printf(
+    '%02d', 
+    cast(
+    SUM(amount) / 3600 as int
+    )
+    ), 
+    ':', 
+    printf(
+    '%02d', 
+    cast(
+    (
+    SUM(amount) % 3600
+    ) / 60 as int
+    )
+    )
+    ) AS 'Aika' 
+    FROM 
+    usersalarydata as usd 
+    INNER JOIN userdata as ud ON usd.userid = ud.userid 
+    WHERE 
+    compensationType = 'markedTime' 
+    GROUP BY 
+    ud.userId, 
     usd.activityTypeId
 [/code]
 Jolloin generoitu raportti näyttää tältä:

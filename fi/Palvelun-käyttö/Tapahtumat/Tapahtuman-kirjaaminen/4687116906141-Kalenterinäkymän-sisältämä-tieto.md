@@ -14,8 +14,8 @@ labels:
 - tapahtumakalenteri
 - työaikakalenteri
 promoted: false
-updated_at: '2026-02-02T13:29:36Z'
-edited_at: '2026-01-23T12:54:00Z'
+updated_at: '2026-11-10T12:15:46Z'
+edited_at: '2026-11-10T12:15:30Z'
 ---
 
 # Kalenterinäkymän sisältämä tieto
@@ -29,7 +29,7 @@ Alla olevassa esimerkissä näkymäksi on päivämäärän hakutoiminnolla valit
 ![](https://support.nepton.com/hc/article_attachments/33165251536285)
 **Viikko** -rivillä näytetään viikon numero, vuosi ja päivämäärä**.** Päivämäärää klikkaamalla pääset lisäämään päivälle[ uutta tapahtumaa](<https://support.nepton.com/hc/fi/articles/360002596797>). **Yhteensä** sarake kertoo kalenterinäkymään haetun ajanjakson yhteenlasketut tiedot per viikko.
 **Tapahtumat** -rivi näyttää kaikki päivälle kirjatut [tapahtumatyypit. ](<https://support.nepton.com/hc/fi/articles/360002520778>)Esimerkissä [lisätty tapahtuma](<https://support.nepton.com/hc/fi/articles/360002596797>) "Työ" on merkattu ajalle 08:00-17:30. Tämä tapahtuma on kohdistettu projektille "Varasto". Tapahtumaan sisältyy automaattisesti muodostettu [ruokatauko ](<https://support.nepton.com/hc/fi/articles/360002558757>)ajalla 11:30-12:00. Tämän lisäksi päivällä on toinen työ-tapahtuma ajalla 19:00-20:00.
-**Työaika sisältäen poissaolot** ilmoittaa kirjatun työajan sen jälkeen, kun siitä on vähennetty palkattomat tapahtumat. Tässä esimerkissä työaika sisältäen poissaolot arvosta on vähennetty ruokatauon pituus 30 minuuttia. Jos käytössä on pyöristyksiä, ylöspäin pyöristettyä aikaa ei näytetä tällä rivillä. **HUOM.** Kertymäpoissaoloja ei näytetä tällä rivillä, vaikka ne ovat palkallisia poissaoloja.
+**Työaika sisältäen poissaolot** ilmoittaa kirjatun työajan sen jälkeen, kun siitä on vähennetty palkaton aika. Tässä esimerkissä työaika sisältäen poissaolot arvosta on vähennetty ruokatauon pituus 30 minuuttia. Jos käytössä on pyöristyksiä, ylöspäin pyöristettyä aikaa ei näytetä tällä rivillä. **HUOM.** Kertymäpoissaoloja ei näytetä tällä rivillä, vaikka ne ovat palkallisia poissaoloja.
 **Säännöllinen työaika** täyttyy esimerkissä Työ-tapahtumasta. Säännöllinen työaika täyttyy, kun työtä on tehty [työpäivän pituuden verran](<https://support.nepton.com/hc/fi/articles/360002558417>), eli tässä tapauksessa 07:30 tuntia. Säännöllistä työaikaa voitaisiin[ täyttää myös kertymästä](<https://support.nepton.com/hc/fi/articles/360005073918>), jos tehdään työvelvoitetta lyhyempi työpäivä. Myös Tunti tunnista-palkkaan kohdistettu työaika näkyy tällä rivillä.
 **Ylityö** -rivi ilmaantuu kalenteriin, mikäli viikolla on tehty ylitöitä. Tapahtuman[**ylityö**](<https://support.nepton.com/hc/fi/articles/360002481617>)-osuutta voidaan käsitellä monella eri tavalla, riippuen mitä [asetuksissa](<https://support.nepton.com/hc/fi/articles/4417295059985>) on määritelty. Tässä esimerkissä tapahtuman säännöllisen työajan ylittävä aika on kohdennettu kohdenteella _Ylityö - Palkkaan._ Säännöllisen työajan ylittävä osuus 02:30 on ylityötä. Ylityö-otsikon alla näkyy, että se on ohjattu palkkaan. Sen viereisestä kolmiosta painamalla saadaan auki vielä tarkempi ylityön erittely:
 ![](https://support.nepton.com/hc/article_attachments/33165251536925)

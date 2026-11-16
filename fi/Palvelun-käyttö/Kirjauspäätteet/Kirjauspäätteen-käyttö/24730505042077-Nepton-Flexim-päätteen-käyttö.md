@@ -12,8 +12,8 @@ section_path:
 - Kirjauspäätteen käyttö
 labels: []
 promoted: false
-updated_at: '2025-09-23T11:30:33Z'
-edited_at: '2025-09-23T11:23:59Z'
+updated_at: '2026-11-09T13:24:34Z'
+edited_at: '2026-11-09T13:23:06Z'
 ---
 
 # Nepton Flexim päätteen käyttö
@@ -42,6 +42,7 @@ Näytön yläreunassa näkyy valikko; ensimmäisenä on Tapahtuman valinta, seur
 ## Tapahtuman lisääminen
 Kun henkilö on kirjannut itsensä laitteelle, hän voi kirjata ennalta määrättyjä tapahtumia. Näytöllä näkyy 8 tapahtumaa. Mikäli tapahtumia on asetettu näytettävän enemmän, sivuttuu näkymä, ja sivunuolella siirrytään seuraavalle sivulle. Uusi tapahtuma aloitetaan klikkaamalla haluttua tapahtumatyyppiä ja sen jälkeen "aloita"-painiketta. Kun tapahtuma aloitetaan, kirjautuu käyttäjä automaattisesti päätteeltä ulos. Jos pääte on offline-tilassa, tapahtumia ei voi lisätä kuin vain pikakirjaamisen kautta.
 ![](https://support.nepton.com/hc/article_attachments/24836814537757)
+Kirjauspäätteellä voidaan tehdä kirjauksia enintään 2 vuotta tulevaisuuteen. Menneisyyteen kirjauksia voidaan tehdä kolmen kuukauden taakse.
 ### Tapahtuman aloitus- ja lopetusajan asettaminen
 Päätteellä voidaan myös lisätä tapahtumia tulevaisuuteen antamalla niille alkamis- ja/tai loppumisaika jo leimausvaiheessa. Jotta tämä on mahdollista, pitää Neptonissa olla asetusryhmässä määritelty tapahtumatyypille tämä mahdollisuus käyttöön. Kun päätteellä aktivoidaan tapahtuma, ilmestyy "Aloita"-painikkeen viereen "Muokkaa"-painike. 
 ![](https://support.nepton.com/hc/article_attachments/24888102373789)
@@ -59,7 +60,7 @@ Lisien tyyppi ja oletusarvot tulevat asetusryhmän asetusten mukaan. Pikavalinno
 ![](https://support.nepton.com/hc/article_attachments/24832622935837)
 Välilehden nimen vieressä näytetään sen hetkisten aktiivisten valintojen määrä.
 ## Projektikohdennus
-Projektit-välilehdeltä voidaan painikkeilla valita, mille projektille tapahtuma kohdistetaan. Näkymässä esitetään yhdellä sivulla 8 projektia. Mikäli projekteja on enemmän, sivunuolella voi siirtyä seuraavalle sivulla. Painikkeissa näytetään viimeksi käytetyt, eli samat projektit, mitä henkilölle tarjotaan tapahtuman luonnissa selaimessakin. Haulla voidaan projektin nimellä tai koodilla löytää myös viimeksi käytetyt -listan ulkoinen projekti. 
+Projektit-välilehdeltä voidaan painikkeilla valita, mille projektille tapahtuma kohdistetaan. Näkymässä esitetään yhdellä sivulla 8 projektia. Mikäli projekteja on enemmän, sivunuolella voi siirtyä seuraavalle sivulla. Painikkeissa näytetään viimeksi käytetyt, eli samat projektit, mitä henkilölle tarjotaan tapahtuman luonnissa selaimessakin. Haulla voidaan projektin nimellä tai koodilla löytää myös viimeksi käytetyt -listan ulkoinen projekti. Nepton Flexim päätteellä voidaan tapahtumille kirjata vain yksi projektikohdennus kerrallaan. Mikäli projektikohdennus halutaan vaihtaa kesken päivän, tulee aloittaa uusi tapahtuma uudella projektikohdennuksella.
 ![](https://support.nepton.com/hc/article_attachments/25051244701725)
 ### Projektikohdennus viivakoodilukijalla
 Projekti voidaan myös valita viivakoodilukijalla sen jälkeen, kun henkilö on kirjautunut tunnisteella. Viivakoodiluvun jälkeen projektille kohdistus käynnistyy ja henkilö kirjautuu ulos päätteeltä. Näytöllä näytetään, että kirjaus on aloitettu onnistuneesti.

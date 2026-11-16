@@ -12,8 +12,8 @@ section_path:
 - Laskenta-asetukset
 labels: []
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2025-11-24T12:36:09Z'
+updated_at: '2026-10-09T07:36:13Z'
+edited_at: '2026-10-09T07:32:54Z'
 ---
 
 # Sallitut työajat
@@ -78,3 +78,23 @@ Sallitun työajan päiväkohtaisen poikkeuksen saa poistettua painamalla päivä
 Asetuksilla määritellyn sallitun työajan lisäksi voidaan asettaa sallittu työaika muodostuvaksi työvuoroilta. Asetus löytyy Työyhteisö- tai asetusryhmätasolla valikosta **Työaika > Hallinta > Työyhteisön/Asetusryhmän asetukset > Vuorot.**
 Asetuksilla **Sallittu työn aloitusajan poikkeama suunnitellun vuoron alussa** ja **Sallittu työn lopetusajan poikkeama suunnitellun vuoron päättyessä** voidaan ohjata, kuinka pitkältä ajalta työaikaa voidaan ansaita ennen työvuoroa tai työvuoron jälkeen. 
 ![](https://support.nepton.com/hc/article_attachments/26620685405725)
+Sallitun työn aloitus- ja lopetusajan lisäksi tulee Työtunnit-osion **Sallitut ajat** -asetuksissa määrittää salittut ajat käyttöön ja sallitut ylityön korvaustyypit. Tarkemman kuvauksen sallitun työn ylityön korvaustyyppien määrittelyistä löydät [tästä artikkelista](<https://support.nepton.com/hc/fi/articles/360002558597-Sallitut-ty%C3%B6ajat>).
+## Sallitun työajan asettaminen vuorokohtaisesti
+Sallitut työajat voidaan määritellä suoraan myös Vuorosuunnittelun suunnittelunäkymässä yksittäisille vuoroille. Toiminnallisuus on nähtävissä ja käytettävissä yksittäisen vuoron luomisessa ja sitä voidaan hyödyntää olemassa olevien vuorojen muokkauksessa.
+Kenttä **Sallittu työn aloitusajan poikkeama** ja **Sallittu työn lopetusajan poikkeama** löytyvät vuoron tiedoista omina kenttinään. 
+![](https://support.nepton.com/hc/article_attachments/39777376727453)
+Kumpaankin kenttään voidaan asettaa poikkeama sallituille työajoille suhteessa työvuoron alkamis- ja loppumisaikaan. Poikkeama voidaan asettaa kahdella eri tavalla:
+  * minuuttiperusteinen poikkeama suhteessa vuoron alkamiseen tai päättymiseen (esim. -10 ja +10)
+  * tarkka aika hh:mm-muodossa – sallittu työaika alkaa tai päättyy asetettuun kellonaikaan (esim. 06:50 - 14:10)
+
+
+Esimerkiksi aamuvuoron 07:00 - 14:00 osalta, sallittu työn aloitusajan poikkeama-kentän -10 saa sallitun työajan alkamaan 10 minuuttia ennen vuoron alkua klo 06:50. Sallittu työn lopetusajan poikkeama-kentän +10 tekee sallitun työajan päättyneeksi 10 minuuttia vuoron päättymisen jälkeen klo 14:10. Poikkeama arvolla 0 tarkoittaa, että sallittu työaika vastaa täsmälleen työvuoroaikaa.
+![](https://support.nepton.com/hc/article_attachments/39777389282589)
+Vastaava esimerkki samalla lopputuloksella kellonajoilla hh:mm-muotoisena:  
+  
+![](https://support.nepton.com/hc/article_attachments/39777376730269)
+Sallittu työn aloitusajan poikkeama- ja Sallittu työn lopetusajan poikkeama -asetuksia voidaan hyöyntää myös vuorokalenterien vuorotyypeissä. Tällöin sallitun työajan poikkeama pätee aina tähän vuorotyyppiin. Vuorokalenterien vuorotyyppien osalta poikkeaman määrittämisen periaate on sama, aloitus- ja lopetusajalle on käytettävissä omat kentät vuorotyyppien luonnissa sekä niiden muokkauksessa.  
+  
+![](https://support.nepton.com/hc/article_attachments/39779022419613)  
+  
+Vuorosuuunnittelun suunnittelunäkymässä yksittäiselle vuorolle tai vuorokalenterin vuorotyypille tällä tavoin asetetut sallitut työajat ohittavat Työajan asetuksessa "Sallittu työn aloitusaika tulee suunnitteltu vuorolta" ja "Sallittu työn lopetusaika tulee suunnitellulta vuorolta" määritetyn poikkeaman. Jos yksittäisen työvuoron sallittujen työaikojen poikkeamien kentät jätetään tyhjiksi, em. asetuksia käytetään kuten ennenkin.

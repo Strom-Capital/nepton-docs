@@ -12,8 +12,8 @@ section_path:
 - Palkkajärjestelmät
 labels: []
 promoted: false
-updated_at: '2026-01-15T08:24:24Z'
-edited_at: '2026-01-15T08:24:24Z'
+updated_at: '2026-07-01T06:52:45Z'
+edited_at: '2026-07-01T06:34:48Z'
 ---
 
 # Mepco poissaolo- ja vuosilomatapahtumien vienti reaaliajassa
@@ -53,7 +53,15 @@ Vientitiedoston nimeen tulee lisätä tarkka aikaleima _[timestamp-ms]_ , kuten 
 Osio **Työaika > Hallinta > Työyhteisön asetukset > Liittymät > Accountor Mepco HRM poissaolojen vienti **sisältää tulosten sisältöön liittyvät asetukset, jotka on kuvattu [täällä](<https://support.nepton.com/hc/fi/articles/360003473498-Mepco-palkkatapahtumat#Tiedostomuoto>).
 ![](https://support.nepton.com/hc/article_attachments/24641083700765)
 Päivämäärän muoto tulee tarkistaa Mepcon puolelta ja asettaa oikeaan muotoon asetukseen "Päivämäärän muoto". 
-**4\. Viennin ajastus kohdepalvelimelle**
+**4\. Vientitiedoston jakaminen**
+Kohdassa Liittymien sääntöjoukko määritetään sääntöjoukot poimittavalle datalle. Poimintasääntöjen alapuolella on kohta Viennin asetukset.
+Vientitiedoston osiin jakaminen -kohdan alla olevia asetuksia ei yleensä käytetä reaaliaikaisessa viennissä, sillä tiedoston osiin jakamiseen vaikuttaa se, miten tieto ryhmitellään, kun se siirretään puskurista palvelimelle. Neptoniin kirjatut poissaolot siirtyvät puskuriin sääntöjoukon ehdoilla reaaliajassa. Kun puskurista siirretään ajastuksen mukaan poissaolot palvelimelle, muodostuu tiedostot tiedostonimen mukaan, esimerkiksi tiedostonimellä ”poissaolot_[vvvvkkpp].csv” palvelimelle muodostuisi yksi aineisto, jossa on kaikki puskuriin siirtyneet poissaolot kyseisenä päivänä. Jos taas tiedostonimi olisi “poissaolot_[timestamp-ms].csv” muodostuisi jokaisesta poissaolosta puskuriin oma aineistonsa, koska aikaleimat ovat millisekuntiperusteisia.  
+  
+Jos aikaleimaperusteisen tiedostojaon lisäksi halutaan käyttää myös asetuksia “vientitiedoston osiin jakaminen” -osiossa, on kuitenkin mahdollista määrittää tiedoston jakaminen lisäksi jollain muulla perusteella, esimerkiksi maksuryhmätiedolla.  
+  
+Tässä on huomioitava, että jokainen yksittäinen reaaliaikainen siirto poimii hyvin pienen määrän dataa. Useimmilla ryhmittelyperusteilla tämä pieni datamäärä ei enää jakaudu pienempiin osiin, vaan siirrosta muodostuu edelleenkin vain yksi tiedosto. Tiedoston nimeen liitettäisiin kuitenkin määritetty ryhmittelyperuste (esim. maksuryhmä). Tätä määritystä noudettaisiin myös manuaalisesti käynnistetyissä siirroissa, joissa todennäköisesti muodostuisi useampi tiedosto suuremman datamäärän vuoksi.
+![](https://support.nepton.com/hc/article_attachments/37272928077853)
+**5\. Viennin ajastus kohdepalvelimelle**
 Viimeisenä kohdepalvelimen puskurille tarvitsee määrittää viennin ajastus. Tästä voit lukea lisää artikkelista [Työajan vientiliittymien kohdepalvelimet](<https://support.nepton.com/hc/fi/articles/26861716054045#h_01JSK5VK4NMRKM5R7TP1B6ATE1>).
 ## Tiedostomuoto
 Siirtotiedosto on UTF-8 muotoista puolipisteellä (`;`) eroteltua tekstimuotoista dataa. Kenttien pituuksille ei ole määritelty ylärajaa. Mepcoon määritellään tiedoston luentaan tätä aineistoa vastaavat sarakkeet ja käsittelysäännöt.
@@ -124,13 +132,12 @@ Alla oleva esimerkki kuvaa yksinkertaistetusti, kuinka isyysvapaalle muodostetaa
 [/code]
 Kun kalenteriin lisätään uusi isyysvapaa, muodostetaan aineisto, joka sisältää isyysvapaan lisäysmerkinnällä "U". Mikäli isyysvapaata muokataan, muodostetaan uusi aineisto lisäysmerkinnällä "U", mutta edellistä versiota poissaolosta ei muodosteta poistomerkinnällä "P". Mikäli isyysvapaaa poistetaan kokonaan, ei aineistoa muodosteta.
 Mikäli kalenteriin lisätään kertausharjoitukset (tai mikä tahansa muu poissaolo), se käsitellään liittymän normaalin toimintatavan mukaisesti.
-## Kuluvan päivän poissaolokirjauksen poimintasäännön ehto
-Tilanteessa, jossa kuluvalle päivälle kirjataan poissaolo, tietokantatauluun muodostuu tieto "istimeborrowedfrombalance = 'Y'. Tämä aiheuttaa tilanteen, jossa hyväksymätön poissaolo siirtyy aiheettomasti eteenpäin vientipuskuriin ja edelleen Mepcoon. Tämän tiedon muodostuminen on tarkoituksenmukaista.   
-  
-Tästä syystä poissaolojen poimintasääntöön tulee lisätä ehto istimeborrowedfrombalance = 'N', jotta kuluvan päivän poissaolokirjaukset eivät siirry ennenaikaisesti ja aiheettomasti liittymällä ennen niiden hyväksyntää. 
+## Sairauspoissaolokirjauksen poimintasäännön ehto
+Kun kirjataan kuluvan päivän tai osapäivän sairauspoissaolo, tietokantatauluun muodostuu kaksi erillistä basictime riviä, joista toisella on tieto "istimeborrowedfrombalance = 'Y'" ja "isapproved = 'Y'". Tämä aiheuttaa tilanteen, jossa hyväksymätön sairauspoissaolo siirtyy aiheettomasti eteenpäin vientipuskuriin ja edelleen Mepcoon. Tilanne voi syntyä osapäivän sairauspoissaoloille sekä sairauspoissaoloille, jotka kirjataan kuluvalle päivälle ilman loppumisaikaa.
+Tästä syystä osapäivän sairauspoissaolojen poimintasääntöön tulee lisätä ehto istimeborrowedfrombalance = 'N', jotta kuluvan päivän tai osapäivän sairauspoissaolokirjaukset eivät siirry ennenaikaisesti ja aiheettomasti liittymällä ennen niiden hyväksyntää. 
 ## Ongelmatilanteet
 ### Poissaolojen lisäys ja poistaminen Mepcosta
-Mikäli Mepcosta halutaan kerralla poistaa suurempi määrä sinne vietyjä poissaoloja tietyllä ajanjaksolla, voi sen tehdä suorittamalla liittymän [manuaalisesti](<https://support.nepton.com/hc/fi/articles/23700503323933-Mepco-poissaolojen-vienti-tapahtuman-muokkauksen-yhteydess%C3%A4#h_01JEZV3MKT3MS9JX1BJPYZT8N2>). Manuaalista liittymän suoritusta voi käyttää samalla tavalla myös poissaolojen lisäämiseen.
+Mikäli Mepcosta halutaan kerralla poistaa suurempi määrä sinne vietyjä poissaoloja tietyllä ajanjaksolla, voi sen tehdä suorittamalla liittymän manuaalisesti. Manuaalista liittymän suoritusta voi käyttää samalla tavalla myös poissaolojen lisäämiseen.
 ### Asetusmuutokset
 Palkka-aineistoon vaikuttavia asetusmuutoksia ei ole suositeltavaa tehdä jälkikäteen. Esimerkiksi työpäivän pituuden muuttaminen päiväkohtaisesti kalenterinäkymässä voi muuttaa myös palkallisia tunteja. Tällaisia muutoksia tehdessä liittymää  _ei_ suoriteta ja Mepcoon jää sinne mahdollisesti aiemmin viety tieto poissaolon palkallisesta kestosta. Tällaisessa tilanteessa tulee toimia seuraavasti:
   * Poista Mepcosta aiemmin luotu poissaolo.

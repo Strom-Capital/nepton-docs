@@ -12,7 +12,7 @@ section_path:
 - General information on integrations
 labels: []
 promoted: false
-updated_at: '2026-01-10T08:11:31Z'
+updated_at: '2026-08-14T11:43:40Z'
 edited_at: '2026-01-10T08:11:31Z'
 ---
 

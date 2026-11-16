@@ -12,8 +12,8 @@ section_path:
 - Setting up workshift planning
 labels: []
 promoted: false
-updated_at: '2025-07-31T04:23:57Z'
-edited_at: '2025-07-10T13:18:22Z'
+updated_at: '2026-06-12T11:55:48Z'
+edited_at: '2026-06-12T11:55:48Z'
 ---
 
 # Managing locations
@@ -21,7 +21,7 @@ edited_at: '2025-07-10T13:18:22Z'
 All shifts are planned for Locations. Manage locations under the ‘Locations’ heading.
 Locations are set up for those [units](<https://support.nepton.com/hc/en-gb/articles/360002590317>) for which planning is done. Locations are created and managed for each unit independently. Employees can be attached to the locations of their own units, so that shifts to these locations can be planned for them. Work shift planners have visibility of the planning in their own unit.
 If Worktime project targeting is in use, make sure that [units](<https://support.nepton.com/hc/en-gb/articles/360002590317>) do not share codes with [projects](<https://support.nepton.com/hc/en-gb/articles/360002561017>).
-Mandatory fields when creating a location are name and calculation unit. Calculation unit is the identifier for the location and it is inputted as string.
+Mandatory fields when creating a location are name and calculation unit. Calculation unit is the unique identifier for the location and it is inputted as string.
 Locations are a nested hierarchy. If location is defined with category, then the location is a child for another location.
 Valid from and valid until - fields prevent planning to the location outside these dates. Planning cannot be done to a location to those dates that are earlier than valid from, or to dates that are later than valid until. If the field is empty then planning can be done.
 ![Screenshot 2025-07-10 153816.png](https://support.nepton.com/hc/article_attachments/28754581502493)

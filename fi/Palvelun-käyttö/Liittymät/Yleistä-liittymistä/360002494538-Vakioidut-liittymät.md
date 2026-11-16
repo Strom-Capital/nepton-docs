@@ -18,7 +18,7 @@ labels:
 - tekninen toteutus
 - vakioliittymät
 promoted: false
-updated_at: '2025-08-06T09:51:04Z'
+updated_at: '2026-08-14T10:05:38Z'
 edited_at: '2025-08-06T09:22:07Z'
 ---
 

@@ -12,7 +12,7 @@ section_path:
 - Terminal use
 labels: []
 promoted: false
-updated_at: '2025-08-18T11:28:50Z'
+updated_at: '2026-11-09T12:38:13Z'
 edited_at: '2023-01-13T08:04:59Z'
 ---
 

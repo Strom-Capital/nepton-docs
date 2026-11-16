@@ -12,18 +12,16 @@ section_path:
 - Sähköiset työsopimukset
 labels: []
 promoted: false
-updated_at: '2024-07-29T12:31:08Z'
-edited_at: '2023-06-16T05:53:37Z'
+updated_at: '2026-11-03T12:53:49Z'
+edited_at: '2026-11-03T12:50:32Z'
 ---
 
 # Sähköisten työsopimusten käyttöönotto
 
-Neptonin sähköisten työsopimusten avulla koko työsopimuksiin liittyvä prosessi voidaan hoitaa kätevästi yhdessä paikassa. Sähköiset työsopimukset ovat käytettävissä HR-ratkaisun palvelutasolla Complete.
+Neptonin sähköisten työsopimusten avulla koko työsopimuksiin liittyvä prosessi voidaan hoitaa kätevästi yhdessä paikassa.
 Henkilöstöhallinto voi luoda työsopimuspohjat suoraan Neptonissa, minkä jälkeen ne ovat organisaation käytettävissä. Työsopimuspohjien muokkaaminen ja päivittäminen tapahtuu hallinnon toimesta. Näin rekrytoivalla henkilöstöllä on aina käytössään ajantasaiset sopimuspohjat palvelussa.
 Sopimuksen allekirjoitusprosessi tapahtuu kokonaan Neptonissa. Tieto sopimuksesta ja sen tilasta kulkee [automaattisesti](<https://support.nepton.com/hc/fi/articles/360002431018-Automaattiset-ilmoitukset>) työntekijälle, esihenkilölle ja hallinnolle. Sopimus voi sisältää liitteitä, jotka työntekijän on hyväksyttävä allekirjoituksen yhteydessä. Kun kaikki osapuolet ovat allekirjoittaneet sopimuksen ja se on hyväksytty hallinnon toimesta, siihen täydennetyt tiedot siirtyvät automaattisesti työntekijän henkilötietoihin.
 Kyvykkyydellä voidaan toteuttaa myös muita sähköisiä lomakkeita ja asiakirjojen hyväksymisiä. Tällaisia voisivat olla esimerkiksi etätyösopimus, salassapitosopimus tai työtodistus. Kyvykkyyden vahvuus on siinä, että tieto uudesta täydennettävästä lomakkeesta tai hyväksyttävästä tiedosto menee kaikille osapuolille sujuvasti ja henkilöstön tiedot pysyvät tallessa yhdessä palvelussa.
-Jotta sähköisiä työsopimuksia voidaan käyttää, tulee käytössä olla HR-ratkaisun palvelutaso Complete. Palvelutasoista saa lisätietoa omalta avainasiakaspäälliköltä tai Nepton-palveluntarjoajalta.
-Alla olevissa kappaleissa on kuvattu, miten sähköiset työsopimukset otetaan käyttöön Neptonissa.
 ## Tiedostokansiot
 Tiedostokansiot määrittelevät millaisia tiedostoja henkilön tietoihin voidaan liittää. Sähköisiä työsopimuksia käyttääkseen, tulee olla luotuna Työsopimukset-tyyppinen tiedostokansio. Tämä tapahtuu Työsuhde-osion Hallinta-näkymässä kohdassa Tiedostokansiot. Kansiolle asetettu Työsopimukset-tyyppi määrittelee sen, että kansioon voidaan luoda sähköisiä työsopimuksia. Kansion oikeuksia hallitsemalla voidaan määritellä, ketkä organisaatiossa voivat katsella, muokata ja poistaa työsopimuksia henkilöiden tiedoissa. Lisätietoa tiedostokansioista saa [tästä artikkelista](<https://support.nepton.com/hc/fi/articles/360002430958-Tiedostojen-ja-tiedostokansioiden-hallinta>).
 ## Sopimuspohjan lisääminen ja muokkaaminen

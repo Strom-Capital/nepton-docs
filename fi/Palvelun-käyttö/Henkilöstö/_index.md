@@ -8,7 +8,7 @@
 - [Tietojen vienti ja tuonti](Tietojen-vienti-ja-tuonti/_index.md)
 
 ## Articles
-- [Kalenterin synkronointi ](360004577757-Kalenterin-synkronointi.md)
+- [Kalenterin synkronointi](360004577757-Kalenterin-synkronointi.md)
 - [Mobiililinkin antaminen henkilölle](360002425577-Mobiililinkin-antaminen-henkilölle.md)
 - [Neptonin käyttöohjeistus esihenkilöille ja työntekijöille](4768060853533-Neptonin-käyttöohjeistus-esihenkilöille-ja-työntekijöille.md)
 - [Osaamiset](360007613717-Osaamiset.md)

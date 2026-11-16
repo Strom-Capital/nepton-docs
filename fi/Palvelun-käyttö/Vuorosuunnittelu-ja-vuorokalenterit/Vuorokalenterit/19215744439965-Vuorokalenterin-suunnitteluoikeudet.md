@@ -15,7 +15,7 @@ labels:
 - Work schedules
 - vuorokalenteri
 promoted: false
-updated_at: '2026-02-26T08:49:16Z'
+updated_at: '2026-07-09T08:09:24Z'
 edited_at: '2025-12-03T11:18:02Z'
 ---
 

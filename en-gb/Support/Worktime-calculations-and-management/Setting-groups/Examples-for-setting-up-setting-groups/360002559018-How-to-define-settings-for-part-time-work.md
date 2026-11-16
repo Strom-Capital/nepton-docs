@@ -15,8 +15,8 @@ labels:
 - NEPTONNEEDSREVIEW
 - osatyöaika
 promoted: false
-updated_at: '2025-10-13T11:51:56Z'
-edited_at: '2024-07-16T12:55:06Z'
+updated_at: '2026-06-23T13:20:17Z'
+edited_at: '2026-06-23T13:20:17Z'
 ---
 
 # How to define settings for part-time work
@@ -38,7 +38,7 @@ The weekly working time of the working community is 37.5 hours and the daily wor
 This type of part-time work can be defined in the following two ways:
 ### Work time percentage
 You can set a work time percentage for a part-time worker who works shortened days. The work time percentage is set with [the validity function](<https://support.nepton.com/hc/en-gb/articles/360004856937>). An empty field is interpreted as a value of 100 %, i.e. full working time.
-When the work time percentage is set, Nepton automatically calculates the percentage of daily and weekly work time from the settings of the setting group. The work time is calculated to be evenly distributed over the workind days of the week.
+When the work time percentage is set, Nepton automatically calculates the percentage of daily and weekly work time from the settings of the setting group. The work time is calculated to be evenly distributed over the working days of the week. If, however, the length of the [work week](<https://support.nepton.com/hc/en-gb/articles/360002558537-Defining-the-length-of-work-week>) is determined by the planned shifts, the work time percentage does not shorten the length of the week; instead, the weekly work time comes from the planned shifts.
 Absences and the minus and plus balance are compared to the person's shortened day and compensated in proportion to the person's work time percentage. The processing of absences and balance hours for those working a shortened day is automatic.
 Read more about the work time percentage [here](<https://support.nepton.com/hc/en-gb/articles/360003961118>).
 ### A new setting group for employees working shorter days
@@ -63,7 +63,7 @@ The person in the example below works an irregular 7.5-hour work week. According
 You can also create a new setting group for part-timers working irregular shorter work weeks. Instructions for creating a new setting group can be found [here](<https://support.nepton.com/hc/en-gb/articles/360002557537>) (1 Add manually). It is recommended to place the new setting group below the full-time setting group, so that the same settings affecting the interpretation of work time are also inherited to the lower level part-time setting group.
 [Length of work day](<https://support.nepton.com/hc/en-gb/articles/360002558417>) and l[ength of work week](<https://support.nepton.com/hc/en-gb/articles/360002558537>) are defined for the part-time setting group, and t**he person's work time percentage is not changed**.
 The same length of work day is set for all weekdays. In addition, the event type "Weekly leave" should be set as [the assumed event type](<https://support.nepton.com/hc/en-gb/articles/360002558717>) so that this event will be automatically added to work days without any event. This ensures that the work time calculations are correct in the work time calendar and the part-time worker doesn't get a negative balance.
-At times, it may be necessary to use a setting that deducts the difference between the hours worked on a week and the length of work week from balance. 
+At times, it may be necessary to use a setting that deducts the difference between the hours worked on a week and the length of work week from balance.
 This setting is '**Borrow at the end of the week if weekly obligation not fulfilled** '. and can be found the setting group setting in **Work hours - Accruals and overtime hours - Calculation settings: Balance**.
 Here's an example of a week like this, when a part-timer has two "extra" absence days and these absences should be deducted from the balance:  
   

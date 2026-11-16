@@ -12,17 +12,17 @@ section_path:
 - Tietojen vienti ja tuonti
 labels: []
 promoted: false
-updated_at: '2026-05-28T07:44:01Z'
-edited_at: '2026-04-21T08:23:01Z'
+updated_at: '2026-11-05T11:02:31Z'
+edited_at: '2026-11-05T08:35:41Z'
 ---
 
 # Henkilötietojen vienti Exceliin
 
-Henkilötietoja voidaan viedä Exceliin, mikäli on oikeus tarkastella muiden henkilöiden tietoja henkilöhaun kautta. Esimerkiksi esimiehet voivat viedä omia ja alaistensa tietoja raportointitarkoituksiin. Voidaan käyttää myös vientitoiminnallisuutta ja muokata useampia arvoja kerralla Excelissä, jonka jälkeen tuoda muokatut tiedot Neptoniin tai ulkoiseen järjestelmään.
+Henkilötietoja voidaan viedä Exceliin, mikäli on oikeus tarkastella muiden henkilöiden tietoja henkilöhaun kautta. Esimerkiksi esimiehet voivat viedä omia ja alaistensa tietoja raportointitarkoituksiin. Excelissä voidaan myös muokata useampia arvoja kerralla, jonka jälkeen muokatut tiedot voidaan tuoda Neptoniin.
 Teknisistä rajoituksista johtuen henkilön viennin ja tuonnin tukemien tietokenttien välillä on eroja. Tarkista ohjeista aina huolellisesti uusimmat tiedot.
 ## Vie Exceliin
   1. Siirry valikkoon **Työsuhde > Henkilöt > Henkilöt.**
-  2. Suodata henkilölistaa eri hakukriteereillä kunnes löydät haluamasi henkilöt, joiden tiedot haluat viedä.
+  2. Suodata henkilölistaa eri hakukriteereillä kunnes tuloksissa ovat ne henkilöt, joiden tiedot haluat viedä.
   3. Valitse **Vie Exceliin** ja **tallenna** tiedosto tietokoneellesi.
   4. Voit avata tallennetun tiedoston Excelissä tai muissa taulukkolaskentaohjelmissa.
 
@@ -33,8 +33,8 @@ Teknisistä rajoituksista johtuen henkilön viennin ja tuonnin tukemien tietoken
   3. Valitse **Vie sisäänluettavaan Exceliin** ja **tallenna** tiedosto tietokoneellesi.
 
 
-Sisäänluettavaa Exceliä voi hyödyntää henkilötietojen tuonnissa. [Tästä artikkelista](<https://support.nepton.com/hc/fi/articles/360003762577>) löydät tarkemmat tiedot henkilötietojen tuontiin liittyen.
-## Sisäänluettavan Excel-tiedoston sarakkeet
+Sisäänluettavaa Exceliä voi hyödyntää henkilötietojen tuonnissa ja päivittämisessä. [Tästä artikkelista](<https://support.nepton.com/hc/fi/articles/360003762577>) löydät tarkemmat tiedot henkilötietojen tuontiin liittyen.
+### Sisäänluettavan Excel-tiedoston sarakkeet
 Vientitiedoston nimessä on alussa päiväys ja kellonaika, sitten "HENKILOT" ja lopuksi työyhteisön nimi - muodossa: VVVVKKPP_TTMM_HENKILOT_TYÖYHTEISÖ.xlsx. Kaikki henkilöt ovat ensimmäisellä lomakkeella. Lomakkeen nimi on "Henkilölista".
 Sarakkeet näytetään seuraavassa järjestyksessä. Sarakkeiden järjestystä ei voi muokata.
 Sarakkeen nimi näytetään ensimmäisellä rivillä, muilla riveillä on kullakin yhden henkilön tiedot.

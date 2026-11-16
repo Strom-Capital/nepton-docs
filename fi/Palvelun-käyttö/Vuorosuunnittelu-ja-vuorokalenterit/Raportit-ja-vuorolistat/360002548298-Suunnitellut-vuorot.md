@@ -13,8 +13,8 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2024-08-23T09:11:57Z'
-edited_at: '2024-08-23T09:11:57Z'
+updated_at: '2026-11-02T12:11:09Z'
+edited_at: '2026-11-02T12:11:09Z'
 ---
 
 # Suunnitellut vuorot
@@ -26,6 +26,7 @@ Raportit löytyvät Vuorosuunnittelu-osiosta Raportit-valikosta. Valittavana on 
 ![mceclip0.png](https://support.nepton.com/hc/article_attachments/21077752089501)
 Raportti voidaan ajaa halutulta aikaväliltä. Raportin määrityksissä voidaan valita halutaanko tieto näyttää kuten se on raportin ajohetkellä vai tiettynä päivänä. Tietyn päivän tilanteen avulla voidaan esimerkiksi tarkastella vuoroihin tehtyjä muutoksia nykyhetkeen verrattuna.  
 Lisäksi voidaan määrittää halutaanko raportin tiedot näyttää henkilötyöpäivinä (HTP) vai vuorojen määränä. Henkilötyöpäivän arvoksi palveluun on määritetty oletuksena 7,5 tuntia.
+Huom: Raportilla näytetään ainoastaan vuorosuunnittelun suunnittelunäkymässä suunnitellut vuorot ja vuoropoikkeukset. Raportilla ei näytetä vuorokalenterilla suunniteltuja vuoroja.
 Lataa raportti-painikkeen avulla tiedot voidaan viedä Exceliin. Excelissä tiedot tulevat kahdelle välilehdelle: Vuorot taulukkona ja Vuorot listana.
 ## Vuorot taulukkona
 ![mceclip1.png](https://support.nepton.com/hc/article_attachments/21077798356893)

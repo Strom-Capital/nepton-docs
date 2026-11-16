@@ -11,14 +11,14 @@ section_path:
 - Palvelun tila ja versiot
 labels: []
 promoted: false
-updated_at: '2026-06-03T06:39:23Z'
-edited_at: '2026-06-03T06:39:23Z'
+updated_at: '2026-10-19T11:42:18Z'
+edited_at: '2026-09-15T10:19:34Z'
 ---
 
 # Nepton tuotekehityksen  roadmap
 
-**Julkinen**  
-**Päivitetty 2.6.2026**
+**Julkinen**
+**Päivitetty 15.9.2026**
 Tässä artikkelissa kerromme Neptonin tuotekehityksen näkymistä ja tulevaisuuden painopistealueista. Suunnitelmat voivat muuttua strategian ja markkinan muutosten johdosta. Päivitämme tätä artikkelia keskimäärin kerran kvartaalissa.
 Tämä artikkeli antaa yleisen kuvan mihin suuntaan Nepton tuotetta ollaan kehittämässä. Julkaisutiedotteissa ja tukiportaalissa annetaan yksityiskohtaisempaa tietoa yksittäisistä ominaisuuksista.
 ### **Pitkän aikavälin tuotekehityksen fokus**
@@ -32,7 +32,7 @@ Tämä artikkeli antaa yleisen kuvan mihin suuntaan Nepton tuotetta ollaan kehit
 Työnalla sarakkeessa olevia kehitystöitä teemme par'aikaa, niiden valmistuessa otamme seuraavaksi sarakkeesta tehtäviä työn alle.
 TYÖNALLA | **SEURAAVAKSI** | **MYÖHEMMIN**  
 ---|---|---  
-Viikkolepokorvauksen käyttötavan laajennus | Yhtenäisen käyttökokemuksen kehittäminen (Standardi UX-mallit) | Neptonin kumppanityökalujen kehitys  
-| Nepton työajan saavutettavuuden varmennus | Nykyisten herätteiden hallintaosion kehittäminen  
-| Itsepalvelutoimintojen kehittäminen | Uuden Nepton Touch kirjauspäätteen kehittäminen  
-| Työajan tapahtumien ja poissaolojen hyväksyntätoimintojen parannukset |
+Nepton työajan saavutettavuuden varmennus | Itsepalvelutoimintojen kehittäminen | Neptonin kumppanityökalujen kehitys  
+| Työajan tapahtumien ja poissaolojen hyväksyntätoimintojen parannukset | Nykyisten herätteiden hallintaosion kehittäminen  
+|  | Uuden Nepton Touch kirjauspäätteen kehittäminen  
+|  |

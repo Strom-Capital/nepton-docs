@@ -13,8 +13,8 @@ labels:
 - NEPTONNEEDSREVIEW
 - seurantakohteet
 promoted: false
-updated_at: '2026-05-22T07:34:17Z'
-edited_at: '2024-12-05T14:43:00Z'
+updated_at: '2026-06-08T07:35:33Z'
+edited_at: '2026-06-08T07:35:33Z'
 ---
 
 # Projektien hallinta
@@ -34,11 +34,8 @@ Näkymän toiminnallisuudet ovat:
   * Projektien merkintä valmiiksi tai keskeneräiseksi. Tätä varten tulee massatoiminnot ottaa käyttöön MASSATOIMINNOT-painikkeella.
   * Projektien tarkastelu suurennuslasi-kuvakkeella.
 
-
-![](https://support.nepton.com/hc/article_attachments/15739991391133)
-Massatoiminnot-tila käytössä:
-![](https://support.nepton.com/hc/article_attachments/15739946375325)
-Jos vuorosuunnittelu on käytössä, myös Henkilöt-osiossa luodut yksiköt ja Toimipisteet-osiossa luodut toimipisteet näkyvät projektilistauksessa. Näitä ei kuitenkaan voi siirtää tai muokata muuten kuin "Näytetään työaikapäätteellä" -valinnan osalta.
+![](https://support.nepton.com/hc/article_attachments/36671116866589)
+Jos vuorosuunnittelu on käytössä, myös Työsuhde-osiossa luodut yksiköt ja Toimipisteet-osiossa luodut toimipisteet näkyvät projektilistauksessa automaattisesti luotuina projekteina. Toimipisteistä automaattisesti muodostuneita projekteja hallinnoidaan Toimipisteet-osiossa lukuunottamatta "Näytetään työaikapäätteellä"-asetusta. 
 ## Yksittäisten projektien hallinta
 Yksittäisiä projekteja voi hallita valikossa **Työaika > Projektit > Projektin hallinta**.
 Toiminto-valikon kohdassa Projektin tiedot voit tarkastella ja muokata projektin tietoja. Valikosta löytyvät myös toiminnot Siirrä projekti sekä Lisää projekti.
@@ -50,11 +47,12 @@ Jotta aliprojekti näkyy työaikapäätteellä, täytyy myös sen yliprojekteill
 Projektipäälliköt-kentässä voidaan määritellä henkilöt, jotka voivat tarkastella ja [hyväksyä](<https://support.nepton.com/hc/fi/articles/360002561477>) projektille kirjattuja tunteja riippumatta siitä, onko kirjaukset tehnyt heidän alaisensa.
 Muutokset tallennetaan sivun alareunasta Tallenna projekti -painikkeella.   
   
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/360007060917)
+![](https://support.nepton.com/hc/article_attachments/36671116866973)
 ### Projektin siirtäminen
 Projektin siirtäminen tapahtuu valitsemalla Toiminto-valikosta Siirrä projekti.
-![Projekti_01.png](https://support.nepton.com/hc/article_attachments/360018792917)
-Tämän jälkeen valitaan uusi yliprojekti ja painetaan Siirrä projekti.
+![](https://support.nepton.com/hc/article_attachments/36671116870301)
+Tämän jälkeen valitaan uusi yliprojekti ja painetaan Siirrä projekti.  
+  
+![](https://support.nepton.com/hc/article_attachments/36671122038685)
 Huomioithan, että ainoastaan alimman tason projekteille voi kohdentaa tapahtumia.
 Projektin siirtämisen jälkeen projektirakenne muuttuu myös raporteilla historiassa. Esimerkiksi: jos projekti A oli ennen projektin B yläprojektina ja projekti A siirretään pois yläprojektin asemasta, poistuu se myös raporteilla yläprojektin asemasta.
-![Projekti_02.png](https://support.nepton.com/hc/article_attachments/360018845098)

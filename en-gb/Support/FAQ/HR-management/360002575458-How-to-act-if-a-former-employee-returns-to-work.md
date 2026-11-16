@@ -16,13 +16,13 @@ labels:
 - restoring employee's information
 - työntekijän palauttaminen
 promoted: false
-updated_at: '2026-01-30T11:59:18Z'
+updated_at: '2026-10-01T12:58:04Z'
 edited_at: '2024-07-31T06:54:52Z'
 ---
 
 # How to act if a former employee returns to work?
 
-When a person who previously worked at the company returns to work, their previous credentials should be **restored** for their use. Currently, it is not possible in Nepton to mark multiple separate consecutive employment relationships for one person; the system only supports one employment relationship per person.
+When a person who previously worked at the company returns to work, their previous credentials should be **restored** for their use. Currently, it is not possible in Nepton to mark multiple separate consecutive employment relationships for one person; the system only supports one employment relationship per person.  
 You can restore the person’s previous credentials in the **Employees** section:
   1. Enter the person’s name in the search function and select the option **Show deleted** or **Show only deleted** from the Deleted persons field. The person’s information should then be found when you select **Search**. The deleted person’s information will appear in grey.  
   

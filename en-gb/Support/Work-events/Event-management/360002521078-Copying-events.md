@@ -20,14 +20,15 @@ labels:
 - copying event
 - frequency
 promoted: false
-updated_at: '2026-04-01T12:36:42Z'
-edited_at: '2026-04-01T12:36:42Z'
+updated_at: '2026-09-17T05:39:25Z'
+edited_at: '2026-09-17T05:39:25Z'
 ---
 
 # Copying events
 
 It is possible to copy events via the Copy function in the calendar view (Worktime > Work hours > Events in calendar).
 Copying can be useful, for example, in a situation where a person's work entry is exactly the same every week on the same day, or if the entire staff has a common training day and it should be recorded uniformly for everyone.
+When copying a continuous event that lasts longer than 24 hours, it is important to copy the event only to the date on which the entry is intended to start. Otherwise, the event will be duplicated on each day within the selected copy period, with its full duration extending forward from each date.
 ## Copying events for one or multiple users
 Copying is done by clicking on the event you want to copy. Select "copy" from the menu that opens.
 ![](https://support.nepton.com/hc/article_attachments/35052197695389)  

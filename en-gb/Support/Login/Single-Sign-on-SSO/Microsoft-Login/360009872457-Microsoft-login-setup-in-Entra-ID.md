@@ -13,8 +13,8 @@ section_path:
 - Microsoft Login
 labels: []
 promoted: false
-updated_at: '2026-02-05T13:58:38Z'
-edited_at: '2024-09-27T12:05:11Z'
+updated_at: '2026-10-29T14:05:12Z'
+edited_at: '2026-06-09T09:36:59Z'
 ---
 
 # Microsoft login setup in Entra ID
@@ -30,7 +30,7 @@ Entra ID email of your employee can be manually checked via following method
   * Azure Portal
   * Microsoft Entra ID
   * Users, select employee
-  * Email can be found in one of these (use the below order): 
+  * Email can be found in one of these (use the below order):
     * Profile, contact info, email
     * Authentication methods, email
     * Profile, user principal name
@@ -75,13 +75,45 @@ If you can't get Nepton logins to work with option A, you should pick option B i
 This option allows client secrets with 5 years. Steps 12, 13 and 16 need to be re-done every ten years.
 For this option, you would need to know Powershell. Please note that Powershell 7 does not support Entra ID connectivity, so please use Powershell 5.1 x86 version instead.
 In case you have not yet installed the necessary Powershell module, please do it now: 
-Install-Module AzureAD
+# Install Microsoft Graph module  
+Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber  
+  
+# Verify installation  
+Get-Module -ListAvailable -Name Microsoft.Graph  
+
 Execute the following commands (end date can't be over 5 years from now):
-Connect-AzureAD
-$startDate = Get-Date
-$endDate = $startDate.AddYears(5)
-$value= New-AzureADApplicationPasswordCredential -ObjectId "REPLACE_WITH_OBJECTID_OF_APP_REGISTRATION" -StartDate $startDate -EndDate $endDate 
-$value
+# ============================================================  
+# CUSTOMER SETUP – FILL IN THE VARIABLES BELOW BEFORE RUNNING  
+# ============================================================  
+  
+$SecretDisplayName = "Production API Secret"# Name to identify this secret in Azure Portal  
+$ClientId = "YOUR-APPLICATION-CLIENT-ID"# Get this from Azure Portal → App Registration  
+$YearsValid = 5# How many years until secret expires  
+  
+# ============================================================  
+# YOU SHOULD NOT NEED TO CHANGE ANYTHING BELOW THIS LINE  
+# ============================================================  
+  
+# 1. Connect to Microsoft Graph (sign in when prompted)  
+Connect-MgGraph -Scopes "Application.ReadWrite.All"  
+  
+# 2. Calculate expiration date based on years above  
+$startDate = Get-Date  
+$endDate = $startDate.AddYears($YearsValid)  
+  
+# 3. Create the secret object  
+$passwordCredential = @{  
+DisplayName = $SecretDisplayName # This is only a NAME, not the actual secret  
+StartDateTime = $startDate  
+EndDateTime = $endDate  
+}  
+  
+# 4. Generate the client secret (the actual secret value will be shown after running)  
+Write-Host"Generating secret: '$SecretDisplayName'..." -ForegroundColor Cyan  
+Add-MgApplicationPassword -ApplicationId $ClientId -PasswordCredential $passwordCredential  
+  
+Write-Host"✅ Done! Copy the secret value shown above – it won't be displayed again." -ForegroundColor Green  
+
 **B) Create client secret via Azure Portal**
 This option can be done solely via browser. Downside is that client secret expires every two years and thus steps 12, 13 and 16 have to be re-done every two years.
 On the left, Certificates & Secrets, create new client secret. Mark this client secret to be in effect as long as possible, or (if possible) never to expire. Add. Wait until you see this notification on the top right corner:

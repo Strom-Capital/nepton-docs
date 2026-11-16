@@ -12,8 +12,8 @@ section_path:
 - Calculation settings
 labels: []
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2024-10-03T12:25:53Z'
+updated_at: '2026-08-20T11:43:34Z'
+edited_at: '2026-08-20T11:43:34Z'
 ---
 
 # Regular time over work day length earning threshold
@@ -30,7 +30,7 @@ The setting doesn't enable earning a set amount of hours per event type, but it 
 Few examples of how this setting can be used can be found below.
 ### Travel time
 By default, "travel time" only accumulates regular hours. If work time should also be earned after the day's obligation has been fulfilled, you must set the correct value for the setting. As an example, a case where you can earn 3 hours of travel time on weekdays and 12 hours on weekends to balance. The length of the working day is 7.5 hours, so the settings would be set as follows:
-![](https://support.nepton.com/hc/article_attachments/22005059125917)
+![](https://support.nepton.com/hc/article_attachments/38510185943581)
 Then, on work days travel time can't earn worktime after the work hours have reached 10,5 hours and at the weekends 12,5 hours.
 ![](https://support.nepton.com/hc/article_attachments/22005029209373)
   * Thursday 10.10.: First a full work day of 7,5 hours has been done, which follows by 2 hours of travel time. No hours have been limited, because the total hours of the day don't exceed 10,5 hours.

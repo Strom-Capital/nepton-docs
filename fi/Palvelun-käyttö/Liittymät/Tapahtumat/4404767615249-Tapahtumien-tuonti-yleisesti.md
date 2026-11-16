@@ -13,8 +13,8 @@ section_path:
 labels:
 - alkusaldo
 promoted: false
-updated_at: '2025-10-24T11:33:42Z'
-edited_at: '2025-10-24T11:33:41Z'
+updated_at: '2026-10-16T11:42:20Z'
+edited_at: '2026-10-16T11:42:20Z'
 ---
 
 # Tapahtumien tuonti yleisesti
@@ -39,22 +39,21 @@ Tätä tapaa suositellaan silloin kun halutaan testata ajastettua tuontia ilman 
   
 Lisätietoja käyttöliittymän aineistolatauksesta ennalta määritetyllä rakenteella voi lukea [täältä](<https://support.nepton.com/hc/fi/articles/4419484517521>).
 tai
-\- **valitaan tiedon rakenne tuonnin aikana  
-** Tätä tapaa suositellaan kun tapahtumien tuonti ei ole säännöllistä ja esimerkiksi käyttöönoton aikana toteuttavat kertymien pohja-arvojen asettamiset tai lomaoikeuksien tuonnit suositellaan tehtävän tällä tavalla. Tämä tapa toimii, jos on määritelty vain yhdet, tätä tuontia varten määritellyt tuontiasetukset Neptonissa (Katso kuva artikkelin lopusta).
+\- **valitaan tiedon rakenne tuonnin aikana**  
+Tätä tapaa suositellaan kun tapahtumien tuonti ei ole säännöllistä ja esimerkiksi käyttöönoton aikana toteuttavat kertymien pohja-arvojen asettamiset tai lomaoikeuksien tuonnit suositellaan tehtävän tällä tavalla. Tämä tapa toimii, jos on määritelty vain yhdet, tätä tuontia varten määritellyt tuontiasetukset Neptonissa (Katso kuva artikkelin lopusta).
 Lisätietoja käyttöliittymän aineistolatauksesta tuonnissa valittavalla rakenteella voi lukea [täältä](<https://support.nepton.com/hc/fi/articles/360002868137>).
-**Huom**. Tapahtumien tuonti tuonnin aikana valittavalla rakenteella toimii vain silloin jos on asetettu **yhdet** **Tapahtumien tuonti** \- asetukset **Tapahtumien tuonti #1** :n määrityksissä. Jos on tarve tehdä useita Tapahtumien tuonti - asetuksia, tuonnissa valittavaa rakennetta ei voida käyttää.
 ## Tapahtumien tuonti -asetukset
 **Aina kun tapahtumia tuodaan aineistolatauksella** , joko SFTP:ltä tai käyttöliittymästä manuaalisesti,**tulee ensin määritellä Tapahtumien tuonti -asetukset**
 Työaika > Hallinta > Työyhteisön asetukset > Liittymät -näkymässä:
 ![](https://support.nepton.com/hc/article_attachments/18259962339229)
 Tapahtumien tuonnin asetuksissa on määriteltävä seuraavat asiat:
-  * Aineistolla tuotavien tapahtumien koodit Neptonia vastaaviin tapahtuma- ja poissaolotyyppeihin, esimerkiksi: 
+  * Aineistolla tuotavien tapahtumien koodit Neptonia vastaaviin tapahtuma- ja poissaolotyyppeihin, esimerkiksi:
     * Aineistolla tuodaan vuosilomaa koodilla "VL". Jotta Nepton osaa lukea tämän sisään oikein, on tapahtuman tuonnin asetuksiin määritettävä Vuosiloma-tapahtumatyypin kohdalle kyseinen koodi 
     * Kaikkien aineistolla tuotavien tapahtuma- ja poissaolotyyppien koodit on löydyttävä Neptonista. Mikäli aineistolla tuodaan tapahtumaa, jolle ei ole vastinparia Neptonissa, **kyseinen tapahtuma jää tuomatta**. 
 
 
 ![](https://support.nepton.com/hc/article_attachments/23619381499549)
-  * Tapahtumien tuonnin asetukset SFTP-palvelimen tietojen osalta 
+  * Tapahtumien tuonnin asetukset SFTP-palvelimen tietojen osalta
     * Täytä vaaditut kentät, jotta Nepton pääsee palvelimelle hakemaan sisäänluettavaa aineistoa
-  * Lisähuomioita asetuksista: 
+  * Lisähuomioita asetuksista:
     * **Menneiden päivien määrä siirtotiedostossa** -asetus on tärkeä. Aineistosta puuttuvat tapahtumat poistetaan henkilön kalenterista, mikäli kalenterissa oleva tapahtuma on perustettu samalla käyttäjällä kuin siirtoa suoritetaan. Palveluun asetetaan se päivien määrä, jota siirrettävää aineistoa tulkitaan historiaan. Tätä päivien määrää verrataan tapahtuman päättymispäivään. Tapahtumat poistetaan siltä ajalta, milloin ne ovat voimassa henkilön kalenterissa päivitettävällä ajanjaksolla, ja eivät ole siirtoaineistossa. Tapahtuman on täten löydyttävä siirtotiedostosta koko sen voimassaoloajan lisättynä menneisyyteen päivitettävien päivien lukumäärällä. Mikäli aikarajaa ei ole asetettu käytetään arvona 0 päivää.

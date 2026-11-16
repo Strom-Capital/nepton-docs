@@ -12,31 +12,28 @@ section_path:
 - Exporting and importing data
 labels: []
 promoted: false
-updated_at: '2026-05-28T07:44:01Z'
-edited_at: '2026-05-28T07:44:01Z'
+updated_at: '2026-11-05T11:02:31Z'
+edited_at: '2026-11-05T11:02:31Z'
 ---
 
 # Export person data to Excel
 
-You can export person data to an Excel sheet if you have rights to access other people's data using the persons search. For example, supervisors can export their own data and the data of their subordinates to for reporting purposes, storing the addresses and working contract details etc. You can also use the export functionality to edit certain details for many users at once in Excel and then import the updated data into Nepton or an external system.
+You can export person data to an Excel sheet if you have rights to access other people's details. For example, supervisors can export their own data and the data of their subordinates to for reporting purposes. You can also use the export functionality to edit certain details for many users at once in Excel and then import the updated data into Nepton.
 Due to technical limitations, there are differences between the data fields supported by the person export and import. Please check the documentation carefully for the latest information.
 ## Export to Excel
-  1. Navigate to **employees, persons, persons** -page,
+  1. Navigate to **Employees > persons > persons **-page.
   2. Filter the persons list by search terms and search for the persons whose data you want to export.
   3. Select Export to Excel to save the results to your computer.
   4. You can open the saved Excel file on Excel, LibreOffice or another spreadsheet program. 
 
 
 ## Export to importable Excel
-  1. Navigate to **employees, persons, persons** -page.
+  1. Navigate to **Employees > persons > persons **-page.
   2. Filter the persons list by search terms and search for the persons whose data you want to export.
   3. Select **Export to importable Excel** to save the results to your computer.
-  4. You can open the saved Excel file on Excel, LibreOffice or another spreadsheet program.
-  5. Edit existing data and/or add new data.
-  6. Navigate to **employees, persons, import persons** -page.
-  7. Import the modified file into Nepton.
 
 
+Further instructions on importing persons can be found [here](<https://support.nepton.com/hc/en-gb/articles/360003762577>).
 ## Columns in importable Excel file
 The name of the export file is including the date and time first, followed by "PERSONS" and the name of the working community - in the format: YYYYMMDD_HHMM_PERSONS_COMMUNITY.xlsx. All persons are on the first sheet/tab. The name of the sheet is "Henkilölista".
 The columns are displayed in the following order. The column title is displayed on the first row, other rows contain information for one person each.

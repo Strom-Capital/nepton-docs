@@ -14,8 +14,8 @@ labels:
 - NEPTONNEEDSREVIEW
 - työvuoroluettelo tulostaminen
 promoted: false
-updated_at: '2024-08-23T10:40:38Z'
-edited_at: '2024-08-15T13:19:50Z'
+updated_at: '2026-06-25T08:22:30Z'
+edited_at: '2026-06-25T05:58:07Z'
 ---
 
 # Vuorolistan tarkastelu ja tulostus
@@ -32,34 +32,31 @@ Poissaolot tulevat vuorolistoille työajankalenterista, eivät vuorosuunnittelus
 Jos tarkastelunäkymässä on tulostus-painike, niin raportin voi myös tulostaa.
 ## Vuorojen tarkasteleminen kalenteri- ja taulukkonäkymässä
 Julkaistuja vuoroja voidaan tarkastella Työaika -osiossa kohdassa Työtunnit > Tapahtumat kalenterissa tai Tapahtumat taulukossa. Esihenkilö voi tarkastella näkymässä omien alaisten vuoroja ja työntekijä pystyy tarkastelemaan omia vuorojaan.
-![](https://support.nepton.com/hc/article_attachments/19754993161117)
+![](https://support.nepton.com/hc/article_attachments/37107525419933)
 Vuorot näytetään jokaisen päivän kohdalla.
 Kalenterinäkymä:
-![](https://support.nepton.com/hc/article_attachments/19755019412637)  
+![](https://support.nepton.com/hc/article_attachments/37107540384669)  
 Taulukkonäkymä:  
-![](https://support.nepton.com/hc/article_attachments/19755019416221)  
-  
-
+![](https://support.nepton.com/hc/article_attachments/37107525423261)
 ## Vuorojen tarkasteleminen Henkilön vuorot -raportilla
-Omia tai alaisten vuoroja voi tarkastella myös Työaika-osion Vuorot-valikon Henkilön vuorot -raportilla tai eri muotoisilla tuntiraporteilla.  
-Käyttäjä voi tulostaa omat vuoronsa tässä näkymässä klikkaamalla tulostimen kuvaketta.  
-Raporteilla voi valita ajanjakson ja aikavälin.  
-Klikkaamalla vuoroa avautuu lisätieto-ruutu, joka kertoo merkinnän tapahtumatyypin (esim. suunniteltu vuoro, vuosiloma, koulutus).
-Raportin aikavälin tarkkuus ja tuntihaarukka ovat oletuksena ne, mitä on asetettu työyhteisön asetuksiin Hallinta > Työyhteisön asetukset > Työvuorot > Aikavälin oletustarkkuus ja Näkymässä näytettävä tuntihaarukka.
-![](https://support.nepton.com/hc/article_attachments/19754993200797)
+Omia tai alaisten vuoroja voi tarkastella myös Työaika-osion Vuorot-valikon Henkilön vuorot -raportilla tai eri muotoisilla tuntiraporteilla. Käyttäjä voi tulostaa omat vuoronsa tässä näkymässä klikkaamalla tulostimen kuvaketta.
+Raporteilla voi valita ajanjakson ja aikavälin. Klikkaamalla vuoroa avautuu lisätieto-ruutu, joka kertoo merkinnän tapahtumatyypin (esim. suunniteltu vuoro, vuosiloma, koulutus).
+Raportin aikavälin tarkkuus ja tuntihaarukka ovat oletuksena ne, mitä on asetettu työyhteisön asetuksiin Hallinta > Työyhteisön asetukset > Vuorot > Vuororaporttien oletusarvot.
+![](https://support.nepton.com/hc/article_attachments/37107540387357)
 ## Työvuorojen tarkasteleminen tunti- ja päiväsarakkeilla
 Työvuoroja voi tarkastella myös kohdassa **Työaika - Vuorot** eri raporteilla. Vuorot-valikon raporttien näkyvyys riippuu työntekijälle asetetusta roolista. Työntekijällä voi olla oikeus esimerkiksi tarkastella omia vuorojaan, oman henkilöryhmän vuoroja tai jopa kaikkien käyttäjien vuoroja. Esihenkilöllä voi olla oikeus tarkastella omien alaistensa vuoroja. Vuorojen tarkasteluoikeus antaa oikeudet vain vuororaporttien ajamiseen valituille henkilöille. Työntekijä ei näe muiden työntekijöiden kalentereita eikä muita tietoja tällä oikeudella. Lisätietoja työajan rooleista löydät [täältä](<https://support.nepton.com/hc/fi/articles/360002554338-Ty%C3%B6ajan-roolit>). 
-Mikäli halutaan tarkastella henkilöryhmän, kuten tiimin tai osaston vuoroja, voidaan ajaa joko Vuorolista tuntisarakkeilla tai Vuorolista päiväsarakkeilla -raportti.
+Mikäli halutaan tarkastella henkilöryhmän, kuten tiimin tai osaston vuoroja, voidaan ajaa joko Vuorolista tuntisarakkeilla tai Vuorolista päiväsarakkeilla -raportti. Mikäli raportti halutaan ajaa ja jakaa tulostettuna esimerkiksi työpisteelle, voidaan valita täppä "piilota tapahtumat, jotka eivät ole vuoroja". Tällöin, vaikka raportin ulosajavalla henkilöllä olisikin oikeus nähdä esimerkiksi työntekijöiden sairauspoissaoloja, eivät nämä nouse tulostettavalle raportille muiden nähtäväksi.
 Raporttia ajaessa:
 1\. Valitse haluttu ajanjakso.  
 2\. Valitse halutut käyttäjät. Ryhmittely aukeaa alatasoihin pientä nuolta painamalla.  
 3\. Lisää halutut henkilöt henkilöryhmän tai henkilön nimen päältä painamalla.  
 4\. Valitse raportin lajitteluperiaate aikavälin tarkkuus.  
 5\. Lopuksi paina Näytä listaus -painiketta.
-![](https://support.nepton.com/hc/article_attachments/19755019437725)
+![](https://support.nepton.com/hc/article_attachments/37106867012125)
 Vuorolista tuntisarakkeilla näyttää valitut päivät halutun mukaisella aikavälin tarkkuudella. Raportti soveltuu parhaiten lyhyiden aikavälien tarkasteluun. Klikkaamalla vuoroa aukeaa lisätietoruutu.
-![](https://support.nepton.com/hc/article_attachments/19756762891293)
-Vuorolista päiväsarakkeilla antaa kullekin päivälle vuoron ja vuoroon liitetyn lisätiedon. Päiväsarakkeella tarkastelu sopii parhaiten usein henkilön usean päivän tarkastelemiseen yhtäaikaisesti.![](https://support.nepton.com/hc/article_attachments/19756762905501)
+![](https://support.nepton.com/hc/article_attachments/37108688326045)
+Vuorolista päiväsarakkeilla antaa kullekin päivälle vuoron ja vuoroon liitetyn lisätiedon. Päiväsarakkeella tarkastelu sopii parhaiten usein henkilön usean päivän tarkastelemiseen yhtäaikaisesti.
+![](https://support.nepton.com/hc/article_attachments/37108688329245)
 ## Työvuorojen tarkasteleminen projekteittain tai toimipisteittäin
 Työvuoroja voidaan tarkastella projekteittain tai toimipisteittäin kohdassa Työaika > Vuorot > Vuorolista projekteittain. Jotta vuorolistan tarkastelu projekteittain tai toimipisteittäin on mahdollista, tulee henkilö lisätä niihin projekteihin/toimipisteisiin, joiden vuorot hänen tulee nähdä. Projekti/toimipiste voidaan lisätä henkilön projekteissa tai lisäämällä projekti/toimipiste suoraan henkilöryhmälle. Lisätietoa projektin/toimipisteen lisäämisestä henkilölle tai henkilöryhmälle löydät [täältä](<https://support.nepton.com/hc/fi/articles/360006776758-Projektien-lis%C3%A4%C3%A4minen-henkil%C3%B6lle-tai-henkil%C3%B6ryhm%C3%A4lle>).
 Vuorolista projekteittain näyttää henkilöt projekteittain/toimipisteittäin, eli voit hakea tietyn projektin/toimipisteen henkilöiden vuoroja.   

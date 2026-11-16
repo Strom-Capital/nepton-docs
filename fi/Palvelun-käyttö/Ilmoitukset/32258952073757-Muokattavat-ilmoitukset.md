@@ -11,8 +11,8 @@ section_path:
 - Ilmoitukset
 labels: []
 promoted: false
-updated_at: '2026-01-08T11:41:44Z'
-edited_at: '2026-01-08T11:41:06Z'
+updated_at: '2026-11-16T13:36:03Z'
+edited_at: '2026-11-16T13:36:03Z'
 ---
 
 # Muokattavat ilmoitukset
@@ -23,7 +23,7 @@ Tämä artikkeli koskee muokattavia ilmoituksia. Lisätietoja ilmoitukset-näkym
 Muokattavat ilmoitukset mahdollistavat organisaation omien tarpeiden mukaiset ilmoitukset. Ne perustuvat poimintasääntöihin (SQL), joilla määritetään, ketkä henkilöt ja mitkä tapahtumat sisältyvät ilmoitukseen. Poimintasäännöllä voidaan joustavasti määritellä:
   * Haettavat tiedot ilmoituksen kohteista (esim. henkilöt, tapahtumat, saldot).
   * Määritellä ehdot, joiden täyttyessä ilmoitus lähetetään.
-  * Rajata tietoja henkilöstöryhmän, maksuryhmän tai muiden kriteerien perusteella.
+  * Rajata tietoja henkilöryhmän, maksuryhmän tai muiden kriteerien perusteella.
 
 
 Koska muokattavien ilmoitusten sisältö määräytyy sääntöjoukon mukaan, ja ne voivat sisältää mahdollisesti arkaluonteisia tietoja (esim. sairaslomat). Varmista aina, ettei ilmoitus paljasta tietoja, joita organisaatiossa ei saa välittää sähköpostitse, eivätkä käyttäjät normaalisti näe asiakasympäristössä.
@@ -194,5 +194,6 @@ Ilmoitus listaa henkilöt, joiden työaikasaldo ylittää määritetyn raja-arvo
 Poimintasäännössä **AS** -aliaksella määriteltyjä tietoja voidaan käyttää viestissä kirjoittamalla ne hakasulkujen väliin Ilmoitus-välilehdellä, kun muokkaat viestin sisältöä. Esimerkiksi näin: `Hei [PersonName], saldosi on [BalanceHours] tuntia.`
 Tiedot nimetään **AS** -aliaksella, kuten alla olevassa poimintasäännössä on tehty `'PersonName'` sekä `'BalanceHours'` kohdalla.
 ![](https://support.nepton.com/hc/article_attachments/32385489454621)
-Tämän jälkeen poimintasäännössä määriteltyjä **AS** -aliaksia voidaan käyttää viestissä kirjoittamalla ne hakasulkujen väliin esim. `[PersonName]`, jolloin viestin sisältö päivittyy automaattisesti viimeisimmillä tiedoilla.
+Tämän jälkeen poimintasäännössä määriteltyjä **AS** -aliaksia voidaan käyttää ilmoituksen **Rivikohtainen viestin sisältö -** kohdassa (pakollinen kenttä) kirjoittamalla ne hakasulkujen väliin esim. `[PersonName]`.
+Huom! Näm aliakset eivät toimi **Ilmoituksen sisällön ensimmäinen kappale** -osiossa. Tässä osiossa voidaan käyttää ainoastaan linkkiä [ApprovalLink], joka vie henkilön joko Hyväksy tunteja -näkymään tai Neptonin kirjautumissivulle, jos henkilö ei ole valmiiksi kirjautuneena Neptoniin.
 ![](https://support.nepton.com/hc/article_attachments/32274797644829)

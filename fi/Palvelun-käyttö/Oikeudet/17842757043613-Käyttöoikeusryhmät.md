@@ -11,13 +11,13 @@ section_path:
 - Oikeudet
 labels: []
 promoted: false
-updated_at: '2026-02-11T14:22:57Z'
-edited_at: '2026-02-11T14:22:46Z'
+updated_at: '2026-10-13T08:09:14Z'
+edited_at: '2026-10-13T08:08:26Z'
 ---
 
 # Käyttöoikeusryhmät
 
-Tässä artikkelissa kerrotaan käyttöoikeusryhmien käyttöönotosta ja hyödyntämisestä organisaatiossa. Käyttöoikeusryhmät mahdollistavat tarkkaan määritellyn oikeuksien hallinnan Neptonissa. Käyttöoikeusryhmässä voidaan määritellä mihin tietoihin käyttäjällä on katseluoikeudet ja mihin tietoihin muokkausoikeudet. Käyttöoikeusryhmiä käytetään uuden konseptin, pääsy henkilöryhmiin, kanssa. Tämä mahdollistaa käyttäjille erilaisten oikeuksien antamisen eri henkilöryhmiin. Käyttäjän ei tarvitse olla henkilöryhmän jäsen, vaan hänelle annetaan pääsy valittuihin henkilöryhmiin.  
+Tässä artikkelissa kerrotaan käyttöoikeusryhmien käyttöönotosta ja hyödyntämisestä organisaatiossa. Käyttöoikeusryhmät mahdollistavat tarkkaan määritellyn oikeuksien hallinnan Neptonissa. Käyttöoikeusryhmässä voidaan määritellä mihin tietoihin käyttäjällä on katseluoikeudet ja mihin tietoihin muokkausoikeudet. Käyttöoikeusryhmiä käytetään uuden konseptin, pääsy henkilöryhmiin, kanssa. Tämä mahdollistaa käyttäjille erilaisten oikeuksien antamisen eri henkilöryhmiin. Käyttäjän ei tarvitse olla henkilöryhmän jäsen, vaan hänelle annetaan pääsy valittuihin henkilöryhmiin.
 Käyttöoikeusryhmät soveltuvat erityisesti isojen yritysten tarpeisiin ja mahdollistavat tarkan pääsynhallinnan organisaatiorakenteen ja roolien mukaisesti. Käyttöoikeusryhmiä luodessasi voit ottaa tietosuojan huomioon erityisellä tavalla, koska voit antaa käyttäjille pääsyn ainoastaan niihin tietoihin ja niihin ryhmiin, joita he roolissaan tarvitsevat.
 ## Käyttöönotto
 Tässä lyhyt ohje käyttöoikeusryhmien käyttöönottoon:
@@ -48,8 +48,9 @@ Sairausloman sairaustodistus | x | x | -
 Sairausloman palkallisuus | x | x | -  
 Sairausloman syykoodi | - | x | -  
 Työajan tapahtumian liitteet | x | x | -  
-Henkilöiden asetukset ja projektit työajassa | - | x | -  
+Henkilöiden asetukset ja projektit työajassa** | - | x | -  
 *Oikeus muokata tapahtumia antaa myös oikeuden määrittää poissaolon palkallisuus (palkallinen, vähennetty palkka, palkaton) sekä muokata työpäivän ja työviikon pituutta ja oletettuja sekä sallittuja työaikoja.
+** Muokkausoikeus henkilöiden asetuksiin ja projekteihin työajassa sisältää myös lukitusoikeiden.
 ## Henkilötietokenttien oikeudet
 Kaikkiin henkilötietokenttiin voidaan antaa oikeudet käyttöoikeusryhmällä.
 ## Vuorosuunnittelun oikeudet

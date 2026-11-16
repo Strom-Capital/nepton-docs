@@ -32,7 +32,7 @@ labels:
 - lomatoivomus
 - pyyntötyyppinen
 promoted: false
-updated_at: '2026-02-25T06:03:29Z'
+updated_at: '2026-08-14T08:06:02Z'
 edited_at: '2026-01-05T13:36:23Z'
 ---
 

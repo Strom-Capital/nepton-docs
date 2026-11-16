@@ -16,8 +16,8 @@ labels:
 - work time percentage
 - part time
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2024-07-15T13:31:43Z'
+updated_at: '2026-09-23T09:37:04Z'
+edited_at: '2026-09-23T09:37:04Z'
 ---
 
 # Work time percentage
@@ -29,7 +29,7 @@ If the normal daily working time was 7 hours 30 minutes and the weekly working t
 
 
 The work time percentage can be set via **Employees > Persons >** search the person you were looking for and open the person's information from the magnifying glass icon and go to the **Employment information** section.
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/4413353060241)
+![](https://support.nepton.com/hc/article_attachments/39355908086173)
 NOTE! The working time percentage is entered without a percentage sign. An empty field and 100% are both interpreted as full-time (100%). The work time percentage field works with the[ validity function](<https://support.nepton.com/hc/en-gb/articles/360004856937>).
 The work time percentage does not affect:
   * daily and weekly maximum TES time
@@ -39,14 +39,13 @@ The work time percentage does not affect:
 
 
 ## Work time changing in the middle of work week
-When employee's work percentage changes during the workweek, the system does not know which percentage to use for calculating the length of work week. In such cases, the balance accrual at the end of the week might be too positive or negative. To address this, manually adjust the balance for the next day using the balance reset or balance change methods, please see instructions [here](<https://support.nepton.com/hc/en-gb/articles/360002481797-Setting-and-changing-the-value-of-balance>).
-Alternatively, you can set an exception to the length of workweek in the person’s work calendar. To do this, add up the required hours for different work obligations to determine the total weekly work obligation. For example:
-Monday to Wednesday (when person is under 60% obligation): 3 x 6 hours = 18 hours
-Thursday to Friday (when person is under 100% obligation): 2 x 7.5 hours = 15 hours
-The total work obligation for the week is 33 hours. To set an exception to the length of work week, follow instructions below:
-Click on the date icon (1)
-Select ‘**Length of work week’** (2)
-Set the exception for the work week length. (3)
-Save the changes by clicking **‘Save exception.’** (4) You may remove the exception from this same window by clicking **Remove exception**.
-These exceptions apply only to the work week you are currently doing modifications to. 
-![](https://support.nepton.com/hc/article_attachments/20197025091229)
+When an employee's work percentage changes during the workweek, the system does not know which percentage to use for calculating the length of work week. In such cases, the balance accrual at the end of the week might not be correct. To address this, manually adjust the balance for the next day using the balance reset or balance change methods, please see instructions [here](<https://support.nepton.com/hc/en-gb/articles/360002481797-Setting-and-changing-the-value-of-balance>).
+Alternatively, you can set an exception to the length of this specific workweek in the person’s work calendar. To do this, add up the required hours for different work obligations to determine the total weekly work obligation.
+For example: 
+Monday to Wednesday (when person is under 60% obligation): 3 x 6 hours = 18 hours  
+Thursday to Friday (when person is under 100% obligation): 2 x 7.5 hours = 15 hours  
+The total work obligation for the week is 33 hours. 
+You can set an exception to the work week obligation by clicking on a date in that week and selecting Length of work week:
+![](https://support.nepton.com/hc/article_attachments/39355783397021)
+A new window will open, where you can set an exception for the length of the work week. Save the changes by pressing Save. You can remove the exceptions you have made in the same view by clicking the cross button. The exception set in this way will only apply to the work week in question.
+![](https://support.nepton.com/hc/article_attachments/39355783403293)

@@ -17,17 +17,21 @@ labels:
 - sopimuspaketti
 - sähköinen sopimus
 promoted: false
-updated_at: '2024-08-27T18:12:51Z'
-edited_at: '2024-07-29T12:56:14Z'
+updated_at: '2026-11-03T12:58:25Z'
+edited_at: '2026-11-03T12:58:25Z'
 ---
 
 # Work contract packages
 
-The work contract package can bundle together documents related to the employment contract. The package may include, for example, the work contract, a confidentiality agreement and employee instructions. When creating an online work contract for an employee, an work contract package is always used as the basis for the contract.
-## Creating new work contract package
-  1. Under the **Employees** section, select **Contracts** and then **Contract Packages**.
-  2. At the bottom of the page, write a name and description for the new work contract package in the designated fields.
-  3. Press **Add** and the created work contract package will appear in the list.
-  4. The name and description of the work contract package can be changed via the **Pencil icon**. Remember to press the**Save button** after making changes.
-  5. The work contract templates within the package can be edited through the **Magnifying glass icon.**
-  6. In the opening view, work contract templates can be added to the package. This is done by pressing the **Add to package button** from the list of work contract templates. The package can contain only one work contract but several attached files. A work contract template can be removed from the package by pressing the **Remove from package button**. A work contract template can be opened in a separate window for review by pressing the **Magnifying glass icon** from the list of contract templates in the work contract package.
+A work contract package can be used to bundle together documents related to a work contract. The package may include, for example, a work contract, a non-disclosure agreement and employee instructions. When an electronic work contract is created for an employee, a work contract package is always used as the basis for the work contract.
+## Creating a new employment contract package
+  1. Under the **Employees** section, select **Contracts** and then **Contract packages.**
+  2. At the bottom of the page, enter the **name** and**description** of the new employment contract package in the appropriate fields.
+  3. Click **Add** and the created employment contract package will appear in the list.
+  4. The name and description of the work contract package can be changed using the **Pencil** icon. Remember to click the **Save** button after making changes.
+  5. The work contract templates in the work contract package can be edited using the **Magnifying glass** _-_ icon. 
+  6. In the view that opens, work contract templates can be added to the work contract package. This is done by clicking the **Add to package** button in the list of work contract templates. A package can contain only one work contract, but several attachments. A work contract template can be removed from the work contract package by clicking **Remove from package**. A work contract template can be opened in a separate window for viewing by clicking the **Magnifying glass** icon in the work contract package's contract template list.
+
+
+## Editing an employment contract package
+Changes can be made to a work contract package using the **Magnifying glass** icon in the work contract package list. Changes to the work contract package do not affect work contracts previously created based on the package or their contents.

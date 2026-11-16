@@ -12,8 +12,8 @@ section_path:
 - Salary systems
 labels: []
 promoted: false
-updated_at: '2026-01-15T08:25:53Z'
-edited_at: '2025-05-07T08:33:50Z'
+updated_at: '2026-07-01T07:07:02Z'
+edited_at: '2026-07-01T07:07:02Z'
 ---
 
 # Populus absence export in real time
@@ -50,7 +50,7 @@ Select the target server for the integration, that you added in step 2.
 The exact timestamp _[timestamp-ms]_ must be added to the export file name, like in the example below. If a timestamp is not used, each file will have the same name and they will overwrite each other.
 ![](https://support.nepton.com/hc/article_attachments/27175256066589)
 It is also possible to add context to the export file name, i.e. whether the file contains deletions or additions. If this is added, it is important that it comes after the timestamp. For example:
-[code] 
+[code]
     nep-poissaolot-[timestamp-ms]-[context].csv
 [/code]
 The file names in the example above would be as follows:
@@ -58,7 +58,11 @@ The file names in the example above would be as follows:
   * Additions: nep-poissaolot-1741348913396-U.csv
 
 
-**4\. Export scheduling to the target server**
+**4\. Export file splitting**
+The settings under Export file splitting can be used with this integration, but there is a caveat for real-time transfers. Each individual real-time transfer extracts a very small amount of data. With most grouping criteria, this small amount of data is no longer divided into smaller parts, but the transfer still results in just one file. However, the file name will be appended with the defined grouping criterion (e.g. payment group). This definition would also be retrieved for manually initiated transfers, which would likely result in multiple files due to the larger amount of data.
+When these settings are enabled, the system will first split the data according to this definition and then split the addition and deletion entries into their own files.
+More detailed information about these settings can be found [here](<https://support.nepton.com/hc/en-gb/articles/360006255458>).
+**5\. Export scheduling to the target server**
 Finally, you need to set the export schedule for the target server buffer. You can read more about this in the article [Target servers for worktime exports](<https://support.nepton.com/hc/en-gb/articles/26861716054045#h_01JSK5VK4NMRKM5R7TP1B6ATE1>).
 ## File format
 The transfer file is UTF-8 formatted text data separated by semicolons (`;`). The line feed is `LF`. There is one blank line at the end of the transfer file.
@@ -72,11 +76,11 @@ B | Event type | _Automatically added_ | string(1) |  Specifies whether the even
 
 Can be overridden in a rule set rule using the `RowContext` field, for example:
 [code] 
-    SELECT *,  
-    CASE WHEN :integrationContext = 'P'  
-      THEN 'D'  
-      ELSE 'N'  
-    END AS RowContext  
+    SELECT *,
+    CASE WHEN :integrationContext = 'P'
+      THEN 'D'
+      ELSE 'N'
+    END AS RowContext
     FROM UserSalaryData
 [/code]
 In the example, the deletion type is changed to `D` and the addition type to `N`.   
@@ -93,14 +97,14 @@ K | Absence end date | EndDateTime | string(8) | Absence end date, in format `YY
 L | Work accident date | PopulusAbsenceWorkAccidentDate | string(8) | Work accident date, in format `YYYYMMDD`. Dates selected in the rule in the format `YYYY-MM-DD` will be automatically converted to the correct format.  
 M | Part day hours | CustomData1 | empty | Part day hours, empty by default.  
 N | Hours for the 3-day training report | CustomData2 | empty | Hours for the 3-day training report, empty by default.  
-O | Teacher's full-day hours | CustomData3 | empty |  Full-day hours for teachers, calculated number of hours/day. Empty by default.  
+O | Teacher's full-day hours | CustomData3 | empty | Full-day hours for teachers, calculated number of hours/day. Empty by default.  
 P | Teacher's actual hours | CustomData4 | empty | Teacher's actual hours, empty by default.  
 Q | Child's birthdate | PopulusAbsenceChildBirthDate | string(8) | Child's birthdate, in format `YYYYMMDD`. Dates selected in the rule in the format `YYYY-MM-DD` will be automatically converted to the correct format.  
 The data below reflects modified absences. A one-day absence has been modified to two days. A deletion row ("P") is created from the previous version and an addition row ("U") is created from the new version.
-[code] 
+[code]
     418;P;1234;707;1918;Meikäläinen Matti;;20200102;9090;20250113;20250113;;;;;;
 [/code]
-[code] 
+[code]
     418;U;1234;707;1918;Meikäläinen Matti;;20200102;9090;20250113;20250114;;;;;;
 [/code]
 ## Performing integration when recording an event
@@ -121,22 +125,22 @@ Sometimes it may be necessary to skip the generation of "P" or "U" rows when pro
 
 
 The example below describes in a simplified way how only the addition markings "U" are created for paternity leave, but the deletion marking "P" is not created in connection with deletion or editing.
-[code] 
-    SELECT *, SUM(Amount) AS OverrideAmount,   
-    MIN(SalaryRenderingDate) As OverrideStartDatetime,   
-    MAX(SalaryRenderingDate) AS OverrideEndDatetime,  
-    CASE   
-    WHEN AbsenceTypeId = 11 THEN 'KERTAUS' --Kertausharjoitukset  
-    WHEN AbsenceTypeId = 3 THEN 'ISYYSVAPAA' -- Isyysvapaa  
-    ELSE  
-    'MUU VAPAA'  
-    END AS OverrideSalaryCode  
-    FROM UserSalaryData   
-    WHERE CompensationType = 'BasicTime'  
-    AND   
-    AbsenceTypeId IS NOT NULL   
-    AND   
-    _**(AbsenceTypeId != 3 OR :integrationContext != :integrationContextForDeletedOrEditedActivities)**_ -- Lähetä ainostaan U-rivit isyysvapaalle  
+[code]
+    SELECT *, SUM(Amount) AS OverrideAmount, 
+    MIN(SalaryRenderingDate) As OverrideStartDatetime, 
+    MAX(SalaryRenderingDate) AS OverrideEndDatetime,
+    CASE 
+    WHEN AbsenceTypeId = 11 THEN 'KERTAUS' --Kertausharjoitukset
+    WHEN AbsenceTypeId = 3 THEN 'ISYYSVAPAA' -- Isyysvapaa
+    ELSE
+    'MUU VAPAA'
+    END AS OverrideSalaryCode
+    FROM UserSalaryData 
+    WHERE CompensationType = 'BasicTime'
+    AND 
+    AbsenceTypeId IS NOT NULL 
+    AND 
+    (AbsenceTypeId != 3 OR :integrationContext != :integrationContextForDeletedOrEditedActivities) -- Lähetä ainostaan U-rivit isyysvapaalle
     GROUP BY ActivityId
 [/code]
 When a new paternity leave is added to the calendar, a file that includes the paternity leave with the addition mark "U" is created. If the paternity leave is edited, new file is created with the addition mark "U", but the previous version of the absence is not created with the deletion mark "P". If the paternity leave is deleted completely, no file is created.

@@ -13,15 +13,16 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2026-05-20T06:39:43Z'
-edited_at: '2026-05-20T06:39:43Z'
+updated_at: '2026-09-24T06:26:01Z'
+edited_at: '2026-09-24T06:26:01Z'
 ---
 
 # Project reporting
 
 Time recorded for projects can be reviewed by going to **Worktime > Projects > Reports**. Hours recorded for a project can be reported from the time that the project has been active. If the selected time period for the report begins before the ending date of a project, that project is available to be selected in the report. More information about ending a project can be found [here](<https://support.nepton.com/hc/en-gb/articles/360002562418>). 
 ## Information displayed in the reports
-Project reports display always the time that is interpreted as worked time. If an event is not interpreted as worked time, the project work that is allocated to that event will not be displayed in the report. For example if an unpaid lunch is allocated to a project, this is not shown in the report but a project allocated for unpaid absence is shown. Also if for example permitted work times limit worked time, the limited time is not shown in project reports.
+Project reports display always the time that is interpreted as worked time. If an event is not interpreted as worked time, the project work that is allocated to that event will not be displayed in the report. For example if an unpaid lunch or an unpaid absence is allocated to a project, this is not shown in the reports. Also if for example permitted work times limit worked time, the limited time is not shown in project reports.
+Sick leaves targeted to projects are only shown to persons who have permission via worktime role to view person's sick leave details (compensation).
 ## Visibility of reports for persons
 Project manager can view all hours recorded for their own projects regardless of supervisor-subordinate relationship. Administrators can view project recordings for everyone.
 When taking a project report, project manager must select "Managed reports" from "Get reports" selection to get the report from all persons who have recorded hours for the projects the manager is supervising. Below is an example of project report "Project hours by person".

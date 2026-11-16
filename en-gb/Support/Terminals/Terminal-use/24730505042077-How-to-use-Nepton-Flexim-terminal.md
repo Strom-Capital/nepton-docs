@@ -12,8 +12,8 @@ section_path:
 - Terminal use
 labels: []
 promoted: false
-updated_at: '2025-09-23T11:30:33Z'
-edited_at: '2025-09-23T11:30:33Z'
+updated_at: '2026-11-09T13:24:34Z'
+edited_at: '2026-11-09T13:24:33Z'
 ---
 
 # How to use Nepton Flexim terminal
@@ -42,6 +42,7 @@ A menu appears at the top of the screen; the first is the event selection, next 
 ## Adding an event
 Once a person is logged in on the device, predetermined events are shown. A maximum of eight events are shown on the screen. If more events have been set to be displayed, the view is split on multiple pages, and the side arrow is used to move to the next page. A new event is started by clicking on the desired event type and then the "start" button. When the event is started, the user is automatically logged out of the terminal. If the terminal is in offline, only quick recording events will be registered.
 ![](https://support.nepton.com/hc/article_attachments/25047288224669)
+The terminal allows entries to be made up to 2 years into the future. Entries can be made up to three months into the past.
 ### Adding an event with start and end times
 The terminal can also be used to add events to the future by giving them a start and/or end time. In order for this to be possible, this option must be enabled for the event type in the user's setting group in Nepton. When an event is activated on the terminal, the "Edit" button appears next to the "Start" button.
 ![](https://support.nepton.com/hc/article_attachments/25050679289373)
@@ -59,7 +60,7 @@ The type and default values ​​of the supplements come from the settings in t
 ![](https://support.nepton.com/hc/article_attachments/25050704711197)
 The number of currently active selections is displayed next to the name of the tab.
 ## Project targeting
-From the Projects tab, you can select which project the event is assigned to. The view shows 8 projects on one page. If there are more projects, you can move to the next page with the side arrow. The user is offered the most recently used ones, i.e. the same projects that are offered to the person when creating an event in the browser. With the search function, you can also find other projects by using the project name or code.
+From the Projects tab, you can select which project the event is assigned to. The view shows 8 projects on one page. If there are more projects, you can move to the next page with the side arrow. The user is offered the most recently used ones, i.e. the same projects that are offered to the person when creating an event in the browser. With the search function, you can also find other projects by using the project name or code. With Nepton Flexim terminals, it is possible to target events only for one project at a time. If the project targeting should be changed in the middle of the work day, a new event must be started with the new project targeting.
 ![](https://support.nepton.com/hc/article_attachments/25051754348061)
 ### Project targeting with bar code reader
 The project can also be selected with a barcode scanner after the person has logged in on the terminal. After reading the barcode, the event with the project starts and the person logs out of the terminal. The screen shows that event has started successfully.

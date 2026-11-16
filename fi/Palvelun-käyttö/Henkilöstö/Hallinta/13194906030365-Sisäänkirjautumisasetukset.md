@@ -16,20 +16,25 @@ labels:
 - linkki kirjautumissivulle
 - palvelun osio
 promoted: false
-updated_at: '2025-10-06T07:58:47Z'
-edited_at: '2025-10-06T07:56:21Z'
+updated_at: '2026-11-11T13:01:53Z'
+edited_at: '2026-11-10T11:50:48Z'
 ---
 
 # Sisäänkirjautumisasetukset
 
-Sisäänkirjautumiseen liittyviä yleisiä asetuksia (**Työsuhde > Hallinta > Asetukset > Sisäänkirjautuminen**) pääsevät muokkaamaan Ylläpitäjä-roolissa olevat henkilöt. Tässä artikkelissa kuvataan mitä kyseiset asetukset tekevät ja tarkoittavat. Huomaa, että [työajan laskentaan ja hallintaan liittyvät asetukset](<https://support.nepton.com/hc/fi/sections/360000707378>) löytyvät eri osasta palvelua.
-![](https://support.nepton.com/hc/article_attachments/29512961472925)
+Sisäänkirjautumiseen liittyviä yleiset asetukset löytyvät valikosta **Työsuhde > Hallinta > Asetukset > Sisäänkirjautuminen.**
+**![](https://support.nepton.com/hc/article_attachments/40554652379677)**
+Asetuksia pääsee muokkaamaan henkilöt, joilla on ylläpitäjän oikeudet. Tässä artikkelissa kuvataan mitä kyseiset asetukset tekevät ja tarkoittavat. Huomaa, että[työajan laskentaan ja hallintaan liittyvät asetukset](<https://support.nepton.com/hc/fi/sections/360000707378>) löytyvät eri osasta palvelua.
+## Asetukset
+![](https://support.nepton.com/hc/article_attachments/40554660160541)
 **Linkki kirjautumissivulle:** Jokaisella Nepton yhteisöllä on oma uniikki linkkinsä, jota kautta pääsee suoraan kyseisen Nepton-yhteisön kirjautumissivulle.
 **Salli sisäänkirjautuminen Nepton käyttäjätunnuksella/sähköpostilla ja salasanalla:** Katso asetukseen [liittyvä artikkeli](<https://support.nepton.com/hc/fi/articles/13194036455325>).
 **Salli sisäänkirjautuminen RFID-tunnuksella ja PIN-koodilla sisäänkirjautumissivulla (vaatii ulkoisen lukijan)** : Aktivoituna asetus mahdollistaa käyttäjien kirjautua kirjautumissivulla sisään käyttäen kaksivaiheista RFID-tunnus&PIN-koodi kirjautumistapaa.
 **Näytä mobiilinäkymä työpöytäkäyttäjille sisäänkirjautumisen jälkeen:** Voidaan määrittää, että sisäänkirjautuessa henkilölle avautuu oletuksena mobiilinäkymä, myös työpöytäkäytössä.
 **Palvelun osio, joka näytetään kirjautumisen jälkeen:** Voidaan määrittää mikä näkymä palvelussa avautuu käyttäjälle oletuksena, kun hän sisäänkirjautuu. Jos valittuna on "Työaika", ohjataan henkilö sisäänkirjautuessa siihen näkymään (Tapahtumat taulukossa/Tapahtumat kalenterissa), jota hän on viimeksi tarkastellut.
 ![](https://support.nepton.com/hc/article_attachments/13194947893277)
+**Henkilöt, jotka näkevät linkkinsä klassiseen mobiilinäkymään:** Voidaan määrittää, minkä roolin henkilöt näkevät omien työsuhdetietojen kautta oman mobiililinkkinsä.
+![](https://support.nepton.com/hc/article_attachments/40554652391069)
 **Salli "Pysy sisäänkirjautuneena" -toiminnon käyttö Nepton-käyttäjätunnukselle mobiililaitteilla:** Mahdollistaa sisäänkirjautumisen mobiililaitteella, ilman, että käyttäjän pitää kirjata käyttäjätunnuksensa ja salasanansa uudelleen. Huom! Jos tämä on määritettynä käyttöön, mutta seuraavaa kohta ei, työpöytäkäytössä kirjautumissivun infolaatikko antaa alla olevan ilmoituksen.
 ![](https://support.nepton.com/hc/article_attachments/29512991439133)
 **Salli "Pysy sisäänkirjautuneena" -toiminnon käyttö Nepton-käyttäjätunnukselle työpöytäkäytössä:**

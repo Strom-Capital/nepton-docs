@@ -13,8 +13,8 @@ section_path:
 labels:
 - henkilöstönvienti
 promoted: false
-updated_at: '2026-04-08T07:29:51Z'
-edited_at: '2026-04-08T07:29:51Z'
+updated_at: '2026-11-06T13:05:52Z'
+edited_at: '2026-11-06T13:05:52Z'
 ---
 
 # Scheduled task - person export
@@ -37,7 +37,7 @@ Form’s field descriptions are listed below:
       * ISO-8859-1 
 [UTF-8](<https://en.wikipedia.org/wiki/UTF-8>) is a way of encoding Unicode character set, [ISO-8859-1](<https://en.wikipedia.org/wiki/ISO/IEC_8859-1>) is limited to common characters used in European languages. Character encoding is only selectable for CSV data format – files in JSON data format are always sent in UTF-8 encoding. In general, the program or service you are creating the file for should provide the information about the encoding needed. If you choose a wrong encoding, latin characters with diacritics or characters for non-latin characters will probably appear incorrect in the external system.
     * **Include persons with integration identifier/ employee number zero:** Select “Yes” if you want to include all persons in the export file, select "No" to exclude persons without employee number or with employee number zero “0”. Setting this to "No" gives you the possibility to prevent special accounts, for example, to be exported by simply setting the employee number to 0. This option is not supported by Visma Nova export format - it will always include all persons.
-    * **Data format:** CSV for [comma-separated values formatted file](<https://en.wikipedia.org/wiki/Comma-separated_values>) or JSON for [JSON formatted](<https://en.wikipedia.org/wiki/JSON>) file. The CSV data contents depends on selected export format, see Export format above. File exported for Visma Nova system is always in CSV format. Fields included in JSON data format files are listed in [Export persons - JSON data format](<https://support.nepton.com/hc/articles/7982660700189>).
+    * **Data format:** CSV for [comma-separated values formatted file](<https://en.wikipedia.org/wiki/Comma-separated_values>) or JSON for [JSON formatted](<https://en.wikipedia.org/wiki/JSON>) file. The CSV data contents depends on selected export format, see Export format above. File exported for Visma Nova system is always in CSV format. Fields included in JSON data format files are listed in [Export persons - JSON data format](<https://support.nepton.com/hc/articles/7982660700189>). When using the CSV format, you can also utilize the settings **Escape illegal CSV export values** and **Quote character for illegal CSV export values**. These settings determine whether prohibited characters found in the data should be enclosed (protected) by a selected quotation mark. If the chosen quotation mark itself appears within the data, it is doubled, and the entire content of the field is enclosed in quotation marks.
     * **File name format:** Name of the export file without the .csv or .json extension - the extension will be added automatically. This option is available for SFTP transport method only.
     * **Include header row in CSV:** Select “Yes” if you want to include the fields’ names in the export file otherwise select “No”. This option is available for CSV data format only.
     * **Select data to send:** Select "All persons" to export all data for all persons each time the task is run. Select "Persons with changes" to export all data for persons that have any information changed since the last time the task was run. This option is available for JSON data format only.
@@ -69,6 +69,6 @@ Form’s field descriptions are listed below:
 
 When you have set the necessary settings select **Save**. The service will indicate that the changes were saved after all fields have been correctly filled in.  
   
-Person data export can be done manually using the options at the bottom of the page. First, choose if you wish to transfer all person data from the entire history, or enter a desired date after which changes will be transferred. In addition, you enter a reason for running the manual export of person data. 
+Person data export can be done manually using the options at the bottom of the page. First, choose if you wish to transfer all person data from the entire history, or enter a desired date after which changes will be transferred. In addition, you enter a reason for running the manual export of person data.
 ![](https://support.nepton.com/hc/article_attachments/35209947985565)
 Once these fields are filled in, click **Execute now** , which will cause the export of person data to be performed immediately.

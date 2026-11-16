@@ -11,8 +11,8 @@ section_path:
 - Ilmoitukset
 labels: []
 promoted: false
-updated_at: '2026-04-24T11:59:12Z'
-edited_at: '2026-04-24T11:59:12Z'
+updated_at: '2026-09-24T11:56:10Z'
+edited_at: '2026-09-24T11:55:08Z'
 ---
 
 # Valmiit ilmoitukset
@@ -21,20 +21,21 @@ Valmiit ilmoitukset ovat käytettävissä Työaika Pro -palvelutasolla sekä tä
 Tämä artikkeli koskee valmiita ilmoituksia. Lisätietoja ilmoitukset-näkymästä ja ilmoituksien luomisesta löytyy artikkelista [**Ilmoituksen luominen**.](<https://support.nepton.com/hc/fi/articles/32259026029213>)
 ## Mitä ovat valmiit ilmoitukset?
 Valmiit ilmoitukset ovat ennalta määriteltyjä sähköposti-ilmoituksia, jotka helpottavat työajanhallinnan prosessien seurantaa. Ne voivat ilmoittaa automaattisesti esimerkiksi esihenkilöille tapahtumista, jotka vaativat toimenpiteitä. Ilmoitukset voidaan ajastaa ja mukauttaa organisaation tarpeisiin erilaisten asetusten avulla, jolloin viestintä pysyy oikea-aikaisena ja viestien sisältö on organisaation tarpeisiin sopivaa.
+Nepton lähettää ilmoituksia oletuslähettäjän osoitteesta noreply@nepton.com. Vuoroilmoitukset voi lähettää asiakaskohtaisesta lähettäjän osoitteesta, joka on määritelty asiakasasetuksissa. Jos organisaatiosi suodattaa saapuvan sähköpostin, anna lähettäjän verkkotunnukset @nepton.com ja @nepton.fi, jotta Nepton-ilmoitukset toimitetaan.
 ## Valmiit ilmoitustyypit
 Tällä hetkellä saatavilla ovat seuraavat valmiit ilmoitukset.
 ### Hyväksymättömät tapahtumat (maksuryhmittäin)
-Ilmoita henkilöille hyväksymättömistä tapahtumista. Hyväksymättömät tapahtumat tarkistetaan valittujen maksuryhmien henkilöiltä. Viesti esihenkilöille lähetetään kootusti kaikkien niiden henkilöiden osalta, joilla on hyväksymättömiä tapahtumia.
+Ilmoita henkilöille hyväksymättömistä tapahtumista. Hyväksymättömät tapahtumat tarkistetaan valittujen maksuryhmien henkilöiltä. Viesti esihenkilöille lähetetään kootusti kaikkien niiden henkilöiden osalta, joilla on hyväksymättömiä tapahtumia. Oletetuista tapahtumista ei kuitenkaan lähetetä ilmoitusta.
 ### Hyväksymättömät tapahtumat (henkilöryhmittäin)
-Ilmoita henkilöille hyväksymättömistä tapahtumista. Hyväksymättömät tapahtumat tarkistetaan valittujen henkilöryhmien henkilöiltä. Viesti esihenkilöille lähetetään kootusti kaikkien niiden henkilöiden osalta, joilla on hyväksymättömiä tapahtumia.
+Ilmoita henkilöille hyväksymättömistä tapahtumista. Hyväksymättömät tapahtumat tarkistetaan valittujen henkilöryhmien henkilöiltä. Viesti esihenkilöille lähetetään kootusti kaikkien niiden henkilöiden osalta, joilla on hyväksymättömiä tapahtumia. Oletetuista tapahtumista ei kuitenkaan lähetetä ilmoitusta.
 ### Merkkipäivät (työsuhde)
 Ilmoituksella voidaan muistuttaa lähestyvistä työhön liittyvistä merkkipäivistä (esim. 1, 5, 10 vuotta työsuhteessa).
-#### Tärkeää ennen käyttöönottoa
+**Tärkeää ennen käyttöönottoa:**
   * **Työsuhteen alkupäivän** tulee olla oikein Neptonissa, jotta merkkipäivä lasketaan oikein. Huomioithan, että tämä päivämäärä saattaa olla asetettu eri päiväksi Neptonissa työajan laskennan vuoksi.
   * Henkilöt, joilla on **työsuhteen päättymispäivä asetettu** ja jotka eivät enää työskentele, **eivät sisälly ilmoitukseen**.
 
 
-#### Ilmoituksen asetukset
+**Ilmoituksen asetukset:**
   * **Juhlavuodet:** Syötä ne vuodet, joista haluat ilmoituksen (esim. 1, 5, 10, 15…).
   * **Päivien määrä ennakkoilmoitukseen:** Määritä, kuinka monta päivää ennen merkkipäivää ilmoitus lähetetään (esim. 14).
   * **Vastaanottajat:** Valitse, kenelle ilmoitus lähetetään (esim. ensisijaiset esimiehet, sijaiset).
@@ -45,6 +46,30 @@ Ilmoituksella voidaan muistuttaa lähestyvistä työhön liittyvistä merkkipäi
   * Kun olet tarkistanut ja tallentanut kaikki tiedot, tulee vielä lisätä ajastus ajastusvälilehdeltä. On tärkeää ajastaa ilmoitus tapahtumaan päivittäin, jotta jokaisesta merkkipäivästä tulee ilmoitus.
 
 
-#### Huomio tietosuojasta
+**Huomio tietosuojasta:**
 Ilmoitus sisältää työsuhteen alkupäivän ja työvuosien määrän. Varmista, ettei ilmoitusta lähetetä henkilöille, joilla ei ole oikeutta nähdä näitä tietoja.
 ![](https://support.nepton.com/hc/article_attachments/33077000027933)
+### Kertymien saldot
+Ilmoita valittujen henkilöiden kertymäsaldoista, kun kertymä ylittää tai alittaa asetetut rajat.
+**Ilmoituksen toiminta:**
+  * Ilmoitus tarkistaa valittujen kertymien saldot valituista henkilöryhmistä
+  * Ilmoitus muodostetaan henkilöistä, joiden saldo:
+    * on suurempi kuin määritelty yläraja, tai
+    * on pienempi kuin määritelty alaraja
+  * Ilmoitus sisältää vain ne henkilöt, joiden saldo on rajojen ulkopuolella
+  * Saldo esitetään tunneissa ja minuuteissa
+
+
+**Ilmoituksen asetukset:**
+  * **Kertymät joista lähetetään ilmoituksia:** Valitse yksi tai useampi seurattava kertymä
+  * **Varoita jos saldo laskee alle (tuntia):** Määrittää alarajan, esim. -20 tuntia
+    * Jos miinussaldoista ei haluta ilmoituksia, aseta alaraja arvoon, jota ei käytännössä saavuteta (esim. -999). Tällöin ilmoituksia lähetetään vain ylärajan ylityksistä.
+  * **Varoita jos saldo nousee yli (tuntia):** Määrittää ylärajan, esim. 20 tuntia
+  * **Valitse ryhmät henkilöistä, joiden kertymien saldot tarkistetaan:** Määrittää ne henkilöryhmät, joihin tarkistus kohdistetaan (huom. periytymistä ei tueta)
+
+
+**Huomioitavaa:**
+  * Ilmoitus tarkistaa vain tarkistushetken kertymäsaldot
+  * Rajat määritellään ilmoituksessa, eikä niitä haeta muista asetuksista (ei esim. asetusryhmistä)
+  * Ilmoitus kohdistuu suoraan valittuihin henkilöryhmiin (ei esim. asetusryhmien kautta)
+  * Ilmoitukseen sisältyvät vain kertymät, jotka on valittu asetuksissa

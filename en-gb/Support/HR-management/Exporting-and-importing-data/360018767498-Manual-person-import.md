@@ -13,19 +13,19 @@ section_path:
 labels:
 - sisäänluku
 promoted: false
-updated_at: '2026-05-28T06:00:19Z'
-edited_at: '2026-05-28T06:00:19Z'
+updated_at: '2026-11-04T13:46:56Z'
+edited_at: '2026-11-04T13:46:56Z'
 ---
 
 # Manual person import
 
-This article is about importing a single file containing information about persons into Nepton service. More information about different methods of importing persons and technical details of the file formats can be found [here](<https://support.nepton.com/hc/en-gb/articles/360003762577>).
+This article is about importing a single file containing information about persons into Nepton service. More information about different methods of importing persons and technical details of the file formats can be found [here](<https://support.nepton.com/hc/en-gb/articles/360003762577>).  
 Due to technical limitations, there are differences between the data fields supported by the person export and import. Please check the documentation carefully for the latest information.
 ### Accessing the feature
 Person data can be selected to be manually imported to Nepton via Employees section. If you have a single import file containing data of persons in supported format, you can select to import it manually under **Employees** > **Persons** > **Import persons**. Person importing is usable only by persons in Administrator-role.
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/12495710430109)
+![](https://support.nepton.com/hc/article_attachments/40414532549277)
 On first screen options to select a file are presented:
-![mceclip8.png](https://support.nepton.com/hc/article_attachments/360018303077)
+![](https://support.nepton.com/hc/article_attachments/40414532551197)
 You can drag & drop the file using the file manager of your device (view depends on the operating system of your device):
 ![mceclip1.png](https://support.nepton.com/hc/article_attachments/360018302557)
 Alternatively you can click the Choose file button and open the file from your device (view depends on the operating system of your device):

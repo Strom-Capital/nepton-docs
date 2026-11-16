@@ -13,8 +13,8 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2026-05-22T05:37:35Z'
-edited_at: '2026-05-22T05:34:05Z'
+updated_at: '2026-08-05T10:17:57Z'
+edited_at: '2026-08-05T10:16:06Z'
 ---
 
 # Miten toimin, kun henkilön työsuhde päättyy?
@@ -74,13 +74,12 @@ Merkitse mahdolliset sijaisuudet päättyneiksi ja tallenna.
 ![Sijaiset.png](https://support.nepton.com/hc/article_attachments/5369893359389)
 Vaikka sijaistettavan henkilön työsuhde on päätetty Neptonissa, jatkuu sijaisuussuhde kunnes sijaistettavan henkilön käyttäjätunnus on poistettu. 
 Mikäli sijaisuutta ei erikseen pureta työsuhteen päättyessä ja henkilö palautetaan myöhemmin työsuhteeseen, henkilölle aktivoituu palautuksen yhteydessä vanhat sijaisuudet.
-### Vaihe 7: Poista käyttäjätunnus
+### Vaihe 7: Poista henkilö käytöstä
   1. Avaa henkilön tiedoista välilehti **Lisätoiminteet**
-  2. Valitse kohdasta **Poista käyttäjätunnus** → **Poista**
+  2. Valitse kohdasta **Poista henkilö käytöstä** → **Poista käytöstä**
 
-
-![mceclip1.png](https://support.nepton.com/hc/article_attachments/360004506657)
-Käyttäjätunnuksen poisto **estää henkilön kirjautumisen palveluun** , mutta **ei poista mitään henkilön relaatioita** , kuten: esimies‑ ja alaisuussuhteita tai aiemmin myönnettyjä käyttöoikeuksia. Siksi oikeuksien ja relaatioiden purkaminen tulee aina tehdä **ennen käyttäjätunnuksen poistoa**. 
+![](https://support.nepton.com/hc/article_attachments/38145753585565)
+Henkilön poistaminen käytöstä **estää henkilön kirjautumisen palveluun** , mutta **ei poista mitään henkilön relaatioita** , kuten: esimies‑ ja alaisuussuhteita tai aiemmin myönnettyjä käyttöoikeuksia. Siksi oikeuksien ja relaatioiden purkaminen tulee aina tehdä **ennen henkilön poistamista käytöstä**. 
 ## Raportit
 Henkilö näkyy raporteilla, kun tarkastellaan ajanjaksoa jolloin henkilön työsuhde on vielä ollut aktiivinen. Työsuhteen loppupäivän jälkeisillä raporteilla henkilö ei enää näy.
 Työsuhteen loppupäivä on siis esimerkiksi raportoinnin kannalta oleellinen, mutta se ei kuitenkaan estä henkilöä kirjautumasta palveluun. Tästä syystä on tärkeää muistaa myös poistaa henkilön käyttäjätunnus.

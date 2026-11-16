@@ -12,7 +12,7 @@ section_path:
 - Tapahtuma- ja poissaolotyypit
 labels: []
 promoted: false
-updated_at: '2026-02-25T05:52:17Z'
+updated_at: '2026-08-14T08:06:02Z'
 edited_at: '2025-12-30T13:51:33Z'
 ---
 

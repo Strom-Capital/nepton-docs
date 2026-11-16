@@ -15,8 +15,8 @@ labels:
 - ylityöleikkuri
 - ylityöohje
 promoted: false
-updated_at: '2026-04-17T10:38:17Z'
-edited_at: '2026-04-17T10:38:07Z'
+updated_at: '2026-06-29T10:27:26Z'
+edited_at: '2026-06-29T10:27:26Z'
 ---
 
 # Overtime calculation basic settings
@@ -90,6 +90,12 @@ Length of work week is exceeded, TES maximum hours of work per week is not excee
 Typically TES overtime is formed when working on Saturdays on a week which has public holiday on weekday. 
 Setting: Hour to hour -overtime contributes towards calculating collective agreement overtime:
 This setting determines whether hour to hour overtime already recorded during the day or week is included when deciding if overtime (before the TES maximum weekly lengths is reached) counts as TES overtime or not.
+## Overtime paid with fixed salary
+If overtime needs to be displayed without percentage compensation in the calendar, you can enable a fixed overtime compensation. This is done with the setting "Overtime paid with fixed salary".
+![](https://support.nepton.com/hc/article_attachments/37221594820509)
+By default, the setting is off, in which case overtime is interpreted and displayed with compensation percentages according to other settings in the calendar. If the setting is set to "Setting on", the presentation of overtime in the calendar view changes. Overtime is displayed under the titles "Overtime 1" and "Overtime 2".
+![](https://support.nepton.com/hc/article_attachments/37221607402397)
+"Overtime1" is 50% overtime and "Overtime2" is 100% overtime, meaning that overtime is picked up for salary integration in the same way as 50% and 100% overtime normally. Overtime is still generated according to other TES settings, meaning that Overtime1 and Overtime2 can be earned either according to the settings or time-based by making definitions in the "Times when 50% overtime is not earned" section.
 ## Times when 50 percent overtime is not earned
 With this setting it is possible to set times when 50% overtime is converted into 100% overtime. Setting takes effect on the day work is [rendered](<https://support.nepton.com/hc/en-gb/articles/360008777997>). If Event rendering setting is default "Salary earned is shown on the day the shift starts", Monday has settings shown below, work starts on Monday and continues overnight, then setting of Monday will affect also on Tuesday until 07:00. If 50% overtime is earned during this time, it will be converted into 100% overtime.
 The example below has no settings on Tuesday. If work _starts_ on Tuesday, settings won't be applied. 

@@ -12,13 +12,13 @@ section_path:
 - General information on integrations
 labels: []
 promoted: false
-updated_at: '2023-08-09T05:57:39Z'
+updated_at: '2026-08-14T10:05:38Z'
 edited_at: '2023-02-01T08:17:36Z'
 ---
 
 # Detecting and resolving integration problems
 
-When integrating with Nepton, ensure that possible problems will be detected and resolved. This is especially important when integration is synchronizing data between external system and Nepton by sending only the changes in the data instead of sending all the data including non-changed data periodically. In these types of integrations, the data will get out of sync potentially permanently unless the potential problems are detected and resolved.  
+When integrating with Nepton, ensure that possible problems will be detected and resolved. This is especially important when integration is synchronizing data between external system and Nepton by sending only the changes in the data instead of sending all the data including non-changed data periodically. In these types of integrations, the data will get out of sync potentially permanently unless the potential problems are detected and resolved.
 To ensure this we recommend to:
   1. Identify and agree the ways potential problems will be detected.
   2. Agree how to resolve the detected problems.

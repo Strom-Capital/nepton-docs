@@ -16,7 +16,7 @@ labels:
 - Nepton Support Portal
 - how to use
 promoted: false
-updated_at: '2026-04-20T11:52:04Z'
+updated_at: '2026-07-01T06:58:58Z'
 edited_at: '2024-11-19T08:51:20Z'
 ---
 

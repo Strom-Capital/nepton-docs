@@ -11,14 +11,93 @@ section_path:
 - Palvelun tila ja versiot
 labels: []
 promoted: false
-updated_at: '2026-05-08T05:58:46Z'
-edited_at: '2026-05-08T05:58:01Z'
+updated_at: '2026-10-29T08:50:01Z'
+edited_at: '2026-10-29T08:48:36Z'
 ---
 
 # Menneet tapahtumat
 
 Kaikki alla listatut tapahtumat on jo ratkaistu ja ovat täällä referenssinä.  
 Palvelun tämänhetkinen tilanne on nähtävissä [Palvelun tila](<https://support.nepton.com/hc/fi/articles/360006554777>) -sivulla. Mikäli haluat ilmoittaa vian, ota yhteys palvelun toimittajaasi.
+## Ma 26.10.2026
+###  __ Ratkaistu: Kriittiset PHP-haavoittuvuudet
+**Ajankohta** Ma 26.10.2026 13:21  
+**Vaikuttaa palveluihin**
+  * Olemme tietoisia Kyberturvallisuuskeskuksen 23.10. julkaisemasta uudesta [PHP-haavoittuvuudesta CVE-2026-115560](<https://kyberturvallisuuskeskus.fi/fi/haavoittuvuudet/haavoittuvuus-2026-37>) ja olemme arvioineet sen vaikutukset Nepton-palveluun. **Haavoittuvuus ei vaikuta Neptoniin** eikä edellytä asiakkailtamme toimenpiteitä.
+
+
+## La 17.10.2026
+###  __ Vuosiloma- ja ruokailuraporttien häiriö
+**Ajankohta** La 17.10.2026 06:00 - To 22.10.2026 19:30  
+**Vaikuttaa palveluihin** Perustoiminnot
+  * [Ratkaistu - 22.10. klo 19:30] Korjaus on julkaistu
+  * _22.10. klo 12:45_ \- Julkaisemme korjauksen vuosiloma- ja ruokailuraporttien häiriöön tänään torstaina 22.10.2026 klo 19.15.
+  * _17.10. klo 06:00_ \- Vuosiloma- ja ruokailuraportit eivät ole saatavilla ylläpitäjätasoa alemmilla oikeuksilla. Kehityksemme työskentelee parhaillaan ongelman korjaamiseksi. 
+
+
+## Ke 21.10.2026
+###  __ Kriittiset PHP-haavoittuvuudet
+**Ajankohta** Ke 21.10.2026 10:30 - 17:30  
+**Vaikuttaa palveluihin**
+  * [Ratkaistu - 21.10. klo 17:30] Haavoittuvuudet on korjattu
+  * Olemme tietoisia [PHP:ssa havaituista kriittisistä haavoittuvuuksista](<https://www.kyberturvallisuuskeskus.fi/fi/haavoittuvuudet/haavoittuvuus-2026-37>) ja valmistelemme tarvittavaa tietoturvapäivitystä. Päivitys otetaan käyttöön mahdollisimman pian, kun olemme varmistaneet sen turvallisuuden.  
+Koska palvelu toimii edelleen normaalisti, tästä ei tiedotettu erikseen sähköposti-ilmoituksella. Seuraamme tilannetta aktiivisesti ja päivitämme tätä tiedotetta tilanteen edetessä.
+
+
+## To 08.10.2026
+###  __ Häiriö Neptonin mobiiliversiossa
+**Ajankohta** To 08.10.2026 08:00 - Ti 20.10.2026 19:30  
+**Vaikuttaa palveluihin** Perustoiminnot
+  * [Ratkaistu - 20.10. klo 19:30] _08.10. klo 08:00_ \- Neptonin mobiiliversiossa tapahtuman päättymispäivän valitseminen ei joillain puhelinmalleilla ja selaimilla onnistu. Ongelma on kehityksemme selvityksessä. 
+
+
+## La 17.10.2026
+###  __ Versio 2.18.00
+**Ajankohta** La 17.10.2026 03:00 - 05:30  
+**Vaikuttaa palveluihin** Perustoiminnot, Ohjelmallinen rajapinta (API), Ajastetut siirrot, Kertakirjautuminen (SSO), Microsoft-kirjautuminen, Päätelaitteet, Luotetut palvelut
+  * Palveluun tehtävän laajemman päivityksen ajankohta siirtyy aiemmasta ajankohdasta lauantaille 17.10.2026. Päivityksen ajankohta siirtyy, sillä haluamme varmistaa päivityksen laadun ja turvallisen toteutumisen.  
+  
+Palveluun tehdään laajempi päivitys lauantaina 17.10.2026 klo 03:00 - 05:30. Päivitys sisältää tietoturva- ja suorituskykyparannuksia sekä taustajärjestelmien päivityksiä. Päivityksen aikana palvelussa saattaa esiintyä katkoksia.
+
+
+## Ti 04.08.2026
+###  __ Ongelmia Microsoft Login -kirjautumisessa
+**Ajankohta** Ti 04.08.2026 20:15 - Ke 26.08.2026 09:00  
+**Vaikuttaa palveluihin** Microsoft-kirjautuminen
+  * _26.08. klo 09:00_ \- Eilen julkaistu korjaus on palauttanut tilanteen MS Login sisäänkirjautumisen kanssa takaisin normaaliin tilaan. 
+  * _25.08. klo 10:50_ \- Olemme tunnistaneet Microsoft Login -ongelman juurisyyn. Korjaus on parhaillaan työn alla, ja sen on tarkoitus sisältyä julkaisuun tänään klo 19:15. Jatkamme tilanteen seurantaa ja tiedotamme etenemisestä.
+  * _24.08. klo 13:30_ \- Olemme julkaisseet lisäkorjauksen Microsoft Login -kirjautumisongelmaan viikonloppuna ja seuraamme sen vaikutuksia. Joissain tapauksissa kirjautuminen voi edelleen epäonnistua asiakkaan Microsoft-ympäristön tietoturvakäytäntöjen vuoksi. Jatkamme korjaustoimenpiteitä yhteistyössä asiakkaiden kanssa.
+  * _21.08. klo 16:00_ \- Teemme huomenna klo 19.15 ylimääräisen huoltopäivityksen korjataksemme osaan Microsoft-kirjautumista käyttävistä asiakkaista vaikuttavan kirjautumisongelman.
+  * _19.08. klo 15:00_ \- Olemme julkaisseet korjauksen, joka ratkaisi Microsoft Login -kirjautumisen evästeiden katoamiseen liittyneen ongelman. Osalla asiakkaista esiintyy kuitenkin edelleen kirjautumiseen liittyviä häiriöitä, joiden taustalla vaikuttaa tällä hetkellä olevan Microsoft Loginiin liittyvät ympäristö- ja asiakaskohtaiset tekijät. Selvitämme jäljellä olevia ongelmia ja jatkamme korjaustoimenpiteitä yhteistyössä asiakkaiden kanssa.
+  * _13.08. klo 13:50_ \- Kirjautumisongelmien juurisyy on selvinnyt. Valmistelemme parhaillaan korjausta ja viestimme julkaisuaikataulusta julkaisutiedotteissa mahdollisimman pian.
+  * _07.08. klo 13:00_ \- Microsoft Login-kirjautumisen ongelmien juurisyytä ei ole vielä vahvistettu. Tämänhetkiset havainnot viittaavat Microsoftin tietoturvamuutosten, mobiiliselainten evästerajoitusten sekä organisaatiotason tietoturva-asetusten yhteisvaikutukseen, eivätkä Neptoniin liittyvään yksittäiseen ongelmaan. Jatkamme selvitystä ja tiedotamme korjauksesta, kun tarkka syy on tunnistettu.
+  * _04.08. klo 20:15_ \- Joillain asiakkailla esiintyy edelleen ongelmia Microsoft Loginin kanssa. Selvitämme asiaa parhaillaan.
+
+
+## La 22.08.2026
+###  __ Versio 2.17.58
+**Ajankohta** La 22.08.2026 19:15 - 19:45  
+**Vaikuttaa palveluihin** Perustoiminnot, Ohjelmallinen rajapinta (API), Ajastetut siirrot, Kertakirjautuminen (SSO), Microsoft-kirjautuminen, Päätelaitteet, Luotetut palvelut
+  * Teemme huomenna klo 19.15 ylimääräisen huoltopäivityksen korjataksemme osaan Microsoft-kirjautumista käyttävistä asiakkaista vaikuttavan kirjautumisongelman. Päivityksen aikana palvelussa saattaa esiintyä tilapäisiä katkoksia. Tämä on odotettua eikä vaadi asiakkailtamme toimenpiteitä. Lisätietoja löytyy [julkaisutiedotteista](<https://support.nepton.com/hc/fi/articles/360006615478>)
+
+
+## Ma 27.07.2026
+###  __ Microsoft Login -kirjautumisessa satunnaisia häiriöitä
+**Ajankohta** Ma 27.07.2026 14:43 - To 30.07.2026 14:56  
+**Vaikuttaa palveluihin** Microsoft-kirjautuminen
+  * _30.07. klo 14:56_ \- Häiriöselvityksessä ilmeni, että epäonnistuneet sisäänkirjautumiset Microsoft Loginissa johtuvat muutoksista Microsoftin tunnistautumisprosessissa, viitaten yleensä organisaation käytössä olevaan turvallisuuskäytäntöön (Conditional Access). Neptonin puolella ei ole havaittu häiriöitä MS Login sisäänkirjautumisessa. 
+  * _27.07. klo 14:43_ \- Joillain asiakkailla on havaittu häiriöitä Microsoft Login sisäänkirjautumisessa. Asia on selvityksessä.
+
+
+## Su 19.07.2026
+###  __ Päätelaitteiden ohjelmistopäivitykset
+**Ajankohta** Su 19.07.2026 19:30 - Pe 24.07.2026 22:00  
+**Vaikuttaa palveluihin** Päätelaitteet
+  * Päätelaitteiden ohjelmistoversioita päivitetään vaiheittain käytössä olevien ohjelmistoversioiden yhdenmukaistamiseksi.
+  * Päivityksiä tehdään viikon aikana ilta-aikaan klo 19.30–22.00.
+  * Päivitysten aikana yksittäisissä päätelaitteissa saattaa esiintyä lyhyitä katkoksia.
+
+
 ## To 07.05.2026
 ###  __ Versio 2.17.46
 **Ajankohta** To 07.05.2026 19:15 - 19:45  

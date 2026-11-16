@@ -13,8 +13,8 @@ section_path:
 labels:
 - työtuntimäärä
 promoted: false
-updated_at: '2025-09-19T15:26:29Z'
-edited_at: '2025-09-19T15:26:29Z'
+updated_at: '2026-06-15T13:16:30Z'
+edited_at: '2026-06-15T13:16:30Z'
 ---
 
 # Vuorosuunnittelu-näkymän yleiskuvaus
@@ -22,7 +22,7 @@ edited_at: '2025-09-19T15:26:29Z'
 Vuorosuunnittelunäkymässä suunnitellaan vuorot sekä vuorotarpeet. Vuorotarpeet tarkoittavat vuoroja, joille ei ole määritetty vielä vuoron tekijää. Vuorosuunnittelunäkymässä tehty suunnitelma julkaistaan erikseen, jonka jälkeen vuorot sekä mahdolliset vuorotarpeet tulevat näkyviin työntekijöille. Vuorotarpeet ovat julkaisun jälkeen työntekijöiden varattavissa.
 ## Näkymän käyttö
 ### Yleistä näkymästä
-Vuorosuunnittelunäkymän käyttöönotto vaatia muutamia [toimenpiteitä](<https://support.nepton.com/hc/fi/articles/360011258978>), joiden jälkeen vuoroja voidaan suunnitella. Huomaa että:
+Vuorosuunnittelunäkymän käyttöönotto voi vaatia muutamia [toimenpiteitä](<https://support.nepton.com/hc/fi/articles/360011258978>), joiden jälkeen vuoroja voidaan suunnitella. Huomaa että:
   * **Jotta henkilö näkyy suunnittelunäkymässä**
     * Henkilöllä tulee olla voimassa oleva työsopimus suunniteltavalla aikavälillä
     * Henkilön tulee kuulua yksikköön, jolle suunnitelma tehdään

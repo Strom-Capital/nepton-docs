@@ -11,14 +11,93 @@ section_path:
 - Platform status and versions
 labels: []
 promoted: false
-updated_at: '2026-05-08T05:58:46Z'
-edited_at: '2026-05-08T05:58:46Z'
+updated_at: '2026-10-29T08:50:01Z'
+edited_at: '2026-10-29T08:50:01Z'
 ---
 
 # Archived status updates
 
 **All the events below have already been resolved and are here only for reference.**  
 Visit the [Platform status](<https://support.nepton.com/hc/en-gb/articles/360006554777>) page to see the current situation.
+## Ma 26.10.2026
+###  __ Ratkaistu: Kriittiset PHP-haavoittuvuudet
+**Ajankohta** Ma 26.10.2026 13:21  
+**Vaikuttaa palveluihin**
+  * Olemme tietoisia Kyberturvallisuuskeskuksen 23.10. julkaisemasta uudesta [PHP-haavoittuvuuden CVE-2026-115560](<https://kyberturvallisuuskeskus.fi/fi/haavoittuvuudet/haavoittuvuus-2026-37>) ja olemme arvioineet sen vaikutukset Nepton-palveluun. **Haavoittuvuus ei vaikuta Neptoniin** eikä edellytä asiakkailtamme toimenpiteitä.
+
+
+## Sat 17.10.2026
+###  __ Annual leave and Dining report issue
+**Date range** Sat 17.10.2026 06:00 - Thu 22.10.2026 19:30  
+**Affected services** Core features
+  * [Resolved - 22.10. at 19:30] Fix has been released
+  * _22.10. at 12:45_ \- We will release a fix for the annual leave and dining report issue today at 19.15.
+  * _17.10. at 06:00_ \- Annual leave and Dining reports are not available for persons that have rights lower than Administrator. We are investigating the issue. 
+
+
+## Wed 21.10.2026
+###  __ Critical PHP vulnerabilities
+**Date range** Wed 21.10.2026 10:30 - 17:30  
+**Affected services**
+  * [Resolved - 21.10. at 17:30] Vulnerabilities have been fixed
+  * We are aware of the [critical vulnerabilities identified in PHP](<https://www.kyberturvallisuuskeskus.fi/fi/haavoittuvuudet/haavoittuvuus-2026-37>) and are preparing the necessary security update. The update will be applied as soon as possible, once we have verified its safety.  
+As the service continues to operate normally, this was not separately informed by email notification. We are actively monitoring the situation and will update this notice as the situation develops.
+
+
+## Thu 08.10.2026
+###  __ Issue in Nepton Mobile
+**Date range** Thu 08.10.2026 08:00 - Tue 20.10.2026 19:30  
+**Affected services** Core features
+  * [Resolved - 20.10. at 19:30] _08.10. at 08:00_ \- In the Nepton mobile version, selecting an event's end date is not possible on certain phone models and browsers. Our development team is currently investigating the issue.
+
+
+## Sat 17.10.2026
+###  __ Version 2.18.00
+**Date range** Sat 17.10.2026 03:00 - 05:30  
+**Affected services** Core features, Platform interfaces (API), Scheduled integrations, Single Sign-On (SSO), Microsoft login, Terminals, Trusted services
+  * The scheduled date for the minor release has been moved to Saturday 17.10.2026. The postponement will allow us to complete additional quality assurance measures and ensure a safe and reliable deployment.  
+  
+A minor release will be performed on Saturday 17.10.2026 at 03:00 - 05:30. The update includes security and performance improvements as well as infrastructure updates. Service interruptions may occur during the release.
+
+
+## Tue 04.08.2026
+###  __ Issues with Microsoft Login
+**Date range** Tue 04.08.2026 20:15 - Wed 26.08.2026 09:00  
+**Affected services** Microsoft login
+  * _26.08. at 09:00_ \- The fix published yesterday has returned the situation with MS Login to a normal state.
+  * _25.08. at 10:50_ \- We have identified the root cause of the Microsoft Login issue. A fix is currently being implemented and is planned to be included in the release today at 19:15. We continue to monitor the situation and will provide further updates as progress is made.
+  * _24.08. at 13:30_ \- We have deployed an additional fix for the Microsoft Login issue over the weekend and are actively monitoring its impact. In some cases, login attempts may still fail due to security policies configured in the customer's Microsoft environment. We continue corrective measures in collaboration with our customers.
+  * _21.08. at 16:00_ \- We will perform an additional maintenance release tomorrow at 19:15 to address a login issue affecting some customers using Microsoft authentication.
+  * _19.08. at 15:00_ \- We have released a fix that resolved the issue involving the loss of Microsoft Login cookies. However, some customers are still experiencing login disruptions; these appear to stem from environment- and customer-specific factors related to Microsoft Login. We are investigating the remaining issues and continuing corrective measures in collaboration with our customers.
+  * _13.08. at 13:50_ \- The root cause of the issue has been found. We are preparing a fix and will communicate the release schedule in the Release notes as soon as possible.
+  * _07.08. at 13:00_ \- The root cause has not yet been confirmed. Current evidence suggests a combination of Microsoft security changes, mobile browser cookie restrictions, and organization-level security configurations rather than an issue isolated to Nepton. We are continuing to investigate and will provide a fix once the exact cause is identified.
+  * _04.08. at 20:15_ \- Some customers are still experiencing issues with Microsoft Login. We are currently investigating the issue.
+
+
+## Sat 22.08.2026
+###  __ Version 2.17.58
+**Date range** Sat 22.08.2026 19:15 - 19:45  
+**Affected services** Core features, Platform interfaces (API), Scheduled integrations, Single Sign-On (SSO), Microsoft login, Terminals, Trusted services
+  * We will perform an additional maintenance release tomorrow at 19:15 to address a login issue affecting some customers using Microsoft authentication. During the release, there may be temporary disruptions to the service. This is expected and does not require any action from our customers. Details can be found on the [Release notes page](<https://support.nepton.com/hc/fi/articles/360006615478>).
+
+
+## Mon 27.07.2026
+###  __ Occasional issues with Microsoft Login
+**Date range** Mon 27.07.2026 14:43 - Thu 30.07.2026 14:56  
+**Affected services** Microsoft login
+  * _30.07. at 14:56_ \- An investigation into the issue revealed that failed Microsoft logins are caused by changes in Microsoft's authentication process — specifically relating to the organization's security policy (Conditional Access). No issues have been detected on Nepton's end regarding Microsoft logins. 
+  * _27.07. at 14:43_ \- Some customers are experiencing issues with Microsoft Login. The issue is under investigation.
+
+
+## Sun 19.07.2026
+###  __ Terminal software updates
+**Date range** Sun 19.07.2026 19:30 - Fri 24.07.2026 22:00  
+**Affected services** Terminals
+  * Terminal software versions will be updated in phases to standardise software versions across terminals.  
+Updates will be carried out during the week in the evening, between 19:30 and 22:00.  
+Brief interruptions may occur on individual terminals during the update process.
+
+
 ## Thu 07.05.2026
 ###  __ Version 2.17.46
 **Date range** Thu 07.05.2026 19:15 - 19:45  
@@ -616,14 +695,14 @@ Sun 16.06.2024
 
 ## Thu 25/01/2024
 ###  __ Shift list issues 
-**Date** **range:** 25.1.2024 - 13:30 - 13:58   
+**Date** **range:** 25.1.2024 - 13:30 \- 13:58   
 **Affected services:** Core features 
   * [Resolved] _25.1.2024 13:30 - 13:58_ \- An error occurs when trying to access the shift list per hour or shift list per day view. 
 
 
 ## Mon 15/01/2024 - Thu 25/01/2024
 ###  __ Person search, accrual, project manager addition and integration scheduling issues 
-**Date** **range:** 15.1.2024 - 08:00 - 25.1.2024 13:08  
+**Date** **range:** 15.1.2024 - 08:00 \- 25.1.2024 13:08  
 **Affected services:** Core features and scheduled integrations 
   * [Resolved] _25.1.2024 07:00_ _\- 25.1.2024 13:08_ The remaining issues in core functionalities will be fixed during today's update between 13:00 and 13:30. Please see the version 2.14.4 [release notes](<https://support.nepton.com/hc/en-gb/articles/360006615478>) for full details. 
   * [Resolved] _15.1.2024 08:00 - 25.1.2024 13:08_ Person search related issues. For example, the shift list per day search box doesn't show all the users it should. 

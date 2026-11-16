@@ -18,7 +18,7 @@ labels:
 - henkilötietoliittymä
 - henkilöliittymä
 promoted: false
-updated_at: '2025-07-25T12:13:23Z'
+updated_at: '2026-08-14T10:05:38Z'
 edited_at: '2025-07-25T12:13:23Z'
 ---
 

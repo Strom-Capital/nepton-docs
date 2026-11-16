@@ -13,8 +13,8 @@ section_path:
 - Microsoft-kirjautuminen
 labels: []
 promoted: false
-updated_at: '2026-02-05T13:58:38Z'
-edited_at: '2026-02-05T13:58:38Z'
+updated_at: '2026-10-29T14:05:12Z'
+edited_at: '2026-06-09T09:36:18Z'
 ---
 
 # Microsoft-kirjautumisen määritys Entra ID palvelussa
@@ -78,13 +78,45 @@ Mikäli ette saa kirjautumista toimimaan vaihtoehdolla A, tulee teidän tehdä m
 Tämä vaihtoehto mahdollistaa 5 vuotta voimassa olevien client secret -arvojen luomisen. Sinun pitää tehdä vaiheet 12, 13 ja 16 uudestaan aina kymmenen vuoden välein.
 Sinun tulee tässä vaihtoehdossa tuntea Powershellin toiminta. Huomioithan että Powershellin 7 versio ei tue Entra ID yhteyksiä, joten käytä Powershellin 5.1 x86 versiota.
 Mikäli et ole vielä asentanut tarvittavaa Powershell moduulia, niin tee tämä:
-Install-Module AzureAD
+# Asenna Microsoft Graph -moduuli  
+Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber  
+  
+# Varmista asennus  
+Get-Module -ListAvailable -Name Microsoft.Graph  
+
 Aja seuraavanlaiset komennot (lopetuspäivä ei voi olla yli 5 vuoden päässä)
-Connect-AzureAD
-$startDate = Get-Date
-$endDate = $startDate.AddYears(5)
-$value = New-AzureADApplicationPasswordCredential -ObjectId "REPLACE_WITH_OBJECTID_OF_APP_REGISTRATION" -StartDate $startDate -EndDate $endDate
-$value
+# ============================================================  
+# ASIAKKAAN MUOKATTAVAT – TÄYTÄ ALLA OLEVAT MUUTTUJAT ENNEN SUORITUSTA  
+# ============================================================  
+  
+$CustomerName = "My Customer App"# Vaihda sovelluksesi nimeksi (vain tunnistusta varten)  
+$ClientId = "YOUR-APPLICATION-CLIENT-ID"# Hae tämä Azure Portaalista → Sovellusrekisteröinti  
+$YearsValid = 5# Kuinka monta vuotta salaus on voimassa  
+  
+# ============================================================  
+# ALLA OLEVIA RIVEJÄ EI TARVITSE MUUTTAA  
+# ============================================================  
+  
+# 1. Yhdistä Microsoft Graphiin (kirjaudu sisään kun pyydetään)  
+Connect-MgGraph -Scopes "Application.ReadWrite.All"  
+  
+# 2. Laske vanhenemispäivä yllä olevien vuosien perusteella  
+$startDate = Get-Date  
+$endDate = $startDate.AddYears($YearsValid)  
+  
+# 3. Luo salausobjekti  
+$passwordCredential = @{  
+DisplayName = "$CustomerName Secret"  
+StartDateTime = $startDate  
+EndDateTime = $endDate  
+}  
+  
+# 4. Luo asiakassalaus (varsinainen salausarvo näytetään suorituksen jälkeen)  
+Write-Host"Luodaan salainen arvo kohteelle '$CustomerName'..." -ForegroundColor Cyan  
+Add-MgApplicationPassword -ApplicationId $ClientId -PasswordCredential $passwordCredential  
+  
+Write-Host"✅ Valmis! Kopioi yllä näkyvä salainen arvo – sitä ei näytetä enää uudelleen." -ForegroundColor Green  
+
 **B) Luo client secret Entra ID portaalissa**
 Tämä vaihtoehto voidaan tehdä pelkällä selaimella. Haittapuolena on se, että client secret vanhenee kahden vuoden välein ja täten vaiheet 12, 13 ja 16 pitää tehdä uudestaan aina kahden vuoden välein.
 Vasemmalla, Certificates & Secrets, create new client secret. Merkitse uusi client secret olemaan voimassa mahdollisimman pitkään, tai jos mahdollista olemaan ikinä vanhenematta. Lisää. Odota että näet oikealla ylhäällä tämän ilmoituksen:

@@ -23,7 +23,7 @@ labels:
 - työajan automatisointi
 - työajan automaattinen täyttö
 promoted: false
-updated_at: '2026-01-12T11:45:40Z'
+updated_at: '2026-08-14T08:06:02Z'
 edited_at: '2026-01-02T08:37:59Z'
 ---
 

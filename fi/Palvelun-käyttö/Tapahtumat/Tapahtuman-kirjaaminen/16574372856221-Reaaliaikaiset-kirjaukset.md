@@ -12,8 +12,8 @@ section_path:
 - Tapahtuman kirjaaminen
 labels: []
 promoted: false
-updated_at: '2026-03-26T10:19:16Z'
-edited_at: '2026-02-02T13:06:34Z'
+updated_at: '2026-08-27T08:01:05Z'
+edited_at: '2026-08-27T08:01:04Z'
 ---
 
 # Reaaliaikaiset kirjaukset
@@ -31,4 +31,4 @@ Jos tapahtuma on kirjattu reaaliaikaisesti jollain muulla laittella kuin Nepton 
 ![](https://support.nepton.com/hc/article_attachments/16574831559709)
 Tapahtumaa klikkaamalla näytetään lisätietoja, joissa kerrotaan, että tapahtuma on merkattu reaaliaikaisesti.
 ![](https://support.nepton.com/hc/article_attachments/16574853316381)
-Reaaliaikaisesti kirjattujen tapahtumien välillä tulee olla 1 minuutti, jotta ne katsotaan erillisiksi tapahtumiksi.
+Reaaliaikaisesti kirjattujen tapahtumien välillä tulee olla yli 3 minuuttia, jotta ne katsotaan erillisiksi tapahtumiksi.

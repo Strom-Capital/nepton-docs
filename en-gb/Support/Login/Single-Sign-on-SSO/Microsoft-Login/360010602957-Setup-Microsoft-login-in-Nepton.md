@@ -14,8 +14,8 @@ section_path:
 labels:
 - m365
 promoted: false
-updated_at: '2024-09-27T12:07:17Z'
-edited_at: '2024-09-27T12:07:16Z'
+updated_at: '2026-11-16T06:40:11Z'
+edited_at: '2026-11-16T06:40:11Z'
 ---
 
 # Setup Microsoft login in Nepton
@@ -45,5 +45,7 @@ If Microsoft login has already been used and you want to change the secret value
 On first Microsoft login, you might need to authorize the SSO app on behalf of the whole organization. If this occurs, a separate popup will be presented to user who first logs in from your organization. 
 If user is Entra ID administrator, the popup will look like below, and user should accept. Do not press cancel.
 ![mceclip4.png](https://support.nepton.com/hc/article_attachments/13409925440925)
-If user is normal user, she will be presented with a different popup allowing her to request permission from Entra ID administrator. In this case it’s advisable to **_separately & directly_** contact Entra ID administrator of your organization.
+If user is normal user, she will be presented with a different popup allowing her to request permission from Entra ID administrator. In this case it’s advisable to **separately & directly** contact Entra ID administrator of your organization.
 Microsoft login will not work before above consent and permissions are granted.
+Nepton's Microsoft Login (Single Sign-On) is moving to the OpenID Connect (OIDC) v2.0 endpoint as its primary authentication method, replacing the previous Microsoft Graph API integration.
+This migration addresses Microsoft's updated Conditional Access enforcement policy. More on this subject in article [Microsoft Login V2](<https://support.nepton.com/hc/en-gb/articles/40185048819485-Microsoft-Login-V2>).

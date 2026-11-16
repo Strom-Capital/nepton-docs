@@ -14,13 +14,13 @@ labels:
 - poimintasääntöjen muodostaminen
 - sääntöjoukkojen määrittely
 promoted: false
-updated_at: '2026-05-15T06:12:08Z'
-edited_at: '2026-05-15T06:12:07Z'
+updated_at: '2026-09-16T06:22:03Z'
+edited_at: '2026-09-16T06:22:03Z'
 ---
 
 # Setting up integration rulesets
 
-Please note that creating and modifying integration rules requires a basic understanding of SQL.  
+Please note that creating and modifying integration rules requires a basic understanding of SQL.
 The ruleset defines the content to be extracted into the material to be transferred. This article reviews the basic principles of extraction and the additional rules most commonly needed in rule sets. Other essential instructions related to creating extraction rules can be found via the following links:
     * [Rulesets in general](<https://support.nepton.com/hc/en-gb/articles/360002492278>)  
 General information on the formats and methods for downloading material from the service using rule sets, as well as where the settings can be found in the service.
@@ -114,8 +114,8 @@ For example, when transferring quantities (hours, units) across multiple records
 Similarly, you can attach custom data to the comment field with 'AS OverrideComment'. More details on field names can be found in integration-specific descriptions [here](<https://support.nepton.com/hc/en-gb/articles/360002494538>).
 ## Defining the processed period
 The ruleset targets data within a specific date range. The range is defined either in [the scheduled task settings](<https://support.nepton.com/hc/en-gb/articles/360002492458>) or via the user interface. The integration rules target the time period being processed and return results for that time period.
-You can use variables `:exportPeriodStart` and `:exportPeriodEnd` to choose the chosen period's first and last date for the exported data (`YYYY-MM-DD HH:MM:SS`).
-Example clause for filtering data by these dates:
+You can use variables `:exportPeriodStart` and `:exportPeriodEnd` to choose the chosen period's first and last date for the exported data (`YYYY-MM-DD HH:MM:SS`). For only the date, you can use :exportPeriodStartDate and :exportPeriodEndDate variables.
+Example clause for filtering data by :exportPeriodStart and :exportPeriodEnd:
 [code]
     WHERE
       DATE(EventStartDateTime) BETWEEN :ExportPeriodStart AND :ExportPeriodEnd

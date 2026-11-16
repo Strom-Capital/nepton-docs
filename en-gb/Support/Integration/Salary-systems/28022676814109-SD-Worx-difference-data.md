@@ -12,13 +12,14 @@ section_path:
 - Salary systems
 labels: []
 promoted: false
-updated_at: '2025-07-02T08:02:57Z'
-edited_at: '2025-06-24T06:28:58Z'
+updated_at: '2026-08-21T09:27:47Z'
+edited_at: '2026-08-21T09:27:46Z'
 ---
 
 # SD Worx difference data
 
-With the SD Worx (Difference) integration, changes to past payment periods are added to the export buffer in real time as they are recorded in Nepton. Changes made to current or future payment periods are not added to the export buffer in real time, they must be exported either manually or automatically using an integration schedule. When a change is made to a past payment period, the difference between the event before the edit and after the edit, is added to the export buffer.
+SD Worx (Difference) integration can be taken into use if SD Worx (salary data) is also in use.
+SD Worx (Difference) integration makes sure that any changes to past payment periods are exported to salary system. When a change to a past payment period is done in Nepton, it moves to the buffer in real time. Changes made to current or future payment periods are not added to the export buffer in real time, they must be exported either manually or automatically using an integration schedule. When a change is made to a past payment period, the difference between the event before the edit and after the edit, is added to the export buffer.
 ## Good to know
   * Employees with employee number 0 are not included in the data.
   * An event can be recorded in a past payment period even if there are problems with the integration. For example, an incorrect integration rule or a problem with the SFTP server will not prevent the event from being recorded. The user will be warned about the error.
@@ -38,7 +39,7 @@ If the person's SD Worx ID has not been set, the employee number will be used.
 If there is no target server for the integration yet, add it in the Working Community settings under **Integrations > Target servers**. See [Target servers for work time exports](<https://support.nepton.com/hc/en-gb/articles/26861716054045>) for general instructions on how to add a target server and set the SFTP settings.
 SFTP settings for the target server must specify at least the SFTP server address, SFTP username, and SFTP password (or public key authentication).
 **3\. Integration settings**
-In order to enable the integration, a rule set must be defined to generate the data. In the export options, select SD Worx (Difference) as the export format.![sdworx-integration-ruleset-format.png](https://support.nepton.com/hc/article_attachments/28022676810653)
+In order to enable the integration, a rule set must be defined to generate the data. In the export options, select SD Worx (Difference) as the export format. SD Worx (Difference) must have it's own separate rule set.![sdworx-integration-ruleset-format.png](https://support.nepton.com/hc/article_attachments/28022676810653)
 Select the target server for the integration, that you added in step 2.
 ![sdworx-integration-ruleset-target-server.png](https://support.nepton.com/hc/article_attachments/28022672556829)
 The exact timestamp _[timestamp-ms]_ must be added to the export file name, like in the example below. If a timestamp is not used, each file will have the same name and they will overwrite each other.

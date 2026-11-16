@@ -14,39 +14,46 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2025-07-23T10:37:10Z'
-edited_at: '2025-07-22T12:41:40Z'
+updated_at: '2026-08-19T11:44:55Z'
+edited_at: '2026-08-19T10:20:09Z'
 ---
 
 # Työaika-asetusten massakirjaus
 
 Huomaathan, että työpäivän pituus, sallitut ajat sekä oletetut työajat määritetään työyhteisön tai asetusryhmän asetuksissa. Työaika-asetusten massakirjausta tulee käyttää ainoastaan poikkeustapauksissa!
-**Asetusten massakirjaus -** toiminto löytyy valikossa **Työaika - >** **Työkalut - > Aseta poikkeava asetus. **  
+Massana työajan asetuksia voidaan tehdä joko Työkalujen kautta tai kalenterinäkymästä.
+## Työkalut
+**Asetusten massakirjaus -** toiminto löytyy valikosta **Työaika >** **Työkalut > Aseta poikkeava asetus. **  
 Työpäiville voidaan massakirjata poikkeuksia [työpäivän pituuteen](<https://support.nepton.com/hc/fi/articles/360002558417>) ja työaikarajoihin ([sallitut työajat](<https://support.nepton.com/hc/fi/articles/360002558597>) ja [oletetut työajat](<https://support.nepton.com/hc/fi/articles/360002558617>)).
-![](https://support.nepton.com/hc/article_attachments/29029786168989)
-![](https://support.nepton.com/hc/article_attachments/29029786173341)
-## Asetus 
+![](https://support.nepton.com/hc/article_attachments/38479352523293)
+**Asetus**
 Voit tehdä massakirjauksen työpäivän pituuteen, sallittuihin aikoihin tai oletettuihin työaikoihin.
-## Toistuva merkintä - Toista tähän asti
+**Toistuva merkintä - Toista tähän asti**
 Voit asettaa massakirjauksen tietylle ajanjaksolle.
-## Toistoväli
+**Toistoväli**
 Massakirjauksen toistoväliksi voidaan valita jokin seuraavista vaihtoehdoista:
-**Päivittäin: **Poikkeus kirjataan jokaiselle päivälle valitulle ajanjaksolle.
-**Arkipäivisin: **Poikkeus kirjataan ainoastaan maanantai-perjantaille.
-**Viikoittain: **Poikkeus kirjataan viikoittain **Toistuva merkintä** -kentässä olevalle viikonpäivälle.**Toista tähän** **(asti)** -kenttään valitaan viimeinen päivämäärä, jolle poikkeus halutaan kirjata.
-**Kuukausittain: **Poikkeus kirjataan päivämäärän mukaan kerran kuukaudessa, sille päivämäärälle, joka on merkitty massakirjauksen aloituspäiväksi **Toistuva merkintä** -kenttään. 
-Esimerkki: Jos massakirjauksen aloitusajankohta on 20.6. ja merkintä laitetaan loppumaan 31.8, palvelu lisää massakirjaukset päivämäärille 20.6, 20.7. ja 20.8.
-**Kuukausittain samalle viikonpäivälle: **Poikkeus kirjataan viikonpäivän mukaan kerran kuukaudessa sille viikonpäivälle, joka on merkitty massakirjauksen aloituspäiväksi **Toistuva merkintä** -kenttään.
-Esimerkki: Jos massakirjauksen aloitusajankohta on sunnuntai 3.6. ja merkinnät tehdään 15.9. asti, palvelu lisää massakirjauksen kullekin sunnuntaipäivälle annetulle ajanjaksolle.
-**Vuosittain:** Poikkeus kirjataan kerran vuodessa.
-Esimerkki: Jos massakirjauksen aloitusajankohta on 1.1.2025 ja loppumisajankohta 31.12.2027, palvelu tekee massakirjaukset 1.1.2025, 1.1.2026 ja 1.1.2027.
+**Päivittäin:****** Poikkeus kirjataan jokaiselle päivälle valitulle ajanjaksolle.  
+**Arkipäivisin:****** Poikkeus kirjataan ainoastaan maanantai-perjantaille.  
+**Viikoittain:****** Poikkeus kirjataan viikoittain **Toistuva merkintä** -kentässä olevalle viikonpäivälle.**Toista tähän** **(asti)** -kenttään valitaan viimeinen päivämäärä, jolle poikkeus halutaan kirjata.  
+**Kuukausittain:****** Poikkeus kirjataan päivämäärän mukaan kerran kuukaudessa, sille päivämäärälle, joka on merkitty massakirjauksen aloituspäiväksi **Toistuva merkintä** -kenttään.   
+Esimerkki: Jos massakirjauksen aloitusajankohta on 20.6. ja merkintä laitetaan loppumaan 31.8, palvelu lisää massakirjaukset päivämäärille 20.6, 20.7. ja 20.8.  
+**Kuukausittain samalle viikonpäivälle:****** Poikkeus kirjataan viikonpäivän mukaan kerran kuukaudessa sille viikonpäivälle, joka on merkitty massakirjauksen aloituspäiväksi **Toistuva merkintä** -kenttään.  
+Esimerkki: Jos massakirjauksen aloitusajankohta on sunnuntai 3.6. ja merkinnät tehdään 15.9. asti, palvelu lisää massakirjauksen kullekin sunnuntaipäivälle annetulle ajanjaksolle.  
+**Vuosittain:** Poikkeus kirjataan kerran vuodessa.  
+Esimerkki: Jos massakirjauksen aloitusajankohta on 1.1.2025 ja loppumisajankohta 31.12.2027, palvelu tekee massakirjaukset 1.1.2025, 1.1.2026 ja 1.1.2027.  
 **Juhlapyhät, jotka lyhentävät työviikon pituutta:** Voidaan määritellä kerralla määritykset kaikille juhlapyhille, jotka lyhentävät työviikon pituutta automaattisesti.
-## Poista asetus
+**Poista asetus**
 Katso [tästä artikkelistamme](<https://support.nepton.com/hc/fi/articles/360002560857-Asetusten-poistaminen-massana>) ohjeet, miten poistaa asetus.
-## Pituus 
+**Pituus**
 Katso [tästä artikkelistamme](<https://support.nepton.com/hc/fi/articles/360002560837-Ty%C3%B6p%C3%A4iv%C3%A4n-pituuden-poikkeusasetuksen-massakirjaus>) ohjeet työpäivän pituuden poikkeusasetuksen massakirjaukseen.
-## Valitse henkilöt
+**Valitse henkilöt**
 Valitse henkilöt, kenelle haluat muutoksen tehdä.
-## Suorita massakirjaus
+**Suorita massakirjaus**
 'Suorita massakirjaus'-painiketta painettuasi haluamasi muutos tapahtuu valituille henkilöille.
+![](https://support.nepton.com/hc/article_attachments/38479352524445)
 Voit ensin tehdä massakirjauksen vain yhdelle henkilölle. Näin voit tarkistaa, että tehty massakirjaus on varmasti oikein.
+## Kalenterinäkymä
+Työaikarajojen massamuutos voidaan tehdä myös suoraan kalenterinäkymästä sallituille tai oletetuille työajoille. Päivämäärää klikkaamalla aukeaa valikko, josta voidaan valita kopiointi jokko sallituille tai oletetuille työajoille:  
+![](https://support.nepton.com/hc/article_attachments/38480036259229)
+Kun Kopioi-nappi painaa, avautuu lähes samanlainen poikkeavan asetuksen massamuutos -ikkuna kuin työkalujen kauttakin:  
+![](https://support.nepton.com/hc/article_attachments/38480043815709)

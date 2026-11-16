@@ -17,8 +17,8 @@ labels:
 - sopimuspaketti
 - sähköinen sopimus
 promoted: false
-updated_at: '2024-08-27T18:12:51Z'
-edited_at: '2023-06-16T07:46:09Z'
+updated_at: '2026-11-03T12:58:25Z'
+edited_at: '2026-11-03T12:55:03Z'
 ---
 
 # Työsopimuspaketit

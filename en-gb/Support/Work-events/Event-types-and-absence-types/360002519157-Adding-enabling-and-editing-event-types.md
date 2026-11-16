@@ -19,7 +19,7 @@ labels:
 - käyttäytyminen
 - event types
 promoted: false
-updated_at: '2026-02-24T13:22:48Z'
+updated_at: '2026-08-14T08:06:02Z'
 edited_at: '2026-02-24T13:22:48Z'
 ---
 

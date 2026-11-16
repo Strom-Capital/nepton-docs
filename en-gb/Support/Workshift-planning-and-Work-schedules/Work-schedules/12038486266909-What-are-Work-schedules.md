@@ -13,7 +13,7 @@ section_path:
 labels:
 - Work schedules
 promoted: false
-updated_at: '2026-02-26T08:49:16Z'
+updated_at: '2026-07-09T08:09:24Z'
 edited_at: '2023-07-10T10:17:25Z'
 ---
 

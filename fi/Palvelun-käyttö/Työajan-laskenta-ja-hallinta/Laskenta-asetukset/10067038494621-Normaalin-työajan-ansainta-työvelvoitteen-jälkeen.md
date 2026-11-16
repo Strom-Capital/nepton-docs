@@ -12,8 +12,8 @@ section_path:
 - Laskenta-asetukset
 labels: []
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2024-10-03T12:25:37Z'
+updated_at: '2026-08-20T11:43:34Z'
+edited_at: '2026-08-20T11:41:54Z'
 ---
 
 # Normaalin työajan ansainta työvelvoitteen jälkeen
@@ -29,7 +29,7 @@ Asetus ei siis mahdollista jostain tapahtumatyypistä ansaittavaa kiinteää tun
 Alla kuvattu tyypillisiä asetuksen käyttötapoja.
 ### Matka-aika
 Oletuksena tapahtumatyypistä "matka-aika" ansaitaan vain säännöllistä työaikaa. Jos halutaan, että työaikaa voi myös kertyä päivän velvoitteen täyttymisen jälkeen, täytyy sen kohdalle määrittää haluttu arvo. Esimerkkinä tapaus, jossa matka-ajasta voi ansaita 3h arkena ja 12h viikonloppuna saldoon. Työpäivän pituus on 7,5h, joten määritykset laitettaisiin seuraavasti:  
-![](https://support.nepton.com/hc/article_attachments/22001619949981)
+![](https://support.nepton.com/hc/article_attachments/38510178632477)
 Tällöin arkena matka-ajasta ei korvata enää mitään kun päivän työaika saavuttaa 10,5h, ja viikonloppuisin 12h:
 ![](https://support.nepton.com/hc/article_attachments/22001619953309)
   * Torstai 10.10.: Ensin on tehty normaali 7,5h työpäivä, jonka jälkeen matka-aikaa 2h. Tunteja ei olla rajattu pois, koska päivän työaika ei ylitä 10,5h.

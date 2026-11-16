@@ -15,8 +15,8 @@ labels:
 - työvuoropohja
 - Vuoropohja
 promoted: false
-updated_at: '2026-04-29T05:44:38Z'
-edited_at: '2026-04-29T05:44:25Z'
+updated_at: '2026-06-08T07:57:13Z'
+edited_at: '2026-06-08T07:57:13Z'
 ---
 
 # Creating and managing templates
@@ -28,8 +28,8 @@ Create a template in the planning section as follows:
 2\. Select **Add** to create a new template.
 ![Screenshot 2025-09-11 152518.png](https://support.nepton.com/hc/article_attachments/30261343584669)
 3\. Enter a **name** for the template. The name helps identify the template.
-4\. Add a description if needed. The description is optional but helps clarify the purpose of the template. 
-![Screenshot 2025-09-11 160452.png](https://support.nepton.com/hc/article_attachments/30261350436509)
+4\. Add a description if needed. The description is optional but helps clarify the purpose of the template. Information added to the Shift information field is shown to the employee in the Worktime calendar. Information added to the Planner info field is shown only in the planning view.
+![Screenshot 2026-06-08 105259.png](https://support.nepton.com/hc/article_attachments/36671803185821)
 5\. Add the required number of shifts by selecting **Add Shift** and the required number of days by selecting **Add Day**. Fill the shift details. You can change the order of days using the arrow buttons. Days can also be left empty to represent days off, such as weekends in a two-week rotation. No shifts are added to empty days.
 ![Screenshot 2025-09-11 160936.png](https://support.nepton.com/hc/article_attachments/30261350438429)
 6\. Fill in the following details for each shift:

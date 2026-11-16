@@ -25,8 +25,8 @@ labels:
 - lisätiedot
 - lisätieto
 promoted: false
-updated_at: '2026-04-13T09:01:00Z'
-edited_at: '2026-04-13T08:55:15Z'
+updated_at: '2026-08-18T09:54:40Z'
+edited_at: '2026-08-18T09:54:39Z'
 ---
 
 # Tapahtumatyypit
@@ -120,14 +120,12 @@ Vuosivapaa-tapahtumatyyppiä käytetään, kun halutaan pitää ansaittuja Vuosi
 **Ylityövapaa (278)**  
 Ylityövapaa-tapahtumatyyppiä käytetään, kun halutaan pitää ansaittuja Ylityövapaa-kertymään kertyneitä tunteja vapaana. Tapahtumatyyppi antaa maksimissaan työpäivän pituuden verran säännöllistä työaikaa ja Ylityövapaa-kertymän saldo pienenee saman verran.
 ## Hallinnolliset-tapahtumatyypit
-Kertymiä voidaan hallita asettamalla niille arvo tai muuttamalla arvoa.
-Asetus mitätöi kaikki aiemmat tapahtumat ja asettaa kertymälle tietyn arvon tiettynä päivänä. Laskentaa jatketaan ko. päivästä alkaen pohja-arvona asetettu arvo. Esim. 31.3.2021 Saldon asetus 10h33min. Saldon asetusta käytetään yleensä palvelun käyttöönoton yhteydessä.
-Muutos muuttaa kertymän arvoa halutun määrän haluttuna päivänä. Esim. Saldon muutos 31.3.2021 +3h27min lisää saldon arvoa päivän lopuksi. Tätä voi käyttää tarvittaessa manuaalisiin korjauksiin.
-Kertymien asetus ja muutos voidaan tehdä mille tahansa päivälle.
-Poikkeuksena edellä mainittuihin on Vuosilomaan liittyvät asetukset ja muutokset. Vuosiloman asetuksissa/muutoksissa on syytä huomata, mihin ansaintajaksoon ko. asetus/muutos vaikuttaa. Esim. 15.5.2021 tehty muutos vaikuttaa ansaintajaksolle 1.4.2021-31.3.2022.
-Vuosiloman ansainnan asetus voidaan tehdä vain kuukauden ensimmäiselle päivälle.
-Vuosiloman ansaintamuutos voidaan tehdä mille tahansa päivälle.
-Vuosilomasaldon lukitus asetetaan jaksolle alkupäivä-loppupäivä. Tyypillisesti jakso on maaliskuu.
+Halinnolliset tapahtumatyypit näkyvät vain pääkäyttäjille.
+Kertymiä voidaan hallita asettamalla niille arvo tai muuttamalla arvoa. Kertymien asetus ja muutos voidaan tehdä mille tahansa päivälle.
+Asetus mitätöi kaikki aiemmat tapahtumat ja asettaa kertymälle tietyn arvon tiettynä päivänä. Laskentaa jatketaan ko. päivästä alkaen pohja-arvona asetettu arvo. Esim. 31.3. Saldon asetus 10h33min. Saldon asetusta käytetään yleensä palvelun käyttöönoton yhteydessä.
+Muutos muuttaa kertymän arvoa halutun määrän haluttuna päivänä. Esim. Saldon muutos 31.3. +3h27min lisää saldon arvoa päivän lopuksi. Tätä voi käyttää tarvittaessa manuaalisiin korjauksiin.
+Poikkeuksena edellä mainittuihin on Vuosilomaan liittyvät asetukset ja muutokset. Vuosiloman asetuksissa/muutoksissa on syytä huomata, mihin ansaintajaksoon ko. asetus/muutos vaikuttaa. Esim. 15.5.2026 tehty muutos vaikuttaa ansaintajaksolle 1.4.2026-31.3.2027.
+Vuosiloman ansainnan asetus voidaan tehdä vain kuukauden ensimmäiselle päivälle. Vuosiloman ansaintamuutos voidaan tehdä mille tahansa päivälle. Vuosilomasaldon lukitus asetetaan jaksolle alkupäivä-loppupäivä. Tyypillisesti jakso on maaliskuu.
 **Jouston arvon asetus (1308)**
 **Jouston arvon muutos (1309)**
 **Joustotyötuntien arvon asetus (2292)**
@@ -154,8 +152,10 @@ Perustamalla oman kertymän, muodostuu sille myös omat hallinnolliset tapahtuma
 **Huomautus (8)**  
 Huomautus-tapahtumatyypillä voidaan tehdä erillinen kommentti, jolle voidaan asettaa alku- ja loppuaika. Huomautus-tapahtumatyyppi ei vaikuta laskentaan, eikä se kerrytä työtunteja.
 **Korjaus (228)**  
-Korjaus-tapahtumatyyppiä käytetään yhdessä korjaus-työlisien kanssa. Siten voidaan korjata manuaalisesti tapahtumien tulkintaa ja siirtää korjauksia palkkaintegraatiossa palkanlaskentaan.
-**Suunniteltu työvuoro (24)**
+[Korjaus-tapahtumatyyppiä](<https://support.nepton.com/hc/fi/articles/38338011820957>) käytetään yhdessä korjaus-työlisien kanssa. Siten voidaan korjata manuaalisesti tapahtumien tulkintaa ja siirtää korjauksia palkkaintegraatiossa palkanlaskentaan.
+**Viikkolepokorvauksen siirto (500853)**  
+Tapahtumatyypillä voidaan [ohjata yksittäinen viikkolepokorvaus](<https://support.nepton.com/hc/fi/articles/360007389978>) johonkin muuhun kuin oletuskohdenteeseen. Tapahtumatyyppiä voi kirjata kaikki henkilöt, joilla on [oikeus lisätä ja muokata tapahtumia](<https://support.nepton.com/hc/fi/articles/360002554338>).
+**Suunniteltu työvuoro (24)**  
 Käytössä ainoastaan Vuorosuunnittelu-osiossa.
-**Virheellinen tapahtuma (32)**
+**Virheellinen tapahtuma (32)**  
 Tätä tapahtumatyyppiä käytetään ilmoittamaan henkilölle tai esimiehelle, että järjestelmä ei hyväksynyt työaikapäätteeltä tulevaa kirjausta. Tämä tapahtumatyyppi näytetään poikkeuksellisena merkintänä kalenterinäkymässä ja poikkeuksellisten kirjausten reportilla. Tätä tapahtumatyyppiä ei ole mahdollista lisätä itse, mutta se on mahdollista poistaa. Tämä tapahtumatyyppi ei vaikuta työajan määrään. tapahtuman huomautustekstissä näkyy päätteeltä vastaanotetut tiedot esim. kirjatun tapahtuman tyyppi, kirjauksen aika/päivä ja projekti. Yleensä näissä tilanteissa työaikapääte on ollut ilman verkkoyhteyttä ja päätteen sisäinen kello on nollautunut tai asetettu väärään aikaan, minkä seurauksena pääte on tallentanut offline-tilan aikana tehdyt merkinnät väärälle ajankohdalle. Järjestelmä normaalisti hyväksyy päätteen lähettämät menneet offline kirjaukset, mutta mikäli kirjauksen aika on liian kaukana nykyhetkestä järjestelmä kirjaa tämän virhetapahtuman.

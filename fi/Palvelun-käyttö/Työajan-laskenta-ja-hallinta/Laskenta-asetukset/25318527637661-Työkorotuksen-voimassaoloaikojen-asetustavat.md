@@ -12,13 +12,13 @@ section_path:
 - Laskenta-asetukset
 labels: []
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2025-06-06T10:04:03Z'
+updated_at: '2026-10-25T16:21:40Z'
+edited_at: '2026-10-25T16:21:40Z'
 ---
 
 # Työkorotuksen voimassaoloaikojen asetustavat
 
-Työkorotusten voimassaoloaikojen määrittämiseen on käytettävissä kahta eri asetustapaa. Asetustavat ovat ”Päiviin, joille työvuoro osuu” sekä ”Päivään, jolle työvuoro kuuluu”. Mikäli asetustavaksi ei ole asetettu mitään, käytetään oletuksena ”Päivään, jolle työvuoro kuuluu” -asetusta.
+Työkorotusten voimassaoloaikojen määrittämiseen on käytettävissä kahta eri asetustapaa. Asetustavat ovat ”Päiviin, joille työvuoro osuu” sekä ”Päivään, jolle työvuoro kuuluu”. Mikäli asetustavaksi ei ole asetettu mitään, käytetään oletuksena ”Päivään, jolle työvuoro kuuluu” -asetusta.  
 Tässä artikkelissa kuvataan molemmat asetustavat esimerkkien avulla. Esimerkit, joilla asetustapojen toimintaa kuvataan ovat Työkorotus: Iltalisä sekä Työkorotus: Yölisä. Ohjeistus muihin työkorotusten asetuksiin löytyvät [tästä ohjeesta.](<https://support.nepton.com/hc/fi/articles/360002560978>)
 ## Asetustapa: Päiviin, joille työvuoro osuu
 Tämä asetustapa on ollut vakiomenettely ennen 8.3.2025 2.16.0 versiojulkaisua ja tapa on edelleen käytettävissä. Tässä asetustavassa työkorotuksen voimassaoloajat asetetaan jokaiselle viikonpäivälle (työkorotuksesta riippuen) käyttäen vähintään kahta voimassaolokenttää. Samojen aikojen asettaminen usealle päivällä vaatii toistoa ja voi olla mahdollisten poikkeusasetusten käyttöönoton kannalta haastavaa.
@@ -52,20 +52,13 @@ Oleellisin ero toiseen voimassaoloaikojen laskentatapaan on työkorotuksen voima
 ![](https://support.nepton.com/hc/article_attachments/25676369486493)
 ### Esimerkki Työkorotus: Yölisä
 Työtapahtumien näyttö: “Tapahtumat ja laskenta näytetään päivänä milloin vuoro loppuu”
-Työkorotuksen Yölisä laskentatapa “Päiviin, joille työvuoro kuuluu” ja voimassaoloajat klo 22:00 – 06:00 
+Työkorotuksen Yölisä laskentatapa “Päiviin, joille työvuoro kuuluu” ja voimassaoloajat klo 22:00 – 06:00
 ![](https://support.nepton.com/hc/article_attachments/25676421851677)
 Tällä asetustavalla työkorotuksen voimassaoloajat määritetään kiinteällä asetuksella Ansaintakausi. Tapahtumien ja laskennan näytön ollessa päivällä, milloin vuoro loppuu, voimassaoloajat tulee määrittää logiikalla **“Edellisenä päivänä” – “Nykyisenä päivänä”.**
 Jolloin työkorotuksen Yölisä ansainta työtapahtumasta on:
 ![](https://support.nepton.com/hc/article_attachments/25676369490461)
-Tässä esimerkkikirjauksessa tapahtuma ja siitä muodostuva tulkinta näytetään päivällä jolla työvuoro päättyy (maanantai). Työkorotuksen voimassaoloaikojen (ansaintakauden) ollessa 22:00 Edellisenä päivänä – 06.00 Nykyisenä päivänä, työkorotusta Yölisä muodostuu sunnuntain klo 22.00 ja maanantain 06.00 välisellä ajalla tehdystä työstä (ruokatauko huomioiden). Työtapahtumien ja työajan tulkinta ja näyttäminen kalenterissa on tällöin suoraan yhteydessä työkorotuksen Yölisä ansainnan voimassaoloaikaan. 
-Työtapahtumien näyttö: “Tapahtumat ja laskenta näytetään päivänä milloin vuoro alkaa”
-Työkorotuksen Yölisä laskentatapa “Päiviin, joille työvuoro kuuluu” ja voimassaoloajat klo 22:00 – 06:00 
-![](https://support.nepton.com/hc/article_attachments/25676421855901)
-Tällä asetustavalla työkorotuksen voimassaoloajat määritetään kiinteällä asetuksella Ansaintakausi. Tapahtumien ja laskennan näytön ollessa päivällä, milloin vuoro loppuu, voimassaoloajat tulee määrittää logiikalla “Edellisenä päivänä” – “Nykyisenä päivänä”.
-Jolloin työkorotuksen Yölisä ansainta työtapahtumasta on:
-![](https://support.nepton.com/hc/article_attachments/25676369493405)
-Tässä esimerkkikirjauksessa tapahtuma ja siitä muodostuva tulkinta näytetään päivällä jolla työvuoro päättyy (maanantai).
-Työkorotuksen voimassaoloaikojen (ansaintakauden) ollessa 22:00 Edellisenä päivänä – 06.00 Nykyisenä päivänä, työkorotusta Yölisä muodostuu sunnuntain klo 22.00 ja maanantain 06.00 välisellä ajalla tehdystä työstä (ruokatauko huomioiden). Työtapahtumien ja työajan tulkinta on tällöin suoraan yhteydessä työkorotuksen Yölisä ansainnan voimassaoloaikaan.
+Tässä esimerkkikirjauksessa tapahtuma ja siitä muodostuva tulkinta näytetään päivällä jolla työvuoro päättyy (maanantai). Työkorotuksen voimassaoloaikojen (ansaintakauden) ollessa 22:00 Edellisenä päivänä – 06.00 Nykyisenä päivänä, työkorotusta Yölisä muodostuu sunnuntain klo 22.00 ja maanantain 06.00 välisellä ajalla tehdystä työstä (ruokatauko huomioiden). Työtapahtumien ja työajan tulkinta ja näyttäminen kalenterissa on tällöin suoraan yhteydessä työkorotuksen Yölisä ansainnan voimassaoloaikaan.
+Esimerkki 2.
 Työtapahtumien näyttö: “Tapahtumat ja laskenta näytetään päivänä milloin vuoro alkaa”
 Työkorotuksen Yölisä laskentatapa “Päiviin, joille työvuoro kuuluu” ja voimassaoloajat klo 22:00 – 06:00.
 ![](https://support.nepton.com/hc/article_attachments/25676369495197)

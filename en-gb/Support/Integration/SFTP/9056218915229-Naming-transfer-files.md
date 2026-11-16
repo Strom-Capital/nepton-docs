@@ -12,7 +12,7 @@ section_path:
 - SFTP
 labels: []
 promoted: false
-updated_at: '2024-09-05T07:40:27Z'
+updated_at: '2026-07-01T05:22:04Z'
 edited_at: '2023-05-23T08:19:36Z'
 ---
 

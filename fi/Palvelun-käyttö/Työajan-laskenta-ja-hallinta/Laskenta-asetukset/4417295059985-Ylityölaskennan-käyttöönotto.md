@@ -15,8 +15,8 @@ labels:
 - ylityöleikkuri
 - ylityöohje
 promoted: false
-updated_at: '2026-04-17T10:38:17Z'
-edited_at: '2026-04-17T10:38:16Z'
+updated_at: '2026-06-29T10:27:26Z'
+edited_at: '2026-06-29T10:23:33Z'
 ---
 
 # Ylityölaskennan käyttöönotto
@@ -93,6 +93,12 @@ Viikkotyöaika ylittyy, mutta TES enimmäistyöaika viikossa ei ylity eikä teht
 Tyypillisesti TES ylityötä muodostuu arkipyhäviikoilla, kun tullaan esim. lauantaina töihin.
 Asetuksella “Tunti tunnista -ylityö huomioidaan TES-ylityön laskennassa” voidaan määrittää, vaikuttaako päivällä tai viikolla aiemmin kirjattu tunti tunnista -ylityö siihen, onko ennen TES enimmäistyöajan täyttymistä kirjattu ylityö TES-ylityötä vai ei.
 Tunti tunnista -ylityö huomioidaan TES-ylityön laskennassa oletuksena jos se lasketaan viikoittaiseen työaikaan. 
+## Ylityö kiinteällä korvauksella
+Jos halutaan, että ylityötä ei näytetä prosenttikorvauksineen kalenterissa, voidaan ottaa käyttöön kiinteä ylityön korvaus. Tämä tehdään asetuksella "Ylityöstä maksetaan kiinteä korvaus". 
+![](https://support.nepton.com/hc/article_attachments/37221312742173)
+Oletuksena asetus on pois päältä, jolloin ylityö tulkitaan ja näytetään korvausprosentteineen muiden asetusten mukaan kalenterissa. Jos asetukseen määritetään "Asetus päällä", muuttuu ylityön tulkinta ja esitys kalenterinäkymässä. Ylityö näytetään nimikkeillä "Ylityö 1" ja "Ylityö2".
+![](https://support.nepton.com/hc/article_attachments/37221308626845)
+"Yityö1" on 50% ylityö ja "Ylityö2" on 100% ylityö, eli palkkaintegraatioon poimitaan ylityöt samoin kuin normaalistikin 50% ja 100% ylityö. Ylityöt muodostuvat edelleen muiden TES-asetusten mukaan, eli Ylityö1 ja Ylityö2 voidaan ansaita joko asetusten mukaan tai aikaperusteisesti tekemällä määritykset osioon "Ajat, jolloin ei ansaita 50% ylityötä".
 ## Ajat, jolloin ei ansaita 50% ylityötä
 On mahdollista asettaa päiväkohtaiset ajat, milloin normaalisti 50% ylityönä korvattava työ korvataan 100% ylityönä. Asetus vaikuttaa päivänä, milloin työ [näytetään](<https://support.nepton.com/hc/fi/articles/360008777997>). Jos Työtapahtumien näyttö -asetus on vakio eli "Tapahtumat ja laskenta näytetään päivänä milloin työvuoro alkaa", maanantaille on merkitty ao. esimerkin mukaiset ajat, jolloin ei ansaita 50% ylityötä, työ on alkanut maanantaina ja sama työ jatkuu tiistain puolelle, niin maanantain asetus vaikuttaa myös tiistaihin 07:00 asti. Mikäli tänä aikana muodostuu 50% ylityötä, muuttuu se 100% ylityöksi.
 Koska esimerkissä ei tiistaille ole asetettu aikoja, niin tiistain puolella _alkaneeseen_ työhön ei tässä tapauksessa sovelleta näitä asetuksia. 

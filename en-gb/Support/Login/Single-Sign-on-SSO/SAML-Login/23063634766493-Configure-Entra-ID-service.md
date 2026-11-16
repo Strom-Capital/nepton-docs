@@ -13,8 +13,8 @@ section_path:
 - SAML Login
 labels: []
 promoted: false
-updated_at: '2025-04-22T06:56:01Z'
-edited_at: '2025-04-22T06:56:01Z'
+updated_at: '2026-11-03T13:46:04Z'
+edited_at: '2026-11-03T13:44:12Z'
 ---
 
 # Configure Entra ID service
@@ -24,7 +24,7 @@ Below are detailed technical instructions for configuration of a customers' Entr
 Please see other articles under the [Configuring SSO](<https://support.nepton.com/hc/en-gb/articles/360002590097>) section for more information on the topic of SSO configuration.
 ## Entra ID configuration
 1) Nepton SP (Service Provider) metadata can be found from the link below. Download this XML file and save it to your computer.
-<https://go.nepton.com/externallogin/metadata/EntityDescriptor_SP_go.nepton.com_V7_27_Apr_2025_26_Apr_2026.xml>
+[https://go.nepton.com/externallogin/metadata/EntityDescriptor_SP_go.nepton.com_V8_21_Apr_2026_To_20_Apr_2028.xml](<https://go.nepton.com/externallogin/metadata/EntityDescriptor_SP_go.nepton.com_V8_21_Apr_2026_To_20_Apr_2028.xml> "https://go.nepton.com/externallogin/metadata/entitydescriptor_sp_go.nepton.com_v8_21_apr_2026_to_20_apr_2028.xml")
 2) Sign in to the Microsoft Entra admin center with your admin credentials.
 3) Go to Identity, Applications, Enterprise Applications, New application, Create your own application
 4) Add a new application called "SSO Nepton SAML 2". Select the "Integrate any other application you don't find in the gallery (Non-gallery)". Click Create.

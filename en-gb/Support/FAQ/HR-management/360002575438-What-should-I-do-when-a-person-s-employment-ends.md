@@ -13,8 +13,8 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2026-05-22T05:37:35Z'
-edited_at: '2026-05-22T05:37:23Z'
+updated_at: '2026-08-05T10:17:57Z'
+edited_at: '2026-08-05T10:17:56Z'
 ---
 
 # What should I do when a person's employment ends?
@@ -72,13 +72,12 @@ Save the changes using the **Save** button at the bottom of the page.
 ### Step 6: End any deputies
 Mark any deputies as ended and save.
 ![](https://support.nepton.com/hc/article_attachments/20528646598941)
-### Step 7: Delete the user account
+### Step 7: Disable person
   1. Open the **Additional functions** tab in the person’s details
-  2. Select **Remove username → Delete**
+  2. Select **Disable person → Disable**
 
-
-![](https://support.nepton.com/hc/article_attachments/20545498259101)
-Deleting the user **prevents the person from logging in** , but **does not remove any existing relationships** , such as supervisor or subordinate relationships or previously assigned access rights. For this reason, access rights and relationships must always be removed **before deleting the user account**. 
+![](https://support.nepton.com/hc/article_attachments/38145828826781)
+Disabling the person **prevents the person from logging in** , but **does not remove any existing relationships** , such as supervisor or subordinate relationships or previously assigned access rights. For this reason, access rights and relationships must always be removed **before disabling the person**. 
 ## Reports
 The person appears in reports when looking at the period when the person's employment relationship was still active. The person no longer appears in reports after the end of the employment relationship.
 The employment end date is important for reporting purposes, but it does not prevent access to the service. This is why the user account must also be deleted.

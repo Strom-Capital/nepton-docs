@@ -31,8 +31,8 @@ labels:
 - pankkitunnit
 - ylityöohje
 promoted: false
-updated_at: '2026-03-27T10:02:42Z'
-edited_at: '2026-02-24T07:52:06Z'
+updated_at: '2026-09-02T11:42:33Z'
+edited_at: '2026-09-02T11:42:33Z'
 ---
 
 # Accrual settings
@@ -67,9 +67,9 @@ Note! You cannot use months as the earning basis if the earning period is a mont
 **Do not earn leave unless this many months into contract** setting defines a minimum length of the working contract until leave is earned. This setting requires work contract start date to be filled in person's details.
 **Earn from the beginning of employment** lets can specify that the accrual is earned from the beginning of the employment. If the value is "No" or the value is not set, the accrual will only start after the employment has lasted for the number of months specified in the setting Do not earn leave unless this many months into contract.
 **Earned only from regular time** setting allows the accrual to be earned only from regular time, so not from over time or any other work time exceeding regular hours.
-**Earn from time borrowed from accrual** defines, wheter accrual can be earned also from time that has been borrowed from another accrual, balance for example.
+**Earn from time borrowed from accrual** defines, whether accrual can be earned also from time that has been borrowed from another accrual, balance for example.
 **Earning table** If accrued leave is earned after a certain amount of work has been done, the required working hours and the leave earned from them are filled in the earnings table. The table can be filled in either in working hours or working days.
-![](https://support.nepton.com/hc/article_attachments/27996309203229)
+![](https://support.nepton.com/hc/article_attachments/38837919234205)
 ### Spending rules
 The settings in this section can be used to determine in which situations value is deducted from the accrual and by how much.
 ![](https://support.nepton.com/hc/article_attachments/27996369188637)

@@ -15,8 +15,8 @@ labels:
 - NEPTONNEEDSREVIEW
 - osatyöaika
 promoted: false
-updated_at: '2025-10-13T11:51:56Z'
-edited_at: '2025-10-13T11:51:56Z'
+updated_at: '2026-06-23T13:20:17Z'
+edited_at: '2026-06-23T13:16:32Z'
 ---
 
 # Osa-aikaisuuden perustaminen
@@ -37,7 +37,7 @@ Työyhteisön viikkotyöaika on 37,5h ja päivätyöaika 7,5h päivässä, maana
 Tällainen osa-aikaisuus voidaan määrittää seuraavalla kahdella tavalla.
 ### Työaikaprosentti
 Lyhennettyä päivää tekeville osa-aikaisille asetetaan tieto työaikaprosentista käyttämällä voimassaolotoimintoa. Tyhjä kenttä Työaikaprosentti-kentässä tulkitaan 100 % arvona eli täytenä työaikana. 
-Kun työaikaprosentti on käytössä, laskee Nepton automaattisesti prosentin mukaisen vuorokautisen sekä viikoittaisen työajan asetusryhmän määritysten mukaan. Työaika lasketaan jakautuvan tasaisesti viikon työpäiville.
+Kun työaikaprosentti on käytössä, laskee Nepton automaattisesti prosentin mukaisen vuorokautisen sekä viikoittaisen työajan asetusryhmän määritysten mukaan. Työaika lasketaan jakautuvan tasaisesti viikon työpäiville. Jos [työviikon pituus](<https://support.nepton.com/hc/fi/articles/360002558537-Ty%C3%B6viikon-pituuden-m%C3%A4%C3%A4ritt%C3%A4minen>) määräytyy kuitenkin suunnitelluista vuoroista, ei työaikaprosentti lyhennä viikon pituutta, vaan viikon työaika tulee suunnitelluista vuoroista.
 Poissaoloa sekä miinus- ja plussaldoa verrataan henkilön lyhennettyyn päivään ja korvataan henkilön työaikaprosenttiin suhteutettuna. Poissaolojen ja saldotuntien käsittely lyhennettyä päivää tekevillä on automaattista.
 Lue lisää työaikaprosentista [täällä](<https://support.nepton.com/hc/fi/articles/360003961118>). 
 ### Uusi asetusryhmä lyhennettyä päivää tekeville 
@@ -98,4 +98,4 @@ Työviikon kokonaisvelvoite on siis 33h, kun työvelvoite on muuttunut kesken ty
 Työviikon kokonaisvelvoitteen poikkeuksen voit asettaa painamalla päivämääräkuvaketta henkilön työajan kalenterissa ja valitsemalla Työviikon pituus. Uuteen ikkunaan aukeaa ''Kirjaa poikkeus''-näkymä, johon voi asettaa työviikon pituudelle poikkeusasetuksen.
 ![](https://support.nepton.com/hc/article_attachments/19986693876637)
 ## Asetuksien tekeminen asetusryhmiin takautuvasti
-Jos muutoksia tehdään takautuvasti asetusryhmiin, ei henkilön tapahtumat ja kertymien kokonaisarvot välttämättä ole muutoksen jälkeen ajan tasalla työaikakalenterissa. Tästä saattaa hälyttää henkilön kalenterissa keltainen huomiokolmio. Näissä tapauksissa on manuaalisesti päivitettävä henkilö(ide)n työajan kalenterit ajan tasalle. Takautuvassa asetusmuutoksessa huomioitavista toimenpiteistä on kerrottu tarkemmin ohjeessa: [Takautuva asetusmuutos ja kertymän arvon uudelleenlasketus. ](<https://support.nepton.com/hc/fi/articles/4411220910865>)
+Jos muutoksia tehdään takautuvasti asetusryhmiin, ei henkilön tapahtumat ja kertymien kokonaisarvot välttämättä ole muutoksen jälkeen ajan tasalla työaikakalenterissa. Tästä saattaa hälyttää henkilön kalenterissa keltainen huomiokolmio. Näissä tapauksissa on manuaalisesti päivitettävä henkilö(ide)n työajan kalenterit ajan tasalle. Takautuvassa asetusmuutoksessa huomioitavista toimenpiteistä on kerrottu tarkemmin ohjeessa: [Takautuva asetusmuutos ja kertymän arvon uudelleenlasketus.](<https://support.nepton.com/hc/fi/articles/4411220910865>)

@@ -19,8 +19,8 @@ labels:
 - collective agreement
 - daily and weekly working hours
 promoted: false
-updated_at: '2026-03-12T08:57:56Z'
-edited_at: '2025-11-20T11:43:39Z'
+updated_at: '2026-08-20T06:07:51Z'
+edited_at: '2026-08-20T06:07:51Z'
 ---
 
 # Vuorokautisen ja viikoittaisen työajan laskenta
@@ -29,6 +29,7 @@ Ylityötä muodostuu työpäiväkohtaisesti, ei tapahtumakohtaisesti, eli kaikki
 Tämän jälkeen tulkitaan asetusten mukaisesti, onko kyseessä 50% vai 100% ylityö.  
 Jos ylityöhön kohdistuu pyöristys, pyöristys muodostuu ajallisesti viimeiseen ylityöjaksoon.  
 Poikkeus tähän on Sovittu 100% ylityö, joka pyöristyy itsenäisesti, eikä vaikuta päivän muuhun ylityölaskentaan.
+## TES-määritykset
 Henkilön vuorokautinen- sekä viikoittainen työaika muodostuu henkilölle liitetyn asetusryhmän sekä henkilön työaikaprosentin perusteella. Käytettävä työpäivän sekä työviikon pituus on nähtävissä **Tapahtumat kalenterissa-** ja **Tapahtumat taulukossa** -näkymässä klikatessa päivämäärää (kuva alla).
 ![](https://support.nepton.com/hc/article_attachments/20551921841053)![](https://support.nepton.com/hc/article_attachments/20551921847581)
 Työaikaa laskiessa henkilölle muodostuu säännöllistä työaikaa niistä työaikakirjauksista, jotka alittavat työpäivän pituuden sekä työviikon pituuden. Tulkinnassa säännöllinen työaika ajoittuu siten, että sitä korvataan asetuksissa olevan työvuorokauden alkuajasta alkaen. Säännöllinen työaika korvataan tämän jälkeisille tapahtumille aikajärjestyksessä. Säännöllisen työajan ajoittumista voidaan ohjata antamalla palveluun [oletetut työajat](<https://support.nepton.com/hc/fi/articles/360002558617>).

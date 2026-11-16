@@ -13,23 +13,23 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2025-09-22T08:34:56Z'
-edited_at: '2025-09-22T08:34:56Z'
+updated_at: '2026-11-06T10:36:08Z'
+edited_at: '2026-10-09T09:27:44Z'
 ---
 
 # Henkilön palauttaminen
 
 Huomioithan, että henkilöiden palauttaminen (ja poistaminen) on mahdollista ainoastaan Neptonin rooleilla 'Ylläpitäjä', 'Henkilöstöhallinto' ja 'Palkkahallinto'.
-Työntekijän tunnus voidaan palauttaa heti poistamisen jälkeen **Henkilön tiedot** -sivun **Palauta** -painikkeesta. ![mceclip0.png](https://support.nepton.com/hc/article_attachments/360004641237)
+Työntekijän tunnus voidaan palauttaa heti poistamisen jälkeen **Henkilön tiedot** -sivun **Palauta** -painikkeesta. ![](https://support.nepton.com/hc/article_attachments/39782509439389)
 Tunnus voidaan palauttaa myös Työsuhde-osiossa henkilölistauksessa:
 1\. Valitse Poistetut henkilöt -kenttään hakukriteeriksi joko **Näytä poistetut** tai **Näytä vain poistetut** ja paina Haku-painiketta.  
 2\. Näkymään päivittyvät poistetut henkilöt tummanharmaalla taustalla.  
 3\. Klikkaa **Palauta** -painiketta halutun henkilön rivin alussa.  
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/4412317269905)  
+![](https://support.nepton.com/hc/article_attachments/39782597535517)  
 4\. Henkilö löytyy jälleen aktiivisena henkilölistalta.  
   
-**Kun henkilö on palautettu, tulee häneltä poistaa työsuhteen päättymispäivä, jotta hän näkyy myös raporteilla.  
-**  
+**Kun henkilö on palautettu, tulee häneltä poistaa työsuhteen päättymispäivä, jotta hän näkyy myös raporteilla.**  
+  
 \- Siirry henkilön tietoihin suurennuslasi-kuvakkeesta.   
 \- Valitse Henkilön tiedot.  
 \- Tyhjennä**** kenttä Työsuhteen loppupäivä.  

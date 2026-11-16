@@ -22,8 +22,8 @@ labels:
 - lomatuonti
 - esikatselu
 promoted: false
-updated_at: '2026-03-04T09:21:44Z'
-edited_at: '2026-03-04T09:21:44Z'
+updated_at: '2026-10-16T11:43:45Z'
+edited_at: '2026-10-16T11:43:44Z'
 ---
 
 # Importing events via the file upload interface
@@ -31,7 +31,7 @@ edited_at: '2026-03-04T09:21:44Z'
 This article describes importing events via file upload with a selectable structure during import. There are other ways to import events from the interface, which are described [here](<https://support.nepton.com/hc/fi/articles/4404767615249>).
 This article covers the **Import Events function in the Tools menu and the required configurations for it.** At the end of the article, there is an example file attached for importing events.
 Event import is done via **Worktime** > **Tools** > **Import Events**. The import settings must be configured before uploading the first file via the interface or via scheduled import.
-This import method only works if a single set of Event Import settings is configured. If you need to set up multiple Event Import configurations, you should use [Importing events via the interface file upload – predefined structure](<https://support.nepton.com/hc/en-gb/articles/4419484517521>) import.
+This import method always uses settings from Event import #1.
 ## Manual event import (Tools)
 ### General information about the file
   * Data can be read into the service with or without a header row. The column headers can have any names. The content of the columns is defined in Nepton during the event import process.

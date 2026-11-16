@@ -19,15 +19,14 @@ labels:
 - käyttöoikeus
 - käyttöoikeudet
 promoted: false
-updated_at: '2026-02-12T08:16:38Z'
-edited_at: '2026-02-12T08:09:37Z'
+updated_at: '2026-11-13T13:57:01Z'
+edited_at: '2026-11-13T13:57:01Z'
 ---
 
 # Worktime roles
 
 Person's worktime role gives permissions to see and edit information in the Work time section.
 There is another role for viewing and editing person's information, as well as shift planning. More on this topic in [roles](<https://support.nepton.com/hc/en-gb/articles/360002425637>).
-See also: [Assigning roles](<https://support.nepton.com/hc/en-gb/articles/360002553397>).
 From service point of view, **admin user** has Administrator as role and All permissions as Worktime role.
 In general, employees have narrower permissions than supervisors. Administrators have the most extensive permissions. There are few existing worktime roles in the service by default, but worktime roles can also be modified or completely new ones created. A person can have more than one worktime role at the same time.
 Worktime roles can be viewed and edited in **Worktime > Administration > Worktime roles**.  
@@ -101,6 +100,7 @@ Can edit subordinates reason codes | Persons with this permission can _view and 
 **Projects**  
 Can report EU/ELY-centre project hours for managed projects | Persons with this permission can take EU/ELY-centre project report for their managed projects.  
 Can create missing projects via terminal barcode reader | Persons with this permission can start an event with an attached project that will be automatically created if it does not already exist, using barcode readers with Nepton Flexim terminals.  
+Can report sick leave and absence hours for managed projects | Project manager can report sick leaves and absence hours for managed projects. This option can be ticked active in report options.  
 ### High-level permissions
 Title | Description  
 ---|---  

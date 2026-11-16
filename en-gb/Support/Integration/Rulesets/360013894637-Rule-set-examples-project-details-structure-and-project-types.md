@@ -12,13 +12,13 @@ section_path:
 - Rulesets
 labels: []
 promoted: false
-updated_at: '2025-06-13T07:18:24Z'
+updated_at: '2026-09-14T10:19:17Z'
 edited_at: '2025-06-13T07:18:08Z'
 ---
 
 # Rule set examples - project details, structure and project types
 
-**Sorry!**
+**Sorry!**  
 This article has not been translated yet.
 Artikkeliin on koottu tyypillisiä projektien rakenteeseen ja projektien huomioihin liittyviä poiminnan esimerkkejä
 Löydät tietokantataulujen sarakekuvaukset [täältä](<https://support.nepton.com/hc/fi/articles/360002489257>)

@@ -14,8 +14,8 @@ section_path:
 labels:
 - m365
 promoted: false
-updated_at: '2024-09-27T12:07:17Z'
-edited_at: '2024-09-27T12:06:42Z'
+updated_at: '2026-11-16T06:40:11Z'
+edited_at: '2026-11-16T06:37:41Z'
 ---
 
 # Microsoft-kirjautumisen määritys Neptonissa
@@ -47,3 +47,5 @@ Jos henkilö on Entra ID pääkäyttäjä, ponnahdusikkuna näyttää allakuvatu
 ![mceclip4.png](https://support.nepton.com/hc/article_attachments/21078310213917)
 Jos henkilö on normaali käyttäjä, hänelle näytetään erilainen ponnahdusikuuna, jossa hänen on mahdollista pyytää lupaa Entra ID pääkäyttäjältä. Tässä tapauksessa on suositeltavaa ottaa yhteyttä suoraan organisaation Entra ID pääkäyttäjään.
 Microsoft-kirjautumisen toiminta edellyttää yllä kuvattujen oikeuksien myöntämistä.
+Neptonin Microsoft-kirjautuminen (kertakirjautuminen) siirtyy käyttämään ensisijaisena tunnistautumismenetelmänä OpenID Connect (OIDC) v2.0 -päätepistettä, joka korvaa aiemmin käytetyn Microsoft Graph API -integraation.
+Muutoksella vastataan Microsoftin tekemiin Conditional Access -käytäntöjen muutoksiin. Aiheesta lisää ohjeessa [Microsoft-kirjautuminen V2](<https://support.nepton.com/hc/fi/articles/40185048819485-Microsoft-kirjautuminen-V2>).

@@ -12,8 +12,8 @@ section_path:
 - Kirjauspäätteen käyttö
 labels: []
 promoted: false
-updated_at: '2026-01-26T11:56:55Z'
-edited_at: '2026-01-26T11:56:55Z'
+updated_at: '2026-11-09T13:24:52Z'
+edited_at: '2026-11-09T12:31:48Z'
 ---
 
 # Nepton Touch: Tapahtuman kirjaaminen
@@ -22,4 +22,5 @@ Näytä tunniste **RFID-lukijalle** tai **syötä kirjauspäätteelle PIN-koodi*
 Kirjauspäätteellä tunnistautumisen jälkeen voit varmistaa, että tunnistautuminen onnistui oikealle henkilölle tarkistamalla oikean yläkulman nimikirjaimet. Alla olevassa esimerkkikuvassa käyttäjän nimikirjaimet on 'YM'.
 Tunnistautumisen jälkeen avautuu listaus käytettävissä olevista tapahtumatyypeistä.
 ![mceclip0.png](https://support.nepton.com/hc/article_attachments/33494600094109)
-Näistä valitaan aktiiviseksi se, jota halutaan kirjata. 'Kohde' --välilehdeltä voidaan valita projektikohdennus tapahtumalle ja 'Työlisät'-välilehdeltä sille voidaan lisätä työlisä. Kun painetaan "Aloita", tapahtuma alkaa ja käyttäjä kirjataan ulos päätteeltä.
+Näistä valitaan aktiiviseksi se, jota halutaan kirjata. 'Kohde' --välilehdeltä voidaan valita projektikohdennus tapahtumalle ja 'Työlisät'-välilehdeltä sille voidaan lisätä työlisä. Kun painetaan "Aloita", tapahtuma alkaa ja käyttäjä kirjataan ulos päätteeltä. 
+Kirjauspäätteellä voidaan tehdä kirjauksia enintään 2 vuotta tulevaisuuteen. Menneisyyteen kirjauksia voidaan tehdä kolmen kuukauden taakse.

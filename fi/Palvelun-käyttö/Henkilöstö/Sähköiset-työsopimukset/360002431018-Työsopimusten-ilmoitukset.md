@@ -14,14 +14,14 @@ labels:
 - work contract
 - automatic notification
 promoted: false
-updated_at: '2025-12-02T11:49:14Z'
-edited_at: '2025-12-02T11:48:59Z'
+updated_at: '2026-11-03T13:25:39Z'
+edited_at: '2026-11-03T13:12:41Z'
 ---
 
 # Työsopimusten ilmoitukset
 
-Jos palvelussa on käytössä sähköiset työsopimukset, voidaan määrittää mistä tilanteista henkilöille lähtee automaattinen ilmoitus sopimuksiin liittyen.  
-Määritys tehdään valikossa **Työsuhde - > Hallinta -> Asetukset -> Automaattiset ilmoitukset.**  
+Jos palvelussa on käytössä sähköiset työsopimukset, voidaan erikseen määrittää mistä tilanteista henkilöille lähtee automaattinen ilmoitus sopimuksiin liittyen. 
+Määritys tehdään valikossa **Työsuhde > Hallinta > Asetukset > Automaattiset ilmoitukset.**  
 Palvelun käyttö vaatii, että vastaanottajan tiedoissa on määritelty sähköpostiosoite ja puhelinnumero.
 Ilmoituksia on mahdollista lähettää seuraavista tilanteista:
   * Kun ensimmäinen työsopimus on luotu henkilölle
@@ -29,11 +29,11 @@ Ilmoituksia on mahdollista lähettää seuraavista tilanteista:
   * Kun käyttäjät hyväksyvät työsopimuksia
 
 
-![mceclip0.png](https://support.nepton.com/hc/article_attachments/360004646397)  
+![](https://support.nepton.com/hc/article_attachments/40385114738973)  
   
-Kun palvelu valitaan käytettäväksi tulee näkyviin laajemmat määritykset. Sähköposti voidaan kirjoittaa itse ja sille voidaan asettaa aihe. Sähköposti voidaan lisäksi määrittää lähtemään joka kerta tiettyihin sähköpostiosoitteisiin työsopimukseen liittyvien henkilöiden lisäksi.
-Sähköposti voidaan määrittää lähteväksi suojattua sähköpostia käyttäen. Näitä palveluita tarjoavat erilaiset palveluntarjoajat. Jotta tämä määritys toimii, tulee olla käytössä suojatun sähköpostin lähetyspalvelu ja palvelu tulee olla määritelty käyttöön Nepton-palvelussa valikossa **Työsuhde - > Hallinta -> Asetukset -> Vaihda mukautettuun sähköpostipalvelimeen (SMTP).**   
+Kun palvelu valitaan käytettäväksi, tulee näkyviin laajemmat määritykset. Sähköposti voidaan kirjoittaa itse ja sille voidaan asettaa aihe ja viesti. Sähköposti voidaan lisäksi määrittää lähtemään joka kerta tiettyihin sähköpostiosoitteisiin työsopimukseen liittyvien henkilöiden lisäksi.
+Sähköposti voidaan määrittää lähteväksi suojattua sähköpostia käyttäen. Näitä palveluita tarjoavat erilaiset palveluntarjoajat. Jotta tämä määritys toimii, tulee olla käytössä suojatun sähköpostin lähetyspalvelu ja palvelu tulee olla määritelty käyttöön Nepton-palvelussa valikossa **Työsuhde > Hallinta > Asetukset > Vaihda mukautettuun sähköpostipalvelimeen (SMTP).**   
   
 Kun suojattu sähköposti lähetetään, lähtee vastaanottajalle viesti, jossa mainitaan seuraavasti: "Olet saanut suojatun sähköpostin, klikkaa tästä linkistä avataksesi sen." Kun tämä viesti lähtee ja vastaanottaja valitsee "Haluan nähdä viestin sisällön", tulee samalla vastaanottajalle tekstiviestinä pin-koodi, jolla suojatun sähköpostin voi avata.  
   
-![mceclip1.png](https://support.nepton.com/hc/article_attachments/360004711058)
+![](https://support.nepton.com/hc/article_attachments/40385114740765)

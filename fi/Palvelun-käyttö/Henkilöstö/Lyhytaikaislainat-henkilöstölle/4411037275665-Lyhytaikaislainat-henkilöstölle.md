@@ -12,16 +12,14 @@ section_path:
 - Lyhytaikaislainat henkilöstölle
 labels: []
 promoted: false
-updated_at: '2024-08-23T09:58:59Z'
-edited_at: '2024-08-23T09:58:59Z'
+updated_at: '2026-11-04T11:27:12Z'
+edited_at: '2026-11-04T09:48:48Z'
 ---
 
 # Lyhytaikaislainat henkilöstölle
 
-Tämä ominaisuus on lisäominaisuus, eikä kuulu HR palvelun tuoteversioihin.  
-Käyttöönotosta voidaan sopia asiakkaan kanssa erikseen. Ota yhteyttä omaan palveluntarjoajaasi.
 Neptonissa on mahdollisuus tarjota henkilöstölle lyhytaikaisia lainoja, jotka voidaan vähentää henkilön palkasta tulevissa palkanmaksuissa. Työntekijä voivat pyytää lyhytaikaislainaa tekemällä lyhytaikaislaina tyyppisen [palvelupyynnön](<https://support.nepton.com/hc/fi/articles/360007565297>).
 ![mceclip0.png](https://support.nepton.com/hc/article_attachments/21078997043229)
-Yllä näkyvässä pyynnön luonnissa työntekijälle voidaan näyttää seuraava tuleva maksupäivä haluttuine lisäohjeineen. Tämä onnistuu maksupäivät määrittämällä (Työsuhde -> Palvelupyynnöt -> Lyhytaikaislainojen maksupäivät).
+Yllä näkyvässä pyynnön luonnissa työntekijälle voidaan näyttää seuraava tuleva maksupäivä haluttuine lisäohjeineen. Tämä onnistuu maksupäivät määrittämällä (Työsuhde > Palvelupyynnöt > Lyhytaikaislainojen maksupäivät).
 ## Lyhytaikaislainojen hallinta ja maksuaineistojen luonti
 Katso [täältä](<https://support.nepton.com/hc/fi/articles/4411047715985>), miten lyhytaikaislainapyyntöjä tarkastellaan, sekä miten lyhytaikaislainapyyntöjä [hyväksytään massana](<https://support.nepton.com/hc/fi/articles/4411066690833>) maksuaineistojen luonnin yhteydessä.

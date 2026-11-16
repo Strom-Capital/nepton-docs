@@ -19,7 +19,7 @@ labels:
 - pääsiäissunnuntai
 - poikkeusase
 promoted: false
-updated_at: '2026-04-20T07:39:51Z'
+updated_at: '2026-07-14T07:16:46Z'
 edited_at: '2026-04-20T07:39:51Z'
 ---
 

@@ -12,13 +12,13 @@ section_path:
 - SFTP
 labels: []
 promoted: false
-updated_at: '2026-06-04T10:46:32Z'
+updated_at: '2026-11-04T09:37:26Z'
 edited_at: '2026-06-04T10:46:32Z'
 ---
 
 # SFTP transfer file contents and folder structure
 
-Sorry, but this article has not been translated yet  
+Sorry, but this article has not been translated yet
 SFTP siirtojen avulla voidaan tuoda ja viedä aineistoja seuraaviin kokonaisuuksiin liittyen:
   * Henkilötiedot, työsuhdetiedot ja muut henkilön lisätiedot.
   * Työaikakirjaukset. Näitä käsitellään palvelussa tapahtumina.

@@ -19,8 +19,8 @@ labels:
 - käyttäytyminen
 - event types
 promoted: false
-updated_at: '2026-02-24T13:22:48Z'
-edited_at: '2026-02-24T11:36:36Z'
+updated_at: '2026-08-14T08:06:02Z'
+edited_at: '2026-07-09T06:06:28Z'
 ---
 
 # Tapahtumatyyppien lisääminen, käyttöönotto ja muokkaaminen
@@ -40,7 +40,7 @@ Kun kaikki kentät on syötetty valitse **Lisää**.
 Mikäli tapahtumatyyppiä vastaava nimi ja käyttäytyminen löytyy jo palvelusta, näytetään virheilmoitus:
 ![](https://support.nepton.com/hc/article_attachments/16686380417053)
 ## Tapahtumatyypin käyttöönotto sekä näkyvyys kirjausnäkymissä
-Kun uusi tapahtumatyyppi on lisätty, tulee se näkyviin listaukseen, jossa esitetään kaikki palvelun tapahtumatyypit. Listaus on aakkosjärjestyksessä. Uusi tapahtumatyyppi tulee aktivoida käyttöön joko työyhteisön tai asetusryhmän asetuksissa riippuen siitä, kuinka laajasti tapahtumatyyppiä käytetään - Uusi tapahtumatyyppi voi olla käytössä kaikilla tai vain tietyllä ryhmällä. Tapahtumatyypin aktivointi tapahtuu raksittamalla valinta (työyhteisö-tasolla) tai valitsemalla valikosta "Kyllä"-vaihtoehto (asetusryhmä-tasolla). Polku tapahtumatyyppien asetuksiin on **Työaika > Hallinta > Työyhteisön asetukset / Asetusryhmät: valitse asetusryhmäksi haluamasi asetusryhmä ja sen asetukset > Työtunnit > Tapahtumatyypit.** Tapahtumatyypin voi ottaa käyttöön esimerkiksi vain kirjauspäätteellä, mutta ei kalenterinäkymään. 
+Kun uusi tapahtumatyyppi on lisätty, tulee se näkyviin listaukseen, jossa esitetään kaikki palvelun tapahtumatyypit. Listaus on aakkosjärjestyksessä. Uusi tapahtumatyyppi tulee aktivoida käyttöön joko työyhteisön tai asetusryhmän asetuksissa riippuen siitä, kuinka laajasti tapahtumatyyppiä käytetään - Uusi tapahtumatyyppi voi olla käytössä kaikilla tai vain tietyllä ryhmällä. Tapahtumatyypin aktivointi tapahtuu raksittamalla valinta (työyhteisö-tasolla) tai valitsemalla valikosta "Kyllä"-vaihtoehto (asetusryhmä-tasolla). Polku tapahtumatyyppien asetuksiin on **Työaika > Hallinta > Työyhteisön asetukset (tai Asetusryhmät: valitse asetusryhmäksi haluamasi asetusryhmä > Toiminto: Asetusryhmän asetukset) > Työtunnit > Tapahtumatyypit.** Tapahtumatyypin voi ottaa käyttöön esimerkiksi vain kirjauspäätteellä, mutta ei kalenterinäkymään. 
 Tapahtuman muokkaus = kalenterinäkymä  
 Työaikapääte = Kirjauspääte, nykytila ja mobiili  
 Suoralinkki = Vanha toteutus, ei enää käytössä

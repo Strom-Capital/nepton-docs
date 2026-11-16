@@ -15,7 +15,7 @@ labels:
 - vuorosuunnittelu
 - vuorokalenteri
 promoted: false
-updated_at: '2026-02-26T08:49:16Z'
+updated_at: '2026-07-09T08:09:24Z'
 edited_at: '2024-07-24T11:02:15Z'
 ---
 

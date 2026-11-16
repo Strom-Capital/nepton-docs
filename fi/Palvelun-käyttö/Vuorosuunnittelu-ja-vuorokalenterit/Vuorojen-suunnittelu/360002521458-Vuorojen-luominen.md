@@ -15,8 +15,8 @@ labels:
 - vuorotyyppi
 - vuoromalli
 promoted: false
-updated_at: '2026-01-09T12:40:46Z'
-edited_at: '2026-01-09T12:40:46Z'
+updated_at: '2026-10-09T08:00:15Z'
+edited_at: '2026-10-09T08:00:14Z'
 ---
 
 # Vuorojen luominen
@@ -66,6 +66,10 @@ Toimipiste-kohdassa valitaan **toimipiste** , jolle työntekijän vuoro halutaan
 Kun olet lisännyt haluamallesi vuorolle ajankohdan ja toimipisteen valitse **Tallenna**. Vuoro lisätään suunnittelunäkymään henkilön kohdalle.
 ![mceclip14.png](https://support.nepton.com/hc/article_attachments/8354875161629)
 Muista julkaista vuorot **Julkaise** -painikkeesta niiden luomisen jälkeen. Vuorojen julkaisemiseen löydät ohjeet [täältä](<https://support.nepton.com/hc/fi/articles/360002520077>).
+## Sallitun työajan poikkeaman määrittäminen
+Yksittäiselle vuorolle on mahdollista määrittää vuorokohtainen sallitun työajan aloitus- ja lopetusajan poikkeama. Tällöin vuorolle määritetään poikkeamat niille varattuihin omiin kenttiin:
+![](https://support.nepton.com/hc/article_attachments/39779690249117)
+Poikkeamat on mahdollista määrittää sekä toimipiste että resurssikohtaisessa vuoron suunnittelussa. Tarkempi ohje vuorokohtaisen sallittujen työaikojen poikkeamien hallintaan ja käyttöön löytyy ohjeesta [täältä](<https://support.nepton.com/hc/fi/articles/360002558597-Sallitut-ty%C3%B6ajat#h_01M4FK9QYEQ3DAMD0BYYH5RT1R>).
 ## Poissaolo suunnitellulla päivällä
 Jos suunnitellulle päivälle kalenteriin luodaan poissaolo, kuten vuosiloma, aiheuttaa tämä varoituksen vuorosuunnittelussa, mutta työajan tulkintaan se ei vaikuta.
 ![](https://support.nepton.com/hc/article_attachments/20063271613469)

@@ -31,8 +31,8 @@ labels:
 - pankkitunnit
 - ylityöohje
 promoted: false
-updated_at: '2026-03-27T10:02:42Z'
-edited_at: '2026-03-27T10:02:42Z'
+updated_at: '2026-09-02T11:42:33Z'
+edited_at: '2026-09-02T11:42:26Z'
 ---
 
 # Kertymien asetukset
@@ -69,7 +69,7 @@ Huom! Ansaintaperusteena ei voi käyttää kuukausina, jos ansaintakautena on ku
 **Ansaitaan vain säännölliseltä työajalta** -kohdassa voidaan määrittää, että kertymää ansaitaan vain säännölliseltä työajalta, eli siten että ylityötä ei oteta huomioon.
 **Ansaitse kertymästä lainatusta ajasta** -kohdassa voidaan määrittää, ansaitaanko kertymää ajasta joka on lainattu kertymästä, kuten esimerkiksi aika joka on lainattu saldosta.
 **Ansaintataulukko** Jos kertymään ansaitaan kertymävapaata kun tietty määrä töitä on tehty, täytetään ansaintataulukkoon vaaditut työtunnit ja niistä ansaittavat vapaat. Taulukko voidaan täyttää joko työtunteina tai työpäivinä.
-![](https://support.nepton.com/hc/article_attachments/27939137591965)
+![](https://support.nepton.com/hc/article_attachments/38837902230045)
 ### Käyttämisen säännöt
 Osion asetuksilla voidaan määrittää, missä tilanteissa kertymästä vähennetään arvoa ja minkä verran.
 ![](https://support.nepton.com/hc/article_attachments/27862396205597)

@@ -15,8 +15,8 @@ labels:
 - API
 - projektit
 promoted: false
-updated_at: '2025-09-08T10:11:18Z'
-edited_at: '2023-11-23T15:15:26Z'
+updated_at: '2026-08-04T06:48:19Z'
+edited_at: '2026-08-04T06:48:19Z'
 ---
 
 # Projektien API
@@ -42,7 +42,8 @@ API-metodi, jolla voidaan päivittää projekteja:
 API-metodit, jolla voidaan luoda tai päivittää olemassa olevia projekteja:
   * [EnsureProjectsExist (vanhentunut)](<https://support.nepton.com/hc/articles/6880677487005>)
   * [EnsureProjectsExistV2 (vanhentunut)](<https://support.nepton.com/hc/articles/360005783318>)
-  * [EnsureProjectsExistV3](<https://support.nepton.com/hc/fi/articles/13106403486109>)
+  * [EnsureProjectsExistV3](<https://support.nepton.com/hc/fi/articles/13106403486109>) (vanhentunut)
+  * [EnsureProjectsExistV4](<https://support.nepton.com/hc/fi/articles/36507754396573-EnsureProjectsExistV4>)
 
 
 ## Projektien näkyvyyden muuttaminen käyttäjätasolla

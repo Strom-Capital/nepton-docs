@@ -13,16 +13,15 @@ section_path:
 - Henkilötuonnin kentät
 labels: []
 promoted: false
-updated_at: '2026-06-03T13:12:12Z'
-edited_at: '2026-06-03T13:12:12Z'
+updated_at: '2026-06-26T07:26:27Z'
+edited_at: '2026-06-26T07:26:01Z'
 ---
 
 # Yksikkö henkilötuonnissa
 
-Henkilön yksikkö voidaan tuoda osana [henkilötuontia](<https://support.nepton.com/hc/fi/articles/360003762577>) ja on yksi [henkilötuonnin kentistä](<https://support.nepton.com/hc/fi/articles/360015933397>). Yksikkö pitää luoda ensin Neptoniin, jotta se voidaan tuoda oikein.
+Henkilön yksikkö voidaan tuoda osana [henkilötuontia](<https://support.nepton.com/hc/fi/articles/360003762577>) ja on yksi [henkilötuonnin kentistä](<https://support.nepton.com/hc/fi/articles/360015933397>). Yksikkö pitää luoda ensin Neptoniin, jotta se voidaan tuoda oikein.  
 ### Tuonnin säännöt
   * Voidaan asettaa joko yksikön nimellä tai koodilla
   * Jos halutaan asettaa useampi yksikkö, ne täytyy erottaa piippu (|) merkillä
   * Ensimmäinen yksikkö tuontilistassa asetetaan ensisijaiseksi yksiköksi
-  * RESET- tai NOLLA-avainsana poistaa kaikki henkilön yksiköt
-    * Tyhjä arvo ei poista henkilön yksiköitä, jos IgnoreEmptyValues-asetus on päällä (esim. tuonti web service -rajapinnan kautta)
+  * RESET- tai NOLLA-avainsana poistaa kaikki henkilön yksikötTyhjä arvo ei poista henkilön yksiköitä, jos IgnoreEmptyValues-asetus on päällä (esim. tuonti web service -rajapinnan kautta)

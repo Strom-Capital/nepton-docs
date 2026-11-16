@@ -12,7 +12,7 @@ section_path:
 labels:
 - projektitoiminnallisuus
 promoted: false
-updated_at: '2026-05-22T07:34:17Z'
+updated_at: '2026-06-08T05:55:37Z'
 edited_at: '2022-04-27T07:35:15Z'
 ---
 

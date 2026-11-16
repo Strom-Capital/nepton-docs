@@ -13,7 +13,7 @@ labels:
 - NEPTONNEEDSREVIEW
 - seurantakohteet
 promoted: false
-updated_at: '2026-05-22T07:34:17Z'
+updated_at: '2026-06-08T07:35:33Z'
 edited_at: '2024-05-28T08:54:08Z'
 ---
 

@@ -18,7 +18,7 @@ labels:
 - poissaolotyypit
 - raskausvapaa
 promoted: false
-updated_at: '2026-01-12T11:45:40Z'
+updated_at: '2026-08-14T08:06:02Z'
 edited_at: '2026-01-02T10:20:43Z'
 ---
 

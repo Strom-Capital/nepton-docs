@@ -14,14 +14,14 @@ labels:
 - IsNewUser
 - kustannusryhmä
 promoted: false
-updated_at: '2025-12-08T10:04:12Z'
-edited_at: '2025-12-08T10:04:11Z'
+updated_at: '2026-11-06T10:36:08Z'
+edited_at: '2026-10-14T12:16:11Z'
 ---
 
 # Person information fields
 
-All users and their person information can be managed in the service. Every organization can decide which fields are taken into use and which are left empty. To see persons information page navigate Employees -> Persons -> Persons. Then view person information by searching the person from the list and they by clicking the view-icon on person row.
-Person's information -section has been divided into subcategories, which can vary depending on the service level that is used. Categories are:
+All users and their person information can be managed in the service. Every organization can decide which fields are taken into use and which are left empty. To see persons information page navigate to Employees > Persons > Persons. Then view person information by searching the person from the list and clicking the view-icon on person row.
+Person's information section has been divided into subcategories, which can vary depending on the service level that is used. 
 Work Shift Planning is visible only in organizations that have Work Shift Planning functionality enabled.
 In addition to the standard fields, it is possible to add additional information fields. Additional information fields are shown under the subheading Additional information. You can find more information about managing additional information fields [here](<https://support.nepton.com/hc/en-gb/articles/360002430918>).
 Some fields work with the [validity function](<https://support.nepton.com/hc/en-gb/articles/360004856937>). The validity period can be defined for all fields except the following fields:
@@ -47,7 +47,7 @@ _ (underscore)
 
 
 Email
-  * If this field is left blank, the person will not be able to request a new password, and e-mail notifications can not be sent to the person via the Communication function in the Employees section or the Shift Planning section.
+  * If this field is left blank, the person will not be able to request a new password, and e-mail notifications can not be sent to the person via the Communication function in the Employees section or the Shift Planning section. If the person doesn't have an e-mail address they also won't receive any event request related e-mails.
 
 
 Phone number
@@ -69,15 +69,14 @@ IBAN, BIC
   * IBAN must be filled in if Nepton Payroll is in use.
 
 
-Peronal identity code
+Personal identity code
   * A Finnish personal identity number is filled in the personal identification number field (date of birth with six digits DDMMYY and a five-character identification part).
   * The personal identity code must be filled in if Nepton Payroll is in use.
 
 
-During year 2024 personal identity code will start supporting new characters. The reform is managed by Digital and population data services agency. More information about the reform on their [article](<https://dvv.fi/en/reform-of-personal-identity-code>). Support for the new personal identity code will be added to Nepton before the reform takes effect.
 Tax number
   * The person's tax number is a 12-digit code issued by the Finnish Tax Administration. It is used by construction workers.
-  * If the person works on a construction site and Nepton Payroll is in use, the tax number must be provided in this field.
+  * If the person works on a construction site and Nepton Payroll (LikeIt) is in use, the tax number must be provided in this field.
 
 
 Other fields in this category are informative and have no effect on the work time calculations or the functionality of the service.
@@ -95,7 +94,7 @@ Classification of occupations
 
 Employment start date
   * The person will be visible in reports and in the calendar view in the Worktime section starting from this date.
-  * The person will not appear in person listings when retrieving reports for any time period efore the employment start date.
+  * The person will not appear in person listings when retrieving reports for any time period before the employment start date.
   * If this field is left blank, the person will appear in the listings indefinitely in the past.
   * The start date of the employment must be filled in if Nepton Payroll is in use.
 
@@ -108,11 +107,11 @@ Employment end date
 
 
 Worktime setting group
-  * In this field set the correct working time setting group for the person. The worktime calculations are done based on the settings in the setting group. If the field is left blank, the default work community settings are used for the person’s worktime calculations.
+  * Set the correct worktime setting group for the person in this field. The worktime calculations are done based on the settings in the setting group. If the field is left blank, the default work community settings are used for the person’s worktime calculations.
 
 
 Work time percentage
-  * Indicates a person's percentage of working time. This field affects the calculations of a person's working time in the Worktime section.
+  * Indicates the person's percentage of working time. This field affects the calculations of the person's worktime in the Worktime section.
   * The service calculates the lengths of days and weeks according to the part-time percentage from the setting group settings and processes the person's worktime accordingly. More about the work time percentage [here](<https://support.nepton.com/hc/en-gb/articles/360003961118>).
 
 
@@ -132,13 +131,13 @@ Role
 
 
 Worktime roles
-  * Defines person's rights in the Worktime-section. This field defines which roles the person has, but the roles' rights are defined in Worktime.
+  * Defines person's rights in the Worktime section. This field defines which worktime roles the person has, but the roles' rights are defined in Worktime.
   * A person can have multiple worktime roles at the same time.
   * More information and detailed descriptions can be found [here](<https://support.nepton.com/hc/en-gb/articles/360002554338>).
 
 
 Access to person groups
-  * Defines which person groups the user has access to. [Worktime roles](<https://support.nepton.com/hc/en-gb/articles/360002554338>) determine which rights the user has to the persons in the person groups.
+  * Defines which person groups the user has access to and with what permissions.
 
 
 Short term loan permit
@@ -157,8 +156,8 @@ Person group
 
 Subordinates
   * This field allows you to specify the person's subordinates.
-  * The person acquires supervisor rights in the worktime section for all subordinates added to this field.
-  * A person can have an unlimited number of subordinates.The information updated in this field is also updated in the subordinate’s information page (in Supervisors field).
+  * The person acquires supervisor rights in the worktime section for all subordinates added to this field, based on their worktime role.
+  * A person can have an unlimited number of subordinates. The information updated in this field is also updated in the subordinate’s information page (in Supervisors field).
 
 
 Supervisors
@@ -169,14 +168,14 @@ Supervisors
 
 Units
   * Indicates which unit the person belongs to in the Employees and Shift Planning sections.
-  * A person can belong to more than one unit at a time.The primary unit is displayed in the service next to the unit name.
+  * A person can belong to more than one unit at a time. The primary unit is displayed in the service next to the unit name.
   * Information of the primary unit is informative and has no effect on any functions or worktime calculations.
 
 
 Default project
   * Indicates what the person's default project is when creating a new event.
-  * All events are targeted to this project by default, regardless of the type of event or absence or the substitutability of the event (paid / unpaid / deducted salary).
-  * The default project can be any subproject that is visible to the person when recording events. The project is either linked to the person directly or through person group, or the person has visibility to all projects.
+  * All events are targeted to this project by default, regardless of the type of event or absence or the reimbursement of the event (paid / unpaid / deducted salary).
+  * The default project can be any sub-project that is visible to the person when recording events. The project is either linked to the person directly or through person group, or the person has visibility to all projects.
 
 
 Default cost group
@@ -188,7 +187,7 @@ Payment group
   * The field must be used with Nepton Payroll.
 
 
-## Work Shift Planning
+## Planning
 The fields in this category are only shown if Work Shift Planning is in use in the organization.
 Daily work obligation
   * Indicates a person's daily work time obligation. This value can be used in shift planning as a target number to support planning.
@@ -225,6 +224,7 @@ New person
   * This field is displayed if the new employment contract tracking functionality is enabled. Functionality cannot be taken into use in new environments. When a person signs their first electronic work contract, they will be marked as a new person, in which case the person will be included in the data submitted to the payroll system as a new person. After integration to the payroll system, the person will no longer appear as a new person. Changes to personal information are then submitted to the payroll system automatically, along with the change material.
 
 
+Additional administrative information
   * Additional information field, where any relevant information can be saved. However, we recommend that you create separate [additional information fields](<https://support.nepton.com/hc/en-gb/articles/360002430918>) for more information. 
   * This field is visible to people who have Administrator, Payroll or HR rights in Employees section. The field does not show to persons with unit manager, supervisor, or employee roles.
   * If the Nepton Payroll is in use and there are several collective agreements in use in the working community, the name of the collective agreement applicable to the person's employment must be entered in this field for the payroll’s knowledge.

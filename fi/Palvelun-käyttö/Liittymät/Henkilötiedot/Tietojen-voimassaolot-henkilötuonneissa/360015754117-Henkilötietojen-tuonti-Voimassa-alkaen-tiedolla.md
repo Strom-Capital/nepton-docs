@@ -13,8 +13,8 @@ section_path:
 - Tietojen voimassaolot henkilötuonneissa
 labels: []
 promoted: false
-updated_at: '2026-03-03T07:58:18Z'
-edited_at: '2023-05-26T11:46:50Z'
+updated_at: '2026-06-26T09:56:55Z'
+edited_at: '2026-06-26T09:52:43Z'
 ---
 
 # Henkilötietojen tuonti Voimassa alkaen -tiedolla
@@ -45,7 +45,7 @@ Henkilönumero | Etunimi | Sukunimi | Ammattinimike | Voimassa alkaen
 ## Tulevien henkilötietomuutoksien tuominen etukäteen
 Mikäli tulevia henkilötietomuutoksia halutaan tuoda etukäteen toimi seuraavasti:
   * Lisää aineistoon yksi rivi per henkilö, jossa kenttien arvoina on tuontipäivänä voimassa oleva arvo
-  * Lisää lisäksi samalle henkilölle yksi rivi per tulevaisuuden päivämäärä, jona jokin henkilötieto, joka tukee voimassaoloja muuttuu 
+  * Lisää lisäksi samalle henkilölle yksi rivi per tulevaisuuden päivämäärä, jona jokin henkilötieto, joka tukee voimassaoloja muuttuu
     * Aseta "Voimassa alkaen"-tiedoksi muutoksen voimaantulopäivämäärä ilman kellonaikaa
     * Aseta voimassaoloja tukevien kenttien arvoiksi arvot, jotka ovat voimassa muutoksen voimaantulopäivämääränä
     * Aseta voimassaoloja tukemattomien kenttien arvoiksi tuontipäivänä voimassa oleva arvo
@@ -63,7 +63,7 @@ Esitiedot:
 ### Voimassaoloja tukevat kentät
 Voimassaolojen tallennus eroaa voimassaoloja tukevien ja tukemattomien kenttien osalta. Voimassaoloja eivät tue kentät: "Ensisijainen esimies", "Toissijaiset esimiehet", "Työajan roolit", "Yksiköt", "Henkilöryhmä", "Oletusprojekti", "Saldo", sekä vaihtoehtoiset näitä tietoja tuovat kentät. Muut kentät tukevat voimassaoloja.
   * Voimassa alkaen -päivänä voimassaoleva arvo sekä mahdolliset tulevat arvot korvataan uudella arvolla, voimassa alkaen -päivästä alkaen
-  * Tuotavat arvot eivät muuta voimassaoloja "Voimassa alkaen"-päivää edeltävältä ajalta 
+  * Tuotavat arvot eivät muuta voimassaoloja "Voimassa alkaen"-päivää edeltävältä ajalta
     * Poikkeuksena, jos aina pakollisella voimassaoloja tukevalla kentällä ei ole olemassa olevaa arvoa esim. uutta henkilöä lisättäessä, ulotetaan voimassaolo myös menneisyyteen
     * Pakollisia henkilön lisätietokenttiä käsitellään kuten valinnaisia kenttiä eli tuotava kenttä saa annetun alkuajan.
   * Samalle kentälle voi tuoda useita arvoja voimaantulopäivätiedon kanssa, lisäämällä aineistoon useita rivejä/solmuja eri "Voimassa alkaen"-päivällä
@@ -71,7 +71,8 @@ Voimassaolojen tallennus eroaa voimassaoloja tukevien ja tukemattomien kenttien 
 
 
 ### Voimassaoloja tukemattomat kentät
-  * Huolimatta "Voimassa alkaen"-päivästä, arvot tulevat voimaan tuontipäivänä
+Voimassaolojen tallennus eroaa voimassaoloja tukevien ja tukemattomien kenttien osalta. Voimassaoloja eivät tue kentät: "Ensisijainen esimies", "Toissijaiset esimiehet", "Työajan roolit", "Yksiköt", "Henkilöryhmä", "Oletusprojekti", "Saldo", sekä vaihtoehtoiset näitä tietoja tuovat kentät. Muut kentät tukevat voimassaoloja.
+  * Arvot tulevat voimaan tuontipäivänä ja ovat voimassa takautuvasti, vaikka rivillä olisikin voimassaolo-sarake
   * Jos tuontiaineistossa on useita rivejä/solmuja samalle henkilölle, jää myöhäisimmän "Voimassa alkaen"-päivän omaavan rivin/solmun arvo voimaan
 
 

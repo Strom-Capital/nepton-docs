@@ -1,8 +1,8 @@
 # Henkilötietojen käsittely
 
 ## Articles
-- [Alaisen määrittäminen](360005113898-Alaisen-määrittäminen.md)
-- [Esimiehen määrittäminen](360002430618-Esimiehen-määrittäminen.md)
+- [Asetusryhmän päivittäminen tai asettaminen usealle henkilölle kerralla](360019776498-Asetusryhmän-päivittäminen-tai-asettaminen-usealle-henkilölle-kerralla.md)
+- [Esimiehen ja alaisen määrittäminen](360002430618-Esimiehen-ja-alaisen-määrittäminen.md)
 - [Henkilön lisääminen](360002427618-Henkilön-lisääminen.md)
 - [Henkilön palauttaminen](360002424957-Henkilön-palauttaminen.md)
 - [Henkilön poistaminen](360002424617-Henkilön-poistaminen.md)
@@ -10,7 +10,6 @@
 - [Henkilön tietokentät](360004769718-Henkilön-tietokentät.md)
 - [Henkilönumeron muuttaminen](360002425057-Henkilönumeron-muuttaminen.md)
 - [Henkilöt-näkymä](4697186796189-Henkilöt-näkymä.md)
-- [Henkilötunnusten välimerkit uudistuivat vuonna 2024](9001809419037-Henkilötunnusten-välimerkit-uudistuivat-vuonna-2024.md)
 - [Käyttäjätunnuksen muuttaminen](360002430838-Käyttäjätunnuksen-muuttaminen.md)
 - [Maksuryhmät](4406602996625-Maksuryhmät.md)
 - [Pakolliset kentät henkilötietolomakkeella](4408898681233-Pakolliset-kentät-henkilötietolomakkeella.md)

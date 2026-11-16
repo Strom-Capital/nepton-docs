@@ -14,19 +14,19 @@ section_path:
 labels:
 - NEPTONNEEDSREVIEW
 promoted: false
-updated_at: '2025-07-23T11:04:37Z'
-edited_at: '2025-07-23T10:51:18Z'
+updated_at: '2026-08-19T09:51:43Z'
+edited_at: '2026-08-19T09:51:43Z'
 ---
 
 # Mass removal of settings
 
 Please note that the length of the workday, permitted work times, and excpected work times are defined in the settings of the working community level or settings group. The mass entry of worktime settings should only be used in exceptional cases!
 Settings defined in the Worktime section can be removed in bulk for a specific time period.  
-Go to **Worktime → Tools → Mass enter settings**
+Go to **Worktime > Tools > Mass enter settings.**
 ![](https://support.nepton.com/hc/article_attachments/29053856914205)
 ![](https://support.nepton.com/hc/article_attachments/29053894328221)
   1. **Select which setting you want to remove in the “Setting” section.**  
-The options are: 
+The options are:
      * Length of the workday
      * Permitted work times
      * Expected work times

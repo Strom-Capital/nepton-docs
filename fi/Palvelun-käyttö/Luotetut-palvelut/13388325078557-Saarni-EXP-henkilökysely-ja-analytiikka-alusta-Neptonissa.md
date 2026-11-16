@@ -13,8 +13,8 @@ labels:
 - Kiva
 - Kiwa
 promoted: false
-updated_at: '2024-10-30T11:06:23Z'
-edited_at: '2024-10-30T11:06:18Z'
+updated_at: '2026-10-30T11:36:11Z'
+edited_at: '2026-10-30T11:35:43Z'
 ---
 
 # Saarni EXP henkilökysely ja analytiikka-alusta Neptonissa
@@ -53,17 +53,17 @@ Palvelutasoa nostamalla voi avata käyttöön toiminnalllisuuksia muissakin rool
 Saarni EXP:ssa kyselyiden vastaukset on anonymisoitu eli vastaajan henkilöllisyys ei suoraan näy palvelussa. Analytiikan kautta voidaan kuitenkin tarkastella yksilön vastauksia eri kyselyihin, ja tarkastella työntekijän tilanteen etenemistä. Tarvittaessa voit ottaa työntekijään yhteyttä palvelun kautta ja keskustella hänen kanssaaan täysin anonyymisti, luoden turvallisen kanavan keskustelun jatkamiselle ja mahdollisten akuuttien haasteiden ennaltaehkäisemiseksi.
 ### Tietosuoja
 Saarni EXP on osa Saarni Neptonin tarjoamaa palvelukokonaisuutta kaikille asiakkaillemme. Saarni EXP on saumaton osa Neptonia ja kyseessä on luotettu palvelu. Voit lukea lisätietoa luotetuista palvelveluista ja tietosuojasta näistä artikkeleista:
-  * [ Mitä ovat luotetut palvelut? ](<https://support.nepton.com/hc/fi/articles/10614484104349-Mit%C3%A4-ovat-luotetut-palvelut->)
+  * [Mitä ovat luotetut palvelut?](<https://support.nepton.com/hc/fi/articles/10614484104349-Mit%C3%A4-ovat-luotetut-palvelut->)
   * [Tietosuoja](<https://support.nepton.com/hc/fi/articles/360018646578-Tietosuoja>)
 
 
 ### Mitä tietoja jaetaan luotetun Saarni EXP -palvelun kanssa?
-Jos Saarni EXP on asiakkaalla käytössä, seuraavat hekilötiedot jaetaan Neptonista Saarni EXP -palveluun. Tähän tarkoitukseen on luotu ajastettu tehtävä **S****ynchronization with Nepton trusted service Kiva Work** , joka vie henkilötietoja, jos Neptonissa on luotu uusi käyttäjä tai tietoja on päivitetty. Ajastetussa tehtävässä voidaan käyttää vientimuotoa **Kiva Work** tai vientimuotoa **Kiva Work henkilöryhmällä**.
-1\. **Kiva Work** -vientimuoto
-  * Ympäristö 
+Jos Saarni EXP on asiakkaalla käytössä, seuraavat hekilötiedot jaetaan Neptonista Saarni EXP -palveluun. Tähän tarkoitukseen on luotu ajastettu tehtävä Synchronization with Nepton trusted service Saarni EXP (aiemmin Kiva Work). Liittymä päivittää henkilötietoja Saarni EXPiin, jos Neptonissa on luotu uusi käyttäjä tai tietoja on päivitetty. Ajastetussa tehtävässä voidaan käyttää vientimuotoa **Saarni EXP**. Viennissä siirretään seuraavat kentät:
+1\. **Saarni EXP** -vientimuoto
+  * Ympäristö
     * Nimi
     * Id
-  * Henkilö 
+  * Henkilö
     * Nepton-tunniste
     * Sukunimi
     * Etunimi
@@ -71,25 +71,15 @@ Jos Saarni EXP on asiakkaalla käytössä, seuraavat hekilötiedot jaetaan Nepto
     * Sähköposti
     * Puhelinnumero
     * Rooli
-    * Ensisijainen esimies
-    * Palvelun käyttökieli
-
-
-2\. **Kiva Work** **henkilöryhmällä** -vientimuoto
-Tämä vientimuoto ei ole käytössä vielä. Jos haluat käyttää tätä muotoa, ole yhteydessä asiakaspalveluun.
-  * Ympäristö 
-    * Nimi
-    * Id
-  * Henkilö 
-    * Nepton-tunniste
-    * Sukunimi
-    * Etunimi
-    * Käyttäjätunnus
-    * Sähköposti
-    * Puhelinnumero
-    * Rooli
-    * Ensisijainen esimies
-    * Palvelun käyttökieli
     * Henkilöryhmä
     * Henkilöryhmän koodipolku hierarkiassa
     * Henkilöryhmän nimipolku hierarkiassa
+    * Esimiehet
+    * Palvelun käyttökieli
+    * Yksiköt
+    * Ammattinimike
+    * Postitoimipaikka
+    * Ammattiluokitus
+    * Koeajan päättymispäivä
+    * Työnantaja
+    * Raporteilla näkyvä lisätieto

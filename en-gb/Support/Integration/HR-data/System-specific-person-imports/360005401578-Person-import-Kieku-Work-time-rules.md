@@ -13,13 +13,13 @@ section_path:
 - System specific person imports
 labels: []
 promoted: false
-updated_at: '2023-08-31T07:00:17Z'
+updated_at: '2026-06-26T06:36:51Z'
 edited_at: '2021-05-05T08:57:14Z'
 ---
 
 # Person import - Kieku "Work time rules"
 
-This import mapping is specifically designed for the Kieku source system and "Work time rules". It extends the general import rules with special business logic and data identifiers. Please also see the [Kieku "New accounts"](<https://support.nepton.com/hc/en-gb/articles/360005399958>) mapping to ensure you are picking the correct one for your purposes.
+This import mapping is specifically designed for the Kieku source system and "Work time rules". It extends the general import rules with special business logic and data identifiers. Please also see the [Kieku "New accounts"](<https://support.nepton.com/hc/en-gb/articles/360005399958>) mapping to ensure you are picking the correct one for your purposes.  
 This mapping is primarily intended for XML file format and therefore does not have a column order defined. This makes node names mandatory (or column headers if using file types other than XML).
 # Fields
 Below is a list of the special identifiers and behaviours of fields related to this import mapping. Additional person information fields can be imported using the [general](<https://support.nepton.com/hc/en-gb/articles/360003762577>) import documentation.

@@ -1,6 +1,7 @@
 # Tapahtuma- ja poissaolotyypit
 
 ## Articles
+- [Korjaus-tapahtumat](38338011820957-Korjaus-tapahtumat.md)
 - [Oletetut tapahtumatyypit](360002558717-Oletetut-tapahtumatyypit.md)
 - [Pika-aloitustapahtumat](7074461491101-Pika-aloitustapahtumat.md)
 - [Poissaolotyypit](360002519937-Poissaolotyypit.md)

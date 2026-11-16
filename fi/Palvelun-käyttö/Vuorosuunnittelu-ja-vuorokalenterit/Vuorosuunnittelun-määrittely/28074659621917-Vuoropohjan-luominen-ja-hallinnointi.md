@@ -15,8 +15,8 @@ labels:
 - työvuoropohja
 - Vuoropohja
 promoted: false
-updated_at: '2026-04-29T05:44:38Z'
-edited_at: '2025-09-19T13:24:48Z'
+updated_at: '2026-06-08T07:57:13Z'
+edited_at: '2026-06-08T07:50:00Z'
 ---
 
 # Vuoropohjan luominen ja hallinnointi
@@ -28,8 +28,8 @@ Vuoropohja luodaan Vuorosuunnittelu-osiossa seuraavasti:
 2\. Valitse **Lisää** ja luo uusi vuoropohja.
 ![Screenshot 2025-06-12 153547.png](https://support.nepton.com/hc/article_attachments/28078531547165)
 3\. Anna vuoropohjalle **nimi**. Nimi auttaa tunnistamaan vuoropohjan.
-4\. Lisää tarvittaessa kuvaus. Kuvaus ei ole pakollinen, mutta se helpottaa vuoropohjan tunnistamista ja käyttötarkoituksen ymmärtämistä.
-![Screenshot 2025-06-19 140227.png](https://support.nepton.com/hc/article_attachments/28253446190237)
+4\. Lisää tarvittaessa kuvaus, vuorotiedot ja suunnittelijan tiedot. Kuvaus ei ole pakollinen, mutta se helpottaa vuoropohjan tunnistamista ja käyttötarkoituksen ymmärtämistä. Vuorotiedot-kenttään lisätty tieto näkyy työntekijälle Työaikakalenterissa. Suunnittelijan tiedot -kenttään lisätty tieto näkyy vain vuorosuunnittelun suunnittelunäkymässä.
+![Screenshot 2026-06-08 104704.png](https://support.nepton.com/hc/article_attachments/36671556756381)
 5\. Lisää tarvittava määrä vuoroja valitsemalla **Lisää vuoro** ja tarvittava määrä päiviä valitsemalla **Lisää päivä**. Täydennä vuorojen tiedot. Päivien järjestystä voi muuttaa nuolipainikkeilla. Päiviä voi myös jättää tyhjiksi, esimerkiksi vapaapäivien, kuten viikonloppujen, kuvaamiseen. Tyhjälle päivälle ei lisätä vuoroja.
 ![Screenshot 2025-09-11 133108.png](https://support.nepton.com/hc/article_attachments/30256186663965)
 6\. Täytä vuorolle seuraavat tiedot:
@@ -64,8 +64,8 @@ Kun vuorosuunnittelijalla on oikeus toimipisteen lisäämiseen, vuoropohjan tied
 ![Screenshot 2025-09-11 144822.png](https://support.nepton.com/hc/article_attachments/30258491530269)
 ### Vuorosuunnittelun Toimipisteet-sivulla
 Jos vuoropohjaa ei ole liitetty toimipisteelle sen luonnin yhteydessä, sen voi tehdä seuraavasti vuorosuunnittelun Toimipisteet-sivulla:
-1\. Valitse******Vuorosuunnittelu - > Toimipisteet.**
-2\. Valitse haluamasi **toimipiste (suunnittelutaso)****** alasvetovalikosta.
+1\. Valitse**Vuorosuunnittelu - > Toimipisteet.**
+2\. Valitse haluamasi **toimipiste (suunnittelutaso)** alasvetovalikosta.
 3\. Valitse **Suunnittelutason vuoropohjat.**
 4\. Lisää työvuoro toimipisteelle valitsemalla **Lisää**.
 ![Screenshot 2025-09-12 084523.png](https://support.nepton.com/hc/article_attachments/30275334746141)

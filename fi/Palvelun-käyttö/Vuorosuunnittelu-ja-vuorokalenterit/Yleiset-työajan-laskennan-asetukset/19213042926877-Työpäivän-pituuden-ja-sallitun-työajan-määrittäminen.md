@@ -13,8 +13,8 @@ section_path:
 labels:
 - vuorosuunnittelu
 promoted: false
-updated_at: '2024-09-16T11:53:35Z'
-edited_at: '2024-09-16T11:53:32Z'
+updated_at: '2026-08-12T11:33:28Z'
+edited_at: '2026-08-12T11:33:28Z'
 ---
 
 # Työpäivän pituuden ja sallitun työajan määrittäminen
@@ -26,4 +26,4 @@ Asetuksella Suunnitellut tapahtumatyypit, jotka ohittavat työpäivän pituuden 
 ## Sallitun työajan asettaminen suunnitellulta vuorolta
 Sallitut työajat määrittävät kellonajat, joiden ulkopuolella tehtyä työtä ei tulkita työajaksi. Asetuksilla Suunnitellut tapahtumatyypit, jotka ohittavat sallitun työn aloitusajan ja Suunnitellut tapahtumatyypit, jotka ohittavat sallitun työn lopetusajan voidaan asettaa, että sallittu työaika muodostuu suunnitellun työvuoron mukaisesti. Asetuksilla voidaan ohjata miltä ajalta palkkaa voidaan ansaita ennen työvuoroa tai työvuoron jälkeen.
 ![Screenshot 2024-05-30 152308.png](https://support.nepton.com/hc/article_attachments/19212999266333)
-Sallitun työn aloitus- ja lopetusajan lisäksi tulee Työtunnit-osion sallituissa ajoissa määrittää ylityön korvaustyypit. Tarkemman kuvauksen sallitun työn ylityön korvaustyyppien määrittelyistä löydät [tästä artikkelista](<https://support.nepton.com/hc/fi/articles/360002558597-Sallitut-ty%C3%B6ajat>).
+Sallitun työn aloitus- ja lopetusajan lisäksi tulee Työtunnit-osion Sallitut ajat -asetuksissa määrittää salittut ajat käyttöön ja sallitut ylityön korvaustyypit. Tarkemman kuvauksen sallitun työn ylityön korvaustyyppien määrittelyistä löydät [tästä artikkelista](<https://support.nepton.com/hc/fi/articles/360002558597-Sallitut-ty%C3%B6ajat>).

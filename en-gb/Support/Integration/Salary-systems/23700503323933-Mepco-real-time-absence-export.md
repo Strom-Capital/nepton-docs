@@ -12,8 +12,8 @@ section_path:
 - Salary systems
 labels: []
 promoted: false
-updated_at: '2026-01-15T08:24:24Z'
-edited_at: '2025-05-13T12:21:14Z'
+updated_at: '2026-07-01T06:52:45Z'
+edited_at: '2026-07-01T06:52:44Z'
 ---
 
 # Mepco real time absence export
@@ -25,8 +25,8 @@ With the Mepco Absence Export integration, absences are added to the export buff
   * If an absence is started in the calendar without an end time, the integration will not process it. The integration will process the absence event when it is ended with a specified end time.
   * When recording an absence, only that event is processed and exported to the SFTP server. Other events from the same day are not included in the data.
   * An absence is only transferred if it is new, deleted, or has been changed in a way that affects the information being transferred. Check the export file data below to see which information is being transferred. For example, adding a comment to an absence event does not create new data.
-  * **If only approved events are to be moved, you must add isApproved = 'Y' to the integration rule.****  
-**
+  * **If only approved events are to be moved, you must add isApproved = 'Y' to the integration rule.**  
+
   * An absence can be recorded even if there are problems with the integration. For example, an incorrect integration rule or a problem with the SFTP server will not prevent the absence from being recorded. The user will be warned about the error.
   * For each absence event and rule set, a separate file is created and transferred to the SFTP server. If the same absence event forms data in two different rule sets, two different files are created.
   * A deleted absence or a previous version of a modified absence is marked with a "P" in the data.
@@ -52,7 +52,13 @@ The exact timestamp _[timestamp-ms]_ must be added to the export file name, like
 ![](https://support.nepton.com/hc/article_attachments/27239590004125)
 In **Worktime > Administration > Working community settings > Integrations > Accountor Mepco HRM** you can find general settings for what's included in the export data, with further instructions [here](<https://support.nepton.com/hc/en-gb/articles/360003473498-Mepco-Salary-data>). 
 ![](https://support.nepton.com/hc/article_attachments/27240087000349)
-**4\. Export scheduling to the target server**
+**4\. Export options**
+In the Integration ruleset section, the rules for the data to be extracted are defined. Below the integration rules is the Export options section.
+The settings under Export file splitting are usually not used in real-time export, as the file is split into parts depending on how the data is grouped when it is transferred from the buffer to the server. Absences recorded in Nepton are transferred to the buffer in real time according to the rule set. When absences are transferred from the buffer to the server according to a schedule, files are created according to the file name, for example, with the file name “absences_[yyyyymmdd].csv” one file would be created on the server, containing all absences transferred to the buffer on that day. If, on the other hand, the file name was “absences_[timestamp-ms].csv”, each absence would be created in the buffer as its own file, because the timestamps are based on milliseconds.
+If, in addition to the timestamp-based file splitting, you also want to use the settings in the “export file splitting” section, it is possible to specify that the file is split based on other basis, for example, payment group information.
+It should be noted that each individual real-time transfer extracts a very small amount of data. With most grouping criteria, this small amount of data is no longer divided into smaller parts, but the transfer still consists of only one file. However, the specified grouping criterion (e.g. payment group) would be appended to the file name. This definition would also be retrieved for manually initiated transfers, which would likely result in multiple files due to the larger amount of data.  
+![](https://support.nepton.com/hc/article_attachments/37273294592157)
+**5\. Export scheduling to the target server**
 Finally, you need to set the export schedule for the target server buffer. You can read more about this in the article [Target servers for worktime exports](<https://support.nepton.com/hc/en-gb/articles/26861716054045#h_01JSK5VK4NMRKM5R7TP1B6ATE1>).
 ## File format
 The transfer file is UTF-8 formatted text data separated by semicolons (`;`) . There is no maximum length for the fields. in order for Mepco to receive the data, the same columns and settings are defined in Mepco. 
@@ -65,15 +71,15 @@ B | Absence start date | StartDateTime | date | The start date of the absence.
 C | Absence end date | EndDateTime | date | The end date of the absence.  
 D | Person's name | _Automatically added, not replacable_ | string | Person's last and first names.  
 E | Project code 1 | ProjectCode1 | string | Can be overridden in a rule set with field `OverrideProjectCode1`  
-F |  Project code 2 | ProjectCode2 | string | Can be overridden in a rule set with field `OverrideProjectCode2`  
-G |  Project code 3 | ProjectCode3 | string | Can be overridden in a rule set with field `OverrideProjectCode3`  
-H |  Project code 4 | ProjectCode4 | string | Can be overridden in a rule set with field `OverrideProjectCode4`  
-I |  Project code 5 | ProjectCode5 | string | Can be overridden in a rule set with field `OverrideProjectCode5`  
+F | Project code 2 | ProjectCode2 | string | Can be overridden in a rule set with field `OverrideProjectCode2`  
+G | Project code 3 | ProjectCode3 | string | Can be overridden in a rule set with field `OverrideProjectCode3`  
+H | Project code 4 | ProjectCode4 | string | Can be overridden in a rule set with field `OverrideProjectCode4`  
+I | Project code 5 | ProjectCode5 | string | Can be overridden in a rule set with field `OverrideProjectCode5`  
 J | Salary code | SalaryCode | string | Can be overridden in a rule set with field `OverrideSalaryCode`  
 K | Amount | Amount | decimal | The length of the absence, can be in hours or days. The decimal separator is a period (`.`).  
 L | Row type | _Automatically added, not replacable_ | string |  Defines, whether the data is to be deleted or added in Mepco. Deletion: `P` Addition: `U`  
 The data below shows a modified absence. A 6-hour absence has been modified to 8 hours. A deletion line ("P") is created from the previous version and an addition line ("U") is created from the new version.
-[code] 
+[code]
     1918;2024-12-12;2024-12-12;Meikäläinen Matti;1001;;;;;123;6.00;P
     1918;2024-12-12;2024-12-12;Meikäläinen Matti;1001;;;;;123;8.00;U
 [/code]
@@ -94,27 +100,30 @@ Sometimes it may be necessary to skip the generation of "P" or "U" rows when pro
 
 
 The example below describes in a simplified way how only the addition markings "U" are created for paternity leave, but the deletion marking "P" is not created in connection with deletion or editing.
-[code] 
-    SELECT *, SUM(Amount) AS OverrideAmount,   
-    MIN(SalaryRenderingDate) As OverrideStartDatetime,   
-    MAX(SalaryRenderingDate) AS OverrideEndDatetime,  
-    CASE   
-    WHEN AbsenceTypeId = 11 THEN 'KERTAUS' -- Kertausharjoitukset  
-    WHEN AbsenceTypeId = 3 THEN 'ISYYSVAPAA' -- Isyysvapaa  
-    ELSE  
-    'MUU VAPAA'  
-    END AS OverrideSalaryCode  
-    FROM UserSalaryData   
-    WHERE CompensationType = 'BasicTime'  
-    AND   
-    AbsenceTypeId IS NOT NULL   
-    AND   
-    _**(AbsenceTypeId != 3 OR :integrationContext != :integrationContextForDeletedOrEditedActivities)**_ -- Lähetä ainostaan U-rivit isyysvapaalle  
-    AND isApproved = 'Y' -- Lähetä ainoastaan hyväksytyt tapahtumat  
+[code]
+    SELECT *, SUM(Amount) AS OverrideAmount, 
+    MIN(SalaryRenderingDate) As OverrideStartDatetime, 
+    MAX(SalaryRenderingDate) AS OverrideEndDatetime,
+    CASE 
+    WHEN AbsenceTypeId = 11 THEN 'KERTAUS' -- Kertausharjoitukset
+    WHEN AbsenceTypeId = 3 THEN 'ISYYSVAPAA' -- Isyysvapaa
+    ELSE
+    'MUU VAPAA'
+    END AS OverrideSalaryCode
+    FROM UserSalaryData 
+    WHERE CompensationType = 'BasicTime'
+    AND 
+    AbsenceTypeId IS NOT NULL 
+    AND 
+    (AbsenceTypeId != 3 OR :integrationContext != :integrationContextForDeletedOrEditedActivities) -- Lähetä ainostaan U-rivit isyysvapaalle
+    AND isApproved = 'Y' -- Lähetä ainoastaan hyväksytyt tapahtumat
     GROUP BY ActivityId
 [/code]
 When a new paternity leave is added to the calendar, a file that includes the paternity leave with the addition mark "U" is created. If the paternity leave is edited, new file is created with the addition mark "U", but the previous version of the absence is not created with the deletion mark "P". If the paternity leave is deleted completely, no file is created.
 If any other absence is added to the calendar, it will be processed according to the normal operating procedure of the integration.
+## Partial and current day sick leaves rule condition
+When a sick leave for the current day or part of a day is recorded, two separate basictime rows are created in the database table, one of which contains the information "istimeborrowedfrombalance = 'Y'" and "isapproved = 'Y'". This causes a situation where an unapproved sick leave is unnecessarily transferred to the export buffer and further to Mepco. This situation can arise for part-day sick leaves as well as sick leaves that are recorded for the current day.
+For this reason, the condition istimeborrowedfrombalance = 'N' should be added to the rule so that sick leaves for the current day or part of a day are not transferred prematurely and unnecessarily before they are approved.
 ## Problem situations
 ### Adding and deleting absences from Mepco
 If you want to delete a larger number of absences entered in Mepco at once during a certain period, you can do so by performing a manual integration. Manual integration can also be used in the same way to add absences.

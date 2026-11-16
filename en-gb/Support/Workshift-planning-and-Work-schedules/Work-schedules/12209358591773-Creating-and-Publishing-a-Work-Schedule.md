@@ -15,8 +15,8 @@ labels:
 - vuorokalenteri
 - sheema
 promoted: false
-updated_at: '2026-04-01T05:41:27Z'
-edited_at: '2026-04-01T05:41:26Z'
+updated_at: '2026-10-09T08:02:19Z'
+edited_at: '2026-10-09T07:25:06Z'
 ---
 
 # Creating and Publishing a Work Schedule
@@ -42,8 +42,8 @@ Specify a name, description (optional), and start and end dates for the period. 
 ### Shift Types
 Add shift types related to the shift calendar period by clicking the **Add** button.
 ![](https://support.nepton.com/hc/article_attachments/35040580173469)
-For each shift type, add at least an Alias (maximum 16 characters), a name describing the Alias, event type, start time, end time, and the deduction for the assumed meal break. More detailed instructions on how the assumed lunch reduction works can be found [here](<https://support.nepton.com/hc/en-gb/articles/34102283785885>). The event types in the event type menu are event types activated in the service. Instructions for adding, activating, and editing event types can be found [here](<https://support.nepton.com/hc/en-gb/articles/360002519157>).
-![](https://support.nepton.com/hc/article_attachments/35040604224157)
+For each shift type, add at least an Alias (maximum 16 characters), a name describing the Alias, event type, start time, end time, and the deduction for the assumed meal break and if needed, the permitted work start/end times offsets for the shift type . More detailed instructions on how the assumed lunch reduction works can be found [here](<https://support.nepton.com/hc/en-gb/articles/34102283785885>) and guidance on setting permitted work times for individual shifts can be found [here](<https://support.nepton.com/hc/en-gb/articles/360002558597-Permitted-work-times#h_01M4FMZMS1GEWMGQJV5RPXZB38>). The event types in the event type menu are event types activated in the service. Instructions for adding, activating, and editing event types can be found [here](<https://support.nepton.com/hc/en-gb/articles/360002519157>).
+![](https://support.nepton.com/hc/article_attachments/39778751376285)
 ### Shift Patterns
 Add a shift rotation pattern related to the work schedule by clicking the **Add** button.
 Select the desired group and design the shift rotation using the abbreviations of the shift types. Use spaces to separate shifts. There is no character limit in the Shift Rotation field.

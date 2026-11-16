@@ -21,8 +21,8 @@ labels:
 - palkka-ajo
 - vakiomuotoinen
 promoted: false
-updated_at: '2025-06-24T06:08:22Z'
-edited_at: '2025-06-24T06:07:48Z'
+updated_at: '2026-08-14T12:38:50Z'
+edited_at: '2026-08-14T12:35:44Z'
 ---
 
 # Työajan liittymät
@@ -30,26 +30,22 @@ edited_at: '2025-06-24T06:07:48Z'
 Nepton työajankirjausten ja toisen palvelun välille on toteutettu [vakiomuotoisia](<https://support.nepton.com/hc/fi/articles/360002494538>) liittymiä. Liittymiä voidaan toteuttaa palvelusta ladattavina siirtotiedostoina, ajastettuina tiedostosiirtoina tai web service -rajapintoja hyödyntäen. Voit lukea lisää liittymistä [täältä](<https://support.nepton.com/hc/fi/articles/360002489417>).
 ## Vakiomuotoisen aineiston lataaminen käyttöliittymässä
 Vakiomuotoisen aineiston voi ladata käyttöliittymästä seuraavalla tavalla:
-Navigoi **Työaika** > **Hallinta** > **Liittymät**** > Haluamasi palkkajärjestelmä**
-![iMhcSxE2hd.png](https://support.nepton.com/hc/article_attachments/28352365485597)
-  1. Valitse aikaväli
-  2. Valitse tasoittumisjakson aikaväli tarvittaessa  
-  
-
-  3. Valitse se sääntöjoukko, jonka määrittelemä tieto poimitaan. Aineiston poimintaa ilman valittua sääntöjoukkoa ei suositella, koska tällöin palvelun muodostamaan sisältöön ei voida tehdä muutoksia. Liittymien poiminta tulee toteuttaa sääntöjoukkoja käyttäen. Lisää sääntöjoukoista voi lukea [täältä](<https://support.nepton.com/hc/fi/articles/360002492278>).  
-  
-
-  4. Tee poiminnan lisäasetukset  
-
-     * Hyväksytyt tapahtumat ovat tapahtumia, joille on annettu hyväksyntä, esimerkiksi esihenkilö on hyväksynyt tapahtuman. ("Siirrä vain hyväksytyt tapahtumat" -valinnan voi valita silloin kun Sääntöjoukkoa ei ole valittu. Kun valitaan itse luotu sääntöjoukko, poimintasäännössä tulee määritellä se, tuleeko siirrettävien tapahtumien olla hyväksyttyjä.)
-     * Lukitse tapahtumat siirtotiedoston loppupäivämäärän saakka tarkoittaa, että päivämäärät lukitaan valitun aikavälin loppupäivämäärän saakka. HUOM. Jos valinnoille ei muodostu aineistoa, päivämääriä ei lukita.
-  5. Lähetä siirtotiedosto sähköpostiosoitteisiin. Aineisto lähetetään valittuun sähköpostiin. Tätä kenttää ei ole pakko täyttää. Viimeisimmän lähetyksen sähköpostiosoitteet tallentuvat ja ovat oletuksena seuraavassa lähetyksessä.
-  6. Lähetä siirtotiedosto SFTP-palvelimelle. Aineisto lähetetään joko liittymän tai valitun sääntöjoukon asetuksissa määritellylle SFTP-palvelimelle. Tätä kenttää ei ole pakko täyttää. 
-     * SFTP-asetusten tulee olla valmiina
-     * Jos sääntöjoukkoa ei ole valittu, käytetään liittymän SFTP-asetuksia
-     * Kun sääntöjoukko on valittu, käytetään valitun sääntöjoukon SFTP-asetuksia  
-  
-
-  7. Lähetä siirtotiedosto web-servicelle. Web-servicen asetukset on oltava määritettyinä. Tämä vaihtoehto tulee olla valittuna kun lähetetään tietoja esim. Netvisoriin tai muutoin rajapinnan kautta Neptonista toiseen järjestelmään.
-  8. Esikatselu. Tätä tilaa hyödyntämällä voi tehdä ajon vain tarkastelua (ei siirtoa) varten.
-  9. Valitse henkilöt joiden tiedot poimitaan aineistoon
+Navigoi **Työaika** > **Hallinta** > **Liittymät > Haluamasi palkkajärjestelmä**
+![](https://support.nepton.com/hc/article_attachments/38369710023965)
+  * Valitse aikaväli
+  * Valitse tasoittumisjakson aikaväli tarvittaessa
+  * Valitse se sääntöjoukko, jonka määrittelemä tieto poimitaan. Aineiston poimintaa ilman valittua sääntöjoukkoa ei suositella, koska tällöin palvelun muodostamaan sisältöön ei voida tehdä muutoksia. Liittymien poiminta tulee toteuttaa sääntöjoukkoja käyttäen. Lisää sääntöjoukoista voi lukea [täältä](<https://support.nepton.com/hc/fi/articles/360002492278>).
+  * Tee poiminnan lisäasetukset:
+    * Hyväksytyt tapahtumat ovat tapahtumia, joille on annettu hyväksyntä, esimerkiksi esihenkilö on hyväksynyt tapahtuman. ("Siirrä vain hyväksytyt tapahtumat" -valinnan voi valita silloin kun Sääntöjoukkoa ei ole valittu. Kun valitaan itse luotu sääntöjoukko, poimintasäännössä tulee määritellä se, tuleeko siirrettävien tapahtumien olla hyväksyttyjä.)
+    * Lukitse tapahtumat siirtotiedoston loppupäivämäärän saakka tarkoittaa, että päivämäärät lukitaan valitun aikavälin loppupäivämäärän saakka. HUOM. Jos valinnoille ei muodostu aineistoa, päivämääriä ei lukita.
+    * Lähetä siirtotiedosto sähköpostiosoitteisiin. Aineisto lähetetään valittuun sähköpostiin. Tätä kenttää ei ole pakko täyttää. Viimeisimmän lähetyksen sähköpostiosoitteet tallentuvat ja ovat oletuksena seuraavassa lähetyksessä.
+  * Lähetä siirtotiedosto SFTP-palvelimelle. Aineisto lähetetään joko liittymän tai valitun sääntöjoukon asetuksissa määritellylle SFTP-palvelimelle. Tätä kenttää ei ole pakko täyttää.
+    * SFTP-asetusten tulee olla valmiina
+    * Jos kohdepalvelin on käytössä, käytetään tätä
+    * Jos sääntöjoukkoa ei ole valittu, käytetään liittymän SFTP-asetuksia
+    * Kun sääntöjoukko on valittu, käytetään valitun sääntöjoukon SFTP-asetuksia
+    * Vaihtoehtoisesti liittymän kohdepalvelin voidaan valita alemmasta valinnasta "liittymän kohdepalvelin"
+  * Lähetä siirtotiedosto web-servicelle. Web-servicen asetukset on oltava määritettyinä. Tämä vaihtoehto tulee olla valittuna kun lähetetään tietoja esim. Netvisoriin tai muutoin rajapinnan kautta Neptonista toiseen järjestelmään.
+  * Liittymän kohdepalvelin. Oletuksena käytetään sääntöjoukon tai liittymän asetuksiin määriteltyä kohdepalvelinta, ellei tähän olla toisin määritelty.
+  * Esikatselu. Tätä tilaa hyödyntämällä voi tehdä ajon vain tarkastelua (ei siirtoa) varten.
+  * Valitse henkilöt joiden tiedot poimitaan aineistoon
